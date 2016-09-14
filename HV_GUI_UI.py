@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'Updated_HV_GUI_unfinished.ui'
 #
-# Created: Thu Sep  8 11:19:41 2016
+# Created: Wed Sep 14 15:03:50 2016
 #      by: PyQt4 UI code generator 4.10.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -459,12 +459,6 @@ class Ui_MainWindow(object):
         font.setPointSize(72)
         self.M8_7.setFont(font)
         self.M8_7.setObjectName(_fromUtf8("M8_7"))
-        self.pushButton = QtGui.QPushButton(self.frame_11)
-        self.pushButton.setGeometry(QtCore.QRect(20, 160, 71, 31))
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
-        self.pushButton_2 = QtGui.QPushButton(self.frame_11)
-        self.pushButton_2.setGeometry(QtCore.QRect(110, 160, 71, 31))
-        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
         self.frame_7 = QtGui.QFrame(self.tab_1)
         self.frame_7.setGeometry(QtCore.QRect(740, 40, 201, 200))
         self.frame_7.setAutoFillBackground(True)
@@ -764,7 +758,7 @@ class Ui_MainWindow(object):
         self.Legend_lbl = QtGui.QLabel(self.tab_1)
         self.Legend_lbl.setGeometry(QtCore.QRect(13, 500, 961, 21))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(12)
         self.Legend_lbl.setFont(font)
         self.Legend_lbl.setAlignment(QtCore.Qt.AlignCenter)
         self.Legend_lbl.setObjectName(_fromUtf8("Legend_lbl"))
@@ -3551,11 +3545,11 @@ class Ui_MainWindow(object):
         self.trip_43.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_43.setMaximumSize(QtCore.QSize(50, 25))
         self.trip_43.setObjectName(_fromUtf8("trip_43"))
-        self.S_32 = QtGui.QLabel(self.tab_4)
-        self.S_32.setGeometry(QtCore.QRect(808, 279, 35, 25))
-        self.S_32.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_32.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_32.setObjectName(_fromUtf8("S_32"))
+        self.S_40 = QtGui.QLabel(self.tab_4)
+        self.S_40.setGeometry(QtCore.QRect(808, 279, 35, 25))
+        self.S_40.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_40.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_40.setObjectName(_fromUtf8("S_40"))
         self.RS_33 = QtGui.QLabel(self.tab_4)
         self.RS_33.setEnabled(True)
         self.RS_33.setGeometry(QtCore.QRect(890, 65, 45, 25))
@@ -3693,11 +3687,11 @@ class Ui_MainWindow(object):
         self.RUP_45.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_45.setAlignment(QtCore.Qt.AlignCenter)
         self.RUP_45.setObjectName(_fromUtf8("RUP_45"))
-        self.S_33 = QtGui.QLabel(self.tab_4)
-        self.S_33.setGeometry(QtCore.QRect(808, 95, 35, 25))
-        self.S_33.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_33.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_33.setObjectName(_fromUtf8("S_33"))
+        self.S_34 = QtGui.QLabel(self.tab_4)
+        self.S_34.setGeometry(QtCore.QRect(808, 95, 35, 25))
+        self.S_34.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_34.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_34.setObjectName(_fromUtf8("S_34"))
         self.trip_42 = QtGui.QLineEdit(self.tab_4)
         self.trip_42.setGeometry(QtCore.QRect(720, 342, 50, 25))
         self.trip_42.setMinimumSize(QtCore.QSize(50, 25))
@@ -3717,11 +3711,11 @@ class Ui_MainWindow(object):
         font.setPointSize(12)
         self.IMon_41.setFont(font)
         self.IMon_41.setObjectName(_fromUtf8("IMon_41"))
-        self.S_34 = QtGui.QLabel(self.tab_4)
-        self.S_34.setGeometry(QtCore.QRect(808, 434, 35, 25))
-        self.S_34.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_34.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_34.setObjectName(_fromUtf8("S_34"))
+        self.S_45 = QtGui.QLabel(self.tab_4)
+        self.S_45.setGeometry(QtCore.QRect(808, 434, 35, 25))
+        self.S_45.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_45.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_45.setObjectName(_fromUtf8("S_45"))
         self.RS_35 = QtGui.QLabel(self.tab_4)
         self.RS_35.setEnabled(True)
         self.RS_35.setGeometry(QtCore.QRect(890, 310, 45, 25))
@@ -3891,11 +3885,11 @@ class Ui_MainWindow(object):
         self.V0_34.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_34.setMaximumSize(QtCore.QSize(50, 25))
         self.V0_34.setObjectName(_fromUtf8("V0_34"))
-        self.S_35 = QtGui.QLabel(self.tab_4)
-        self.S_35.setGeometry(QtCore.QRect(808, 341, 35, 25))
-        self.S_35.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_35.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_35.setObjectName(_fromUtf8("S_35"))
+        self.S_42 = QtGui.QLabel(self.tab_4)
+        self.S_42.setGeometry(QtCore.QRect(808, 341, 35, 25))
+        self.S_42.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_42.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_42.setObjectName(_fromUtf8("S_42"))
         self.I0_43 = QtGui.QLineEdit(self.tab_4)
         self.I0_43.setGeometry(QtCore.QRect(420, 373, 50, 25))
         self.I0_43.setMinimumSize(QtCore.QSize(50, 25))
@@ -3987,11 +3981,11 @@ class Ui_MainWindow(object):
         self.I0_32.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_32.setMaximumSize(QtCore.QSize(50, 25))
         self.I0_32.setObjectName(_fromUtf8("I0_32"))
-        self.S_36 = QtGui.QLabel(self.tab_4)
-        self.S_36.setGeometry(QtCore.QRect(808, 248, 35, 25))
-        self.S_36.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_36.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_36.setObjectName(_fromUtf8("S_36"))
+        self.S_39 = QtGui.QLabel(self.tab_4)
+        self.S_39.setGeometry(QtCore.QRect(808, 248, 35, 25))
+        self.S_39.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_39.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_39.setObjectName(_fromUtf8("S_39"))
         self.P_40 = QtGui.QCheckBox(self.tab_4)
         self.P_40.setGeometry(QtCore.QRect(79, 280, 25, 25))
         self.P_40.setMinimumSize(QtCore.QSize(25, 25))
@@ -4034,11 +4028,11 @@ class Ui_MainWindow(object):
         self.RDN_45.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_45.setMaximumSize(QtCore.QSize(50, 25))
         self.RDN_45.setObjectName(_fromUtf8("RDN_45"))
-        self.S_37 = QtGui.QLabel(self.tab_4)
-        self.S_37.setGeometry(QtCore.QRect(808, 125, 35, 25))
-        self.S_37.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_37.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_37.setObjectName(_fromUtf8("S_37"))
+        self.S_35 = QtGui.QLabel(self.tab_4)
+        self.S_35.setGeometry(QtCore.QRect(808, 125, 35, 25))
+        self.S_35.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_35.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_35.setObjectName(_fromUtf8("S_35"))
         self.RUP_43 = QtGui.QLineEdit(self.tab_4)
         self.RUP_43.setGeometry(QtCore.QRect(520, 373, 50, 25))
         self.RUP_43.setMinimumSize(QtCore.QSize(50, 25))
@@ -4229,11 +4223,11 @@ class Ui_MainWindow(object):
         self.trip_32.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_32.setMaximumSize(QtCore.QSize(50, 25))
         self.trip_32.setObjectName(_fromUtf8("trip_32"))
-        self.S_38 = QtGui.QLabel(self.tab_4)
-        self.S_38.setGeometry(QtCore.QRect(808, 186, 35, 25))
-        self.S_38.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_38.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_38.setObjectName(_fromUtf8("S_38"))
+        self.S_37 = QtGui.QLabel(self.tab_4)
+        self.S_37.setGeometry(QtCore.QRect(808, 186, 35, 25))
+        self.S_37.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_37.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_37.setObjectName(_fromUtf8("S_37"))
         self.V0_45 = QtGui.QLineEdit(self.tab_4)
         self.V0_45.setGeometry(QtCore.QRect(324, 435, 50, 25))
         self.V0_45.setMinimumSize(QtCore.QSize(50, 25))
@@ -4407,11 +4401,11 @@ class Ui_MainWindow(object):
         self.P_header_3.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
 "border: 0px"))
         self.P_header_3.setObjectName(_fromUtf8("P_header_3"))
-        self.S_39 = QtGui.QLabel(self.tab_4)
-        self.S_39.setGeometry(QtCore.QRect(808, 35, 35, 25))
-        self.S_39.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_39.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_39.setObjectName(_fromUtf8("S_39"))
+        self.S_32 = QtGui.QLabel(self.tab_4)
+        self.S_32.setGeometry(QtCore.QRect(808, 35, 35, 25))
+        self.S_32.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_32.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_32.setObjectName(_fromUtf8("S_32"))
         self.V0_35 = QtGui.QLineEdit(self.tab_4)
         self.V0_35.setGeometry(QtCore.QRect(324, 126, 50, 25))
         self.V0_35.setMinimumSize(QtCore.QSize(50, 25))
@@ -4453,22 +4447,22 @@ class Ui_MainWindow(object):
         self.RS_43.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_43.setMaximumSize(QtCore.QSize(45, 25))
         self.RS_43.setObjectName(_fromUtf8("RS_43"))
-        self.S_40 = QtGui.QLabel(self.tab_4)
-        self.S_40.setGeometry(QtCore.QRect(808, 403, 35, 25))
-        self.S_40.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_40.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_40.setObjectName(_fromUtf8("S_40"))
+        self.S_44 = QtGui.QLabel(self.tab_4)
+        self.S_44.setGeometry(QtCore.QRect(808, 403, 35, 25))
+        self.S_44.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_44.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_44.setObjectName(_fromUtf8("S_44"))
         self.I0_40 = QtGui.QLineEdit(self.tab_4)
         self.I0_40.setGeometry(QtCore.QRect(420, 280, 50, 25))
         self.I0_40.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_40.setMaximumSize(QtCore.QSize(50, 25))
         self.I0_40.setObjectName(_fromUtf8("I0_40"))
-        self.S_41 = QtGui.QLabel(self.tab_4)
-        self.S_41.setEnabled(True)
-        self.S_41.setGeometry(QtCore.QRect(808, 65, 35, 25))
-        self.S_41.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_41.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_41.setObjectName(_fromUtf8("S_41"))
+        self.S_33 = QtGui.QLabel(self.tab_4)
+        self.S_33.setEnabled(True)
+        self.S_33.setGeometry(QtCore.QRect(808, 65, 35, 25))
+        self.S_33.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_33.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_33.setObjectName(_fromUtf8("S_33"))
         self.P_42 = QtGui.QCheckBox(self.tab_4)
         self.P_42.setGeometry(QtCore.QRect(79, 342, 25, 25))
         self.P_42.setMinimumSize(QtCore.QSize(25, 25))
@@ -4564,11 +4558,11 @@ class Ui_MainWindow(object):
         self.V0_47.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_47.setMaximumSize(QtCore.QSize(50, 25))
         self.V0_47.setObjectName(_fromUtf8("V0_47"))
-        self.S_42 = QtGui.QLabel(self.tab_4)
-        self.S_42.setGeometry(QtCore.QRect(808, 372, 35, 25))
-        self.S_42.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_42.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_42.setObjectName(_fromUtf8("S_42"))
+        self.S_43 = QtGui.QLabel(self.tab_4)
+        self.S_43.setGeometry(QtCore.QRect(808, 372, 35, 25))
+        self.S_43.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_43.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_43.setObjectName(_fromUtf8("S_43"))
         self.CH_41 = QtGui.QLabel(self.tab_4)
         self.CH_41.setEnabled(True)
         self.CH_41.setGeometry(QtCore.QRect(20, 314, 20, 20))
@@ -4598,12 +4592,12 @@ class Ui_MainWindow(object):
         self.RS_45.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_45.setMaximumSize(QtCore.QSize(45, 25))
         self.RS_45.setObjectName(_fromUtf8("RS_45"))
-        self.S_43 = QtGui.QLabel(self.tab_4)
-        self.S_43.setEnabled(True)
-        self.S_43.setGeometry(QtCore.QRect(808, 310, 35, 25))
-        self.S_43.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_43.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_43.setObjectName(_fromUtf8("S_43"))
+        self.S_41 = QtGui.QLabel(self.tab_4)
+        self.S_41.setEnabled(True)
+        self.S_41.setGeometry(QtCore.QRect(808, 310, 35, 25))
+        self.S_41.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_41.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_41.setObjectName(_fromUtf8("S_41"))
         self.VMon_47 = QtGui.QLabel(self.tab_4)
         self.VMon_47.setGeometry(QtCore.QRect(141, 502, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4619,16 +4613,16 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         self.VMon_47.setFont(font)
         self.VMon_47.setObjectName(_fromUtf8("VMon_47"))
-        self.S_44 = QtGui.QLabel(self.tab_4)
-        self.S_44.setGeometry(QtCore.QRect(808, 156, 35, 25))
-        self.S_44.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_44.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_44.setObjectName(_fromUtf8("S_44"))
-        self.S_45 = QtGui.QLabel(self.tab_4)
-        self.S_45.setGeometry(QtCore.QRect(808, 217, 35, 25))
-        self.S_45.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_45.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_45.setObjectName(_fromUtf8("S_45"))
+        self.S_36 = QtGui.QLabel(self.tab_4)
+        self.S_36.setGeometry(QtCore.QRect(808, 156, 35, 25))
+        self.S_36.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_36.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_36.setObjectName(_fromUtf8("S_36"))
+        self.S_38 = QtGui.QLabel(self.tab_4)
+        self.S_38.setGeometry(QtCore.QRect(808, 217, 35, 25))
+        self.S_38.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_38.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_38.setObjectName(_fromUtf8("S_38"))
         self.S_46 = QtGui.QLabel(self.tab_4)
         self.S_46.setGeometry(QtCore.QRect(808, 465, 35, 25))
         self.S_46.setMinimumSize(QtCore.QSize(35, 25))
@@ -8197,8 +8191,6 @@ class Ui_MainWindow(object):
         self.M8_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
         self.M8_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
         self.M8_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.pushButton.setText(_translate("MainWindow", "ON", None))
-        self.pushButton_2.setText(_translate("MainWindow", "OFF", None))
         self.label_37.setText(_translate("MainWindow", "Module 4", None))
         self.M4_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
         self.M4_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
@@ -8235,15 +8227,7 @@ class Ui_MainWindow(object):
         self.M5_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
         self.M5_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
         self.M5_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        #self.Legend_lbl.setText(_translate("MainWindow", "Black = OFF    Green = ON    Red = TRIP   Blue = RAMP DOWN    Yellow = RAMP UP     Orange = CH is ON but HV_ENABLE is OFF", None))
- 
-
-        self.Legend_lbl.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Black = OFF    Green = ON    Red = TRIP   Blue = RAMP DOWN    Yellow = RAMP UP     Orange = CH IS ON BUT HV_ENABLE IS OFF  </p></body></html>", None))
-
+        self.Legend_lbl.setText(_translate("MainWindow", "Black = OFF    Green = ON    Red = TRIP   Blue = RAMP DOWN    Yellow = RAMP UP    Orange = HV_ENABLE is OFF but CH is ON", None))
         self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_1), _translate("MainWindow", "Module Screen", None))
         self.RS_header_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -9129,7 +9113,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None))
-        self.S_32.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_40.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9175,7 +9159,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_33.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_34.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9185,7 +9169,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_34.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_45.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9245,7 +9229,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_35.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_42.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9275,7 +9259,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_36.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_39.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9295,7 +9279,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">38</p></body></html>", None))
-        self.S_37.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_35.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9341,7 +9325,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">34</p></body></html>", None))
-        self.S_38.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_37.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9374,7 +9358,7 @@ class Ui_MainWindow(object):
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
         self.Trip_header_3.setText(_translate("MainWindow", "Trip (ms)", None))
         self.P_header_3.setText(_translate("MainWindow", "Power", None))
-        self.S_39.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_32.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9394,12 +9378,12 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_40.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_44.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_41.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_33.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9429,7 +9413,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_42.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_43.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9444,7 +9428,7 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_43.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_41.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
@@ -9454,12 +9438,12 @@ class Ui_MainWindow(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_44.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_36.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_45.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.S_38.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
