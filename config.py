@@ -22,12 +22,12 @@ shortDelay = 0.55
 longDelay = 0.85
 serial_addr = '/dev/ttyS0'
 
-can_Read_File = '/home/g2uol/Desktop/HV_GUI/HV_GUI_V2/can_read.txt'
+can_Read_File = '/home/g2uol/Desktop/HV_Release/CAEN-SY127-Control-Software/can_read.txt'
 
 # File Names
-output_file_name = '/home/g2uol/Desktop/HV_GUI/HV_GUI_V2/HV_Data_3.txt'
+output_file_name = '/home/g2uol/Desktop/HV_Release/CAEN-SY127-Control-Software/HV_DATA_1.txt'
 #HV_DATA_FILE_NAME = 'HV_Data.txt'
-HV_DATA_FILE_NAME = '/home/g2uol/Desktop/HV_GUI/HV_GUI_V2/HV_Data_3.txt'
+HV_DATA_FILE_NAME = '/home/g2uol/Desktop/HV_Release/CAEN-SY127-Control-Software/HV_DATA_1.txt'
 
 
 
