@@ -91,7 +91,7 @@ class Error_Message(QtGui.QDialog, error_GUI.Ui_Dialog):
         self.Error_Buttons.rejected.connect(self.cancel) #how to comminicate with the 'Cancel' button
 
     def ok(self):
-        print("Ok pressed.")
+        print("Ok Pressed.")
 
     def cancel(self):
         global errorsignal #need globalisation in function to change the global var, rather than just a local var.
