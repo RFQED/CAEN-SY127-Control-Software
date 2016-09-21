@@ -2,152 +2,130 @@
 
 # Form implementation generated from reading ui file 'Updated_HV_GUI_unfinished.ui'
 #
-# Created: Mon Sep 19 08:29:52 2016
-#      by: PyQt4 UI code generator 4.10.1
+# Created: Wed Sep 21 08:25:37 2016
+#      by: PyQt4 UI code generator 4.6.2
 #
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
 
-try:
-    _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
-        return s
-
-try:
-    _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig)
-
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1000, 900)
         MainWindow.setMinimumSize(QtCore.QSize(1000, 900))
         MainWindow.setMaximumSize(QtCore.QSize(1090, 900))
         self.MainWindow_2 = QtGui.QWidget(MainWindow)
-        self.MainWindow_2.setObjectName(_fromUtf8("MainWindow_2"))
+        self.MainWindow_2.setObjectName("MainWindow_2")
         self.frame_3 = QtGui.QFrame(self.MainWindow_2)
         self.frame_3.setGeometry(QtCore.QRect(5, 690, 990, 50))
         self.frame_3.setMinimumSize(QtCore.QSize(990, 0))
         self.frame_3.setMaximumSize(QtCore.QSize(16777215, 50))
         self.frame_3.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_3.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_3.setObjectName(_fromUtf8("frame_3"))
+        self.frame_3.setObjectName("frame_3")
         self.send_button = QtGui.QPushButton(self.frame_3)
         self.send_button.setEnabled(False)
         self.send_button.setGeometry(QtCore.QRect(450, 9, 108, 31))
-        self.send_button.setObjectName(_fromUtf8("send_button"))
+        self.send_button.setObjectName("send_button")
         self.exit_button = QtGui.QPushButton(self.frame_3)
         self.exit_button.setGeometry(QtCore.QRect(800, 9, 108, 31))
-        self.exit_button.setObjectName(_fromUtf8("exit_button"))
+        self.exit_button.setObjectName("exit_button")
         self.disconnect_button = QtGui.QPushButton(self.frame_3)
         self.disconnect_button.setGeometry(QtCore.QRect(190, 9, 121, 31))
-        self.disconnect_button.setObjectName(_fromUtf8("disconnect_button"))
+        self.disconnect_button.setObjectName("disconnect_button")
         self.kill_button = QtGui.QPushButton(self.frame_3)
         self.kill_button.setEnabled(False)
         self.kill_button.setGeometry(QtCore.QRect(680, 9, 108, 31))
-        self.kill_button.setObjectName(_fromUtf8("kill_button"))
+        self.kill_button.setObjectName("kill_button")
         self.expand_button = QtGui.QToolButton(self.frame_3)
         self.expand_button.setGeometry(QtCore.QRect(956, 10, 26, 29))
-        self.expand_button.setObjectName(_fromUtf8("expand_button"))
+        self.expand_button.setObjectName("expand_button")
         self.connect_button = QtGui.QPushButton(self.frame_3)
         self.connect_button.setGeometry(QtCore.QRect(60, 9, 121, 31))
-        self.connect_button.setObjectName(_fromUtf8("connect_button"))
-        self.plotly_button = QtGui.QPushButton(self.frame_3)
-        self.plotly_button.setEnabled(False)
-        self.plotly_button.setGeometry(QtCore.QRect(570, 9, 100, 31))
-        self.plotly_button.setObjectName(_fromUtf8("plotly_button"))
+        self.connect_button.setObjectName("connect_button")
         self.set_button = QtGui.QPushButton(self.frame_3)
         self.set_button.setGeometry(QtCore.QRect(320, 9, 121, 31))
-        self.set_button.setObjectName(_fromUtf8("set_button"))
+        self.set_button.setObjectName("set_button")
         self.frame_2 = QtGui.QFrame(self.MainWindow_2)
         self.frame_2.setGeometry(QtCore.QRect(6, 10, 990, 100))
         self.frame_2.setMinimumSize(QtCore.QSize(990, 100))
         self.frame_2.setMaximumSize(QtCore.QSize(1060, 100))
         self.frame_2.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_2.setObjectName(_fromUtf8("frame_2"))
+        self.frame_2.setObjectName("frame_2")
         self.time = QtGui.QLabel(self.frame_2)
         self.time.setGeometry(QtCore.QRect(430, 50, 131, 31))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         font.setPointSize(12)
         font.setItalic(False)
         self.time.setFont(font)
-        self.time.setText(_fromUtf8(""))
-        self.time.setObjectName(_fromUtf8("time"))
+        self.time.setObjectName("time")
         self.hv_enable = QtGui.QLabel(self.frame_2)
         self.hv_enable.setGeometry(QtCore.QRect(43, 50, 61, 41))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.hv_enable.setFont(font)
-        self.hv_enable.setObjectName(_fromUtf8("hv_enable"))
+        self.hv_enable.setObjectName("hv_enable")
         self.hv_enable_header = QtGui.QLabel(self.frame_2)
         self.hv_enable_header.setGeometry(QtCore.QRect(20, 20, 111, 31))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.hv_enable_header.setFont(font)
-        self.hv_enable_header.setObjectName(_fromUtf8("hv_enable_header"))
+        self.hv_enable_header.setObjectName("hv_enable_header")
         self.main_title = QtGui.QLabel(self.frame_2)
         self.main_title.setGeometry(QtCore.QRect(142, 6, 671, 28))
-        self.main_title.setObjectName(_fromUtf8("main_title"))
+        self.main_title.setObjectName("main_title")
         self.time_label = QtGui.QLabel(self.frame_2)
         self.time_label.setGeometry(QtCore.QRect(563, 38, 121, 51))
-        self.time_label.setObjectName(_fromUtf8("time_label"))
+        self.time_label.setObjectName("time_label")
         self.date = QtGui.QLabel(self.frame_2)
         self.date.setGeometry(QtCore.QRect(220, 50, 131, 31))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         font.setPointSize(12)
         font.setItalic(False)
         self.date.setFont(font)
-        self.date.setText(_fromUtf8(""))
-        self.date.setObjectName(_fromUtf8("date"))
+        self.date.setObjectName("date")
         self.date_label = QtGui.QLabel(self.frame_2)
         self.date_label.setGeometry(QtCore.QRect(155, 50, 61, 31))
-        self.date_label.setObjectName(_fromUtf8("date_label"))
+        self.date_label.setObjectName("date_label")
         self.time_since_update = QtGui.QLabel(self.frame_2)
         self.time_since_update.setGeometry(QtCore.QRect(700, 48, 141, 31))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         font.setPointSize(12)
         font.setItalic(False)
         self.time_since_update.setFont(font)
-        self.time_since_update.setText(_fromUtf8(""))
-        self.time_since_update.setObjectName(_fromUtf8("time_since_update"))
+        self.time_since_update.setObjectName("time_since_update")
         self.time_label_3 = QtGui.QLabel(self.frame_2)
         self.time_label_3.setGeometry(QtCore.QRect(361, 50, 61, 31))
-        self.time_label_3.setObjectName(_fromUtf8("time_label_3"))
+        self.time_label_3.setObjectName("time_label_3")
         self.gm2_logo = QtGui.QLabel(self.frame_2)
         self.gm2_logo.setGeometry(QtCore.QRect(840, -20, 150, 150))
         self.gm2_logo.setMinimumSize(QtCore.QSize(120, 120))
         self.gm2_logo.setMaximumSize(QtCore.QSize(400, 400))
-        self.gm2_logo.setText(_fromUtf8(""))
-        self.gm2_logo.setPixmap(QtGui.QPixmap(_fromUtf8("../../../user/wturner/Downloads/g-2-tracker-logo-192.ico")))
+        self.gm2_logo.setPixmap(QtGui.QPixmap("../../../user/wturner/Downloads/g-2-tracker-logo-192.ico"))
         self.gm2_logo.setScaledContents(True)
-        self.gm2_logo.setObjectName(_fromUtf8("gm2_logo"))
+        self.gm2_logo.setObjectName("gm2_logo")
         self.frame_4 = QtGui.QFrame(self.MainWindow_2)
         self.frame_4.setGeometry(QtCore.QRect(5, 750, 990, 141))
         self.frame_4.setMinimumSize(QtCore.QSize(990, 0))
         self.frame_4.setMaximumSize(QtCore.QSize(16777215, 150))
         self.frame_4.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_4.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_4.setObjectName(_fromUtf8("frame_4"))
+        self.frame_4.setObjectName("frame_4")
         self.TextBox_btm = QtGui.QTextBrowser(self.frame_4)
         self.TextBox_btm.setEnabled(True)
         self.TextBox_btm.setGeometry(QtCore.QRect(2, 5, 981, 125))
         self.TextBox_btm.setMinimumSize(QtCore.QSize(70, 125))
         self.TextBox_btm.setMaximumSize(QtCore.QSize(1200, 125))
-        self.TextBox_btm.setObjectName(_fromUtf8("TextBox_btm"))
-        self.Tab2_8 = QtGui.QTabWidget(self.MainWindow_2)
-        self.Tab2_8.setGeometry(QtCore.QRect(5, 110, 990, 565))
-        self.Tab2_8.setMinimumSize(QtCore.QSize(990, 565))
-        self.Tab2_8.setMaximumSize(QtCore.QSize(2560, 565))
+        self.TextBox_btm.setObjectName("TextBox_btm")
+        self.globals_tab = QtGui.QTabWidget(self.MainWindow_2)
+        self.globals_tab.setGeometry(QtCore.QRect(5, 110, 990, 565))
+        self.globals_tab.setMinimumSize(QtCore.QSize(990, 565))
+        self.globals_tab.setMaximumSize(QtCore.QSize(2560, 565))
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(199, 199, 199))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -158,641 +136,634 @@ class Ui_MainWindow(object):
         brush = QtGui.QBrush(QtGui.QColor(199, 199, 199))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Light, brush)
-        self.Tab2_8.setPalette(palette)
-        self.Tab2_8.setAutoFillBackground(True)
-        self.Tab2_8.setObjectName(_fromUtf8("Tab2_8"))
+        self.globals_tab.setPalette(palette)
+        self.globals_tab.setAutoFillBackground(True)
+        self.globals_tab.setObjectName("globals_tab")
         self.tab_1 = QtGui.QWidget()
-        self.tab_1.setObjectName(_fromUtf8("tab_1"))
+        self.tab_1.setObjectName("tab_1")
         self.frame_19 = QtGui.QFrame(self.tab_1)
         self.frame_19.setGeometry(QtCore.QRect(50, 40, 201, 200))
         self.frame_19.setAutoFillBackground(True)
         self.frame_19.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_19.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_19.setObjectName(_fromUtf8("frame_19"))
+        self.frame_19.setObjectName("frame_19")
         self.label_11 = QtGui.QLabel(self.frame_19)
         self.label_11.setGeometry(QtCore.QRect(27, 10, 151, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_11.setFont(font)
         self.label_11.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_11.setObjectName(_fromUtf8("label_11"))
+        self.label_11.setObjectName("label_11")
         self.M1_4 = QtGui.QLabel(self.frame_19)
         self.M1_4.setGeometry(QtCore.QRect(15, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M1_4.setFont(font)
-        self.M1_4.setObjectName(_fromUtf8("M1_4"))
+        self.M1_4.setObjectName("M1_4")
         self.M1_6 = QtGui.QLabel(self.frame_19)
         self.M1_6.setGeometry(QtCore.QRect(103, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M1_6.setFont(font)
-        self.M1_6.setObjectName(_fromUtf8("M1_6"))
+        self.M1_6.setObjectName("M1_6")
         self.M1_7 = QtGui.QLabel(self.frame_19)
         self.M1_7.setGeometry(QtCore.QRect(147, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M1_7.setFont(font)
-        self.M1_7.setObjectName(_fromUtf8("M1_7"))
+        self.M1_7.setObjectName("M1_7")
         self.M1_5 = QtGui.QLabel(self.frame_19)
         self.M1_5.setGeometry(QtCore.QRect(59, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M1_5.setFont(font)
-        self.M1_5.setObjectName(_fromUtf8("M1_5"))
+        self.M1_5.setObjectName("M1_5")
         self.M1_3 = QtGui.QLabel(self.frame_19)
         self.M1_3.setGeometry(QtCore.QRect(147, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M1_3.setFont(font)
-        self.M1_3.setObjectName(_fromUtf8("M1_3"))
+        self.M1_3.setObjectName("M1_3")
         self.M1_0 = QtGui.QLabel(self.frame_19)
         self.M1_0.setGeometry(QtCore.QRect(15, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M1_0.setFont(font)
-        self.M1_0.setObjectName(_fromUtf8("M1_0"))
+        self.M1_0.setObjectName("M1_0")
         self.M1_2 = QtGui.QLabel(self.frame_19)
         self.M1_2.setGeometry(QtCore.QRect(103, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M1_2.setFont(font)
-        self.M1_2.setObjectName(_fromUtf8("M1_2"))
+        self.M1_2.setObjectName("M1_2")
         self.M1_1 = QtGui.QLabel(self.frame_19)
         self.M1_1.setGeometry(QtCore.QRect(59, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M1_1.setFont(font)
-        self.M1_1.setObjectName(_fromUtf8("M1_1"))
+        self.M1_1.setObjectName("M1_1")
         self.frame_9 = QtGui.QFrame(self.tab_1)
         self.frame_9.setGeometry(QtCore.QRect(280, 270, 201, 200))
         self.frame_9.setAutoFillBackground(True)
         self.frame_9.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_9.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_9.setObjectName(_fromUtf8("frame_9"))
+        self.frame_9.setObjectName("frame_9")
         self.label_55 = QtGui.QLabel(self.frame_9)
         self.label_55.setGeometry(QtCore.QRect(27, 10, 151, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_55.setFont(font)
         self.label_55.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_55.setObjectName(_fromUtf8("label_55"))
+        self.label_55.setObjectName("label_55")
         self.M6_7 = QtGui.QLabel(self.frame_9)
         self.M6_7.setGeometry(QtCore.QRect(147, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M6_7.setFont(font)
-        self.M6_7.setObjectName(_fromUtf8("M6_7"))
+        self.M6_7.setObjectName("M6_7")
         self.M6_5 = QtGui.QLabel(self.frame_9)
         self.M6_5.setGeometry(QtCore.QRect(59, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M6_5.setFont(font)
-        self.M6_5.setObjectName(_fromUtf8("M6_5"))
+        self.M6_5.setObjectName("M6_5")
         self.M6_6 = QtGui.QLabel(self.frame_9)
         self.M6_6.setGeometry(QtCore.QRect(103, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M6_6.setFont(font)
-        self.M6_6.setObjectName(_fromUtf8("M6_6"))
+        self.M6_6.setObjectName("M6_6")
         self.M6_4 = QtGui.QLabel(self.frame_9)
         self.M6_4.setGeometry(QtCore.QRect(15, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M6_4.setFont(font)
-        self.M6_4.setObjectName(_fromUtf8("M6_4"))
+        self.M6_4.setObjectName("M6_4")
         self.M6_3 = QtGui.QLabel(self.frame_9)
         self.M6_3.setGeometry(QtCore.QRect(147, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M6_3.setFont(font)
-        self.M6_3.setObjectName(_fromUtf8("M6_3"))
+        self.M6_3.setObjectName("M6_3")
         self.M6_1 = QtGui.QLabel(self.frame_9)
         self.M6_1.setGeometry(QtCore.QRect(59, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M6_1.setFont(font)
-        self.M6_1.setObjectName(_fromUtf8("M6_1"))
+        self.M6_1.setObjectName("M6_1")
         self.M6_0 = QtGui.QLabel(self.frame_9)
         self.M6_0.setGeometry(QtCore.QRect(15, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M6_0.setFont(font)
-        self.M6_0.setObjectName(_fromUtf8("M6_0"))
+        self.M6_0.setObjectName("M6_0")
         self.M6_2 = QtGui.QLabel(self.frame_9)
         self.M6_2.setGeometry(QtCore.QRect(103, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M6_2.setFont(font)
-        self.M6_2.setObjectName(_fromUtf8("M6_2"))
+        self.M6_2.setObjectName("M6_2")
         self.frame_5 = QtGui.QFrame(self.tab_1)
         self.frame_5.setGeometry(QtCore.QRect(280, 40, 201, 200))
         self.frame_5.setAutoFillBackground(True)
         self.frame_5.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_5.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_5.setObjectName(_fromUtf8("frame_5"))
+        self.frame_5.setObjectName("frame_5")
         self.label_10 = QtGui.QLabel(self.frame_5)
         self.label_10.setGeometry(QtCore.QRect(27, 10, 151, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_10.setFont(font)
         self.label_10.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_10.setObjectName(_fromUtf8("label_10"))
+        self.label_10.setObjectName("label_10")
         self.M2_4 = QtGui.QLabel(self.frame_5)
         self.M2_4.setGeometry(QtCore.QRect(15, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M2_4.setFont(font)
-        self.M2_4.setObjectName(_fromUtf8("M2_4"))
+        self.M2_4.setObjectName("M2_4")
         self.M2_6 = QtGui.QLabel(self.frame_5)
         self.M2_6.setGeometry(QtCore.QRect(103, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M2_6.setFont(font)
-        self.M2_6.setObjectName(_fromUtf8("M2_6"))
+        self.M2_6.setObjectName("M2_6")
         self.M2_7 = QtGui.QLabel(self.frame_5)
         self.M2_7.setGeometry(QtCore.QRect(147, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M2_7.setFont(font)
-        self.M2_7.setObjectName(_fromUtf8("M2_7"))
+        self.M2_7.setObjectName("M2_7")
         self.M2_5 = QtGui.QLabel(self.frame_5)
         self.M2_5.setGeometry(QtCore.QRect(59, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M2_5.setFont(font)
-        self.M2_5.setObjectName(_fromUtf8("M2_5"))
+        self.M2_5.setObjectName("M2_5")
         self.M2_3 = QtGui.QLabel(self.frame_5)
         self.M2_3.setGeometry(QtCore.QRect(147, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M2_3.setFont(font)
-        self.M2_3.setObjectName(_fromUtf8("M2_3"))
+        self.M2_3.setObjectName("M2_3")
         self.M2_0 = QtGui.QLabel(self.frame_5)
         self.M2_0.setGeometry(QtCore.QRect(15, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M2_0.setFont(font)
-        self.M2_0.setObjectName(_fromUtf8("M2_0"))
+        self.M2_0.setObjectName("M2_0")
         self.M2_2 = QtGui.QLabel(self.frame_5)
         self.M2_2.setGeometry(QtCore.QRect(103, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M2_2.setFont(font)
-        self.M2_2.setObjectName(_fromUtf8("M2_2"))
+        self.M2_2.setObjectName("M2_2")
         self.M2_1 = QtGui.QLabel(self.frame_5)
         self.M2_1.setGeometry(QtCore.QRect(59, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M2_1.setFont(font)
-        self.M2_1.setObjectName(_fromUtf8("M2_1"))
+        self.M2_1.setObjectName("M2_1")
         self.frame_11 = QtGui.QFrame(self.tab_1)
         self.frame_11.setGeometry(QtCore.QRect(740, 270, 201, 200))
         self.frame_11.setAutoFillBackground(True)
         self.frame_11.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_11.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_11.setObjectName(_fromUtf8("frame_11"))
+        self.frame_11.setObjectName("frame_11")
         self.label_199 = QtGui.QLabel(self.frame_11)
         self.label_199.setGeometry(QtCore.QRect(27, 10, 151, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_199.setFont(font)
         self.label_199.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_199.setObjectName(_fromUtf8("label_199"))
+        self.label_199.setObjectName("label_199")
         self.M8_0 = QtGui.QLabel(self.frame_11)
         self.M8_0.setGeometry(QtCore.QRect(15, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M8_0.setFont(font)
-        self.M8_0.setObjectName(_fromUtf8("M8_0"))
+        self.M8_0.setObjectName("M8_0")
         self.M8_3 = QtGui.QLabel(self.frame_11)
         self.M8_3.setGeometry(QtCore.QRect(147, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M8_3.setFont(font)
-        self.M8_3.setObjectName(_fromUtf8("M8_3"))
+        self.M8_3.setObjectName("M8_3")
         self.M8_1 = QtGui.QLabel(self.frame_11)
         self.M8_1.setGeometry(QtCore.QRect(59, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M8_1.setFont(font)
-        self.M8_1.setObjectName(_fromUtf8("M8_1"))
+        self.M8_1.setObjectName("M8_1")
         self.M8_2 = QtGui.QLabel(self.frame_11)
         self.M8_2.setGeometry(QtCore.QRect(103, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M8_2.setFont(font)
-        self.M8_2.setObjectName(_fromUtf8("M8_2"))
+        self.M8_2.setObjectName("M8_2")
         self.M8_4 = QtGui.QLabel(self.frame_11)
         self.M8_4.setGeometry(QtCore.QRect(15, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M8_4.setFont(font)
-        self.M8_4.setObjectName(_fromUtf8("M8_4"))
+        self.M8_4.setObjectName("M8_4")
         self.M8_6 = QtGui.QLabel(self.frame_11)
         self.M8_6.setGeometry(QtCore.QRect(103, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M8_6.setFont(font)
-        self.M8_6.setObjectName(_fromUtf8("M8_6"))
+        self.M8_6.setObjectName("M8_6")
         self.M8_5 = QtGui.QLabel(self.frame_11)
         self.M8_5.setGeometry(QtCore.QRect(59, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M8_5.setFont(font)
-        self.M8_5.setObjectName(_fromUtf8("M8_5"))
+        self.M8_5.setObjectName("M8_5")
         self.M8_7 = QtGui.QLabel(self.frame_11)
         self.M8_7.setGeometry(QtCore.QRect(147, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M8_7.setFont(font)
-        self.M8_7.setObjectName(_fromUtf8("M8_7"))
-        self.pushButton = QtGui.QPushButton(self.frame_11)
-        self.pushButton.setGeometry(QtCore.QRect(20, 160, 71, 31))
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
-        self.pushButton_2 = QtGui.QPushButton(self.frame_11)
-        self.pushButton_2.setGeometry(QtCore.QRect(110, 160, 71, 31))
-        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
+        self.M8_7.setObjectName("M8_7")
         self.frame_7 = QtGui.QFrame(self.tab_1)
         self.frame_7.setGeometry(QtCore.QRect(740, 40, 201, 200))
         self.frame_7.setAutoFillBackground(True)
         self.frame_7.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_7.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_7.setObjectName(_fromUtf8("frame_7"))
+        self.frame_7.setObjectName("frame_7")
         self.label_37 = QtGui.QLabel(self.frame_7)
         self.label_37.setGeometry(QtCore.QRect(27, 10, 151, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_37.setFont(font)
         self.label_37.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_37.setObjectName(_fromUtf8("label_37"))
+        self.label_37.setObjectName("label_37")
         self.M4_7 = QtGui.QLabel(self.frame_7)
         self.M4_7.setGeometry(QtCore.QRect(147, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M4_7.setFont(font)
-        self.M4_7.setObjectName(_fromUtf8("M4_7"))
+        self.M4_7.setObjectName("M4_7")
         self.M4_6 = QtGui.QLabel(self.frame_7)
         self.M4_6.setGeometry(QtCore.QRect(103, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M4_6.setFont(font)
-        self.M4_6.setObjectName(_fromUtf8("M4_6"))
+        self.M4_6.setObjectName("M4_6")
         self.M4_5 = QtGui.QLabel(self.frame_7)
         self.M4_5.setGeometry(QtCore.QRect(59, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M4_5.setFont(font)
-        self.M4_5.setObjectName(_fromUtf8("M4_5"))
+        self.M4_5.setObjectName("M4_5")
         self.M4_4 = QtGui.QLabel(self.frame_7)
         self.M4_4.setGeometry(QtCore.QRect(15, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M4_4.setFont(font)
-        self.M4_4.setObjectName(_fromUtf8("M4_4"))
+        self.M4_4.setObjectName("M4_4")
         self.M4_2 = QtGui.QLabel(self.frame_7)
         self.M4_2.setGeometry(QtCore.QRect(103, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M4_2.setFont(font)
-        self.M4_2.setObjectName(_fromUtf8("M4_2"))
+        self.M4_2.setObjectName("M4_2")
         self.M4_3 = QtGui.QLabel(self.frame_7)
         self.M4_3.setGeometry(QtCore.QRect(147, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M4_3.setFont(font)
-        self.M4_3.setObjectName(_fromUtf8("M4_3"))
+        self.M4_3.setObjectName("M4_3")
         self.M4_0 = QtGui.QLabel(self.frame_7)
         self.M4_0.setGeometry(QtCore.QRect(15, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M4_0.setFont(font)
-        self.M4_0.setObjectName(_fromUtf8("M4_0"))
+        self.M4_0.setObjectName("M4_0")
         self.M4_1 = QtGui.QLabel(self.frame_7)
         self.M4_1.setGeometry(QtCore.QRect(59, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M4_1.setFont(font)
-        self.M4_1.setObjectName(_fromUtf8("M4_1"))
+        self.M4_1.setObjectName("M4_1")
         self.frame_6 = QtGui.QFrame(self.tab_1)
         self.frame_6.setGeometry(QtCore.QRect(510, 40, 201, 200))
         self.frame_6.setAutoFillBackground(True)
         self.frame_6.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_6.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_6.setObjectName(_fromUtf8("frame_6"))
+        self.frame_6.setObjectName("frame_6")
         self.label_19 = QtGui.QLabel(self.frame_6)
         self.label_19.setGeometry(QtCore.QRect(27, 10, 151, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_19.setFont(font)
         self.label_19.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_19.setObjectName(_fromUtf8("label_19"))
+        self.label_19.setObjectName("label_19")
         self.M3_6 = QtGui.QLabel(self.frame_6)
         self.M3_6.setGeometry(QtCore.QRect(103, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M3_6.setFont(font)
-        self.M3_6.setObjectName(_fromUtf8("M3_6"))
+        self.M3_6.setObjectName("M3_6")
         self.M3_4 = QtGui.QLabel(self.frame_6)
         self.M3_4.setGeometry(QtCore.QRect(15, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M3_4.setFont(font)
-        self.M3_4.setObjectName(_fromUtf8("M3_4"))
+        self.M3_4.setObjectName("M3_4")
         self.M3_5 = QtGui.QLabel(self.frame_6)
         self.M3_5.setGeometry(QtCore.QRect(59, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M3_5.setFont(font)
-        self.M3_5.setObjectName(_fromUtf8("M3_5"))
+        self.M3_5.setObjectName("M3_5")
         self.M3_7 = QtGui.QLabel(self.frame_6)
         self.M3_7.setGeometry(QtCore.QRect(147, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M3_7.setFont(font)
-        self.M3_7.setObjectName(_fromUtf8("M3_7"))
+        self.M3_7.setObjectName("M3_7")
         self.M3_0 = QtGui.QLabel(self.frame_6)
         self.M3_0.setGeometry(QtCore.QRect(15, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M3_0.setFont(font)
-        self.M3_0.setObjectName(_fromUtf8("M3_0"))
+        self.M3_0.setObjectName("M3_0")
         self.M3_2 = QtGui.QLabel(self.frame_6)
         self.M3_2.setGeometry(QtCore.QRect(103, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M3_2.setFont(font)
-        self.M3_2.setObjectName(_fromUtf8("M3_2"))
+        self.M3_2.setObjectName("M3_2")
         self.M3_3 = QtGui.QLabel(self.frame_6)
         self.M3_3.setGeometry(QtCore.QRect(147, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M3_3.setFont(font)
-        self.M3_3.setObjectName(_fromUtf8("M3_3"))
+        self.M3_3.setObjectName("M3_3")
         self.M3_1 = QtGui.QLabel(self.frame_6)
         self.M3_1.setGeometry(QtCore.QRect(59, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M3_1.setFont(font)
-        self.M3_1.setObjectName(_fromUtf8("M3_1"))
+        self.M3_1.setObjectName("M3_1")
         self.frame_10 = QtGui.QFrame(self.tab_1)
         self.frame_10.setGeometry(QtCore.QRect(510, 270, 201, 200))
         self.frame_10.setAutoFillBackground(True)
         self.frame_10.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_10.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_10.setObjectName(_fromUtf8("frame_10"))
+        self.frame_10.setObjectName("frame_10")
         self.label_64 = QtGui.QLabel(self.frame_10)
         self.label_64.setGeometry(QtCore.QRect(17, 10, 161, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_64.setFont(font)
         self.label_64.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_64.setObjectName(_fromUtf8("label_64"))
+        self.label_64.setObjectName("label_64")
         self.M7_2 = QtGui.QLabel(self.frame_10)
         self.M7_2.setGeometry(QtCore.QRect(103, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M7_2.setFont(font)
-        self.M7_2.setObjectName(_fromUtf8("M7_2"))
+        self.M7_2.setObjectName("M7_2")
         self.M7_1 = QtGui.QLabel(self.frame_10)
         self.M7_1.setGeometry(QtCore.QRect(59, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M7_1.setFont(font)
-        self.M7_1.setObjectName(_fromUtf8("M7_1"))
+        self.M7_1.setObjectName("M7_1")
         self.M7_3 = QtGui.QLabel(self.frame_10)
         self.M7_3.setGeometry(QtCore.QRect(147, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M7_3.setFont(font)
-        self.M7_3.setObjectName(_fromUtf8("M7_3"))
+        self.M7_3.setObjectName("M7_3")
         self.M7_0 = QtGui.QLabel(self.frame_10)
         self.M7_0.setGeometry(QtCore.QRect(15, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M7_0.setFont(font)
-        self.M7_0.setObjectName(_fromUtf8("M7_0"))
+        self.M7_0.setObjectName("M7_0")
         self.M7_6 = QtGui.QLabel(self.frame_10)
         self.M7_6.setGeometry(QtCore.QRect(103, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M7_6.setFont(font)
-        self.M7_6.setObjectName(_fromUtf8("M7_6"))
+        self.M7_6.setObjectName("M7_6")
         self.M7_5 = QtGui.QLabel(self.frame_10)
         self.M7_5.setGeometry(QtCore.QRect(59, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M7_5.setFont(font)
-        self.M7_5.setObjectName(_fromUtf8("M7_5"))
+        self.M7_5.setObjectName("M7_5")
         self.M7_4 = QtGui.QLabel(self.frame_10)
         self.M7_4.setGeometry(QtCore.QRect(15, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M7_4.setFont(font)
-        self.M7_4.setObjectName(_fromUtf8("M7_4"))
+        self.M7_4.setObjectName("M7_4")
         self.M7_7 = QtGui.QLabel(self.frame_10)
         self.M7_7.setGeometry(QtCore.QRect(147, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M7_7.setFont(font)
-        self.M7_7.setObjectName(_fromUtf8("M7_7"))
+        self.M7_7.setObjectName("M7_7")
         self.frame_8 = QtGui.QFrame(self.tab_1)
         self.frame_8.setGeometry(QtCore.QRect(50, 270, 201, 200))
         self.frame_8.setAutoFillBackground(True)
         self.frame_8.setFrameShape(QtGui.QFrame.StyledPanel)
         self.frame_8.setFrameShadow(QtGui.QFrame.Raised)
-        self.frame_8.setObjectName(_fromUtf8("frame_8"))
+        self.frame_8.setObjectName("frame_8")
         self.label_46 = QtGui.QLabel(self.frame_8)
         self.label_46.setGeometry(QtCore.QRect(17, 10, 161, 33))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(20)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.label_46.setFont(font)
         self.label_46.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_46.setObjectName(_fromUtf8("label_46"))
+        self.label_46.setObjectName("label_46")
         self.M5_6 = QtGui.QLabel(self.frame_8)
         self.M5_6.setGeometry(QtCore.QRect(98, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M5_6.setFont(font)
-        self.M5_6.setObjectName(_fromUtf8("M5_6"))
+        self.M5_6.setObjectName("M5_6")
         self.M5_5 = QtGui.QLabel(self.frame_8)
         self.M5_5.setGeometry(QtCore.QRect(54, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M5_5.setFont(font)
-        self.M5_5.setObjectName(_fromUtf8("M5_5"))
+        self.M5_5.setObjectName("M5_5")
         self.M5_4 = QtGui.QLabel(self.frame_8)
         self.M5_4.setGeometry(QtCore.QRect(10, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M5_4.setFont(font)
-        self.M5_4.setObjectName(_fromUtf8("M5_4"))
+        self.M5_4.setObjectName("M5_4")
         self.M5_7 = QtGui.QLabel(self.frame_8)
         self.M5_7.setGeometry(QtCore.QRect(142, 103, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M5_7.setFont(font)
-        self.M5_7.setObjectName(_fromUtf8("M5_7"))
+        self.M5_7.setObjectName("M5_7")
         self.M5_1 = QtGui.QLabel(self.frame_8)
         self.M5_1.setGeometry(QtCore.QRect(54, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M5_1.setFont(font)
-        self.M5_1.setObjectName(_fromUtf8("M5_1"))
+        self.M5_1.setObjectName("M5_1")
         self.M5_3 = QtGui.QLabel(self.frame_8)
         self.M5_3.setGeometry(QtCore.QRect(142, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
-        font.setBold(True)
         font.setWeight(75)
+        font.setBold(True)
         self.M5_3.setFont(font)
-        self.M5_3.setObjectName(_fromUtf8("M5_3"))
+        self.M5_3.setObjectName("M5_3")
         self.M5_0 = QtGui.QLabel(self.frame_8)
         self.M5_0.setGeometry(QtCore.QRect(10, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M5_0.setFont(font)
-        self.M5_0.setObjectName(_fromUtf8("M5_0"))
+        self.M5_0.setObjectName("M5_0")
         self.M5_2 = QtGui.QLabel(self.frame_8)
         self.M5_2.setGeometry(QtCore.QRect(98, 49, 38, 48))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Courier 10 Pitch"))
+        font.setFamily("Courier 10 Pitch")
         font.setPointSize(72)
         self.M5_2.setFont(font)
-        self.M5_2.setObjectName(_fromUtf8("M5_2"))
+        self.M5_2.setObjectName("M5_2")
         self.Legend_lbl = QtGui.QLabel(self.tab_1)
         self.Legend_lbl.setGeometry(QtCore.QRect(13, 500, 961, 21))
         font = QtGui.QFont()
-        font.setPointSize(11)
+        font.setPointSize(10)
         self.Legend_lbl.setFont(font)
         self.Legend_lbl.setAlignment(QtCore.Qt.AlignCenter)
-        self.Legend_lbl.setObjectName(_fromUtf8("Legend_lbl"))
-        self.Tab2_8.addTab(self.tab_1, _fromUtf8(""))
+        self.Legend_lbl.setObjectName("Legend_lbl")
+        self.globals_tab.addTab(self.tab_1, "")
         self.tab_2 = QtGui.QWidget()
-        self.tab_2.setObjectName(_fromUtf8("tab_2"))
+        self.tab_2.setObjectName("tab_2")
         self.RUP_14 = QtGui.QLineEdit(self.tab_2)
         self.RUP_14.setGeometry(QtCore.QRect(520, 466, 50, 25))
         self.RUP_14.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_14.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_14.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_14.setObjectName(_fromUtf8("RUP_14"))
+        self.RUP_14.setObjectName("RUP_14")
         self.P_1 = QtGui.QCheckBox(self.tab_2)
         self.P_1.setEnabled(True)
         self.P_1.setGeometry(QtCore.QRect(79, 66, 25, 25))
         self.P_1.setMinimumSize(QtCore.QSize(25, 25))
         self.P_1.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_1.setText(_fromUtf8(""))
-        self.P_1.setObjectName(_fromUtf8("P_1"))
+        self.P_1.setObjectName("P_1")
         self.RUP_6 = QtGui.QLineEdit(self.tab_2)
         self.RUP_6.setGeometry(QtCore.QRect(520, 218, 50, 25))
         self.RUP_6.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_6.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_6.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_6.setObjectName(_fromUtf8("RUP_6"))
+        self.RUP_6.setObjectName("RUP_6")
         self.RS_header_1 = QtGui.QLabel(self.tab_2)
         self.RS_header_1.setGeometry(QtCore.QRect(861, 1, 111, 41))
-        self.RS_header_1.setObjectName(_fromUtf8("RS_header_1"))
+        self.RS_header_1.setObjectName("RS_header_1")
         self.CH_0 = QtGui.QLabel(self.tab_2)
         self.CH_0.setGeometry(QtCore.QRect(20, 39, 20, 20))
         self.CH_0.setMinimumSize(QtCore.QSize(20, 20))
@@ -800,67 +771,65 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_0.setFont(font)
-        self.CH_0.setObjectName(_fromUtf8("CH_0"))
+        self.CH_0.setObjectName("CH_0")
         self.RDN_1 = QtGui.QLineEdit(self.tab_2)
         self.RDN_1.setEnabled(True)
         self.RDN_1.setGeometry(QtCore.QRect(620, 66, 50, 25))
         self.RDN_1.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_1.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_1.setObjectName(_fromUtf8("RDN_1"))
+        self.RDN_1.setObjectName("RDN_1")
         self.P_4 = QtGui.QCheckBox(self.tab_2)
         self.P_4.setGeometry(QtCore.QRect(79, 157, 25, 25))
         self.P_4.setMinimumSize(QtCore.QSize(25, 25))
         self.P_4.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_4.setText(_fromUtf8(""))
-        self.P_4.setObjectName(_fromUtf8("P_4"))
+        self.P_4.setObjectName("P_4")
         self.I0_header_1 = QtGui.QPushButton(self.tab_2)
         self.I0_header_1.setGeometry(QtCore.QRect(417, 9, 56, 21))
         self.I0_header_1.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.I0_header_1.setFont(font)
-        self.I0_header_1.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.I0_header_1.setObjectName(_fromUtf8("I0_header_1"))
+        self.I0_header_1.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.I0_header_1.setObjectName("I0_header_1")
         self.V0_header_1 = QtGui.QPushButton(self.tab_2)
         self.V0_header_1.setGeometry(QtCore.QRect(324, 9, 53, 20))
         self.V0_header_1.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.V0_header_1.setFont(font)
-        self.V0_header_1.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.V0_header_1.setObjectName(_fromUtf8("V0_header_1"))
+        self.V0_header_1.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.V0_header_1.setObjectName("V0_header_1")
         self.P_12 = QtGui.QCheckBox(self.tab_2)
         self.P_12.setGeometry(QtCore.QRect(79, 404, 25, 25))
         self.P_12.setMinimumSize(QtCore.QSize(25, 25))
         self.P_12.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_12.setText(_fromUtf8(""))
-        self.P_12.setObjectName(_fromUtf8("P_12"))
+        self.P_12.setObjectName("P_12")
         self.RDN_0 = QtGui.QLineEdit(self.tab_2)
         self.RDN_0.setGeometry(QtCore.QRect(620, 36, 50, 25))
         self.RDN_0.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_0.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_0.setObjectName(_fromUtf8("RDN_0"))
+        self.RDN_0.setObjectName("RDN_0")
         self.S_3 = QtGui.QLabel(self.tab_2)
         self.S_3.setGeometry(QtCore.QRect(808, 125, 35, 25))
         self.S_3.setMinimumSize(QtCore.QSize(35, 25))
         self.S_3.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_3.setObjectName(_fromUtf8("S_3"))
+        self.S_3.setObjectName("S_3")
         self.RDN_4 = QtGui.QLineEdit(self.tab_2)
         self.RDN_4.setGeometry(QtCore.QRect(620, 157, 50, 25))
         self.RDN_4.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_4.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_4.setObjectName(_fromUtf8("RDN_4"))
+        self.RDN_4.setObjectName("RDN_4")
         self.I0_4 = QtGui.QLineEdit(self.tab_2)
         self.I0_4.setGeometry(QtCore.QRect(420, 157, 50, 25))
         self.I0_4.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_4.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_4.setObjectName(_fromUtf8("I0_4"))
+        self.I0_4.setObjectName("I0_4")
         self.IMon_5 = QtGui.QLabel(self.tab_2)
         self.IMon_5.setGeometry(QtCore.QRect(240, 192, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -873,7 +842,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_5.setFont(font)
-        self.IMon_5.setObjectName(_fromUtf8("IMon_5"))
+        self.IMon_5.setObjectName("IMon_5")
         self.CH_4 = QtGui.QLabel(self.tab_2)
         self.CH_4.setGeometry(QtCore.QRect(20, 160, 20, 20))
         self.CH_4.setMinimumSize(QtCore.QSize(20, 20))
@@ -881,12 +850,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_4.setFont(font)
-        self.CH_4.setObjectName(_fromUtf8("CH_4"))
+        self.CH_4.setObjectName("CH_4")
         self.S_2 = QtGui.QLabel(self.tab_2)
         self.S_2.setGeometry(QtCore.QRect(808, 95, 35, 25))
         self.S_2.setMinimumSize(QtCore.QSize(35, 25))
         self.S_2.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_2.setObjectName(_fromUtf8("S_2"))
+        self.S_2.setObjectName("S_2")
         self.VMon_0 = QtGui.QLabel(self.tab_2)
         self.VMon_0.setGeometry(QtCore.QRect(141, 41, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -898,34 +867,33 @@ class Ui_MainWindow(object):
         self.VMon_0.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_0.setFont(font)
-        self.VMon_0.setObjectName(_fromUtf8("VMon_0"))
+        self.VMon_0.setObjectName("VMon_0")
         self.RS_13 = QtGui.QLabel(self.tab_2)
         self.RS_13.setGeometry(QtCore.QRect(890, 434, 45, 25))
         self.RS_13.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_13.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_13.setObjectName(_fromUtf8("RS_13"))
+        self.RS_13.setObjectName("RS_13")
         self.P_0 = QtGui.QCheckBox(self.tab_2)
         self.P_0.setGeometry(QtCore.QRect(79, 35, 25, 25))
         self.P_0.setMinimumSize(QtCore.QSize(25, 25))
         self.P_0.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_0.setText(_fromUtf8(""))
-        self.P_0.setObjectName(_fromUtf8("P_0"))
+        self.P_0.setObjectName("P_0")
         self.V0_6 = QtGui.QLineEdit(self.tab_2)
         self.V0_6.setGeometry(QtCore.QRect(324, 218, 50, 25))
         self.V0_6.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_6.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_6.setObjectName(_fromUtf8("V0_6"))
+        self.V0_6.setObjectName("V0_6")
         self.I0_12 = QtGui.QLineEdit(self.tab_2)
         self.I0_12.setGeometry(QtCore.QRect(420, 404, 50, 25))
         self.I0_12.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_12.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_12.setObjectName(_fromUtf8("I0_12"))
+        self.I0_12.setObjectName("I0_12")
         self.IMon_header_1 = QtGui.QLabel(self.tab_2)
         self.IMon_header_1.setGeometry(QtCore.QRect(218, 8, 71, 21))
-        self.IMon_header_1.setObjectName(_fromUtf8("IMon_header_1"))
+        self.IMon_header_1.setObjectName("IMon_header_1")
         self.VMon_7 = QtGui.QLabel(self.tab_2)
         self.VMon_7.setGeometry(QtCore.QRect(141, 254, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -937,37 +905,36 @@ class Ui_MainWindow(object):
         self.VMon_7.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_7.setFont(font)
-        self.VMon_7.setObjectName(_fromUtf8("VMon_7"))
+        self.VMon_7.setObjectName("VMon_7")
         self.RDN_5 = QtGui.QLineEdit(self.tab_2)
         self.RDN_5.setGeometry(QtCore.QRect(620, 187, 50, 25))
         self.RDN_5.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_5.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_5.setObjectName(_fromUtf8("RDN_5"))
+        self.RDN_5.setObjectName("RDN_5")
         self.RUP_4 = QtGui.QLineEdit(self.tab_2)
         self.RUP_4.setGeometry(QtCore.QRect(520, 157, 50, 25))
         self.RUP_4.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_4.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_4.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_4.setObjectName(_fromUtf8("RUP_4"))
+        self.RUP_4.setObjectName("RUP_4")
         self.V0_2 = QtGui.QLineEdit(self.tab_2)
         self.V0_2.setGeometry(QtCore.QRect(324, 96, 50, 25))
         self.V0_2.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_2.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_2.setObjectName(_fromUtf8("V0_2"))
+        self.V0_2.setObjectName("V0_2")
         self.S_5 = QtGui.QLabel(self.tab_2)
         self.S_5.setGeometry(QtCore.QRect(808, 186, 35, 25))
         self.S_5.setMinimumSize(QtCore.QSize(35, 25))
         self.S_5.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_5.setObjectName(_fromUtf8("S_5"))
+        self.S_5.setObjectName("S_5")
         self.P_15 = QtGui.QCheckBox(self.tab_2)
         self.P_15.setGeometry(QtCore.QRect(79, 497, 25, 25))
         self.P_15.setMinimumSize(QtCore.QSize(25, 25))
         self.P_15.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_15.setText(_fromUtf8(""))
-        self.P_15.setObjectName(_fromUtf8("P_15"))
+        self.P_15.setObjectName("P_15")
         self.VMon_13 = QtGui.QLabel(self.tab_2)
         self.VMon_13.setGeometry(QtCore.QRect(141, 440, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -979,37 +946,37 @@ class Ui_MainWindow(object):
         self.VMon_13.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_13.setFont(font)
-        self.VMon_13.setObjectName(_fromUtf8("VMon_13"))
+        self.VMon_13.setObjectName("VMon_13")
         self.P_header_1 = QtGui.QPushButton(self.tab_2)
         self.P_header_1.setGeometry(QtCore.QRect(60, 8, 61, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.P_header_1.setFont(font)
         self.P_header_1.setAutoFillBackground(False)
-        self.P_header_1.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.P_header_1.setObjectName(_fromUtf8("P_header_1"))
+        self.P_header_1.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.P_header_1.setObjectName("P_header_1")
         self.RS_12 = QtGui.QLabel(self.tab_2)
         self.RS_12.setGeometry(QtCore.QRect(890, 403, 45, 25))
         self.RS_12.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_12.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_12.setObjectName(_fromUtf8("RS_12"))
+        self.RS_12.setObjectName("RS_12")
         self.I0_5 = QtGui.QLineEdit(self.tab_2)
         self.I0_5.setGeometry(QtCore.QRect(420, 187, 50, 25))
         self.I0_5.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_5.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_5.setObjectName(_fromUtf8("I0_5"))
+        self.I0_5.setObjectName("I0_5")
         self.RUP_3 = QtGui.QLineEdit(self.tab_2)
         self.RUP_3.setGeometry(QtCore.QRect(520, 126, 50, 25))
         self.RUP_3.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_3.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_3.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_3.setObjectName(_fromUtf8("RUP_3"))
+        self.RUP_3.setObjectName("RUP_3")
         self.CH_1 = QtGui.QLabel(self.tab_2)
         self.CH_1.setEnabled(True)
         self.CH_1.setGeometry(QtCore.QRect(20, 69, 20, 20))
@@ -1018,7 +985,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_1.setFont(font)
-        self.CH_1.setObjectName(_fromUtf8("CH_1"))
+        self.CH_1.setObjectName("CH_1")
         self.VMon_8 = QtGui.QLabel(self.tab_2)
         self.VMon_8.setGeometry(QtCore.QRect(141, 285, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1030,10 +997,10 @@ class Ui_MainWindow(object):
         self.VMon_8.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_8.setFont(font)
-        self.VMon_8.setObjectName(_fromUtf8("VMon_8"))
+        self.VMon_8.setObjectName("VMon_8")
         self.CH_3 = QtGui.QLabel(self.tab_2)
         self.CH_3.setGeometry(QtCore.QRect(20, 129, 20, 20))
         self.CH_3.setMinimumSize(QtCore.QSize(20, 20))
@@ -1041,13 +1008,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_3.setFont(font)
-        self.CH_3.setObjectName(_fromUtf8("CH_3"))
+        self.CH_3.setObjectName("CH_3")
         self.P_8 = QtGui.QCheckBox(self.tab_2)
         self.P_8.setGeometry(QtCore.QRect(79, 280, 25, 25))
         self.P_8.setMinimumSize(QtCore.QSize(25, 25))
         self.P_8.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_8.setText(_fromUtf8(""))
-        self.P_8.setObjectName(_fromUtf8("P_8"))
+        self.P_8.setObjectName("P_8")
         self.IMon_0 = QtGui.QLabel(self.tab_2)
         self.IMon_0.setGeometry(QtCore.QRect(240, 41, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1060,7 +1026,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_0.setFont(font)
-        self.IMon_0.setObjectName(_fromUtf8("IMon_0"))
+        self.IMon_0.setObjectName("IMon_0")
         self.CH_8 = QtGui.QLabel(self.tab_2)
         self.CH_8.setGeometry(QtCore.QRect(20, 283, 20, 20))
         self.CH_8.setMinimumSize(QtCore.QSize(20, 20))
@@ -1068,39 +1034,39 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_8.setFont(font)
-        self.CH_8.setObjectName(_fromUtf8("CH_8"))
+        self.CH_8.setObjectName("CH_8")
         self.trip_1 = QtGui.QLineEdit(self.tab_2)
         self.trip_1.setEnabled(True)
         self.trip_1.setGeometry(QtCore.QRect(720, 66, 50, 25))
         self.trip_1.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_1.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_1.setObjectName(_fromUtf8("trip_1"))
+        self.trip_1.setObjectName("trip_1")
         self.RDW_header_1 = QtGui.QPushButton(self.tab_2)
         self.RDW_header_1.setGeometry(QtCore.QRect(603, 9, 85, 21))
         self.RDW_header_1.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RDW_header_1.setFont(font)
-        self.RDW_header_1.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RDW_header_1.setObjectName(_fromUtf8("RDW_header_1"))
+        self.RDW_header_1.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RDW_header_1.setObjectName("RDW_header_1")
         self.RS_5 = QtGui.QLabel(self.tab_2)
         self.RS_5.setGeometry(QtCore.QRect(890, 186, 45, 25))
         self.RS_5.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_5.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_5.setObjectName(_fromUtf8("RS_5"))
+        self.RS_5.setObjectName("RS_5")
         self.I0_3 = QtGui.QLineEdit(self.tab_2)
         self.I0_3.setGeometry(QtCore.QRect(420, 126, 50, 25))
         self.I0_3.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_3.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_3.setObjectName(_fromUtf8("I0_3"))
+        self.I0_3.setObjectName("I0_3")
         self.RS_7 = QtGui.QLabel(self.tab_2)
         self.RS_7.setGeometry(QtCore.QRect(890, 248, 45, 25))
         self.RS_7.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_7.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_7.setObjectName(_fromUtf8("RS_7"))
+        self.RS_7.setObjectName("RS_7")
         self.CH_15 = QtGui.QLabel(self.tab_2)
         self.CH_15.setGeometry(QtCore.QRect(20, 500, 20, 20))
         self.CH_15.setMinimumSize(QtCore.QSize(20, 20))
@@ -1108,23 +1074,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_15.setFont(font)
-        self.CH_15.setObjectName(_fromUtf8("CH_15"))
+        self.CH_15.setObjectName("CH_15")
         self.RS_4 = QtGui.QLabel(self.tab_2)
         self.RS_4.setGeometry(QtCore.QRect(890, 156, 45, 25))
         self.RS_4.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_4.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_4.setObjectName(_fromUtf8("RS_4"))
+        self.RS_4.setObjectName("RS_4")
         self.RS_6 = QtGui.QLabel(self.tab_2)
         self.RS_6.setGeometry(QtCore.QRect(890, 217, 45, 25))
         self.RS_6.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_6.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_6.setObjectName(_fromUtf8("RS_6"))
+        self.RS_6.setObjectName("RS_6")
         self.P_3 = QtGui.QCheckBox(self.tab_2)
         self.P_3.setGeometry(QtCore.QRect(79, 126, 25, 25))
         self.P_3.setMinimumSize(QtCore.QSize(25, 25))
         self.P_3.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_3.setText(_fromUtf8(""))
-        self.P_3.setObjectName(_fromUtf8("P_3"))
+        self.P_3.setObjectName("P_3")
         self.CH_2 = QtGui.QLabel(self.tab_2)
         self.CH_2.setGeometry(QtCore.QRect(20, 99, 20, 20))
         self.CH_2.setMinimumSize(QtCore.QSize(20, 20))
@@ -1132,7 +1097,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_2.setFont(font)
-        self.CH_2.setObjectName(_fromUtf8("CH_2"))
+        self.CH_2.setObjectName("CH_2")
         self.IMon_6 = QtGui.QLabel(self.tab_2)
         self.IMon_6.setGeometry(QtCore.QRect(240, 223, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1145,12 +1110,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_6.setFont(font)
-        self.IMon_6.setObjectName(_fromUtf8("IMon_6"))
+        self.IMon_6.setObjectName("IMon_6")
         self.trip_7 = QtGui.QLineEdit(self.tab_2)
         self.trip_7.setGeometry(QtCore.QRect(720, 249, 50, 25))
         self.trip_7.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_7.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_7.setObjectName(_fromUtf8("trip_7"))
+        self.trip_7.setObjectName("trip_7")
         self.CH_7 = QtGui.QLabel(self.tab_2)
         self.CH_7.setGeometry(QtCore.QRect(20, 252, 20, 20))
         self.CH_7.setMinimumSize(QtCore.QSize(20, 20))
@@ -1158,7 +1123,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_7.setFont(font)
-        self.CH_7.setObjectName(_fromUtf8("CH_7"))
+        self.CH_7.setObjectName("CH_7")
         self.VMon_1 = QtGui.QLabel(self.tab_2)
         self.VMon_1.setEnabled(True)
         self.VMon_1.setGeometry(QtCore.QRect(141, 71, 45, 20))
@@ -1171,30 +1136,30 @@ class Ui_MainWindow(object):
         self.VMon_1.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_1.setFont(font)
-        self.VMon_1.setObjectName(_fromUtf8("VMon_1"))
+        self.VMon_1.setObjectName("VMon_1")
         self.V0_3 = QtGui.QLineEdit(self.tab_2)
         self.V0_3.setGeometry(QtCore.QRect(324, 126, 50, 25))
         self.V0_3.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_3.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_3.setObjectName(_fromUtf8("V0_3"))
+        self.V0_3.setObjectName("V0_3")
         self.V0_15 = QtGui.QLineEdit(self.tab_2)
         self.V0_15.setGeometry(QtCore.QRect(324, 497, 50, 25))
         self.V0_15.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_15.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_15.setObjectName(_fromUtf8("V0_15"))
+        self.V0_15.setObjectName("V0_15")
         self.S_7 = QtGui.QLabel(self.tab_2)
         self.S_7.setGeometry(QtCore.QRect(808, 248, 35, 25))
         self.S_7.setMinimumSize(QtCore.QSize(35, 25))
         self.S_7.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_7.setObjectName(_fromUtf8("S_7"))
+        self.S_7.setObjectName("S_7")
         self.I0_8 = QtGui.QLineEdit(self.tab_2)
         self.I0_8.setGeometry(QtCore.QRect(420, 280, 50, 25))
         self.I0_8.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_8.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_8.setObjectName(_fromUtf8("I0_8"))
+        self.I0_8.setObjectName("I0_8")
         self.IMon_2 = QtGui.QLabel(self.tab_2)
         self.IMon_2.setGeometry(QtCore.QRect(240, 101, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1207,18 +1172,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_2.setFont(font)
-        self.IMon_2.setObjectName(_fromUtf8("IMon_2"))
+        self.IMon_2.setObjectName("IMon_2")
         self.RS_0 = QtGui.QLabel(self.tab_2)
         self.RS_0.setGeometry(QtCore.QRect(890, 35, 45, 25))
         self.RS_0.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_0.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_0.setObjectName(_fromUtf8("RS_0"))
+        self.RS_0.setObjectName("RS_0")
         self.RUP_7 = QtGui.QLineEdit(self.tab_2)
         self.RUP_7.setGeometry(QtCore.QRect(520, 249, 50, 25))
         self.RUP_7.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_7.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_7.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_7.setObjectName(_fromUtf8("RUP_7"))
+        self.RUP_7.setObjectName("RUP_7")
         self.VMon_6 = QtGui.QLabel(self.tab_2)
         self.VMon_6.setGeometry(QtCore.QRect(141, 223, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1230,10 +1195,10 @@ class Ui_MainWindow(object):
         self.VMon_6.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_6.setFont(font)
-        self.VMon_6.setObjectName(_fromUtf8("VMon_6"))
+        self.VMon_6.setObjectName("VMon_6")
         self.VMon_2 = QtGui.QLabel(self.tab_2)
         self.VMon_2.setGeometry(QtCore.QRect(141, 101, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1245,20 +1210,20 @@ class Ui_MainWindow(object):
         self.VMon_2.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_2.setFont(font)
-        self.VMon_2.setObjectName(_fromUtf8("VMon_2"))
+        self.VMon_2.setObjectName("VMon_2")
         self.RS_2 = QtGui.QLabel(self.tab_2)
         self.RS_2.setGeometry(QtCore.QRect(890, 95, 45, 25))
         self.RS_2.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_2.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_2.setObjectName(_fromUtf8("RS_2"))
+        self.RS_2.setObjectName("RS_2")
         self.RDN_7 = QtGui.QLineEdit(self.tab_2)
         self.RDN_7.setGeometry(QtCore.QRect(620, 249, 50, 25))
         self.RDN_7.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_7.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_7.setObjectName(_fromUtf8("RDN_7"))
+        self.RDN_7.setObjectName("RDN_7")
         self.IMon_4 = QtGui.QLabel(self.tab_2)
         self.IMon_4.setGeometry(QtCore.QRect(240, 162, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1271,7 +1236,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_4.setFont(font)
-        self.IMon_4.setObjectName(_fromUtf8("IMon_4"))
+        self.IMon_4.setObjectName("IMon_4")
         self.VMon_14 = QtGui.QLabel(self.tab_2)
         self.VMon_14.setGeometry(QtCore.QRect(141, 471, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1283,10 +1248,10 @@ class Ui_MainWindow(object):
         self.VMon_14.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_14.setFont(font)
-        self.VMon_14.setObjectName(_fromUtf8("VMon_14"))
+        self.VMon_14.setObjectName("VMon_14")
         self.IMon_13 = QtGui.QLabel(self.tab_2)
         self.IMon_13.setGeometry(QtCore.QRect(240, 440, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1299,7 +1264,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_13.setFont(font)
-        self.IMon_13.setObjectName(_fromUtf8("IMon_13"))
+        self.IMon_13.setObjectName("IMon_13")
         self.VMon_5 = QtGui.QLabel(self.tab_2)
         self.VMon_5.setGeometry(QtCore.QRect(141, 192, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1311,10 +1276,10 @@ class Ui_MainWindow(object):
         self.VMon_5.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_5.setFont(font)
-        self.VMon_5.setObjectName(_fromUtf8("VMon_5"))
+        self.VMon_5.setObjectName("VMon_5")
         self.IMon_3 = QtGui.QLabel(self.tab_2)
         self.IMon_3.setGeometry(QtCore.QRect(240, 131, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1327,38 +1292,38 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_3.setFont(font)
-        self.IMon_3.setObjectName(_fromUtf8("IMon_3"))
+        self.IMon_3.setObjectName("IMon_3")
         self.RS_15 = QtGui.QLabel(self.tab_2)
         self.RS_15.setGeometry(QtCore.QRect(890, 496, 45, 25))
         self.RS_15.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_15.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_15.setObjectName(_fromUtf8("RS_15"))
+        self.RS_15.setObjectName("RS_15")
         self.V0_7 = QtGui.QLineEdit(self.tab_2)
         self.V0_7.setGeometry(QtCore.QRect(324, 249, 50, 25))
         self.V0_7.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_7.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_7.setObjectName(_fromUtf8("V0_7"))
+        self.V0_7.setObjectName("V0_7")
         self.S_4 = QtGui.QLabel(self.tab_2)
         self.S_4.setGeometry(QtCore.QRect(808, 156, 35, 25))
         self.S_4.setMinimumSize(QtCore.QSize(35, 25))
         self.S_4.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_4.setObjectName(_fromUtf8("S_4"))
+        self.S_4.setObjectName("S_4")
         self.V0_0 = QtGui.QLineEdit(self.tab_2)
         self.V0_0.setEnabled(True)
         self.V0_0.setGeometry(QtCore.QRect(324, 36, 50, 25))
         self.V0_0.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_0.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_0.setObjectName(_fromUtf8("V0_0"))
+        self.V0_0.setObjectName("V0_0")
         self.RS_14 = QtGui.QLabel(self.tab_2)
         self.RS_14.setGeometry(QtCore.QRect(890, 465, 45, 25))
         self.RS_14.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_14.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_14.setObjectName(_fromUtf8("RS_14"))
+        self.RS_14.setObjectName("RS_14")
         self.S_13 = QtGui.QLabel(self.tab_2)
         self.S_13.setGeometry(QtCore.QRect(808, 434, 35, 25))
         self.S_13.setMinimumSize(QtCore.QSize(35, 25))
         self.S_13.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_13.setObjectName(_fromUtf8("S_13"))
+        self.S_13.setObjectName("S_13")
         self.IMon_7 = QtGui.QLabel(self.tab_2)
         self.IMon_7.setGeometry(QtCore.QRect(240, 254, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1371,42 +1336,42 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_7.setFont(font)
-        self.IMon_7.setObjectName(_fromUtf8("IMon_7"))
+        self.IMon_7.setObjectName("IMon_7")
         self.S_15 = QtGui.QLabel(self.tab_2)
         self.S_15.setGeometry(QtCore.QRect(808, 496, 35, 25))
         self.S_15.setMinimumSize(QtCore.QSize(35, 25))
         self.S_15.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_15.setObjectName(_fromUtf8("S_15"))
+        self.S_15.setObjectName("S_15")
         self.S_0 = QtGui.QLabel(self.tab_2)
         self.S_0.setGeometry(QtCore.QRect(808, 35, 35, 25))
         self.S_0.setMinimumSize(QtCore.QSize(35, 25))
         self.S_0.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_0.setObjectName(_fromUtf8("S_0"))
+        self.S_0.setObjectName("S_0")
         self.I0_0 = QtGui.QLineEdit(self.tab_2)
         self.I0_0.setEnabled(True)
         self.I0_0.setGeometry(QtCore.QRect(420, 36, 50, 25))
         self.I0_0.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_0.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_0.setObjectName(_fromUtf8("I0_0"))
+        self.I0_0.setObjectName("I0_0")
         self.I0_7 = QtGui.QLineEdit(self.tab_2)
         self.I0_7.setGeometry(QtCore.QRect(420, 249, 50, 25))
         self.I0_7.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_7.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_7.setObjectName(_fromUtf8("I0_7"))
+        self.I0_7.setObjectName("I0_7")
         self.trip_15 = QtGui.QLineEdit(self.tab_2)
         self.trip_15.setGeometry(QtCore.QRect(720, 497, 50, 25))
         self.trip_15.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_15.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_15.setObjectName(_fromUtf8("trip_15"))
+        self.trip_15.setObjectName("trip_15")
         self.RUP_13 = QtGui.QLineEdit(self.tab_2)
         self.RUP_13.setGeometry(QtCore.QRect(520, 435, 50, 25))
         self.RUP_13.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_13.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_13.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_13.setObjectName(_fromUtf8("RUP_13"))
+        self.RUP_13.setObjectName("RUP_13")
         self.VMon_header_1 = QtGui.QLabel(self.tab_2)
         self.VMon_header_1.setGeometry(QtCore.QRect(130, 8, 68, 21))
-        self.VMon_header_1.setObjectName(_fromUtf8("VMon_header_1"))
+        self.VMon_header_1.setObjectName("VMon_header_1")
         self.VMon_3 = QtGui.QLabel(self.tab_2)
         self.VMon_3.setGeometry(QtCore.QRect(141, 131, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1418,53 +1383,52 @@ class Ui_MainWindow(object):
         self.VMon_3.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_3.setFont(font)
-        self.VMon_3.setObjectName(_fromUtf8("VMon_3"))
+        self.VMon_3.setObjectName("VMon_3")
         self.P_5 = QtGui.QCheckBox(self.tab_2)
         self.P_5.setGeometry(QtCore.QRect(79, 187, 25, 25))
         self.P_5.setMinimumSize(QtCore.QSize(25, 25))
         self.P_5.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_5.setText(_fromUtf8(""))
-        self.P_5.setObjectName(_fromUtf8("P_5"))
+        self.P_5.setObjectName("P_5")
         self.trip_6 = QtGui.QLineEdit(self.tab_2)
         self.trip_6.setGeometry(QtCore.QRect(720, 218, 50, 25))
         self.trip_6.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_6.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_6.setObjectName(_fromUtf8("trip_6"))
+        self.trip_6.setObjectName("trip_6")
         self.RDN_15 = QtGui.QLineEdit(self.tab_2)
         self.RDN_15.setGeometry(QtCore.QRect(620, 497, 50, 25))
         self.RDN_15.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_15.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_15.setObjectName(_fromUtf8("RDN_15"))
+        self.RDN_15.setObjectName("RDN_15")
         self.RS_1 = QtGui.QLabel(self.tab_2)
         self.RS_1.setEnabled(True)
         self.RS_1.setGeometry(QtCore.QRect(890, 65, 45, 25))
         self.RS_1.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_1.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_1.setObjectName(_fromUtf8("RS_1"))
+        self.RS_1.setObjectName("RS_1")
         self.RDN_3 = QtGui.QLineEdit(self.tab_2)
         self.RDN_3.setGeometry(QtCore.QRect(620, 126, 50, 25))
         self.RDN_3.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_3.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_3.setObjectName(_fromUtf8("RDN_3"))
+        self.RDN_3.setObjectName("RDN_3")
         self.S_6 = QtGui.QLabel(self.tab_2)
         self.S_6.setGeometry(QtCore.QRect(808, 217, 35, 25))
         self.S_6.setMinimumSize(QtCore.QSize(35, 25))
         self.S_6.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_6.setObjectName(_fromUtf8("S_6"))
+        self.S_6.setObjectName("S_6")
         self.RUP_15 = QtGui.QLineEdit(self.tab_2)
         self.RUP_15.setGeometry(QtCore.QRect(520, 497, 50, 25))
         self.RUP_15.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_15.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_15.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_15.setObjectName(_fromUtf8("RUP_15"))
+        self.RUP_15.setObjectName("RUP_15")
         self.RDN_12 = QtGui.QLineEdit(self.tab_2)
         self.RDN_12.setGeometry(QtCore.QRect(620, 404, 50, 25))
         self.RDN_12.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_12.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_12.setObjectName(_fromUtf8("RDN_12"))
+        self.RDN_12.setObjectName("RDN_12")
         self.IMon_15 = QtGui.QLabel(self.tab_2)
         self.IMon_15.setGeometry(QtCore.QRect(240, 502, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1477,22 +1441,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_15.setFont(font)
-        self.IMon_15.setObjectName(_fromUtf8("IMon_15"))
+        self.IMon_15.setObjectName("IMon_15")
         self.RDN_6 = QtGui.QLineEdit(self.tab_2)
         self.RDN_6.setGeometry(QtCore.QRect(620, 218, 50, 25))
         self.RDN_6.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_6.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_6.setObjectName(_fromUtf8("RDN_6"))
+        self.RDN_6.setObjectName("RDN_6")
         self.I0_6 = QtGui.QLineEdit(self.tab_2)
         self.I0_6.setGeometry(QtCore.QRect(420, 218, 50, 25))
         self.I0_6.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_6.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_6.setObjectName(_fromUtf8("I0_6"))
+        self.I0_6.setObjectName("I0_6")
         self.I0_15 = QtGui.QLineEdit(self.tab_2)
         self.I0_15.setGeometry(QtCore.QRect(420, 497, 50, 25))
         self.I0_15.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_15.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_15.setObjectName(_fromUtf8("I0_15"))
+        self.I0_15.setObjectName("I0_15")
         self.VMon_12 = QtGui.QLabel(self.tab_2)
         self.VMon_12.setGeometry(QtCore.QRect(141, 409, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1504,10 +1468,10 @@ class Ui_MainWindow(object):
         self.VMon_12.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_12.setFont(font)
-        self.VMon_12.setObjectName(_fromUtf8("VMon_12"))
+        self.VMon_12.setObjectName("VMon_12")
         self.CH_12 = QtGui.QLabel(self.tab_2)
         self.CH_12.setGeometry(QtCore.QRect(20, 407, 20, 20))
         self.CH_12.setMinimumSize(QtCore.QSize(20, 20))
@@ -1515,34 +1479,32 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_12.setFont(font)
-        self.CH_12.setObjectName(_fromUtf8("CH_12"))
+        self.CH_12.setObjectName("CH_12")
         self.RS_11 = QtGui.QLabel(self.tab_2)
         self.RS_11.setGeometry(QtCore.QRect(890, 372, 45, 25))
         self.RS_11.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_11.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_11.setObjectName(_fromUtf8("RS_11"))
+        self.RS_11.setObjectName("RS_11")
         self.trip_12 = QtGui.QLineEdit(self.tab_2)
         self.trip_12.setGeometry(QtCore.QRect(720, 404, 50, 25))
         self.trip_12.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_12.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_12.setObjectName(_fromUtf8("trip_12"))
+        self.trip_12.setObjectName("trip_12")
         self.S_12 = QtGui.QLabel(self.tab_2)
         self.S_12.setGeometry(QtCore.QRect(808, 403, 35, 25))
         self.S_12.setMinimumSize(QtCore.QSize(35, 25))
         self.S_12.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_12.setObjectName(_fromUtf8("S_12"))
+        self.S_12.setObjectName("S_12")
         self.P_13 = QtGui.QCheckBox(self.tab_2)
         self.P_13.setGeometry(QtCore.QRect(79, 435, 25, 25))
         self.P_13.setMinimumSize(QtCore.QSize(25, 25))
         self.P_13.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_13.setText(_fromUtf8(""))
-        self.P_13.setObjectName(_fromUtf8("P_13"))
+        self.P_13.setObjectName("P_13")
         self.P_14 = QtGui.QCheckBox(self.tab_2)
         self.P_14.setGeometry(QtCore.QRect(79, 466, 25, 25))
         self.P_14.setMinimumSize(QtCore.QSize(25, 25))
         self.P_14.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_14.setText(_fromUtf8(""))
-        self.P_14.setObjectName(_fromUtf8("P_14"))
+        self.P_14.setObjectName("P_14")
         self.IMon_12 = QtGui.QLabel(self.tab_2)
         self.IMon_12.setGeometry(QtCore.QRect(240, 409, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1555,23 +1517,23 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_12.setFont(font)
-        self.IMon_12.setObjectName(_fromUtf8("IMon_12"))
+        self.IMon_12.setObjectName("IMon_12")
         self.RUP_12 = QtGui.QLineEdit(self.tab_2)
         self.RUP_12.setGeometry(QtCore.QRect(520, 404, 50, 25))
         self.RUP_12.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_12.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_12.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_12.setObjectName(_fromUtf8("RUP_12"))
+        self.RUP_12.setObjectName("RUP_12")
         self.V0_11 = QtGui.QLineEdit(self.tab_2)
         self.V0_11.setGeometry(QtCore.QRect(324, 373, 50, 25))
         self.V0_11.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_11.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_11.setObjectName(_fromUtf8("V0_11"))
+        self.V0_11.setObjectName("V0_11")
         self.V0_8 = QtGui.QLineEdit(self.tab_2)
         self.V0_8.setGeometry(QtCore.QRect(324, 280, 50, 25))
         self.V0_8.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_8.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_8.setObjectName(_fromUtf8("V0_8"))
+        self.V0_8.setObjectName("V0_8")
         self.VMon_11 = QtGui.QLabel(self.tab_2)
         self.VMon_11.setGeometry(QtCore.QRect(141, 378, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1583,10 +1545,10 @@ class Ui_MainWindow(object):
         self.VMon_11.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_11.setFont(font)
-        self.VMon_11.setObjectName(_fromUtf8("VMon_11"))
+        self.VMon_11.setObjectName("VMon_11")
         self.CH_11 = QtGui.QLabel(self.tab_2)
         self.CH_11.setGeometry(QtCore.QRect(20, 376, 20, 20))
         self.CH_11.setMinimumSize(QtCore.QSize(20, 20))
@@ -1594,17 +1556,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_11.setFont(font)
-        self.CH_11.setObjectName(_fromUtf8("CH_11"))
+        self.CH_11.setObjectName("CH_11")
         self.I0_11 = QtGui.QLineEdit(self.tab_2)
         self.I0_11.setGeometry(QtCore.QRect(420, 373, 50, 25))
         self.I0_11.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_11.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_11.setObjectName(_fromUtf8("I0_11"))
+        self.I0_11.setObjectName("I0_11")
         self.trip_11 = QtGui.QLineEdit(self.tab_2)
         self.trip_11.setGeometry(QtCore.QRect(720, 373, 50, 25))
         self.trip_11.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_11.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_11.setObjectName(_fromUtf8("trip_11"))
+        self.trip_11.setObjectName("trip_11")
         self.IMon_11 = QtGui.QLabel(self.tab_2)
         self.IMon_11.setGeometry(QtCore.QRect(240, 378, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1617,60 +1579,59 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_11.setFont(font)
-        self.IMon_11.setObjectName(_fromUtf8("IMon_11"))
+        self.IMon_11.setObjectName("IMon_11")
         self.RS_10 = QtGui.QLabel(self.tab_2)
         self.RS_10.setGeometry(QtCore.QRect(890, 341, 45, 25))
         self.RS_10.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_10.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_10.setObjectName(_fromUtf8("RS_10"))
+        self.RS_10.setObjectName("RS_10")
         self.P_11 = QtGui.QCheckBox(self.tab_2)
         self.P_11.setGeometry(QtCore.QRect(79, 373, 25, 25))
         self.P_11.setMinimumSize(QtCore.QSize(25, 25))
         self.P_11.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_11.setText(_fromUtf8(""))
-        self.P_11.setObjectName(_fromUtf8("P_11"))
+        self.P_11.setObjectName("P_11")
         self.S_11 = QtGui.QLabel(self.tab_2)
         self.S_11.setGeometry(QtCore.QRect(808, 372, 35, 25))
         self.S_11.setMinimumSize(QtCore.QSize(35, 25))
         self.S_11.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_11.setObjectName(_fromUtf8("S_11"))
+        self.S_11.setObjectName("S_11")
         self.RDN_11 = QtGui.QLineEdit(self.tab_2)
         self.RDN_11.setGeometry(QtCore.QRect(620, 373, 50, 25))
         self.RDN_11.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_11.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_11.setObjectName(_fromUtf8("RDN_11"))
+        self.RDN_11.setObjectName("RDN_11")
         self.RUP_11 = QtGui.QLineEdit(self.tab_2)
         self.RUP_11.setGeometry(QtCore.QRect(520, 373, 50, 25))
         self.RUP_11.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_11.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_11.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_11.setObjectName(_fromUtf8("RUP_11"))
+        self.RUP_11.setObjectName("RUP_11")
         self.trip_9 = QtGui.QLineEdit(self.tab_2)
         self.trip_9.setEnabled(True)
         self.trip_9.setGeometry(QtCore.QRect(720, 311, 50, 25))
         self.trip_9.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_9.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_9.setObjectName(_fromUtf8("trip_9"))
+        self.trip_9.setObjectName("trip_9")
         self.I0_10 = QtGui.QLineEdit(self.tab_2)
         self.I0_10.setGeometry(QtCore.QRect(420, 342, 50, 25))
         self.I0_10.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_10.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_10.setObjectName(_fromUtf8("I0_10"))
+        self.I0_10.setObjectName("I0_10")
         self.RDN_10 = QtGui.QLineEdit(self.tab_2)
         self.RDN_10.setGeometry(QtCore.QRect(620, 342, 50, 25))
         self.RDN_10.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_10.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_10.setObjectName(_fromUtf8("RDN_10"))
+        self.RDN_10.setObjectName("RDN_10")
         self.V0_10 = QtGui.QLineEdit(self.tab_2)
         self.V0_10.setGeometry(QtCore.QRect(324, 342, 50, 25))
         self.V0_10.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_10.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_10.setObjectName(_fromUtf8("V0_10"))
+        self.V0_10.setObjectName("V0_10")
         self.I0_13 = QtGui.QLineEdit(self.tab_2)
         self.I0_13.setGeometry(QtCore.QRect(420, 435, 50, 25))
         self.I0_13.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_13.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_13.setObjectName(_fromUtf8("I0_13"))
+        self.I0_13.setObjectName("I0_13")
         self.VMon_10 = QtGui.QLabel(self.tab_2)
         self.VMon_10.setGeometry(QtCore.QRect(141, 347, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1682,27 +1643,27 @@ class Ui_MainWindow(object):
         self.VMon_10.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_10.setFont(font)
-        self.VMon_10.setObjectName(_fromUtf8("VMon_10"))
+        self.VMon_10.setObjectName("VMon_10")
         self.RUP_10 = QtGui.QLineEdit(self.tab_2)
         self.RUP_10.setGeometry(QtCore.QRect(520, 342, 50, 25))
         self.RUP_10.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_10.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_10.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_10.setObjectName(_fromUtf8("RUP_10"))
+        self.RUP_10.setObjectName("RUP_10")
         self.RS_9 = QtGui.QLabel(self.tab_2)
         self.RS_9.setEnabled(True)
         self.RS_9.setGeometry(QtCore.QRect(890, 310, 45, 25))
         self.RS_9.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_9.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_9.setObjectName(_fromUtf8("RS_9"))
+        self.RS_9.setObjectName("RS_9")
         self.S_10 = QtGui.QLabel(self.tab_2)
         self.S_10.setGeometry(QtCore.QRect(808, 341, 35, 25))
         self.S_10.setMinimumSize(QtCore.QSize(35, 25))
         self.S_10.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_10.setObjectName(_fromUtf8("S_10"))
+        self.S_10.setObjectName("S_10")
         self.CH_10 = QtGui.QLabel(self.tab_2)
         self.CH_10.setGeometry(QtCore.QRect(20, 345, 20, 20))
         self.CH_10.setMinimumSize(QtCore.QSize(20, 20))
@@ -1710,7 +1671,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_10.setFont(font)
-        self.CH_10.setObjectName(_fromUtf8("CH_10"))
+        self.CH_10.setObjectName("CH_10")
         self.IMon_10 = QtGui.QLabel(self.tab_2)
         self.IMon_10.setGeometry(QtCore.QRect(240, 347, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1723,53 +1684,52 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_10.setFont(font)
-        self.IMon_10.setObjectName(_fromUtf8("IMon_10"))
+        self.IMon_10.setObjectName("IMon_10")
         self.P_10 = QtGui.QCheckBox(self.tab_2)
         self.P_10.setGeometry(QtCore.QRect(79, 342, 25, 25))
         self.P_10.setMinimumSize(QtCore.QSize(25, 25))
         self.P_10.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_10.setText(_fromUtf8(""))
-        self.P_10.setObjectName(_fromUtf8("P_10"))
+        self.P_10.setObjectName("P_10")
         self.S_9 = QtGui.QLabel(self.tab_2)
         self.S_9.setEnabled(True)
         self.S_9.setGeometry(QtCore.QRect(808, 310, 35, 25))
         self.S_9.setMinimumSize(QtCore.QSize(35, 25))
         self.S_9.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_9.setObjectName(_fromUtf8("S_9"))
+        self.S_9.setObjectName("S_9")
         self.trip_10 = QtGui.QLineEdit(self.tab_2)
         self.trip_10.setGeometry(QtCore.QRect(720, 342, 50, 25))
         self.trip_10.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_10.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_10.setObjectName(_fromUtf8("trip_10"))
+        self.trip_10.setObjectName("trip_10")
         self.I0_9 = QtGui.QLineEdit(self.tab_2)
         self.I0_9.setEnabled(True)
         self.I0_9.setGeometry(QtCore.QRect(420, 311, 50, 25))
         self.I0_9.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_9.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_9.setObjectName(_fromUtf8("I0_9"))
+        self.I0_9.setObjectName("I0_9")
         self.RDN_8 = QtGui.QLineEdit(self.tab_2)
         self.RDN_8.setGeometry(QtCore.QRect(620, 280, 50, 25))
         self.RDN_8.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_8.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_8.setObjectName(_fromUtf8("RDN_8"))
+        self.RDN_8.setObjectName("RDN_8")
         self.RUP_9 = QtGui.QLineEdit(self.tab_2)
         self.RUP_9.setGeometry(QtCore.QRect(520, 311, 50, 25))
         self.RUP_9.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_9.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_9.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_9.setObjectName(_fromUtf8("RUP_9"))
+        self.RUP_9.setObjectName("RUP_9")
         self.V0_9 = QtGui.QLineEdit(self.tab_2)
         self.V0_9.setEnabled(True)
         self.V0_9.setGeometry(QtCore.QRect(324, 311, 50, 25))
         self.V0_9.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_9.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_9.setObjectName(_fromUtf8("V0_9"))
+        self.V0_9.setObjectName("V0_9")
         self.RUP_8 = QtGui.QLineEdit(self.tab_2)
         self.RUP_8.setGeometry(QtCore.QRect(520, 280, 50, 25))
         self.RUP_8.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_8.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_8.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_8.setObjectName(_fromUtf8("RUP_8"))
+        self.RUP_8.setObjectName("RUP_8")
         self.VMon_9 = QtGui.QLabel(self.tab_2)
         self.VMon_9.setEnabled(True)
         self.VMon_9.setGeometry(QtCore.QRect(141, 316, 45, 20))
@@ -1782,21 +1742,21 @@ class Ui_MainWindow(object):
         self.VMon_9.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_9.setFont(font)
-        self.VMon_9.setObjectName(_fromUtf8("VMon_9"))
+        self.VMon_9.setObjectName("VMon_9")
         self.RDN_9 = QtGui.QLineEdit(self.tab_2)
         self.RDN_9.setEnabled(True)
         self.RDN_9.setGeometry(QtCore.QRect(620, 311, 50, 25))
         self.RDN_9.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_9.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_9.setObjectName(_fromUtf8("RDN_9"))
+        self.RDN_9.setObjectName("RDN_9")
         self.RS_8 = QtGui.QLabel(self.tab_2)
         self.RS_8.setGeometry(QtCore.QRect(890, 279, 45, 25))
         self.RS_8.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_8.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_8.setObjectName(_fromUtf8("RS_8"))
+        self.RS_8.setObjectName("RS_8")
         self.CH_9 = QtGui.QLabel(self.tab_2)
         self.CH_9.setEnabled(True)
         self.CH_9.setGeometry(QtCore.QRect(20, 314, 20, 20))
@@ -1805,12 +1765,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_9.setFont(font)
-        self.CH_9.setObjectName(_fromUtf8("CH_9"))
+        self.CH_9.setObjectName("CH_9")
         self.trip_8 = QtGui.QLineEdit(self.tab_2)
         self.trip_8.setGeometry(QtCore.QRect(720, 280, 50, 25))
         self.trip_8.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_8.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_8.setObjectName(_fromUtf8("trip_8"))
+        self.trip_8.setObjectName("trip_8")
         self.IMon_9 = QtGui.QLabel(self.tab_2)
         self.IMon_9.setEnabled(True)
         self.IMon_9.setGeometry(QtCore.QRect(240, 316, 20, 20))
@@ -1824,70 +1784,66 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_9.setFont(font)
-        self.IMon_9.setObjectName(_fromUtf8("IMon_9"))
+        self.IMon_9.setObjectName("IMon_9")
         self.P_9 = QtGui.QCheckBox(self.tab_2)
         self.P_9.setEnabled(True)
         self.P_9.setGeometry(QtCore.QRect(79, 311, 25, 25))
         self.P_9.setMinimumSize(QtCore.QSize(25, 25))
         self.P_9.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_9.setText(_fromUtf8(""))
-        self.P_9.setObjectName(_fromUtf8("P_9"))
+        self.P_9.setObjectName("P_9")
         self.S_8 = QtGui.QLabel(self.tab_2)
         self.S_8.setGeometry(QtCore.QRect(808, 279, 35, 25))
         self.S_8.setMinimumSize(QtCore.QSize(35, 25))
         self.S_8.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_8.setObjectName(_fromUtf8("S_8"))
+        self.S_8.setObjectName("S_8")
         self.RUP_header_1 = QtGui.QPushButton(self.tab_2)
         self.RUP_header_1.setGeometry(QtCore.QRect(503, 9, 79, 21))
         self.RUP_header_1.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RUP_header_1.setFont(font)
-        self.RUP_header_1.setToolTip(_fromUtf8(""))
-        self.RUP_header_1.setStatusTip(_fromUtf8(""))
-        self.RUP_header_1.setWhatsThis(_fromUtf8(""))
-        self.RUP_header_1.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RUP_header_1.setObjectName(_fromUtf8("RUP_header_1"))
+        self.RUP_header_1.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RUP_header_1.setObjectName("RUP_header_1")
         self.Trip_header_1 = QtGui.QPushButton(self.tab_2)
         self.Trip_header_1.setGeometry(QtCore.QRect(706, 10, 73, 20))
         self.Trip_header_1.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.Trip_header_1.setFont(font)
-        self.Trip_header_1.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.Trip_header_1.setObjectName(_fromUtf8("Trip_header_1"))
+        self.Trip_header_1.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.Trip_header_1.setObjectName("Trip_header_1")
         self.RUP_5 = QtGui.QLineEdit(self.tab_2)
         self.RUP_5.setGeometry(QtCore.QRect(520, 187, 50, 25))
         self.RUP_5.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_5.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_5.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_5.setObjectName(_fromUtf8("RUP_5"))
+        self.RUP_5.setObjectName("RUP_5")
         self.V0_13 = QtGui.QLineEdit(self.tab_2)
         self.V0_13.setGeometry(QtCore.QRect(324, 435, 50, 25))
         self.V0_13.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_13.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_13.setObjectName(_fromUtf8("V0_13"))
+        self.V0_13.setObjectName("V0_13")
         self.trip_5 = QtGui.QLineEdit(self.tab_2)
         self.trip_5.setGeometry(QtCore.QRect(720, 187, 50, 25))
         self.trip_5.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_5.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_5.setObjectName(_fromUtf8("trip_5"))
+        self.trip_5.setObjectName("trip_5")
         self.V0_4 = QtGui.QLineEdit(self.tab_2)
         self.V0_4.setGeometry(QtCore.QRect(324, 157, 50, 25))
         self.V0_4.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_4.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_4.setObjectName(_fromUtf8("V0_4"))
+        self.V0_4.setObjectName("V0_4")
         self.I0_2 = QtGui.QLineEdit(self.tab_2)
         self.I0_2.setGeometry(QtCore.QRect(420, 96, 50, 25))
         self.I0_2.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_2.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_2.setObjectName(_fromUtf8("I0_2"))
+        self.I0_2.setObjectName("I0_2")
         self.CH_6 = QtGui.QLabel(self.tab_2)
         self.CH_6.setGeometry(QtCore.QRect(20, 221, 20, 20))
         self.CH_6.setMinimumSize(QtCore.QSize(20, 20))
@@ -1895,30 +1851,29 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_6.setFont(font)
-        self.CH_6.setObjectName(_fromUtf8("CH_6"))
+        self.CH_6.setObjectName("CH_6")
         self.RUP_0 = QtGui.QLineEdit(self.tab_2)
         self.RUP_0.setGeometry(QtCore.QRect(520, 36, 50, 25))
         self.RUP_0.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_0.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_0.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_0.setObjectName(_fromUtf8("RUP_0"))
+        self.RUP_0.setObjectName("RUP_0")
         self.RUP_2 = QtGui.QLineEdit(self.tab_2)
         self.RUP_2.setGeometry(QtCore.QRect(520, 96, 50, 25))
         self.RUP_2.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_2.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_2.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_2.setObjectName(_fromUtf8("RUP_2"))
+        self.RUP_2.setObjectName("RUP_2")
         self.trip_0 = QtGui.QLineEdit(self.tab_2)
         self.trip_0.setGeometry(QtCore.QRect(720, 36, 50, 25))
         self.trip_0.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_0.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_0.setObjectName(_fromUtf8("trip_0"))
+        self.trip_0.setObjectName("trip_0")
         self.P_7 = QtGui.QCheckBox(self.tab_2)
         self.P_7.setGeometry(QtCore.QRect(79, 249, 25, 25))
         self.P_7.setMinimumSize(QtCore.QSize(25, 25))
         self.P_7.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_7.setText(_fromUtf8(""))
-        self.P_7.setObjectName(_fromUtf8("P_7"))
+        self.P_7.setObjectName("P_7")
         self.IMon_8 = QtGui.QLabel(self.tab_2)
         self.IMon_8.setGeometry(QtCore.QRect(240, 285, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1931,17 +1886,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_8.setFont(font)
-        self.IMon_8.setObjectName(_fromUtf8("IMon_8"))
+        self.IMon_8.setObjectName("IMon_8")
         self.V0_12 = QtGui.QLineEdit(self.tab_2)
         self.V0_12.setGeometry(QtCore.QRect(324, 404, 50, 25))
         self.V0_12.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_12.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_12.setObjectName(_fromUtf8("V0_12"))
+        self.V0_12.setObjectName("V0_12")
         self.trip_3 = QtGui.QLineEdit(self.tab_2)
         self.trip_3.setGeometry(QtCore.QRect(720, 126, 50, 25))
         self.trip_3.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_3.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_3.setObjectName(_fromUtf8("trip_3"))
+        self.trip_3.setObjectName("trip_3")
         self.VMon_15 = QtGui.QLabel(self.tab_2)
         self.VMon_15.setGeometry(QtCore.QRect(141, 502, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -1953,52 +1908,51 @@ class Ui_MainWindow(object):
         self.VMon_15.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_15.setFont(font)
-        self.VMon_15.setObjectName(_fromUtf8("VMon_15"))
+        self.VMon_15.setObjectName("VMon_15")
         self.RDN_2 = QtGui.QLineEdit(self.tab_2)
         self.RDN_2.setGeometry(QtCore.QRect(620, 96, 50, 25))
         self.RDN_2.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_2.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_2.setObjectName(_fromUtf8("RDN_2"))
+        self.RDN_2.setObjectName("RDN_2")
         self.P_2 = QtGui.QCheckBox(self.tab_2)
         self.P_2.setGeometry(QtCore.QRect(79, 96, 25, 25))
         self.P_2.setMinimumSize(QtCore.QSize(25, 25))
         self.P_2.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_2.setText(_fromUtf8(""))
-        self.P_2.setObjectName(_fromUtf8("P_2"))
+        self.P_2.setObjectName("P_2")
         self.trip_13 = QtGui.QLineEdit(self.tab_2)
         self.trip_13.setGeometry(QtCore.QRect(720, 435, 50, 25))
         self.trip_13.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_13.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_13.setObjectName(_fromUtf8("trip_13"))
+        self.trip_13.setObjectName("trip_13")
         self.trip_2 = QtGui.QLineEdit(self.tab_2)
         self.trip_2.setGeometry(QtCore.QRect(720, 96, 50, 25))
         self.trip_2.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_2.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_2.setObjectName(_fromUtf8("trip_2"))
+        self.trip_2.setObjectName("trip_2")
         self.V0_14 = QtGui.QLineEdit(self.tab_2)
         self.V0_14.setGeometry(QtCore.QRect(324, 466, 50, 25))
         self.V0_14.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_14.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_14.setObjectName(_fromUtf8("V0_14"))
+        self.V0_14.setObjectName("V0_14")
         self.RDN_13 = QtGui.QLineEdit(self.tab_2)
         self.RDN_13.setGeometry(QtCore.QRect(620, 435, 50, 25))
         self.RDN_13.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_13.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_13.setObjectName(_fromUtf8("RDN_13"))
+        self.RDN_13.setObjectName("RDN_13")
         self.I0_14 = QtGui.QLineEdit(self.tab_2)
         self.I0_14.setGeometry(QtCore.QRect(420, 466, 50, 25))
         self.I0_14.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_14.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_14.setObjectName(_fromUtf8("I0_14"))
+        self.I0_14.setObjectName("I0_14")
         self.S_1 = QtGui.QLabel(self.tab_2)
         self.S_1.setEnabled(True)
         self.S_1.setGeometry(QtCore.QRect(808, 65, 35, 25))
         self.S_1.setMinimumSize(QtCore.QSize(35, 25))
         self.S_1.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_1.setObjectName(_fromUtf8("S_1"))
+        self.S_1.setObjectName("S_1")
         self.VMon_4 = QtGui.QLabel(self.tab_2)
         self.VMon_4.setGeometry(QtCore.QRect(141, 162, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2010,10 +1964,10 @@ class Ui_MainWindow(object):
         self.VMon_4.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_4.setFont(font)
-        self.VMon_4.setObjectName(_fromUtf8("VMon_4"))
+        self.VMon_4.setObjectName("VMon_4")
         self.CH_14 = QtGui.QLabel(self.tab_2)
         self.CH_14.setGeometry(QtCore.QRect(20, 469, 20, 20))
         self.CH_14.setMinimumSize(QtCore.QSize(20, 20))
@@ -2021,46 +1975,45 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_14.setFont(font)
-        self.CH_14.setObjectName(_fromUtf8("CH_14"))
+        self.CH_14.setObjectName("CH_14")
         self.S_header_1 = QtGui.QLabel(self.tab_2)
         self.S_header_1.setGeometry(QtCore.QRect(790, 10, 61, 20))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         self.S_header_1.setFont(font)
-        self.S_header_1.setObjectName(_fromUtf8("S_header_1"))
+        self.S_header_1.setObjectName("S_header_1")
         self.V0_5 = QtGui.QLineEdit(self.tab_2)
         self.V0_5.setGeometry(QtCore.QRect(324, 187, 50, 25))
         self.V0_5.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_5.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_5.setObjectName(_fromUtf8("V0_5"))
+        self.V0_5.setObjectName("V0_5")
         self.trip_14 = QtGui.QLineEdit(self.tab_2)
         self.trip_14.setGeometry(QtCore.QRect(720, 466, 50, 25))
         self.trip_14.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_14.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_14.setObjectName(_fromUtf8("trip_14"))
+        self.trip_14.setObjectName("trip_14")
         self.I0_1 = QtGui.QLineEdit(self.tab_2)
         self.I0_1.setEnabled(True)
         self.I0_1.setGeometry(QtCore.QRect(420, 66, 50, 25))
         self.I0_1.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_1.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_1.setObjectName(_fromUtf8("I0_1"))
+        self.I0_1.setObjectName("I0_1")
         self.RUP_1 = QtGui.QLineEdit(self.tab_2)
         self.RUP_1.setGeometry(QtCore.QRect(520, 66, 50, 25))
         self.RUP_1.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_1.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_1.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_1.setObjectName(_fromUtf8("RUP_1"))
+        self.RUP_1.setObjectName("RUP_1")
         self.P_6 = QtGui.QCheckBox(self.tab_2)
         self.P_6.setGeometry(QtCore.QRect(79, 218, 25, 25))
         self.P_6.setMinimumSize(QtCore.QSize(25, 25))
         self.P_6.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_6.setText(_fromUtf8(""))
-        self.P_6.setObjectName(_fromUtf8("P_6"))
+        self.P_6.setObjectName("P_6")
         self.RS_3 = QtGui.QLabel(self.tab_2)
         self.RS_3.setGeometry(QtCore.QRect(890, 125, 45, 25))
         self.RS_3.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_3.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_3.setObjectName(_fromUtf8("RS_3"))
+        self.RS_3.setObjectName("RS_3")
         self.IMon_14 = QtGui.QLabel(self.tab_2)
         self.IMon_14.setGeometry(QtCore.QRect(240, 471, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2073,14 +2026,14 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_14.setFont(font)
-        self.IMon_14.setObjectName(_fromUtf8("IMon_14"))
+        self.IMon_14.setObjectName("IMon_14")
         self.CH_header_1 = QtGui.QLabel(self.tab_2)
         self.CH_header_1.setGeometry(QtCore.QRect(6, 8, 51, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Cantarell"))
+        font.setFamily("Cantarell")
         font.setItalic(True)
         self.CH_header_1.setFont(font)
-        self.CH_header_1.setObjectName(_fromUtf8("CH_header_1"))
+        self.CH_header_1.setObjectName("CH_header_1")
         self.CH_13 = QtGui.QLabel(self.tab_2)
         self.CH_13.setGeometry(QtCore.QRect(20, 438, 20, 20))
         self.CH_13.setMinimumSize(QtCore.QSize(20, 20))
@@ -2088,22 +2041,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_13.setFont(font)
-        self.CH_13.setObjectName(_fromUtf8("CH_13"))
+        self.CH_13.setObjectName("CH_13")
         self.RDN_14 = QtGui.QLineEdit(self.tab_2)
         self.RDN_14.setGeometry(QtCore.QRect(620, 466, 50, 25))
         self.RDN_14.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_14.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_14.setObjectName(_fromUtf8("RDN_14"))
+        self.RDN_14.setObjectName("RDN_14")
         self.S_14 = QtGui.QLabel(self.tab_2)
         self.S_14.setGeometry(QtCore.QRect(808, 465, 35, 25))
         self.S_14.setMinimumSize(QtCore.QSize(35, 25))
         self.S_14.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_14.setObjectName(_fromUtf8("S_14"))
+        self.S_14.setObjectName("S_14")
         self.trip_4 = QtGui.QLineEdit(self.tab_2)
         self.trip_4.setGeometry(QtCore.QRect(720, 157, 50, 25))
         self.trip_4.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_4.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_4.setObjectName(_fromUtf8("trip_4"))
+        self.trip_4.setObjectName("trip_4")
         self.CH_5 = QtGui.QLabel(self.tab_2)
         self.CH_5.setGeometry(QtCore.QRect(20, 190, 20, 20))
         self.CH_5.setMinimumSize(QtCore.QSize(20, 20))
@@ -2111,13 +2064,13 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_5.setFont(font)
-        self.CH_5.setObjectName(_fromUtf8("CH_5"))
+        self.CH_5.setObjectName("CH_5")
         self.V0_1 = QtGui.QLineEdit(self.tab_2)
         self.V0_1.setEnabled(True)
         self.V0_1.setGeometry(QtCore.QRect(324, 66, 50, 25))
         self.V0_1.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_1.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_1.setObjectName(_fromUtf8("V0_1"))
+        self.V0_1.setObjectName("V0_1")
         self.IMon_1 = QtGui.QLabel(self.tab_2)
         self.IMon_1.setEnabled(True)
         self.IMon_1.setGeometry(QtCore.QRect(240, 71, 20, 20))
@@ -2131,15 +2084,15 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_1.setFont(font)
-        self.IMon_1.setObjectName(_fromUtf8("IMon_1"))
-        self.Tab2_8.addTab(self.tab_2, _fromUtf8(""))
+        self.IMon_1.setObjectName("IMon_1")
+        self.globals_tab.addTab(self.tab_2, "")
         self.tab_3 = QtGui.QWidget()
-        self.tab_3.setObjectName(_fromUtf8("tab_3"))
+        self.tab_3.setObjectName("tab_3")
         self.RDN_24 = QtGui.QLineEdit(self.tab_3)
         self.RDN_24.setGeometry(QtCore.QRect(620, 280, 50, 25))
         self.RDN_24.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_24.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_24.setObjectName(_fromUtf8("RDN_24"))
+        self.RDN_24.setObjectName("RDN_24")
         self.CH_27 = QtGui.QLabel(self.tab_3)
         self.CH_27.setGeometry(QtCore.QRect(20, 376, 20, 20))
         self.CH_27.setMinimumSize(QtCore.QSize(20, 20))
@@ -2147,24 +2100,24 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_27.setFont(font)
-        self.CH_27.setObjectName(_fromUtf8("CH_27"))
+        self.CH_27.setObjectName("CH_27")
         self.Trip_header_2 = QtGui.QPushButton(self.tab_3)
         self.Trip_header_2.setGeometry(QtCore.QRect(706, 10, 73, 20))
         self.Trip_header_2.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.Trip_header_2.setFont(font)
-        self.Trip_header_2.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.Trip_header_2.setObjectName(_fromUtf8("Trip_header_2"))
+        self.Trip_header_2.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.Trip_header_2.setObjectName("Trip_header_2")
         self.RUP_28 = QtGui.QLineEdit(self.tab_3)
         self.RUP_28.setGeometry(QtCore.QRect(520, 404, 50, 25))
         self.RUP_28.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_28.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_28.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_28.setObjectName(_fromUtf8("RUP_28"))
+        self.RUP_28.setObjectName("RUP_28")
         self.IMon_20 = QtGui.QLabel(self.tab_3)
         self.IMon_20.setGeometry(QtCore.QRect(240, 162, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2177,23 +2130,23 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_20.setFont(font)
-        self.IMon_20.setObjectName(_fromUtf8("IMon_20"))
+        self.IMon_20.setObjectName("IMon_20")
         self.S_23 = QtGui.QLabel(self.tab_3)
         self.S_23.setGeometry(QtCore.QRect(808, 248, 35, 25))
         self.S_23.setMinimumSize(QtCore.QSize(35, 25))
         self.S_23.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_23.setObjectName(_fromUtf8("S_23"))
+        self.S_23.setObjectName("S_23")
         self.RUP_20 = QtGui.QLineEdit(self.tab_3)
         self.RUP_20.setGeometry(QtCore.QRect(520, 157, 50, 25))
         self.RUP_20.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_20.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_20.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_20.setObjectName(_fromUtf8("RUP_20"))
+        self.RUP_20.setObjectName("RUP_20")
         self.RS_16 = QtGui.QLabel(self.tab_3)
         self.RS_16.setGeometry(QtCore.QRect(890, 35, 45, 25))
         self.RS_16.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_16.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_16.setObjectName(_fromUtf8("RS_16"))
+        self.RS_16.setObjectName("RS_16")
         self.VMon_21 = QtGui.QLabel(self.tab_3)
         self.VMon_21.setGeometry(QtCore.QRect(141, 192, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2205,47 +2158,46 @@ class Ui_MainWindow(object):
         self.VMon_21.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_21.setFont(font)
-        self.VMon_21.setObjectName(_fromUtf8("VMon_21"))
+        self.VMon_21.setObjectName("VMon_21")
         self.RDN_21 = QtGui.QLineEdit(self.tab_3)
         self.RDN_21.setGeometry(QtCore.QRect(620, 187, 50, 25))
         self.RDN_21.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_21.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_21.setObjectName(_fromUtf8("RDN_21"))
+        self.RDN_21.setObjectName("RDN_21")
         self.S_16 = QtGui.QLabel(self.tab_3)
         self.S_16.setGeometry(QtCore.QRect(808, 35, 35, 25))
         self.S_16.setMinimumSize(QtCore.QSize(35, 25))
         self.S_16.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_16.setObjectName(_fromUtf8("S_16"))
+        self.S_16.setObjectName("S_16")
         self.trip_27 = QtGui.QLineEdit(self.tab_3)
         self.trip_27.setGeometry(QtCore.QRect(720, 373, 50, 25))
         self.trip_27.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_27.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_27.setObjectName(_fromUtf8("trip_27"))
+        self.trip_27.setObjectName("trip_27")
         self.RDN_19 = QtGui.QLineEdit(self.tab_3)
         self.RDN_19.setGeometry(QtCore.QRect(620, 126, 50, 25))
         self.RDN_19.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_19.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_19.setObjectName(_fromUtf8("RDN_19"))
+        self.RDN_19.setObjectName("RDN_19")
         self.RDN_25 = QtGui.QLineEdit(self.tab_3)
         self.RDN_25.setEnabled(True)
         self.RDN_25.setGeometry(QtCore.QRect(620, 311, 50, 25))
         self.RDN_25.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_25.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_25.setObjectName(_fromUtf8("RDN_25"))
+        self.RDN_25.setObjectName("RDN_25")
         self.trip_22 = QtGui.QLineEdit(self.tab_3)
         self.trip_22.setGeometry(QtCore.QRect(720, 218, 50, 25))
         self.trip_22.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_22.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_22.setObjectName(_fromUtf8("trip_22"))
+        self.trip_22.setObjectName("trip_22")
         self.P_16 = QtGui.QCheckBox(self.tab_3)
         self.P_16.setGeometry(QtCore.QRect(79, 35, 25, 25))
         self.P_16.setMinimumSize(QtCore.QSize(25, 25))
         self.P_16.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_16.setText(_fromUtf8(""))
-        self.P_16.setObjectName(_fromUtf8("P_16"))
+        self.P_16.setObjectName("P_16")
         self.VMon_30 = QtGui.QLabel(self.tab_3)
         self.VMon_30.setGeometry(QtCore.QRect(141, 471, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2257,16 +2209,15 @@ class Ui_MainWindow(object):
         self.VMon_30.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_30.setFont(font)
-        self.VMon_30.setObjectName(_fromUtf8("VMon_30"))
+        self.VMon_30.setObjectName("VMon_30")
         self.P_30 = QtGui.QCheckBox(self.tab_3)
         self.P_30.setGeometry(QtCore.QRect(79, 466, 25, 25))
         self.P_30.setMinimumSize(QtCore.QSize(25, 25))
         self.P_30.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_30.setText(_fromUtf8(""))
-        self.P_30.setObjectName(_fromUtf8("P_30"))
+        self.P_30.setObjectName("P_30")
         self.IMon_27 = QtGui.QLabel(self.tab_3)
         self.IMon_27.setGeometry(QtCore.QRect(240, 378, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2279,47 +2230,47 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_27.setFont(font)
-        self.IMon_27.setObjectName(_fromUtf8("IMon_27"))
+        self.IMon_27.setObjectName("IMon_27")
         self.RUP_31 = QtGui.QLineEdit(self.tab_3)
         self.RUP_31.setGeometry(QtCore.QRect(520, 497, 50, 25))
         self.RUP_31.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_31.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_31.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_31.setObjectName(_fromUtf8("RUP_31"))
+        self.RUP_31.setObjectName("RUP_31")
         self.trip_19 = QtGui.QLineEdit(self.tab_3)
         self.trip_19.setGeometry(QtCore.QRect(720, 126, 50, 25))
         self.trip_19.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_19.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_19.setObjectName(_fromUtf8("trip_19"))
+        self.trip_19.setObjectName("trip_19")
         self.RUP_22 = QtGui.QLineEdit(self.tab_3)
         self.RUP_22.setGeometry(QtCore.QRect(520, 218, 50, 25))
         self.RUP_22.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_22.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_22.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_22.setObjectName(_fromUtf8("RUP_22"))
+        self.RUP_22.setObjectName("RUP_22")
         self.CH_header_2 = QtGui.QLabel(self.tab_3)
         self.CH_header_2.setGeometry(QtCore.QRect(6, 8, 51, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Cantarell"))
+        font.setFamily("Cantarell")
         font.setItalic(True)
         self.CH_header_2.setFont(font)
-        self.CH_header_2.setObjectName(_fromUtf8("CH_header_2"))
+        self.CH_header_2.setObjectName("CH_header_2")
         self.I0_30 = QtGui.QLineEdit(self.tab_3)
         self.I0_30.setGeometry(QtCore.QRect(420, 466, 50, 25))
         self.I0_30.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_30.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_30.setObjectName(_fromUtf8("I0_30"))
+        self.I0_30.setObjectName("I0_30")
         self.RUP_19 = QtGui.QLineEdit(self.tab_3)
         self.RUP_19.setGeometry(QtCore.QRect(520, 126, 50, 25))
         self.RUP_19.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_19.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_19.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_19.setObjectName(_fromUtf8("RUP_19"))
+        self.RUP_19.setObjectName("RUP_19")
         self.RDN_18 = QtGui.QLineEdit(self.tab_3)
         self.RDN_18.setGeometry(QtCore.QRect(620, 96, 50, 25))
         self.RDN_18.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_18.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_18.setObjectName(_fromUtf8("RDN_18"))
+        self.RDN_18.setObjectName("RDN_18")
         self.IMon_31 = QtGui.QLabel(self.tab_3)
         self.IMon_31.setGeometry(QtCore.QRect(240, 502, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2332,7 +2283,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_31.setFont(font)
-        self.IMon_31.setObjectName(_fromUtf8("IMon_31"))
+        self.IMon_31.setObjectName("IMon_31")
         self.IMon_19 = QtGui.QLabel(self.tab_3)
         self.IMon_19.setGeometry(QtCore.QRect(240, 131, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2345,18 +2296,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_19.setFont(font)
-        self.IMon_19.setObjectName(_fromUtf8("IMon_19"))
+        self.IMon_19.setObjectName("IMon_19")
         self.RS_17 = QtGui.QLabel(self.tab_3)
         self.RS_17.setEnabled(True)
         self.RS_17.setGeometry(QtCore.QRect(890, 65, 45, 25))
         self.RS_17.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_17.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_17.setObjectName(_fromUtf8("RS_17"))
+        self.RS_17.setObjectName("RS_17")
         self.trip_30 = QtGui.QLineEdit(self.tab_3)
         self.trip_30.setGeometry(QtCore.QRect(720, 466, 50, 25))
         self.trip_30.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_30.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_30.setObjectName(_fromUtf8("trip_30"))
+        self.trip_30.setObjectName("trip_30")
         self.VMon_16 = QtGui.QLabel(self.tab_3)
         self.VMon_16.setGeometry(QtCore.QRect(141, 41, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2368,15 +2319,15 @@ class Ui_MainWindow(object):
         self.VMon_16.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_16.setFont(font)
-        self.VMon_16.setObjectName(_fromUtf8("VMon_16"))
+        self.VMon_16.setObjectName("VMon_16")
         self.V0_19 = QtGui.QLineEdit(self.tab_3)
         self.V0_19.setGeometry(QtCore.QRect(324, 126, 50, 25))
         self.V0_19.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_19.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_19.setObjectName(_fromUtf8("V0_19"))
+        self.V0_19.setObjectName("V0_19")
         self.CH_21 = QtGui.QLabel(self.tab_3)
         self.CH_21.setGeometry(QtCore.QRect(20, 190, 20, 20))
         self.CH_21.setMinimumSize(QtCore.QSize(20, 20))
@@ -2384,7 +2335,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_21.setFont(font)
-        self.CH_21.setObjectName(_fromUtf8("CH_21"))
+        self.CH_21.setObjectName("CH_21")
         self.CH_23 = QtGui.QLabel(self.tab_3)
         self.CH_23.setGeometry(QtCore.QRect(20, 252, 20, 20))
         self.CH_23.setMinimumSize(QtCore.QSize(20, 20))
@@ -2392,52 +2343,50 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_23.setFont(font)
-        self.CH_23.setObjectName(_fromUtf8("CH_23"))
+        self.CH_23.setObjectName("CH_23")
         self.S_27 = QtGui.QLabel(self.tab_3)
         self.S_27.setGeometry(QtCore.QRect(808, 372, 35, 25))
         self.S_27.setMinimumSize(QtCore.QSize(35, 25))
         self.S_27.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_27.setObjectName(_fromUtf8("S_27"))
+        self.S_27.setObjectName("S_27")
         self.V0_24 = QtGui.QLineEdit(self.tab_3)
         self.V0_24.setGeometry(QtCore.QRect(324, 280, 50, 25))
         self.V0_24.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_24.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_24.setObjectName(_fromUtf8("V0_24"))
+        self.V0_24.setObjectName("V0_24")
         self.I0_24 = QtGui.QLineEdit(self.tab_3)
         self.I0_24.setGeometry(QtCore.QRect(420, 280, 50, 25))
         self.I0_24.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_24.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_24.setObjectName(_fromUtf8("I0_24"))
+        self.I0_24.setObjectName("I0_24")
         self.RS_20 = QtGui.QLabel(self.tab_3)
         self.RS_20.setGeometry(QtCore.QRect(890, 156, 45, 25))
         self.RS_20.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_20.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_20.setObjectName(_fromUtf8("RS_20"))
+        self.RS_20.setObjectName("RS_20")
         self.RS_21 = QtGui.QLabel(self.tab_3)
         self.RS_21.setGeometry(QtCore.QRect(890, 186, 45, 25))
         self.RS_21.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_21.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_21.setObjectName(_fromUtf8("RS_21"))
+        self.RS_21.setObjectName("RS_21")
         self.RDN_28 = QtGui.QLineEdit(self.tab_3)
         self.RDN_28.setGeometry(QtCore.QRect(620, 404, 50, 25))
         self.RDN_28.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_28.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_28.setObjectName(_fromUtf8("RDN_28"))
+        self.RDN_28.setObjectName("RDN_28")
         self.P_18 = QtGui.QCheckBox(self.tab_3)
         self.P_18.setGeometry(QtCore.QRect(79, 96, 25, 25))
         self.P_18.setMinimumSize(QtCore.QSize(25, 25))
         self.P_18.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_18.setText(_fromUtf8(""))
-        self.P_18.setObjectName(_fromUtf8("P_18"))
+        self.P_18.setObjectName("P_18")
         self.IMon_header_2 = QtGui.QLabel(self.tab_3)
         self.IMon_header_2.setGeometry(QtCore.QRect(218, 8, 71, 21))
-        self.IMon_header_2.setObjectName(_fromUtf8("IMon_header_2"))
+        self.IMon_header_2.setObjectName("IMon_header_2")
         self.P_28 = QtGui.QCheckBox(self.tab_3)
         self.P_28.setGeometry(QtCore.QRect(79, 404, 25, 25))
         self.P_28.setMinimumSize(QtCore.QSize(25, 25))
         self.P_28.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_28.setText(_fromUtf8(""))
-        self.P_28.setObjectName(_fromUtf8("P_28"))
+        self.P_28.setObjectName("P_28")
         self.CH_17 = QtGui.QLabel(self.tab_3)
         self.CH_17.setEnabled(True)
         self.CH_17.setGeometry(QtCore.QRect(20, 69, 20, 20))
@@ -2446,13 +2395,13 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_17.setFont(font)
-        self.CH_17.setObjectName(_fromUtf8("CH_17"))
+        self.CH_17.setObjectName("CH_17")
         self.RUP_18 = QtGui.QLineEdit(self.tab_3)
         self.RUP_18.setGeometry(QtCore.QRect(520, 96, 50, 25))
         self.RUP_18.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_18.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_18.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_18.setObjectName(_fromUtf8("RUP_18"))
+        self.RUP_18.setObjectName("RUP_18")
         self.VMon_18 = QtGui.QLabel(self.tab_3)
         self.VMon_18.setGeometry(QtCore.QRect(141, 101, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2464,10 +2413,10 @@ class Ui_MainWindow(object):
         self.VMon_18.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_18.setFont(font)
-        self.VMon_18.setObjectName(_fromUtf8("VMon_18"))
+        self.VMon_18.setObjectName("VMon_18")
         self.CH_20 = QtGui.QLabel(self.tab_3)
         self.CH_20.setGeometry(QtCore.QRect(20, 160, 20, 20))
         self.CH_20.setMinimumSize(QtCore.QSize(20, 20))
@@ -2475,45 +2424,44 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_20.setFont(font)
-        self.CH_20.setObjectName(_fromUtf8("CH_20"))
+        self.CH_20.setObjectName("CH_20")
         self.trip_25 = QtGui.QLineEdit(self.tab_3)
         self.trip_25.setEnabled(True)
         self.trip_25.setGeometry(QtCore.QRect(720, 311, 50, 25))
         self.trip_25.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_25.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_25.setObjectName(_fromUtf8("trip_25"))
+        self.trip_25.setObjectName("trip_25")
         self.S_19 = QtGui.QLabel(self.tab_3)
         self.S_19.setGeometry(QtCore.QRect(808, 125, 35, 25))
         self.S_19.setMinimumSize(QtCore.QSize(35, 25))
         self.S_19.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_19.setObjectName(_fromUtf8("S_19"))
+        self.S_19.setObjectName("S_19")
         self.RUP_16 = QtGui.QLineEdit(self.tab_3)
         self.RUP_16.setGeometry(QtCore.QRect(520, 36, 50, 25))
         self.RUP_16.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_16.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_16.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_16.setObjectName(_fromUtf8("RUP_16"))
+        self.RUP_16.setObjectName("RUP_16")
         self.RDN_16 = QtGui.QLineEdit(self.tab_3)
         self.RDN_16.setGeometry(QtCore.QRect(620, 36, 50, 25))
         self.RDN_16.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_16.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_16.setObjectName(_fromUtf8("RDN_16"))
+        self.RDN_16.setObjectName("RDN_16")
         self.V0_20 = QtGui.QLineEdit(self.tab_3)
         self.V0_20.setGeometry(QtCore.QRect(324, 157, 50, 25))
         self.V0_20.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_20.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_20.setObjectName(_fromUtf8("V0_20"))
+        self.V0_20.setObjectName("V0_20")
         self.RS_18 = QtGui.QLabel(self.tab_3)
         self.RS_18.setGeometry(QtCore.QRect(890, 95, 45, 25))
         self.RS_18.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_18.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_18.setObjectName(_fromUtf8("RS_18"))
+        self.RS_18.setObjectName("RS_18")
         self.P_29 = QtGui.QCheckBox(self.tab_3)
         self.P_29.setGeometry(QtCore.QRect(79, 435, 25, 25))
         self.P_29.setMinimumSize(QtCore.QSize(25, 25))
         self.P_29.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_29.setText(_fromUtf8(""))
-        self.P_29.setObjectName(_fromUtf8("P_29"))
+        self.P_29.setObjectName("P_29")
         self.VMon_23 = QtGui.QLabel(self.tab_3)
         self.VMon_23.setGeometry(QtCore.QRect(141, 254, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2525,22 +2473,21 @@ class Ui_MainWindow(object):
         self.VMon_23.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_23.setFont(font)
-        self.VMon_23.setObjectName(_fromUtf8("VMon_23"))
+        self.VMon_23.setObjectName("VMon_23")
         self.P_21 = QtGui.QCheckBox(self.tab_3)
         self.P_21.setGeometry(QtCore.QRect(79, 187, 25, 25))
         self.P_21.setMinimumSize(QtCore.QSize(25, 25))
         self.P_21.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_21.setText(_fromUtf8(""))
-        self.P_21.setObjectName(_fromUtf8("P_21"))
+        self.P_21.setObjectName("P_21")
         self.RUP_29 = QtGui.QLineEdit(self.tab_3)
         self.RUP_29.setGeometry(QtCore.QRect(520, 435, 50, 25))
         self.RUP_29.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_29.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_29.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_29.setObjectName(_fromUtf8("RUP_29"))
+        self.RUP_29.setObjectName("RUP_29")
         self.IMon_21 = QtGui.QLabel(self.tab_3)
         self.IMon_21.setGeometry(QtCore.QRect(240, 192, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2553,72 +2500,71 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_21.setFont(font)
-        self.IMon_21.setObjectName(_fromUtf8("IMon_21"))
+        self.IMon_21.setObjectName("IMon_21")
         self.RDW_header_2 = QtGui.QPushButton(self.tab_3)
         self.RDW_header_2.setGeometry(QtCore.QRect(603, 9, 85, 21))
         self.RDW_header_2.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RDW_header_2.setFont(font)
-        self.RDW_header_2.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RDW_header_2.setObjectName(_fromUtf8("RDW_header_2"))
+        self.RDW_header_2.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RDW_header_2.setObjectName("RDW_header_2")
         self.P_24 = QtGui.QCheckBox(self.tab_3)
         self.P_24.setGeometry(QtCore.QRect(79, 280, 25, 25))
         self.P_24.setMinimumSize(QtCore.QSize(25, 25))
         self.P_24.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_24.setText(_fromUtf8(""))
-        self.P_24.setObjectName(_fromUtf8("P_24"))
+        self.P_24.setObjectName("P_24")
         self.I0_header_2 = QtGui.QPushButton(self.tab_3)
         self.I0_header_2.setGeometry(QtCore.QRect(417, 9, 56, 21))
         self.I0_header_2.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.I0_header_2.setFont(font)
-        self.I0_header_2.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.I0_header_2.setObjectName(_fromUtf8("I0_header_2"))
+        self.I0_header_2.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.I0_header_2.setObjectName("I0_header_2")
         self.I0_31 = QtGui.QLineEdit(self.tab_3)
         self.I0_31.setGeometry(QtCore.QRect(420, 497, 50, 25))
         self.I0_31.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_31.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_31.setObjectName(_fromUtf8("I0_31"))
+        self.I0_31.setObjectName("I0_31")
         self.trip_28 = QtGui.QLineEdit(self.tab_3)
         self.trip_28.setGeometry(QtCore.QRect(720, 404, 50, 25))
         self.trip_28.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_28.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_28.setObjectName(_fromUtf8("trip_28"))
+        self.trip_28.setObjectName("trip_28")
         self.S_header_2 = QtGui.QLabel(self.tab_3)
         self.S_header_2.setGeometry(QtCore.QRect(790, 10, 61, 20))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         self.S_header_2.setFont(font)
-        self.S_header_2.setObjectName(_fromUtf8("S_header_2"))
+        self.S_header_2.setObjectName("S_header_2")
         self.RUP_21 = QtGui.QLineEdit(self.tab_3)
         self.RUP_21.setGeometry(QtCore.QRect(520, 187, 50, 25))
         self.RUP_21.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_21.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_21.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_21.setObjectName(_fromUtf8("RUP_21"))
+        self.RUP_21.setObjectName("RUP_21")
         self.V0_28 = QtGui.QLineEdit(self.tab_3)
         self.V0_28.setGeometry(QtCore.QRect(324, 404, 50, 25))
         self.V0_28.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_28.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_28.setObjectName(_fromUtf8("V0_28"))
+        self.V0_28.setObjectName("V0_28")
         self.I0_19 = QtGui.QLineEdit(self.tab_3)
         self.I0_19.setGeometry(QtCore.QRect(420, 126, 50, 25))
         self.I0_19.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_19.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_19.setObjectName(_fromUtf8("I0_19"))
+        self.I0_19.setObjectName("I0_19")
         self.V0_31 = QtGui.QLineEdit(self.tab_3)
         self.V0_31.setGeometry(QtCore.QRect(324, 497, 50, 25))
         self.V0_31.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_31.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_31.setObjectName(_fromUtf8("V0_31"))
+        self.V0_31.setObjectName("V0_31")
         self.CH_18 = QtGui.QLabel(self.tab_3)
         self.CH_18.setGeometry(QtCore.QRect(20, 99, 20, 20))
         self.CH_18.setMinimumSize(QtCore.QSize(20, 20))
@@ -2626,7 +2572,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_18.setFont(font)
-        self.CH_18.setObjectName(_fromUtf8("CH_18"))
+        self.CH_18.setObjectName("CH_18")
         self.VMon_26 = QtGui.QLabel(self.tab_3)
         self.VMon_26.setGeometry(QtCore.QRect(141, 347, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2638,25 +2584,24 @@ class Ui_MainWindow(object):
         self.VMon_26.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_26.setFont(font)
-        self.VMon_26.setObjectName(_fromUtf8("VMon_26"))
+        self.VMon_26.setObjectName("VMon_26")
         self.RDN_29 = QtGui.QLineEdit(self.tab_3)
         self.RDN_29.setGeometry(QtCore.QRect(620, 435, 50, 25))
         self.RDN_29.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_29.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_29.setObjectName(_fromUtf8("RDN_29"))
+        self.RDN_29.setObjectName("RDN_29")
         self.P_17 = QtGui.QCheckBox(self.tab_3)
         self.P_17.setEnabled(True)
         self.P_17.setGeometry(QtCore.QRect(79, 66, 25, 25))
         self.P_17.setMinimumSize(QtCore.QSize(25, 25))
         self.P_17.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_17.setText(_fromUtf8(""))
-        self.P_17.setObjectName(_fromUtf8("P_17"))
+        self.P_17.setObjectName("P_17")
         self.VMon_header_2 = QtGui.QLabel(self.tab_3)
         self.VMon_header_2.setGeometry(QtCore.QRect(130, 8, 68, 21))
-        self.VMon_header_2.setObjectName(_fromUtf8("VMon_header_2"))
+        self.VMon_header_2.setObjectName("VMon_header_2")
         self.VMon_20 = QtGui.QLabel(self.tab_3)
         self.VMon_20.setGeometry(QtCore.QRect(141, 162, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2668,63 +2613,63 @@ class Ui_MainWindow(object):
         self.VMon_20.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_20.setFont(font)
-        self.VMon_20.setObjectName(_fromUtf8("VMon_20"))
+        self.VMon_20.setObjectName("VMon_20")
         self.S_29 = QtGui.QLabel(self.tab_3)
         self.S_29.setGeometry(QtCore.QRect(808, 434, 35, 25))
         self.S_29.setMinimumSize(QtCore.QSize(35, 25))
         self.S_29.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_29.setObjectName(_fromUtf8("S_29"))
+        self.S_29.setObjectName("S_29")
         self.RUP_24 = QtGui.QLineEdit(self.tab_3)
         self.RUP_24.setGeometry(QtCore.QRect(520, 280, 50, 25))
         self.RUP_24.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_24.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_24.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_24.setObjectName(_fromUtf8("RUP_24"))
+        self.RUP_24.setObjectName("RUP_24")
         self.I0_29 = QtGui.QLineEdit(self.tab_3)
         self.I0_29.setGeometry(QtCore.QRect(420, 435, 50, 25))
         self.I0_29.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_29.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_29.setObjectName(_fromUtf8("I0_29"))
+        self.I0_29.setObjectName("I0_29")
         self.trip_16 = QtGui.QLineEdit(self.tab_3)
         self.trip_16.setGeometry(QtCore.QRect(720, 36, 50, 25))
         self.trip_16.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_16.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_16.setObjectName(_fromUtf8("trip_16"))
+        self.trip_16.setObjectName("trip_16")
         self.RUP_25 = QtGui.QLineEdit(self.tab_3)
         self.RUP_25.setGeometry(QtCore.QRect(520, 311, 50, 25))
         self.RUP_25.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_25.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_25.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_25.setObjectName(_fromUtf8("RUP_25"))
+        self.RUP_25.setObjectName("RUP_25")
         self.V0_30 = QtGui.QLineEdit(self.tab_3)
         self.V0_30.setGeometry(QtCore.QRect(324, 466, 50, 25))
         self.V0_30.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_30.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_30.setObjectName(_fromUtf8("V0_30"))
+        self.V0_30.setObjectName("V0_30")
         self.S_28 = QtGui.QLabel(self.tab_3)
         self.S_28.setGeometry(QtCore.QRect(808, 403, 35, 25))
         self.S_28.setMinimumSize(QtCore.QSize(35, 25))
         self.S_28.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_28.setObjectName(_fromUtf8("S_28"))
+        self.S_28.setObjectName("S_28")
         self.RUP_30 = QtGui.QLineEdit(self.tab_3)
         self.RUP_30.setGeometry(QtCore.QRect(520, 466, 50, 25))
         self.RUP_30.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_30.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_30.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_30.setObjectName(_fromUtf8("RUP_30"))
+        self.RUP_30.setObjectName("RUP_30")
         self.RS_19 = QtGui.QLabel(self.tab_3)
         self.RS_19.setGeometry(QtCore.QRect(890, 125, 45, 25))
         self.RS_19.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_19.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_19.setObjectName(_fromUtf8("RS_19"))
+        self.RS_19.setObjectName("RS_19")
         self.RDN_31 = QtGui.QLineEdit(self.tab_3)
         self.RDN_31.setGeometry(QtCore.QRect(620, 497, 50, 25))
         self.RDN_31.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_31.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_31.setObjectName(_fromUtf8("RDN_31"))
+        self.RDN_31.setObjectName("RDN_31")
         self.IMon_23 = QtGui.QLabel(self.tab_3)
         self.IMon_23.setGeometry(QtCore.QRect(240, 254, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2737,17 +2682,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_23.setFont(font)
-        self.IMon_23.setObjectName(_fromUtf8("IMon_23"))
+        self.IMon_23.setObjectName("IMon_23")
         self.trip_20 = QtGui.QLineEdit(self.tab_3)
         self.trip_20.setGeometry(QtCore.QRect(720, 157, 50, 25))
         self.trip_20.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_20.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_20.setObjectName(_fromUtf8("trip_20"))
+        self.trip_20.setObjectName("trip_20")
         self.trip_29 = QtGui.QLineEdit(self.tab_3)
         self.trip_29.setGeometry(QtCore.QRect(720, 435, 50, 25))
         self.trip_29.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_29.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_29.setObjectName(_fromUtf8("trip_29"))
+        self.trip_29.setObjectName("trip_29")
         self.VMon_17 = QtGui.QLabel(self.tab_3)
         self.VMon_17.setEnabled(True)
         self.VMon_17.setGeometry(QtCore.QRect(141, 71, 45, 20))
@@ -2760,10 +2705,10 @@ class Ui_MainWindow(object):
         self.VMon_17.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_17.setFont(font)
-        self.VMon_17.setObjectName(_fromUtf8("VMon_17"))
+        self.VMon_17.setObjectName("VMon_17")
         self.IMon_16 = QtGui.QLabel(self.tab_3)
         self.IMon_16.setGeometry(QtCore.QRect(240, 41, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2776,12 +2721,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_16.setFont(font)
-        self.IMon_16.setObjectName(_fromUtf8("IMon_16"))
+        self.IMon_16.setObjectName("IMon_16")
         self.V0_26 = QtGui.QLineEdit(self.tab_3)
         self.V0_26.setGeometry(QtCore.QRect(324, 342, 50, 25))
         self.V0_26.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_26.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_26.setObjectName(_fromUtf8("V0_26"))
+        self.V0_26.setObjectName("V0_26")
         self.IMon_25 = QtGui.QLabel(self.tab_3)
         self.IMon_25.setEnabled(True)
         self.IMon_25.setGeometry(QtCore.QRect(240, 316, 20, 20))
@@ -2795,7 +2740,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_25.setFont(font)
-        self.IMon_25.setObjectName(_fromUtf8("IMon_25"))
+        self.IMon_25.setObjectName("IMon_25")
         self.IMon_22 = QtGui.QLabel(self.tab_3)
         self.IMon_22.setGeometry(QtCore.QRect(240, 223, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2808,12 +2753,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_22.setFont(font)
-        self.IMon_22.setObjectName(_fromUtf8("IMon_22"))
+        self.IMon_22.setObjectName("IMon_22")
         self.V0_27 = QtGui.QLineEdit(self.tab_3)
         self.V0_27.setGeometry(QtCore.QRect(324, 373, 50, 25))
         self.V0_27.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_27.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_27.setObjectName(_fromUtf8("V0_27"))
+        self.V0_27.setObjectName("V0_27")
         self.CH_28 = QtGui.QLabel(self.tab_3)
         self.CH_28.setGeometry(QtCore.QRect(20, 407, 20, 20))
         self.CH_28.setMinimumSize(QtCore.QSize(20, 20))
@@ -2821,12 +2766,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_28.setFont(font)
-        self.CH_28.setObjectName(_fromUtf8("CH_28"))
+        self.CH_28.setObjectName("CH_28")
         self.I0_28 = QtGui.QLineEdit(self.tab_3)
         self.I0_28.setGeometry(QtCore.QRect(420, 404, 50, 25))
         self.I0_28.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_28.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_28.setObjectName(_fromUtf8("I0_28"))
+        self.I0_28.setObjectName("I0_28")
         self.IMon_24 = QtGui.QLabel(self.tab_3)
         self.IMon_24.setGeometry(QtCore.QRect(240, 285, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2839,7 +2784,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_24.setFont(font)
-        self.IMon_24.setObjectName(_fromUtf8("IMon_24"))
+        self.IMon_24.setObjectName("IMon_24")
         self.CH_29 = QtGui.QLabel(self.tab_3)
         self.CH_29.setGeometry(QtCore.QRect(20, 438, 20, 20))
         self.CH_29.setMinimumSize(QtCore.QSize(20, 20))
@@ -2847,7 +2792,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_29.setFont(font)
-        self.CH_29.setObjectName(_fromUtf8("CH_29"))
+        self.CH_29.setObjectName("CH_29")
         self.VMon_27 = QtGui.QLabel(self.tab_3)
         self.VMon_27.setGeometry(QtCore.QRect(141, 378, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2859,64 +2804,64 @@ class Ui_MainWindow(object):
         self.VMon_27.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_27.setFont(font)
-        self.VMon_27.setObjectName(_fromUtf8("VMon_27"))
+        self.VMon_27.setObjectName("VMon_27")
         self.RUP_26 = QtGui.QLineEdit(self.tab_3)
         self.RUP_26.setGeometry(QtCore.QRect(520, 342, 50, 25))
         self.RUP_26.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_26.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_26.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_26.setObjectName(_fromUtf8("RUP_26"))
+        self.RUP_26.setObjectName("RUP_26")
         self.V0_22 = QtGui.QLineEdit(self.tab_3)
         self.V0_22.setGeometry(QtCore.QRect(324, 218, 50, 25))
         self.V0_22.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_22.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_22.setObjectName(_fromUtf8("V0_22"))
+        self.V0_22.setObjectName("V0_22")
         self.I0_16 = QtGui.QLineEdit(self.tab_3)
         self.I0_16.setEnabled(True)
         self.I0_16.setGeometry(QtCore.QRect(420, 36, 50, 25))
         self.I0_16.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_16.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_16.setObjectName(_fromUtf8("I0_16"))
+        self.I0_16.setObjectName("I0_16")
         self.V0_17 = QtGui.QLineEdit(self.tab_3)
         self.V0_17.setEnabled(True)
         self.V0_17.setGeometry(QtCore.QRect(324, 66, 50, 25))
         self.V0_17.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_17.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_17.setObjectName(_fromUtf8("V0_17"))
+        self.V0_17.setObjectName("V0_17")
         self.RDN_22 = QtGui.QLineEdit(self.tab_3)
         self.RDN_22.setGeometry(QtCore.QRect(620, 218, 50, 25))
         self.RDN_22.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_22.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_22.setObjectName(_fromUtf8("RDN_22"))
+        self.RDN_22.setObjectName("RDN_22")
         self.RDN_27 = QtGui.QLineEdit(self.tab_3)
         self.RDN_27.setGeometry(QtCore.QRect(620, 373, 50, 25))
         self.RDN_27.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_27.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_27.setObjectName(_fromUtf8("RDN_27"))
+        self.RDN_27.setObjectName("RDN_27")
         self.V0_header_2 = QtGui.QPushButton(self.tab_3)
         self.V0_header_2.setGeometry(QtCore.QRect(324, 9, 53, 20))
         self.V0_header_2.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.V0_header_2.setFont(font)
-        self.V0_header_2.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.V0_header_2.setObjectName(_fromUtf8("V0_header_2"))
+        self.V0_header_2.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.V0_header_2.setObjectName("V0_header_2")
         self.trip_24 = QtGui.QLineEdit(self.tab_3)
         self.trip_24.setGeometry(QtCore.QRect(720, 280, 50, 25))
         self.trip_24.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_24.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_24.setObjectName(_fromUtf8("trip_24"))
+        self.trip_24.setObjectName("trip_24")
         self.RDN_20 = QtGui.QLineEdit(self.tab_3)
         self.RDN_20.setGeometry(QtCore.QRect(620, 157, 50, 25))
         self.RDN_20.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_20.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_20.setObjectName(_fromUtf8("RDN_20"))
+        self.RDN_20.setObjectName("RDN_20")
         self.CH_24 = QtGui.QLabel(self.tab_3)
         self.CH_24.setGeometry(QtCore.QRect(20, 283, 20, 20))
         self.CH_24.setMinimumSize(QtCore.QSize(20, 20))
@@ -2924,13 +2869,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_24.setFont(font)
-        self.CH_24.setObjectName(_fromUtf8("CH_24"))
+        self.CH_24.setObjectName("CH_24")
         self.P_31 = QtGui.QCheckBox(self.tab_3)
         self.P_31.setGeometry(QtCore.QRect(79, 497, 25, 25))
         self.P_31.setMinimumSize(QtCore.QSize(25, 25))
         self.P_31.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_31.setText(_fromUtf8(""))
-        self.P_31.setObjectName(_fromUtf8("P_31"))
+        self.P_31.setObjectName("P_31")
         self.CH_19 = QtGui.QLabel(self.tab_3)
         self.CH_19.setGeometry(QtCore.QRect(20, 129, 20, 20))
         self.CH_19.setMinimumSize(QtCore.QSize(20, 20))
@@ -2938,7 +2882,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_19.setFont(font)
-        self.CH_19.setObjectName(_fromUtf8("CH_19"))
+        self.CH_19.setObjectName("CH_19")
         self.VMon_28 = QtGui.QLabel(self.tab_3)
         self.VMon_28.setGeometry(QtCore.QRect(141, 409, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -2950,10 +2894,10 @@ class Ui_MainWindow(object):
         self.VMon_28.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_28.setFont(font)
-        self.VMon_28.setObjectName(_fromUtf8("VMon_28"))
+        self.VMon_28.setObjectName("VMon_28")
         self.CH_31 = QtGui.QLabel(self.tab_3)
         self.CH_31.setGeometry(QtCore.QRect(20, 500, 20, 20))
         self.CH_31.setMinimumSize(QtCore.QSize(20, 20))
@@ -2961,24 +2905,23 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_31.setFont(font)
-        self.CH_31.setObjectName(_fromUtf8("CH_31"))
+        self.CH_31.setObjectName("CH_31")
         self.trip_31 = QtGui.QLineEdit(self.tab_3)
         self.trip_31.setGeometry(QtCore.QRect(720, 497, 50, 25))
         self.trip_31.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_31.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_31.setObjectName(_fromUtf8("trip_31"))
+        self.trip_31.setObjectName("trip_31")
         self.RDN_17 = QtGui.QLineEdit(self.tab_3)
         self.RDN_17.setEnabled(True)
         self.RDN_17.setGeometry(QtCore.QRect(620, 66, 50, 25))
         self.RDN_17.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_17.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_17.setObjectName(_fromUtf8("RDN_17"))
+        self.RDN_17.setObjectName("RDN_17")
         self.P_19 = QtGui.QCheckBox(self.tab_3)
         self.P_19.setGeometry(QtCore.QRect(79, 126, 25, 25))
         self.P_19.setMinimumSize(QtCore.QSize(25, 25))
         self.P_19.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_19.setText(_fromUtf8(""))
-        self.P_19.setObjectName(_fromUtf8("P_19"))
+        self.P_19.setObjectName("P_19")
         self.VMon_25 = QtGui.QLabel(self.tab_3)
         self.VMon_25.setEnabled(True)
         self.VMon_25.setGeometry(QtCore.QRect(141, 316, 45, 20))
@@ -2991,10 +2934,10 @@ class Ui_MainWindow(object):
         self.VMon_25.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_25.setFont(font)
-        self.VMon_25.setObjectName(_fromUtf8("VMon_25"))
+        self.VMon_25.setObjectName("VMon_25")
         self.IMon_18 = QtGui.QLabel(self.tab_3)
         self.IMon_18.setGeometry(QtCore.QRect(240, 101, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3007,65 +2950,64 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_18.setFont(font)
-        self.IMon_18.setObjectName(_fromUtf8("IMon_18"))
+        self.IMon_18.setObjectName("IMon_18")
         self.RS_31 = QtGui.QLabel(self.tab_3)
         self.RS_31.setGeometry(QtCore.QRect(890, 496, 45, 25))
         self.RS_31.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_31.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_31.setObjectName(_fromUtf8("RS_31"))
+        self.RS_31.setObjectName("RS_31")
         self.I0_23 = QtGui.QLineEdit(self.tab_3)
         self.I0_23.setGeometry(QtCore.QRect(420, 249, 50, 25))
         self.I0_23.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_23.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_23.setObjectName(_fromUtf8("I0_23"))
+        self.I0_23.setObjectName("I0_23")
         self.trip_18 = QtGui.QLineEdit(self.tab_3)
         self.trip_18.setGeometry(QtCore.QRect(720, 96, 50, 25))
         self.trip_18.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_18.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_18.setObjectName(_fromUtf8("trip_18"))
+        self.trip_18.setObjectName("trip_18")
         self.I0_22 = QtGui.QLineEdit(self.tab_3)
         self.I0_22.setGeometry(QtCore.QRect(420, 218, 50, 25))
         self.I0_22.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_22.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_22.setObjectName(_fromUtf8("I0_22"))
+        self.I0_22.setObjectName("I0_22")
         self.RS_22 = QtGui.QLabel(self.tab_3)
         self.RS_22.setGeometry(QtCore.QRect(890, 217, 45, 25))
         self.RS_22.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_22.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_22.setObjectName(_fromUtf8("RS_22"))
+        self.RS_22.setObjectName("RS_22")
         self.I0_25 = QtGui.QLineEdit(self.tab_3)
         self.I0_25.setEnabled(True)
         self.I0_25.setGeometry(QtCore.QRect(420, 311, 50, 25))
         self.I0_25.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_25.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_25.setObjectName(_fromUtf8("I0_25"))
+        self.I0_25.setObjectName("I0_25")
         self.P_25 = QtGui.QCheckBox(self.tab_3)
         self.P_25.setEnabled(True)
         self.P_25.setGeometry(QtCore.QRect(79, 311, 25, 25))
         self.P_25.setMinimumSize(QtCore.QSize(25, 25))
         self.P_25.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_25.setText(_fromUtf8(""))
-        self.P_25.setObjectName(_fromUtf8("P_25"))
+        self.P_25.setObjectName("P_25")
         self.I0_17 = QtGui.QLineEdit(self.tab_3)
         self.I0_17.setEnabled(True)
         self.I0_17.setGeometry(QtCore.QRect(420, 66, 50, 25))
         self.I0_17.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_17.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_17.setObjectName(_fromUtf8("I0_17"))
+        self.I0_17.setObjectName("I0_17")
         self.RS_28 = QtGui.QLabel(self.tab_3)
         self.RS_28.setGeometry(QtCore.QRect(890, 403, 45, 25))
         self.RS_28.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_28.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_28.setObjectName(_fromUtf8("RS_28"))
+        self.RS_28.setObjectName("RS_28")
         self.RS_25 = QtGui.QLabel(self.tab_3)
         self.RS_25.setEnabled(True)
         self.RS_25.setGeometry(QtCore.QRect(890, 310, 45, 25))
         self.RS_25.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_25.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_25.setObjectName(_fromUtf8("RS_25"))
+        self.RS_25.setObjectName("RS_25")
         self.RS_header_2 = QtGui.QLabel(self.tab_3)
         self.RS_header_2.setGeometry(QtCore.QRect(861, 1, 111, 41))
-        self.RS_header_2.setObjectName(_fromUtf8("RS_header_2"))
+        self.RS_header_2.setObjectName("RS_header_2")
         self.VMon_29 = QtGui.QLabel(self.tab_3)
         self.VMon_29.setGeometry(QtCore.QRect(141, 440, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3077,29 +3019,26 @@ class Ui_MainWindow(object):
         self.VMon_29.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_29.setFont(font)
-        self.VMon_29.setObjectName(_fromUtf8("VMon_29"))
+        self.VMon_29.setObjectName("VMon_29")
         self.S_24 = QtGui.QLabel(self.tab_3)
         self.S_24.setGeometry(QtCore.QRect(808, 279, 35, 25))
         self.S_24.setMinimumSize(QtCore.QSize(35, 25))
         self.S_24.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_24.setObjectName(_fromUtf8("S_24"))
+        self.S_24.setObjectName("S_24")
         self.RUP_header_2 = QtGui.QPushButton(self.tab_3)
         self.RUP_header_2.setGeometry(QtCore.QRect(503, 9, 79, 21))
         self.RUP_header_2.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RUP_header_2.setFont(font)
-        self.RUP_header_2.setToolTip(_fromUtf8(""))
-        self.RUP_header_2.setStatusTip(_fromUtf8(""))
-        self.RUP_header_2.setWhatsThis(_fromUtf8(""))
-        self.RUP_header_2.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RUP_header_2.setObjectName(_fromUtf8("RUP_header_2"))
+        self.RUP_header_2.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RUP_header_2.setObjectName("RUP_header_2")
         self.IMon_28 = QtGui.QLabel(self.tab_3)
         self.IMon_28.setGeometry(QtCore.QRect(240, 409, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3112,23 +3051,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_28.setFont(font)
-        self.IMon_28.setObjectName(_fromUtf8("IMon_28"))
+        self.IMon_28.setObjectName("IMon_28")
         self.I0_26 = QtGui.QLineEdit(self.tab_3)
         self.I0_26.setGeometry(QtCore.QRect(420, 342, 50, 25))
         self.I0_26.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_26.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_26.setObjectName(_fromUtf8("I0_26"))
+        self.I0_26.setObjectName("I0_26")
         self.RS_26 = QtGui.QLabel(self.tab_3)
         self.RS_26.setGeometry(QtCore.QRect(890, 341, 45, 25))
         self.RS_26.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_26.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_26.setObjectName(_fromUtf8("RS_26"))
+        self.RS_26.setObjectName("RS_26")
         self.P_23 = QtGui.QCheckBox(self.tab_3)
         self.P_23.setGeometry(QtCore.QRect(79, 249, 25, 25))
         self.P_23.setMinimumSize(QtCore.QSize(25, 25))
         self.P_23.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_23.setText(_fromUtf8(""))
-        self.P_23.setObjectName(_fromUtf8("P_23"))
+        self.P_23.setObjectName("P_23")
         self.IMon_29 = QtGui.QLabel(self.tab_3)
         self.IMon_29.setGeometry(QtCore.QRect(240, 440, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3141,28 +3079,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_29.setFont(font)
-        self.IMon_29.setObjectName(_fromUtf8("IMon_29"))
+        self.IMon_29.setObjectName("IMon_29")
         self.V0_18 = QtGui.QLineEdit(self.tab_3)
         self.V0_18.setGeometry(QtCore.QRect(324, 96, 50, 25))
         self.V0_18.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_18.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_18.setObjectName(_fromUtf8("V0_18"))
+        self.V0_18.setObjectName("V0_18")
         self.S_17 = QtGui.QLabel(self.tab_3)
         self.S_17.setEnabled(True)
         self.S_17.setGeometry(QtCore.QRect(808, 65, 35, 25))
         self.S_17.setMinimumSize(QtCore.QSize(35, 25))
         self.S_17.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_17.setObjectName(_fromUtf8("S_17"))
+        self.S_17.setObjectName("S_17")
         self.RS_24 = QtGui.QLabel(self.tab_3)
         self.RS_24.setGeometry(QtCore.QRect(890, 279, 45, 25))
         self.RS_24.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_24.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_24.setObjectName(_fromUtf8("RS_24"))
+        self.RS_24.setObjectName("RS_24")
         self.S_31 = QtGui.QLabel(self.tab_3)
         self.S_31.setGeometry(QtCore.QRect(808, 496, 35, 25))
         self.S_31.setMinimumSize(QtCore.QSize(35, 25))
         self.S_31.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_31.setObjectName(_fromUtf8("S_31"))
+        self.S_31.setObjectName("S_31")
         self.CH_30 = QtGui.QLabel(self.tab_3)
         self.CH_30.setGeometry(QtCore.QRect(20, 469, 20, 20))
         self.CH_30.setMinimumSize(QtCore.QSize(20, 20))
@@ -3170,34 +3108,33 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_30.setFont(font)
-        self.CH_30.setObjectName(_fromUtf8("CH_30"))
+        self.CH_30.setObjectName("CH_30")
         self.V0_21 = QtGui.QLineEdit(self.tab_3)
         self.V0_21.setGeometry(QtCore.QRect(324, 187, 50, 25))
         self.V0_21.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_21.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_21.setObjectName(_fromUtf8("V0_21"))
+        self.V0_21.setObjectName("V0_21")
         self.P_header_2 = QtGui.QPushButton(self.tab_3)
         self.P_header_2.setGeometry(QtCore.QRect(60, 8, 61, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.P_header_2.setFont(font)
         self.P_header_2.setAutoFillBackground(False)
-        self.P_header_2.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.P_header_2.setObjectName(_fromUtf8("P_header_2"))
+        self.P_header_2.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.P_header_2.setObjectName("P_header_2")
         self.I0_18 = QtGui.QLineEdit(self.tab_3)
         self.I0_18.setGeometry(QtCore.QRect(420, 96, 50, 25))
         self.I0_18.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_18.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_18.setObjectName(_fromUtf8("I0_18"))
+        self.I0_18.setObjectName("I0_18")
         self.P_22 = QtGui.QCheckBox(self.tab_3)
         self.P_22.setGeometry(QtCore.QRect(79, 218, 25, 25))
         self.P_22.setMinimumSize(QtCore.QSize(25, 25))
         self.P_22.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_22.setText(_fromUtf8(""))
-        self.P_22.setObjectName(_fromUtf8("P_22"))
+        self.P_22.setObjectName("P_22")
         self.IMon_26 = QtGui.QLabel(self.tab_3)
         self.IMon_26.setGeometry(QtCore.QRect(240, 347, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3210,7 +3147,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_26.setFont(font)
-        self.IMon_26.setObjectName(_fromUtf8("IMon_26"))
+        self.IMon_26.setObjectName("IMon_26")
         self.CH_25 = QtGui.QLabel(self.tab_3)
         self.CH_25.setEnabled(True)
         self.CH_25.setGeometry(QtCore.QRect(20, 314, 20, 20))
@@ -3219,7 +3156,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_25.setFont(font)
-        self.CH_25.setObjectName(_fromUtf8("CH_25"))
+        self.CH_25.setObjectName("CH_25")
         self.CH_16 = QtGui.QLabel(self.tab_3)
         self.CH_16.setGeometry(QtCore.QRect(20, 39, 20, 20))
         self.CH_16.setMinimumSize(QtCore.QSize(20, 20))
@@ -3227,49 +3164,48 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_16.setFont(font)
-        self.CH_16.setObjectName(_fromUtf8("CH_16"))
+        self.CH_16.setObjectName("CH_16")
         self.RDN_26 = QtGui.QLineEdit(self.tab_3)
         self.RDN_26.setGeometry(QtCore.QRect(620, 342, 50, 25))
         self.RDN_26.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_26.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_26.setObjectName(_fromUtf8("RDN_26"))
+        self.RDN_26.setObjectName("RDN_26")
         self.RS_23 = QtGui.QLabel(self.tab_3)
         self.RS_23.setGeometry(QtCore.QRect(890, 248, 45, 25))
         self.RS_23.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_23.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_23.setObjectName(_fromUtf8("RS_23"))
+        self.RS_23.setObjectName("RS_23")
         self.trip_23 = QtGui.QLineEdit(self.tab_3)
         self.trip_23.setGeometry(QtCore.QRect(720, 249, 50, 25))
         self.trip_23.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_23.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_23.setObjectName(_fromUtf8("trip_23"))
+        self.trip_23.setObjectName("trip_23")
         self.RDN_23 = QtGui.QLineEdit(self.tab_3)
         self.RDN_23.setGeometry(QtCore.QRect(620, 249, 50, 25))
         self.RDN_23.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_23.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_23.setObjectName(_fromUtf8("RDN_23"))
+        self.RDN_23.setObjectName("RDN_23")
         self.V0_16 = QtGui.QLineEdit(self.tab_3)
         self.V0_16.setEnabled(True)
         self.V0_16.setGeometry(QtCore.QRect(324, 36, 50, 25))
         self.V0_16.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_16.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_16.setObjectName(_fromUtf8("V0_16"))
+        self.V0_16.setObjectName("V0_16")
         self.I0_21 = QtGui.QLineEdit(self.tab_3)
         self.I0_21.setGeometry(QtCore.QRect(420, 187, 50, 25))
         self.I0_21.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_21.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_21.setObjectName(_fromUtf8("I0_21"))
+        self.I0_21.setObjectName("I0_21")
         self.P_27 = QtGui.QCheckBox(self.tab_3)
         self.P_27.setGeometry(QtCore.QRect(79, 373, 25, 25))
         self.P_27.setMinimumSize(QtCore.QSize(25, 25))
         self.P_27.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_27.setText(_fromUtf8(""))
-        self.P_27.setObjectName(_fromUtf8("P_27"))
+        self.P_27.setObjectName("P_27")
         self.trip_21 = QtGui.QLineEdit(self.tab_3)
         self.trip_21.setGeometry(QtCore.QRect(720, 187, 50, 25))
         self.trip_21.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_21.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_21.setObjectName(_fromUtf8("trip_21"))
+        self.trip_21.setObjectName("trip_21")
         self.VMon_24 = QtGui.QLabel(self.tab_3)
         self.VMon_24.setGeometry(QtCore.QRect(141, 285, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3281,31 +3217,31 @@ class Ui_MainWindow(object):
         self.VMon_24.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_24.setFont(font)
-        self.VMon_24.setObjectName(_fromUtf8("VMon_24"))
+        self.VMon_24.setObjectName("VMon_24")
         self.V0_25 = QtGui.QLineEdit(self.tab_3)
         self.V0_25.setEnabled(True)
         self.V0_25.setGeometry(QtCore.QRect(324, 311, 50, 25))
         self.V0_25.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_25.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_25.setObjectName(_fromUtf8("V0_25"))
+        self.V0_25.setObjectName("V0_25")
         self.I0_20 = QtGui.QLineEdit(self.tab_3)
         self.I0_20.setGeometry(QtCore.QRect(420, 157, 50, 25))
         self.I0_20.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_20.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_20.setObjectName(_fromUtf8("I0_20"))
+        self.I0_20.setObjectName("I0_20")
         self.RS_30 = QtGui.QLabel(self.tab_3)
         self.RS_30.setGeometry(QtCore.QRect(890, 465, 45, 25))
         self.RS_30.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_30.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_30.setObjectName(_fromUtf8("RS_30"))
+        self.RS_30.setObjectName("RS_30")
         self.RS_27 = QtGui.QLabel(self.tab_3)
         self.RS_27.setGeometry(QtCore.QRect(890, 372, 45, 25))
         self.RS_27.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_27.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_27.setObjectName(_fromUtf8("RS_27"))
+        self.RS_27.setObjectName("RS_27")
         self.IMon_30 = QtGui.QLabel(self.tab_3)
         self.IMon_30.setGeometry(QtCore.QRect(240, 471, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3318,38 +3254,37 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_30.setFont(font)
-        self.IMon_30.setObjectName(_fromUtf8("IMon_30"))
+        self.IMon_30.setObjectName("IMon_30")
         self.S_18 = QtGui.QLabel(self.tab_3)
         self.S_18.setGeometry(QtCore.QRect(808, 95, 35, 25))
         self.S_18.setMinimumSize(QtCore.QSize(35, 25))
         self.S_18.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_18.setObjectName(_fromUtf8("S_18"))
+        self.S_18.setObjectName("S_18")
         self.S_21 = QtGui.QLabel(self.tab_3)
         self.S_21.setGeometry(QtCore.QRect(808, 186, 35, 25))
         self.S_21.setMinimumSize(QtCore.QSize(35, 25))
         self.S_21.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_21.setObjectName(_fromUtf8("S_21"))
+        self.S_21.setObjectName("S_21")
         self.RDN_30 = QtGui.QLineEdit(self.tab_3)
         self.RDN_30.setGeometry(QtCore.QRect(620, 466, 50, 25))
         self.RDN_30.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_30.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_30.setObjectName(_fromUtf8("RDN_30"))
+        self.RDN_30.setObjectName("RDN_30")
         self.P_20 = QtGui.QCheckBox(self.tab_3)
         self.P_20.setGeometry(QtCore.QRect(79, 157, 25, 25))
         self.P_20.setMinimumSize(QtCore.QSize(25, 25))
         self.P_20.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_20.setText(_fromUtf8(""))
-        self.P_20.setObjectName(_fromUtf8("P_20"))
+        self.P_20.setObjectName("P_20")
         self.S_20 = QtGui.QLabel(self.tab_3)
         self.S_20.setGeometry(QtCore.QRect(808, 156, 35, 25))
         self.S_20.setMinimumSize(QtCore.QSize(35, 25))
         self.S_20.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_20.setObjectName(_fromUtf8("S_20"))
+        self.S_20.setObjectName("S_20")
         self.I0_27 = QtGui.QLineEdit(self.tab_3)
         self.I0_27.setGeometry(QtCore.QRect(420, 373, 50, 25))
         self.I0_27.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_27.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_27.setObjectName(_fromUtf8("I0_27"))
+        self.I0_27.setObjectName("I0_27")
         self.VMon_22 = QtGui.QLabel(self.tab_3)
         self.VMon_22.setGeometry(QtCore.QRect(141, 223, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3361,16 +3296,16 @@ class Ui_MainWindow(object):
         self.VMon_22.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_22.setFont(font)
-        self.VMon_22.setObjectName(_fromUtf8("VMon_22"))
+        self.VMon_22.setObjectName("VMon_22")
         self.RUP_27 = QtGui.QLineEdit(self.tab_3)
         self.RUP_27.setGeometry(QtCore.QRect(520, 373, 50, 25))
         self.RUP_27.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_27.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_27.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_27.setObjectName(_fromUtf8("RUP_27"))
+        self.RUP_27.setObjectName("RUP_27")
         self.CH_26 = QtGui.QLabel(self.tab_3)
         self.CH_26.setGeometry(QtCore.QRect(20, 345, 20, 20))
         self.CH_26.setMinimumSize(QtCore.QSize(20, 20))
@@ -3378,7 +3313,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_26.setFont(font)
-        self.CH_26.setObjectName(_fromUtf8("CH_26"))
+        self.CH_26.setObjectName("CH_26")
         self.IMon_17 = QtGui.QLabel(self.tab_3)
         self.IMon_17.setEnabled(True)
         self.IMon_17.setGeometry(QtCore.QRect(240, 71, 20, 20))
@@ -3392,51 +3327,50 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_17.setFont(font)
-        self.IMon_17.setObjectName(_fromUtf8("IMon_17"))
+        self.IMon_17.setObjectName("IMon_17")
         self.S_22 = QtGui.QLabel(self.tab_3)
         self.S_22.setGeometry(QtCore.QRect(808, 217, 35, 25))
         self.S_22.setMinimumSize(QtCore.QSize(35, 25))
         self.S_22.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_22.setObjectName(_fromUtf8("S_22"))
+        self.S_22.setObjectName("S_22")
         self.RUP_23 = QtGui.QLineEdit(self.tab_3)
         self.RUP_23.setGeometry(QtCore.QRect(520, 249, 50, 25))
         self.RUP_23.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_23.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_23.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_23.setObjectName(_fromUtf8("RUP_23"))
+        self.RUP_23.setObjectName("RUP_23")
         self.trip_17 = QtGui.QLineEdit(self.tab_3)
         self.trip_17.setEnabled(True)
         self.trip_17.setGeometry(QtCore.QRect(720, 66, 50, 25))
         self.trip_17.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_17.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_17.setObjectName(_fromUtf8("trip_17"))
+        self.trip_17.setObjectName("trip_17")
         self.RUP_17 = QtGui.QLineEdit(self.tab_3)
         self.RUP_17.setGeometry(QtCore.QRect(520, 66, 50, 25))
         self.RUP_17.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_17.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_17.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_17.setObjectName(_fromUtf8("RUP_17"))
+        self.RUP_17.setObjectName("RUP_17")
         self.V0_23 = QtGui.QLineEdit(self.tab_3)
         self.V0_23.setGeometry(QtCore.QRect(324, 249, 50, 25))
         self.V0_23.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_23.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_23.setObjectName(_fromUtf8("V0_23"))
+        self.V0_23.setObjectName("V0_23")
         self.RS_29 = QtGui.QLabel(self.tab_3)
         self.RS_29.setGeometry(QtCore.QRect(890, 434, 45, 25))
         self.RS_29.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_29.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_29.setObjectName(_fromUtf8("RS_29"))
+        self.RS_29.setObjectName("RS_29")
         self.P_26 = QtGui.QCheckBox(self.tab_3)
         self.P_26.setGeometry(QtCore.QRect(79, 342, 25, 25))
         self.P_26.setMinimumSize(QtCore.QSize(25, 25))
         self.P_26.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_26.setText(_fromUtf8(""))
-        self.P_26.setObjectName(_fromUtf8("P_26"))
+        self.P_26.setObjectName("P_26")
         self.S_30 = QtGui.QLabel(self.tab_3)
         self.S_30.setGeometry(QtCore.QRect(808, 465, 35, 25))
         self.S_30.setMinimumSize(QtCore.QSize(35, 25))
         self.S_30.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_30.setObjectName(_fromUtf8("S_30"))
+        self.S_30.setObjectName("S_30")
         self.CH_22 = QtGui.QLabel(self.tab_3)
         self.CH_22.setGeometry(QtCore.QRect(20, 221, 20, 20))
         self.CH_22.setMinimumSize(QtCore.QSize(20, 20))
@@ -3444,7 +3378,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_22.setFont(font)
-        self.CH_22.setObjectName(_fromUtf8("CH_22"))
+        self.CH_22.setObjectName("CH_22")
         self.VMon_31 = QtGui.QLabel(self.tab_3)
         self.VMon_31.setGeometry(QtCore.QRect(141, 502, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3456,10 +3390,10 @@ class Ui_MainWindow(object):
         self.VMon_31.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_31.setFont(font)
-        self.VMon_31.setObjectName(_fromUtf8("VMon_31"))
+        self.VMon_31.setObjectName("VMon_31")
         self.VMon_19 = QtGui.QLabel(self.tab_3)
         self.VMon_19.setGeometry(QtCore.QRect(141, 131, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3471,40 +3405,40 @@ class Ui_MainWindow(object):
         self.VMon_19.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_19.setFont(font)
-        self.VMon_19.setObjectName(_fromUtf8("VMon_19"))
+        self.VMon_19.setObjectName("VMon_19")
         self.S_26 = QtGui.QLabel(self.tab_3)
         self.S_26.setGeometry(QtCore.QRect(808, 341, 35, 25))
         self.S_26.setMinimumSize(QtCore.QSize(35, 25))
         self.S_26.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_26.setObjectName(_fromUtf8("S_26"))
+        self.S_26.setObjectName("S_26")
         self.V0_29 = QtGui.QLineEdit(self.tab_3)
         self.V0_29.setGeometry(QtCore.QRect(324, 435, 50, 25))
         self.V0_29.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_29.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_29.setObjectName(_fromUtf8("V0_29"))
+        self.V0_29.setObjectName("V0_29")
         self.S_25 = QtGui.QLabel(self.tab_3)
         self.S_25.setEnabled(True)
         self.S_25.setGeometry(QtCore.QRect(808, 310, 35, 25))
         self.S_25.setMinimumSize(QtCore.QSize(35, 25))
         self.S_25.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_25.setObjectName(_fromUtf8("S_25"))
+        self.S_25.setObjectName("S_25")
         self.trip_26 = QtGui.QLineEdit(self.tab_3)
         self.trip_26.setGeometry(QtCore.QRect(720, 342, 50, 25))
         self.trip_26.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_26.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_26.setObjectName(_fromUtf8("trip_26"))
-        self.Tab2_8.addTab(self.tab_3, _fromUtf8(""))
+        self.trip_26.setObjectName("trip_26")
+        self.globals_tab.addTab(self.tab_3, "")
         self.tab_4 = QtGui.QWidget()
-        self.tab_4.setObjectName(_fromUtf8("tab_4"))
+        self.tab_4.setObjectName("tab_4")
         self.RUP_47 = QtGui.QLineEdit(self.tab_4)
         self.RUP_47.setGeometry(QtCore.QRect(520, 497, 50, 25))
         self.RUP_47.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_47.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_47.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_47.setObjectName(_fromUtf8("RUP_47"))
+        self.RUP_47.setObjectName("RUP_47")
         self.VMon_33 = QtGui.QLabel(self.tab_4)
         self.VMon_33.setEnabled(True)
         self.VMon_33.setGeometry(QtCore.QRect(141, 71, 45, 20))
@@ -3517,15 +3451,15 @@ class Ui_MainWindow(object):
         self.VMon_33.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_33.setFont(font)
-        self.VMon_33.setObjectName(_fromUtf8("VMon_33"))
+        self.VMon_33.setObjectName("VMon_33")
         self.RS_32 = QtGui.QLabel(self.tab_4)
         self.RS_32.setGeometry(QtCore.QRect(890, 156, 45, 25))
         self.RS_32.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_32.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_32.setObjectName(_fromUtf8("RS_32"))
+        self.RS_32.setObjectName("RS_32")
         self.CH_46 = QtGui.QLabel(self.tab_4)
         self.CH_46.setGeometry(QtCore.QRect(20, 469, 20, 20))
         self.CH_46.setMinimumSize(QtCore.QSize(20, 20))
@@ -3533,45 +3467,45 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_46.setFont(font)
-        self.CH_46.setObjectName(_fromUtf8("CH_46"))
+        self.CH_46.setObjectName("CH_46")
         self.S_header_3 = QtGui.QLabel(self.tab_4)
         self.S_header_3.setGeometry(QtCore.QRect(790, 10, 61, 20))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         self.S_header_3.setFont(font)
-        self.S_header_3.setObjectName(_fromUtf8("S_header_3"))
+        self.S_header_3.setObjectName("S_header_3")
         self.V0_33 = QtGui.QLineEdit(self.tab_4)
         self.V0_33.setEnabled(True)
         self.V0_33.setGeometry(QtCore.QRect(324, 66, 50, 25))
         self.V0_33.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_33.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_33.setObjectName(_fromUtf8("V0_33"))
+        self.V0_33.setObjectName("V0_33")
         self.trip_43 = QtGui.QLineEdit(self.tab_4)
         self.trip_43.setGeometry(QtCore.QRect(720, 373, 50, 25))
         self.trip_43.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_43.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_43.setObjectName(_fromUtf8("trip_43"))
-        self.S_32 = QtGui.QLabel(self.tab_4)
-        self.S_32.setGeometry(QtCore.QRect(808, 279, 35, 25))
-        self.S_32.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_32.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_32.setObjectName(_fromUtf8("S_32"))
+        self.trip_43.setObjectName("trip_43")
+        self.S_40 = QtGui.QLabel(self.tab_4)
+        self.S_40.setGeometry(QtCore.QRect(808, 279, 35, 25))
+        self.S_40.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_40.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_40.setObjectName("S_40")
         self.RS_33 = QtGui.QLabel(self.tab_4)
         self.RS_33.setEnabled(True)
         self.RS_33.setGeometry(QtCore.QRect(890, 65, 45, 25))
         self.RS_33.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_33.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_33.setObjectName(_fromUtf8("RS_33"))
+        self.RS_33.setObjectName("RS_33")
         self.I0_45 = QtGui.QLineEdit(self.tab_4)
         self.I0_45.setGeometry(QtCore.QRect(420, 435, 50, 25))
         self.I0_45.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_45.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_45.setObjectName(_fromUtf8("I0_45"))
+        self.I0_45.setObjectName("I0_45")
         self.RDN_44 = QtGui.QLineEdit(self.tab_4)
         self.RDN_44.setGeometry(QtCore.QRect(620, 404, 50, 25))
         self.RDN_44.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_44.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_44.setObjectName(_fromUtf8("RDN_44"))
+        self.RDN_44.setObjectName("RDN_44")
         self.IMon_44 = QtGui.QLabel(self.tab_4)
         self.IMon_44.setGeometry(QtCore.QRect(240, 409, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3584,12 +3518,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_44.setFont(font)
-        self.IMon_44.setObjectName(_fromUtf8("IMon_44"))
+        self.IMon_44.setObjectName("IMon_44")
         self.RS_34 = QtGui.QLabel(self.tab_4)
         self.RS_34.setGeometry(QtCore.QRect(890, 217, 45, 25))
         self.RS_34.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_34.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_34.setObjectName(_fromUtf8("RS_34"))
+        self.RS_34.setObjectName("RS_34")
         self.VMon_37 = QtGui.QLabel(self.tab_4)
         self.VMon_37.setGeometry(QtCore.QRect(141, 192, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3601,21 +3535,21 @@ class Ui_MainWindow(object):
         self.VMon_37.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_37.setFont(font)
-        self.VMon_37.setObjectName(_fromUtf8("VMon_37"))
+        self.VMon_37.setObjectName("VMon_37")
         self.I0_header_3 = QtGui.QPushButton(self.tab_4)
         self.I0_header_3.setGeometry(QtCore.QRect(417, 9, 56, 21))
         self.I0_header_3.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.I0_header_3.setFont(font)
-        self.I0_header_3.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.I0_header_3.setObjectName(_fromUtf8("I0_header_3"))
+        self.I0_header_3.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.I0_header_3.setObjectName("I0_header_3")
         self.CH_32 = QtGui.QLabel(self.tab_4)
         self.CH_32.setGeometry(QtCore.QRect(20, 39, 20, 20))
         self.CH_32.setMinimumSize(QtCore.QSize(20, 20))
@@ -3623,17 +3557,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_32.setFont(font)
-        self.CH_32.setObjectName(_fromUtf8("CH_32"))
+        self.CH_32.setObjectName("CH_32")
         self.V0_43 = QtGui.QLineEdit(self.tab_4)
         self.V0_43.setGeometry(QtCore.QRect(324, 373, 50, 25))
         self.V0_43.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_43.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_43.setObjectName(_fromUtf8("V0_43"))
+        self.V0_43.setObjectName("V0_43")
         self.RDN_42 = QtGui.QLineEdit(self.tab_4)
         self.RDN_42.setGeometry(QtCore.QRect(620, 342, 50, 25))
         self.RDN_42.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_42.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_42.setObjectName(_fromUtf8("RDN_42"))
+        self.RDN_42.setObjectName("RDN_42")
         self.VMon_43 = QtGui.QLabel(self.tab_4)
         self.VMon_43.setGeometry(QtCore.QRect(141, 378, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3645,15 +3579,15 @@ class Ui_MainWindow(object):
         self.VMon_43.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_43.setFont(font)
-        self.VMon_43.setObjectName(_fromUtf8("VMon_43"))
+        self.VMon_43.setObjectName("VMon_43")
         self.I0_34 = QtGui.QLineEdit(self.tab_4)
         self.I0_34.setGeometry(QtCore.QRect(420, 96, 50, 25))
         self.I0_34.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_34.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_34.setObjectName(_fromUtf8("I0_34"))
+        self.I0_34.setObjectName("I0_34")
         self.IMon_33 = QtGui.QLabel(self.tab_4)
         self.IMon_33.setEnabled(True)
         self.IMon_33.setGeometry(QtCore.QRect(240, 71, 20, 20))
@@ -3667,13 +3601,13 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_33.setFont(font)
-        self.IMon_33.setObjectName(_fromUtf8("IMon_33"))
+        self.IMon_33.setObjectName("IMon_33")
         self.RUP_44 = QtGui.QLineEdit(self.tab_4)
         self.RUP_44.setGeometry(QtCore.QRect(520, 404, 50, 25))
         self.RUP_44.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_44.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_44.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_44.setObjectName(_fromUtf8("RUP_44"))
+        self.RUP_44.setObjectName("RUP_44")
         self.IMon_35 = QtGui.QLabel(self.tab_4)
         self.IMon_35.setGeometry(QtCore.QRect(240, 131, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3686,23 +3620,23 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_35.setFont(font)
-        self.IMon_35.setObjectName(_fromUtf8("IMon_35"))
+        self.IMon_35.setObjectName("IMon_35")
         self.RUP_45 = QtGui.QLineEdit(self.tab_4)
         self.RUP_45.setGeometry(QtCore.QRect(520, 435, 50, 25))
         self.RUP_45.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_45.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_45.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_45.setObjectName(_fromUtf8("RUP_45"))
-        self.S_33 = QtGui.QLabel(self.tab_4)
-        self.S_33.setGeometry(QtCore.QRect(808, 95, 35, 25))
-        self.S_33.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_33.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_33.setObjectName(_fromUtf8("S_33"))
+        self.RUP_45.setObjectName("RUP_45")
+        self.S_34 = QtGui.QLabel(self.tab_4)
+        self.S_34.setGeometry(QtCore.QRect(808, 95, 35, 25))
+        self.S_34.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_34.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_34.setObjectName("S_34")
         self.trip_42 = QtGui.QLineEdit(self.tab_4)
         self.trip_42.setGeometry(QtCore.QRect(720, 342, 50, 25))
         self.trip_42.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_42.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_42.setObjectName(_fromUtf8("trip_42"))
+        self.trip_42.setObjectName("trip_42")
         self.IMon_41 = QtGui.QLabel(self.tab_4)
         self.IMon_41.setEnabled(True)
         self.IMon_41.setGeometry(QtCore.QRect(240, 316, 20, 20))
@@ -3716,28 +3650,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_41.setFont(font)
-        self.IMon_41.setObjectName(_fromUtf8("IMon_41"))
-        self.S_34 = QtGui.QLabel(self.tab_4)
-        self.S_34.setGeometry(QtCore.QRect(808, 434, 35, 25))
-        self.S_34.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_34.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_34.setObjectName(_fromUtf8("S_34"))
+        self.IMon_41.setObjectName("IMon_41")
+        self.S_80 = QtGui.QLabel(self.tab_4)
+        self.S_80.setGeometry(QtCore.QRect(808, 434, 35, 25))
+        self.S_80.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_80.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_80.setObjectName("S_80")
         self.RS_35 = QtGui.QLabel(self.tab_4)
         self.RS_35.setEnabled(True)
         self.RS_35.setGeometry(QtCore.QRect(890, 310, 45, 25))
         self.RS_35.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_35.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_35.setObjectName(_fromUtf8("RS_35"))
+        self.RS_35.setObjectName("RS_35")
         self.RS_36 = QtGui.QLabel(self.tab_4)
         self.RS_36.setGeometry(QtCore.QRect(890, 434, 45, 25))
         self.RS_36.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_36.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_36.setObjectName(_fromUtf8("RS_36"))
+        self.RS_36.setObjectName("RS_36")
         self.trip_47 = QtGui.QLineEdit(self.tab_4)
         self.trip_47.setGeometry(QtCore.QRect(720, 497, 50, 25))
         self.trip_47.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_47.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_47.setObjectName(_fromUtf8("trip_47"))
+        self.trip_47.setObjectName("trip_47")
         self.IMon_43 = QtGui.QLabel(self.tab_4)
         self.IMon_43.setGeometry(QtCore.QRect(240, 378, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3750,30 +3684,29 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_43.setFont(font)
-        self.IMon_43.setObjectName(_fromUtf8("IMon_43"))
+        self.IMon_43.setObjectName("IMon_43")
         self.P_36 = QtGui.QCheckBox(self.tab_4)
         self.P_36.setGeometry(QtCore.QRect(79, 157, 25, 25))
         self.P_36.setMinimumSize(QtCore.QSize(25, 25))
         self.P_36.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_36.setText(_fromUtf8(""))
-        self.P_36.setObjectName(_fromUtf8("P_36"))
+        self.P_36.setObjectName("P_36")
         self.trip_33 = QtGui.QLineEdit(self.tab_4)
         self.trip_33.setEnabled(True)
         self.trip_33.setGeometry(QtCore.QRect(720, 66, 50, 25))
         self.trip_33.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_33.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_33.setObjectName(_fromUtf8("trip_33"))
+        self.trip_33.setObjectName("trip_33")
         self.RUP_38 = QtGui.QLineEdit(self.tab_4)
         self.RUP_38.setGeometry(QtCore.QRect(520, 218, 50, 25))
         self.RUP_38.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_38.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_38.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_38.setObjectName(_fromUtf8("RUP_38"))
+        self.RUP_38.setObjectName("RUP_38")
         self.RS_37 = QtGui.QLabel(self.tab_4)
         self.RS_37.setGeometry(QtCore.QRect(890, 496, 45, 25))
         self.RS_37.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_37.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_37.setObjectName(_fromUtf8("RS_37"))
+        self.RS_37.setObjectName("RS_37")
         self.CH_39 = QtGui.QLabel(self.tab_4)
         self.CH_39.setGeometry(QtCore.QRect(20, 252, 20, 20))
         self.CH_39.setMinimumSize(QtCore.QSize(20, 20))
@@ -3781,12 +3714,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_39.setFont(font)
-        self.CH_39.setObjectName(_fromUtf8("CH_39"))
+        self.CH_39.setObjectName("CH_39")
         self.V0_42 = QtGui.QLineEdit(self.tab_4)
         self.V0_42.setGeometry(QtCore.QRect(324, 342, 50, 25))
         self.V0_42.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_42.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_42.setObjectName(_fromUtf8("V0_42"))
+        self.V0_42.setObjectName("V0_42")
         self.VMon_38 = QtGui.QLabel(self.tab_4)
         self.VMon_38.setGeometry(QtCore.QRect(141, 223, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3798,20 +3731,20 @@ class Ui_MainWindow(object):
         self.VMon_38.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_38.setFont(font)
-        self.VMon_38.setObjectName(_fromUtf8("VMon_38"))
+        self.VMon_38.setObjectName("VMon_38")
         self.RS_38 = QtGui.QLabel(self.tab_4)
         self.RS_38.setGeometry(QtCore.QRect(890, 248, 45, 25))
         self.RS_38.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_38.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_38.setObjectName(_fromUtf8("RS_38"))
+        self.RS_38.setObjectName("RS_38")
         self.I0_39 = QtGui.QLineEdit(self.tab_4)
         self.I0_39.setGeometry(QtCore.QRect(420, 249, 50, 25))
         self.I0_39.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_39.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_39.setObjectName(_fromUtf8("I0_39"))
+        self.I0_39.setObjectName("I0_39")
         self.CH_37 = QtGui.QLabel(self.tab_4)
         self.CH_37.setGeometry(QtCore.QRect(20, 190, 20, 20))
         self.CH_37.setMinimumSize(QtCore.QSize(20, 20))
@@ -3819,18 +3752,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_37.setFont(font)
-        self.CH_37.setObjectName(_fromUtf8("CH_37"))
+        self.CH_37.setObjectName("CH_37")
         self.V0_37 = QtGui.QLineEdit(self.tab_4)
         self.V0_37.setGeometry(QtCore.QRect(324, 187, 50, 25))
         self.V0_37.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_37.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_37.setObjectName(_fromUtf8("V0_37"))
+        self.V0_37.setObjectName("V0_37")
         self.P_37 = QtGui.QCheckBox(self.tab_4)
         self.P_37.setGeometry(QtCore.QRect(79, 187, 25, 25))
         self.P_37.setMinimumSize(QtCore.QSize(25, 25))
         self.P_37.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_37.setText(_fromUtf8(""))
-        self.P_37.setObjectName(_fromUtf8("P_37"))
+        self.P_37.setObjectName("P_37")
         self.IMon_47 = QtGui.QLabel(self.tab_4)
         self.IMon_47.setGeometry(QtCore.QRect(240, 502, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3843,7 +3775,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_47.setFont(font)
-        self.IMon_47.setObjectName(_fromUtf8("IMon_47"))
+        self.IMon_47.setObjectName("IMon_47")
         self.VMon_46 = QtGui.QLabel(self.tab_4)
         self.VMon_46.setGeometry(QtCore.QRect(141, 471, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3855,52 +3787,51 @@ class Ui_MainWindow(object):
         self.VMon_46.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_46.setFont(font)
-        self.VMon_46.setObjectName(_fromUtf8("VMon_46"))
+        self.VMon_46.setObjectName("VMon_46")
         self.V0_46 = QtGui.QLineEdit(self.tab_4)
         self.V0_46.setGeometry(QtCore.QRect(324, 466, 50, 25))
         self.V0_46.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_46.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_46.setObjectName(_fromUtf8("V0_46"))
+        self.V0_46.setObjectName("V0_46")
         self.RUP_42 = QtGui.QLineEdit(self.tab_4)
         self.RUP_42.setGeometry(QtCore.QRect(520, 342, 50, 25))
         self.RUP_42.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_42.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_42.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_42.setObjectName(_fromUtf8("RUP_42"))
+        self.RUP_42.setObjectName("RUP_42")
         self.RS_39 = QtGui.QLabel(self.tab_4)
         self.RS_39.setGeometry(QtCore.QRect(890, 341, 45, 25))
         self.RS_39.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_39.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_39.setObjectName(_fromUtf8("RS_39"))
+        self.RS_39.setObjectName("RS_39")
         self.trip_36 = QtGui.QLineEdit(self.tab_4)
         self.trip_36.setGeometry(QtCore.QRect(720, 157, 50, 25))
         self.trip_36.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_36.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_36.setObjectName(_fromUtf8("trip_36"))
+        self.trip_36.setObjectName("trip_36")
         self.P_43 = QtGui.QCheckBox(self.tab_4)
         self.P_43.setGeometry(QtCore.QRect(79, 373, 25, 25))
         self.P_43.setMinimumSize(QtCore.QSize(25, 25))
         self.P_43.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_43.setText(_fromUtf8(""))
-        self.P_43.setObjectName(_fromUtf8("P_43"))
+        self.P_43.setObjectName("P_43")
         self.V0_34 = QtGui.QLineEdit(self.tab_4)
         self.V0_34.setGeometry(QtCore.QRect(324, 96, 50, 25))
         self.V0_34.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_34.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_34.setObjectName(_fromUtf8("V0_34"))
-        self.S_35 = QtGui.QLabel(self.tab_4)
-        self.S_35.setGeometry(QtCore.QRect(808, 341, 35, 25))
-        self.S_35.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_35.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_35.setObjectName(_fromUtf8("S_35"))
+        self.V0_34.setObjectName("V0_34")
+        self.S_43 = QtGui.QLabel(self.tab_4)
+        self.S_43.setGeometry(QtCore.QRect(808, 341, 35, 25))
+        self.S_43.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_43.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_43.setObjectName("S_43")
         self.I0_43 = QtGui.QLineEdit(self.tab_4)
         self.I0_43.setGeometry(QtCore.QRect(420, 373, 50, 25))
         self.I0_43.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_43.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_43.setObjectName(_fromUtf8("I0_43"))
+        self.I0_43.setObjectName("I0_43")
         self.IMon_40 = QtGui.QLabel(self.tab_4)
         self.IMon_40.setGeometry(QtCore.QRect(240, 285, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3913,23 +3844,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_40.setFont(font)
-        self.IMon_40.setObjectName(_fromUtf8("IMon_40"))
+        self.IMon_40.setObjectName("IMon_40")
         self.P_32 = QtGui.QCheckBox(self.tab_4)
         self.P_32.setGeometry(QtCore.QRect(79, 35, 25, 25))
         self.P_32.setMinimumSize(QtCore.QSize(25, 25))
         self.P_32.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_32.setText(_fromUtf8(""))
-        self.P_32.setObjectName(_fromUtf8("P_32"))
+        self.P_32.setObjectName("P_32")
         self.RDN_38 = QtGui.QLineEdit(self.tab_4)
         self.RDN_38.setGeometry(QtCore.QRect(620, 218, 50, 25))
         self.RDN_38.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_38.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_38.setObjectName(_fromUtf8("RDN_38"))
+        self.RDN_38.setObjectName("RDN_38")
         self.I0_42 = QtGui.QLineEdit(self.tab_4)
         self.I0_42.setGeometry(QtCore.QRect(420, 342, 50, 25))
         self.I0_42.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_42.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_42.setObjectName(_fromUtf8("I0_42"))
+        self.I0_42.setObjectName("I0_42")
         self.IMon_36 = QtGui.QLabel(self.tab_4)
         self.IMon_36.setGeometry(QtCore.QRect(240, 162, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3942,7 +3872,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_36.setFont(font)
-        self.IMon_36.setObjectName(_fromUtf8("IMon_36"))
+        self.IMon_36.setObjectName("IMon_36")
         self.VMon_36 = QtGui.QLabel(self.tab_4)
         self.VMon_36.setGeometry(QtCore.QRect(141, 162, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3954,10 +3884,10 @@ class Ui_MainWindow(object):
         self.VMon_36.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_36.setFont(font)
-        self.VMon_36.setObjectName(_fromUtf8("VMon_36"))
+        self.VMon_36.setObjectName("VMon_36")
         self.IMon_32 = QtGui.QLabel(self.tab_4)
         self.IMon_32.setGeometry(QtCore.QRect(240, 41, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -3970,39 +3900,38 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_32.setFont(font)
-        self.IMon_32.setObjectName(_fromUtf8("IMon_32"))
+        self.IMon_32.setObjectName("IMon_32")
         self.V0_40 = QtGui.QLineEdit(self.tab_4)
         self.V0_40.setGeometry(QtCore.QRect(324, 280, 50, 25))
         self.V0_40.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_40.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_40.setObjectName(_fromUtf8("V0_40"))
+        self.V0_40.setObjectName("V0_40")
         self.RS_40 = QtGui.QLabel(self.tab_4)
         self.RS_40.setGeometry(QtCore.QRect(890, 403, 45, 25))
         self.RS_40.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_40.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_40.setObjectName(_fromUtf8("RS_40"))
+        self.RS_40.setObjectName("RS_40")
         self.I0_32 = QtGui.QLineEdit(self.tab_4)
         self.I0_32.setEnabled(True)
         self.I0_32.setGeometry(QtCore.QRect(420, 36, 50, 25))
         self.I0_32.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_32.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_32.setObjectName(_fromUtf8("I0_32"))
-        self.S_36 = QtGui.QLabel(self.tab_4)
-        self.S_36.setGeometry(QtCore.QRect(808, 248, 35, 25))
-        self.S_36.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_36.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_36.setObjectName(_fromUtf8("S_36"))
+        self.I0_32.setObjectName("I0_32")
+        self.S_39 = QtGui.QLabel(self.tab_4)
+        self.S_39.setGeometry(QtCore.QRect(808, 248, 35, 25))
+        self.S_39.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_39.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_39.setObjectName("S_39")
         self.P_40 = QtGui.QCheckBox(self.tab_4)
         self.P_40.setGeometry(QtCore.QRect(79, 280, 25, 25))
         self.P_40.setMinimumSize(QtCore.QSize(25, 25))
         self.P_40.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_40.setText(_fromUtf8(""))
-        self.P_40.setObjectName(_fromUtf8("P_40"))
+        self.P_40.setObjectName("P_40")
         self.trip_39 = QtGui.QLineEdit(self.tab_4)
         self.trip_39.setGeometry(QtCore.QRect(720, 249, 50, 25))
         self.trip_39.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_39.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_39.setObjectName(_fromUtf8("trip_39"))
+        self.trip_39.setObjectName("trip_39")
         self.IMon_38 = QtGui.QLabel(self.tab_4)
         self.IMon_38.setGeometry(QtCore.QRect(240, 223, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4015,12 +3944,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_38.setFont(font)
-        self.IMon_38.setObjectName(_fromUtf8("IMon_38"))
+        self.IMon_38.setObjectName("IMon_38")
         self.RS_41 = QtGui.QLabel(self.tab_4)
         self.RS_41.setGeometry(QtCore.QRect(890, 35, 45, 25))
         self.RS_41.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_41.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_41.setObjectName(_fromUtf8("RS_41"))
+        self.RS_41.setObjectName("RS_41")
         self.CH_38 = QtGui.QLabel(self.tab_4)
         self.CH_38.setGeometry(QtCore.QRect(20, 221, 20, 20))
         self.CH_38.setMinimumSize(QtCore.QSize(20, 20))
@@ -4028,29 +3957,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_38.setFont(font)
-        self.CH_38.setObjectName(_fromUtf8("CH_38"))
+        self.CH_38.setObjectName("CH_38")
         self.RDN_45 = QtGui.QLineEdit(self.tab_4)
         self.RDN_45.setGeometry(QtCore.QRect(620, 435, 50, 25))
         self.RDN_45.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_45.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_45.setObjectName(_fromUtf8("RDN_45"))
-        self.S_37 = QtGui.QLabel(self.tab_4)
-        self.S_37.setGeometry(QtCore.QRect(808, 125, 35, 25))
-        self.S_37.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_37.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_37.setObjectName(_fromUtf8("S_37"))
+        self.RDN_45.setObjectName("RDN_45")
+        self.S_35 = QtGui.QLabel(self.tab_4)
+        self.S_35.setGeometry(QtCore.QRect(808, 125, 35, 25))
+        self.S_35.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_35.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_35.setObjectName("S_35")
         self.RUP_43 = QtGui.QLineEdit(self.tab_4)
         self.RUP_43.setGeometry(QtCore.QRect(520, 373, 50, 25))
         self.RUP_43.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_43.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_43.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_43.setObjectName(_fromUtf8("RUP_43"))
+        self.RUP_43.setObjectName("RUP_43")
         self.P_39 = QtGui.QCheckBox(self.tab_4)
         self.P_39.setGeometry(QtCore.QRect(79, 249, 25, 25))
         self.P_39.setMinimumSize(QtCore.QSize(25, 25))
         self.P_39.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_39.setText(_fromUtf8(""))
-        self.P_39.setObjectName(_fromUtf8("P_39"))
+        self.P_39.setObjectName("P_39")
         self.CH_33 = QtGui.QLabel(self.tab_4)
         self.CH_33.setEnabled(True)
         self.CH_33.setGeometry(QtCore.QRect(20, 69, 20, 20))
@@ -4059,7 +3987,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_33.setFont(font)
-        self.CH_33.setObjectName(_fromUtf8("CH_33"))
+        self.CH_33.setObjectName("CH_33")
         self.IMon_39 = QtGui.QLabel(self.tab_4)
         self.IMon_39.setGeometry(QtCore.QRect(240, 254, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4072,111 +4000,106 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_39.setFont(font)
-        self.IMon_39.setObjectName(_fromUtf8("IMon_39"))
+        self.IMon_39.setObjectName("IMon_39")
         self.trip_37 = QtGui.QLineEdit(self.tab_4)
         self.trip_37.setGeometry(QtCore.QRect(720, 187, 50, 25))
         self.trip_37.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_37.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_37.setObjectName(_fromUtf8("trip_37"))
+        self.trip_37.setObjectName("trip_37")
         self.I0_36 = QtGui.QLineEdit(self.tab_4)
         self.I0_36.setGeometry(QtCore.QRect(420, 157, 50, 25))
         self.I0_36.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_36.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_36.setObjectName(_fromUtf8("I0_36"))
+        self.I0_36.setObjectName("I0_36")
         self.RUP_33 = QtGui.QLineEdit(self.tab_4)
         self.RUP_33.setGeometry(QtCore.QRect(520, 66, 50, 25))
         self.RUP_33.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_33.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_33.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_33.setObjectName(_fromUtf8("RUP_33"))
+        self.RUP_33.setObjectName("RUP_33")
         self.trip_44 = QtGui.QLineEdit(self.tab_4)
         self.trip_44.setGeometry(QtCore.QRect(720, 404, 50, 25))
         self.trip_44.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_44.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_44.setObjectName(_fromUtf8("trip_44"))
+        self.trip_44.setObjectName("trip_44")
         self.RUP_46 = QtGui.QLineEdit(self.tab_4)
         self.RUP_46.setGeometry(QtCore.QRect(520, 466, 50, 25))
         self.RUP_46.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_46.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_46.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_46.setObjectName(_fromUtf8("RUP_46"))
+        self.RUP_46.setObjectName("RUP_46")
         self.V0_44 = QtGui.QLineEdit(self.tab_4)
         self.V0_44.setGeometry(QtCore.QRect(324, 404, 50, 25))
         self.V0_44.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_44.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_44.setObjectName(_fromUtf8("V0_44"))
+        self.V0_44.setObjectName("V0_44")
         self.P_34 = QtGui.QCheckBox(self.tab_4)
         self.P_34.setGeometry(QtCore.QRect(79, 96, 25, 25))
         self.P_34.setMinimumSize(QtCore.QSize(25, 25))
         self.P_34.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_34.setText(_fromUtf8(""))
-        self.P_34.setObjectName(_fromUtf8("P_34"))
+        self.P_34.setObjectName("P_34")
         self.trip_40 = QtGui.QLineEdit(self.tab_4)
         self.trip_40.setGeometry(QtCore.QRect(720, 280, 50, 25))
         self.trip_40.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_40.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_40.setObjectName(_fromUtf8("trip_40"))
+        self.trip_40.setObjectName("trip_40")
         self.RDN_37 = QtGui.QLineEdit(self.tab_4)
         self.RDN_37.setGeometry(QtCore.QRect(620, 187, 50, 25))
         self.RDN_37.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_37.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_37.setObjectName(_fromUtf8("RDN_37"))
+        self.RDN_37.setObjectName("RDN_37")
         self.I0_47 = QtGui.QLineEdit(self.tab_4)
         self.I0_47.setGeometry(QtCore.QRect(420, 497, 50, 25))
         self.I0_47.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_47.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_47.setObjectName(_fromUtf8("I0_47"))
+        self.I0_47.setObjectName("I0_47")
         self.P_38 = QtGui.QCheckBox(self.tab_4)
         self.P_38.setGeometry(QtCore.QRect(79, 218, 25, 25))
         self.P_38.setMinimumSize(QtCore.QSize(25, 25))
         self.P_38.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_38.setText(_fromUtf8(""))
-        self.P_38.setObjectName(_fromUtf8("P_38"))
+        self.P_38.setObjectName("P_38")
         self.RUP_header_3 = QtGui.QPushButton(self.tab_4)
         self.RUP_header_3.setGeometry(QtCore.QRect(503, 9, 79, 21))
         self.RUP_header_3.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RUP_header_3.setFont(font)
-        self.RUP_header_3.setToolTip(_fromUtf8(""))
-        self.RUP_header_3.setStatusTip(_fromUtf8(""))
-        self.RUP_header_3.setWhatsThis(_fromUtf8(""))
-        self.RUP_header_3.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RUP_header_3.setObjectName(_fromUtf8("RUP_header_3"))
+        self.RUP_header_3.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RUP_header_3.setObjectName("RUP_header_3")
         self.V0_32 = QtGui.QLineEdit(self.tab_4)
         self.V0_32.setEnabled(True)
         self.V0_32.setGeometry(QtCore.QRect(324, 36, 50, 25))
         self.V0_32.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_32.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_32.setObjectName(_fromUtf8("V0_32"))
+        self.V0_32.setObjectName("V0_32")
         self.RDN_43 = QtGui.QLineEdit(self.tab_4)
         self.RDN_43.setGeometry(QtCore.QRect(620, 373, 50, 25))
         self.RDN_43.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_43.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_43.setObjectName(_fromUtf8("RDN_43"))
+        self.RDN_43.setObjectName("RDN_43")
         self.trip_41 = QtGui.QLineEdit(self.tab_4)
         self.trip_41.setEnabled(True)
         self.trip_41.setGeometry(QtCore.QRect(720, 311, 50, 25))
         self.trip_41.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_41.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_41.setObjectName(_fromUtf8("trip_41"))
+        self.trip_41.setObjectName("trip_41")
         self.RUP_41 = QtGui.QLineEdit(self.tab_4)
         self.RUP_41.setGeometry(QtCore.QRect(520, 311, 50, 25))
         self.RUP_41.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_41.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_41.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_41.setObjectName(_fromUtf8("RUP_41"))
+        self.RUP_41.setObjectName("RUP_41")
         self.VMon_header_3 = QtGui.QLabel(self.tab_4)
         self.VMon_header_3.setGeometry(QtCore.QRect(130, 8, 68, 21))
-        self.VMon_header_3.setObjectName(_fromUtf8("VMon_header_3"))
+        self.VMon_header_3.setObjectName("VMon_header_3")
         self.RDN_40 = QtGui.QLineEdit(self.tab_4)
         self.RDN_40.setGeometry(QtCore.QRect(620, 280, 50, 25))
         self.RDN_40.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_40.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_40.setObjectName(_fromUtf8("RDN_40"))
+        self.RDN_40.setObjectName("RDN_40")
         self.CH_36 = QtGui.QLabel(self.tab_4)
         self.CH_36.setGeometry(QtCore.QRect(20, 160, 20, 20))
         self.CH_36.setMinimumSize(QtCore.QSize(20, 20))
@@ -4184,7 +4107,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_36.setFont(font)
-        self.CH_36.setObjectName(_fromUtf8("CH_36"))
+        self.CH_36.setObjectName("CH_36")
         self.VMon_32 = QtGui.QLabel(self.tab_4)
         self.VMon_32.setGeometry(QtCore.QRect(141, 41, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4196,10 +4119,10 @@ class Ui_MainWindow(object):
         self.VMon_32.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_32.setFont(font)
-        self.VMon_32.setObjectName(_fromUtf8("VMon_32"))
+        self.VMon_32.setObjectName("VMon_32")
         self.CH_44 = QtGui.QLabel(self.tab_4)
         self.CH_44.setGeometry(QtCore.QRect(20, 407, 20, 20))
         self.CH_44.setMinimumSize(QtCore.QSize(20, 20))
@@ -4207,7 +4130,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_44.setFont(font)
-        self.CH_44.setObjectName(_fromUtf8("CH_44"))
+        self.CH_44.setObjectName("CH_44")
         self.CH_45 = QtGui.QLabel(self.tab_4)
         self.CH_45.setGeometry(QtCore.QRect(20, 438, 20, 20))
         self.CH_45.setMinimumSize(QtCore.QSize(20, 20))
@@ -4215,7 +4138,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_45.setFont(font)
-        self.CH_45.setObjectName(_fromUtf8("CH_45"))
+        self.CH_45.setObjectName("CH_45")
         self.CH_34 = QtGui.QLabel(self.tab_4)
         self.CH_34.setGeometry(QtCore.QRect(20, 99, 20, 20))
         self.CH_34.setMinimumSize(QtCore.QSize(20, 20))
@@ -4223,45 +4146,45 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_34.setFont(font)
-        self.CH_34.setObjectName(_fromUtf8("CH_34"))
+        self.CH_34.setObjectName("CH_34")
         self.trip_32 = QtGui.QLineEdit(self.tab_4)
         self.trip_32.setGeometry(QtCore.QRect(720, 36, 50, 25))
         self.trip_32.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_32.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_32.setObjectName(_fromUtf8("trip_32"))
-        self.S_38 = QtGui.QLabel(self.tab_4)
-        self.S_38.setGeometry(QtCore.QRect(808, 186, 35, 25))
-        self.S_38.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_38.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_38.setObjectName(_fromUtf8("S_38"))
+        self.trip_32.setObjectName("trip_32")
+        self.S_37 = QtGui.QLabel(self.tab_4)
+        self.S_37.setGeometry(QtCore.QRect(808, 186, 35, 25))
+        self.S_37.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_37.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_37.setObjectName("S_37")
         self.V0_45 = QtGui.QLineEdit(self.tab_4)
         self.V0_45.setGeometry(QtCore.QRect(324, 435, 50, 25))
         self.V0_45.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_45.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_45.setObjectName(_fromUtf8("V0_45"))
+        self.V0_45.setObjectName("V0_45")
         self.RDN_41 = QtGui.QLineEdit(self.tab_4)
         self.RDN_41.setEnabled(True)
         self.RDN_41.setGeometry(QtCore.QRect(620, 311, 50, 25))
         self.RDN_41.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_41.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_41.setObjectName(_fromUtf8("RDN_41"))
+        self.RDN_41.setObjectName("RDN_41")
         self.RUP_32 = QtGui.QLineEdit(self.tab_4)
         self.RUP_32.setGeometry(QtCore.QRect(520, 36, 50, 25))
         self.RUP_32.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_32.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_32.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_32.setObjectName(_fromUtf8("RUP_32"))
+        self.RUP_32.setObjectName("RUP_32")
         self.RDW_header_3 = QtGui.QPushButton(self.tab_4)
         self.RDW_header_3.setGeometry(QtCore.QRect(603, 9, 85, 21))
         self.RDW_header_3.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RDW_header_3.setFont(font)
-        self.RDW_header_3.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RDW_header_3.setObjectName(_fromUtf8("RDW_header_3"))
+        self.RDW_header_3.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RDW_header_3.setObjectName("RDW_header_3")
         self.VMon_35 = QtGui.QLabel(self.tab_4)
         self.VMon_35.setGeometry(QtCore.QRect(141, 131, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4273,33 +4196,31 @@ class Ui_MainWindow(object):
         self.VMon_35.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_35.setFont(font)
-        self.VMon_35.setObjectName(_fromUtf8("VMon_35"))
+        self.VMon_35.setObjectName("VMon_35")
         self.trip_45 = QtGui.QLineEdit(self.tab_4)
         self.trip_45.setGeometry(QtCore.QRect(720, 435, 50, 25))
         self.trip_45.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_45.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_45.setObjectName(_fromUtf8("trip_45"))
+        self.trip_45.setObjectName("trip_45")
         self.P_44 = QtGui.QCheckBox(self.tab_4)
         self.P_44.setGeometry(QtCore.QRect(79, 404, 25, 25))
         self.P_44.setMinimumSize(QtCore.QSize(25, 25))
         self.P_44.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_44.setText(_fromUtf8(""))
-        self.P_44.setObjectName(_fromUtf8("P_44"))
+        self.P_44.setObjectName("P_44")
         self.RDN_32 = QtGui.QLineEdit(self.tab_4)
         self.RDN_32.setGeometry(QtCore.QRect(620, 36, 50, 25))
         self.RDN_32.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_32.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_32.setObjectName(_fromUtf8("RDN_32"))
+        self.RDN_32.setObjectName("RDN_32")
         self.P_33 = QtGui.QCheckBox(self.tab_4)
         self.P_33.setEnabled(True)
         self.P_33.setGeometry(QtCore.QRect(79, 66, 25, 25))
         self.P_33.setMinimumSize(QtCore.QSize(25, 25))
         self.P_33.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_33.setText(_fromUtf8(""))
-        self.P_33.setObjectName(_fromUtf8("P_33"))
+        self.P_33.setObjectName("P_33")
         self.VMon_45 = QtGui.QLabel(self.tab_4)
         self.VMon_45.setGeometry(QtCore.QRect(141, 440, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4311,10 +4232,10 @@ class Ui_MainWindow(object):
         self.VMon_45.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_45.setFont(font)
-        self.VMon_45.setObjectName(_fromUtf8("VMon_45"))
+        self.VMon_45.setObjectName("VMon_45")
         self.CH_47 = QtGui.QLabel(self.tab_4)
         self.CH_47.setGeometry(QtCore.QRect(20, 500, 20, 20))
         self.CH_47.setMinimumSize(QtCore.QSize(20, 20))
@@ -4322,28 +4243,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_47.setFont(font)
-        self.CH_47.setObjectName(_fromUtf8("CH_47"))
+        self.CH_47.setObjectName("CH_47")
         self.RUP_36 = QtGui.QLineEdit(self.tab_4)
         self.RUP_36.setGeometry(QtCore.QRect(520, 157, 50, 25))
         self.RUP_36.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_36.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_36.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_36.setObjectName(_fromUtf8("RUP_36"))
+        self.RUP_36.setObjectName("RUP_36")
         self.trip_34 = QtGui.QLineEdit(self.tab_4)
         self.trip_34.setGeometry(QtCore.QRect(720, 96, 50, 25))
         self.trip_34.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_34.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_34.setObjectName(_fromUtf8("trip_34"))
+        self.trip_34.setObjectName("trip_34")
         self.RDN_39 = QtGui.QLineEdit(self.tab_4)
         self.RDN_39.setGeometry(QtCore.QRect(620, 249, 50, 25))
         self.RDN_39.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_39.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_39.setObjectName(_fromUtf8("RDN_39"))
+        self.RDN_39.setObjectName("RDN_39")
         self.V0_36 = QtGui.QLineEdit(self.tab_4)
         self.V0_36.setGeometry(QtCore.QRect(324, 157, 50, 25))
         self.V0_36.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_36.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_36.setObjectName(_fromUtf8("V0_36"))
+        self.V0_36.setObjectName("V0_36")
         self.CH_35 = QtGui.QLabel(self.tab_4)
         self.CH_35.setGeometry(QtCore.QRect(20, 129, 20, 20))
         self.CH_35.setMinimumSize(QtCore.QSize(20, 20))
@@ -4351,25 +4272,24 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_35.setFont(font)
-        self.CH_35.setObjectName(_fromUtf8("CH_35"))
+        self.CH_35.setObjectName("CH_35")
         self.P_46 = QtGui.QCheckBox(self.tab_4)
         self.P_46.setGeometry(QtCore.QRect(79, 466, 25, 25))
         self.P_46.setMinimumSize(QtCore.QSize(25, 25))
         self.P_46.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_46.setText(_fromUtf8(""))
-        self.P_46.setObjectName(_fromUtf8("P_46"))
+        self.P_46.setObjectName("P_46")
         self.V0_41 = QtGui.QLineEdit(self.tab_4)
         self.V0_41.setEnabled(True)
         self.V0_41.setGeometry(QtCore.QRect(324, 311, 50, 25))
         self.V0_41.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_41.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_41.setObjectName(_fromUtf8("V0_41"))
+        self.V0_41.setObjectName("V0_41")
         self.RDN_33 = QtGui.QLineEdit(self.tab_4)
         self.RDN_33.setEnabled(True)
         self.RDN_33.setGeometry(QtCore.QRect(620, 66, 50, 25))
         self.RDN_33.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_33.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_33.setObjectName(_fromUtf8("RDN_33"))
+        self.RDN_33.setObjectName("RDN_33")
         self.VMon_44 = QtGui.QLabel(self.tab_4)
         self.VMon_44.setGeometry(QtCore.QRect(141, 409, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4381,42 +4301,42 @@ class Ui_MainWindow(object):
         self.VMon_44.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_44.setFont(font)
-        self.VMon_44.setObjectName(_fromUtf8("VMon_44"))
+        self.VMon_44.setObjectName("VMon_44")
         self.Trip_header_3 = QtGui.QPushButton(self.tab_4)
         self.Trip_header_3.setGeometry(QtCore.QRect(706, 10, 73, 20))
         self.Trip_header_3.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.Trip_header_3.setFont(font)
-        self.Trip_header_3.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.Trip_header_3.setObjectName(_fromUtf8("Trip_header_3"))
+        self.Trip_header_3.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.Trip_header_3.setObjectName("Trip_header_3")
         self.P_header_3 = QtGui.QPushButton(self.tab_4)
         self.P_header_3.setGeometry(QtCore.QRect(60, 8, 61, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.P_header_3.setFont(font)
         self.P_header_3.setAutoFillBackground(False)
-        self.P_header_3.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.P_header_3.setObjectName(_fromUtf8("P_header_3"))
-        self.S_39 = QtGui.QLabel(self.tab_4)
-        self.S_39.setGeometry(QtCore.QRect(808, 35, 35, 25))
-        self.S_39.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_39.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_39.setObjectName(_fromUtf8("S_39"))
+        self.P_header_3.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.P_header_3.setObjectName("P_header_3")
+        self.S_32 = QtGui.QLabel(self.tab_4)
+        self.S_32.setGeometry(QtCore.QRect(808, 35, 35, 25))
+        self.S_32.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_32.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_32.setObjectName("S_32")
         self.V0_35 = QtGui.QLineEdit(self.tab_4)
         self.V0_35.setGeometry(QtCore.QRect(324, 126, 50, 25))
         self.V0_35.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_35.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_35.setObjectName(_fromUtf8("V0_35"))
+        self.V0_35.setObjectName("V0_35")
         self.VMon_40 = QtGui.QLabel(self.tab_4)
         self.VMon_40.setGeometry(QtCore.QRect(141, 285, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4428,58 +4348,57 @@ class Ui_MainWindow(object):
         self.VMon_40.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_40.setFont(font)
-        self.VMon_40.setObjectName(_fromUtf8("VMon_40"))
+        self.VMon_40.setObjectName("VMon_40")
         self.I0_41 = QtGui.QLineEdit(self.tab_4)
         self.I0_41.setEnabled(True)
         self.I0_41.setGeometry(QtCore.QRect(420, 311, 50, 25))
         self.I0_41.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_41.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_41.setObjectName(_fromUtf8("I0_41"))
+        self.I0_41.setObjectName("I0_41")
         self.RDN_35 = QtGui.QLineEdit(self.tab_4)
         self.RDN_35.setGeometry(QtCore.QRect(620, 126, 50, 25))
         self.RDN_35.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_35.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_35.setObjectName(_fromUtf8("RDN_35"))
+        self.RDN_35.setObjectName("RDN_35")
         self.RS_42 = QtGui.QLabel(self.tab_4)
         self.RS_42.setGeometry(QtCore.QRect(890, 186, 45, 25))
         self.RS_42.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_42.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_42.setObjectName(_fromUtf8("RS_42"))
+        self.RS_42.setObjectName("RS_42")
         self.RS_43 = QtGui.QLabel(self.tab_4)
         self.RS_43.setGeometry(QtCore.QRect(890, 372, 45, 25))
         self.RS_43.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_43.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_43.setObjectName(_fromUtf8("RS_43"))
-        self.S_40 = QtGui.QLabel(self.tab_4)
-        self.S_40.setGeometry(QtCore.QRect(808, 403, 35, 25))
-        self.S_40.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_40.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_40.setObjectName(_fromUtf8("S_40"))
+        self.RS_43.setObjectName("RS_43")
+        self.S_45 = QtGui.QLabel(self.tab_4)
+        self.S_45.setGeometry(QtCore.QRect(808, 403, 35, 25))
+        self.S_45.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_45.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_45.setObjectName("S_45")
         self.I0_40 = QtGui.QLineEdit(self.tab_4)
         self.I0_40.setGeometry(QtCore.QRect(420, 280, 50, 25))
         self.I0_40.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_40.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_40.setObjectName(_fromUtf8("I0_40"))
-        self.S_41 = QtGui.QLabel(self.tab_4)
-        self.S_41.setEnabled(True)
-        self.S_41.setGeometry(QtCore.QRect(808, 65, 35, 25))
-        self.S_41.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_41.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_41.setObjectName(_fromUtf8("S_41"))
+        self.I0_40.setObjectName("I0_40")
+        self.S_33 = QtGui.QLabel(self.tab_4)
+        self.S_33.setEnabled(True)
+        self.S_33.setGeometry(QtCore.QRect(808, 65, 35, 25))
+        self.S_33.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_33.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_33.setObjectName("S_33")
         self.P_42 = QtGui.QCheckBox(self.tab_4)
         self.P_42.setGeometry(QtCore.QRect(79, 342, 25, 25))
         self.P_42.setMinimumSize(QtCore.QSize(25, 25))
         self.P_42.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_42.setText(_fromUtf8(""))
-        self.P_42.setObjectName(_fromUtf8("P_42"))
+        self.P_42.setObjectName("P_42")
         self.I0_35 = QtGui.QLineEdit(self.tab_4)
         self.I0_35.setGeometry(QtCore.QRect(420, 126, 50, 25))
         self.I0_35.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_35.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_35.setObjectName(_fromUtf8("I0_35"))
+        self.I0_35.setObjectName("I0_35")
         self.IMon_42 = QtGui.QLabel(self.tab_4)
         self.IMon_42.setGeometry(QtCore.QRect(240, 347, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4492,19 +4411,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_42.setFont(font)
-        self.IMon_42.setObjectName(_fromUtf8("IMon_42"))
+        self.IMon_42.setObjectName("IMon_42")
         self.P_45 = QtGui.QCheckBox(self.tab_4)
         self.P_45.setGeometry(QtCore.QRect(79, 435, 25, 25))
         self.P_45.setMinimumSize(QtCore.QSize(25, 25))
         self.P_45.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_45.setText(_fromUtf8(""))
-        self.P_45.setObjectName(_fromUtf8("P_45"))
+        self.P_45.setObjectName("P_45")
         self.RUP_40 = QtGui.QLineEdit(self.tab_4)
         self.RUP_40.setGeometry(QtCore.QRect(520, 280, 50, 25))
         self.RUP_40.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_40.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_40.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_40.setObjectName(_fromUtf8("RUP_40"))
+        self.RUP_40.setObjectName("RUP_40")
         self.CH_40 = QtGui.QLabel(self.tab_4)
         self.CH_40.setGeometry(QtCore.QRect(20, 283, 20, 20))
         self.CH_40.setMinimumSize(QtCore.QSize(20, 20))
@@ -4512,32 +4430,31 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_40.setFont(font)
-        self.CH_40.setObjectName(_fromUtf8("CH_40"))
+        self.CH_40.setObjectName("CH_40")
         self.RDN_47 = QtGui.QLineEdit(self.tab_4)
         self.RDN_47.setGeometry(QtCore.QRect(620, 497, 50, 25))
         self.RDN_47.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_47.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_47.setObjectName(_fromUtf8("RDN_47"))
+        self.RDN_47.setObjectName("RDN_47")
         self.RS_header_3 = QtGui.QLabel(self.tab_4)
         self.RS_header_3.setGeometry(QtCore.QRect(861, 1, 111, 41))
-        self.RS_header_3.setObjectName(_fromUtf8("RS_header_3"))
+        self.RS_header_3.setObjectName("RS_header_3")
         self.RS_44 = QtGui.QLabel(self.tab_4)
         self.RS_44.setGeometry(QtCore.QRect(890, 125, 45, 25))
         self.RS_44.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_44.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_44.setObjectName(_fromUtf8("RS_44"))
+        self.RS_44.setObjectName("RS_44")
         self.I0_33 = QtGui.QLineEdit(self.tab_4)
         self.I0_33.setEnabled(True)
         self.I0_33.setGeometry(QtCore.QRect(420, 66, 50, 25))
         self.I0_33.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_33.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_33.setObjectName(_fromUtf8("I0_33"))
+        self.I0_33.setObjectName("I0_33")
         self.P_47 = QtGui.QCheckBox(self.tab_4)
         self.P_47.setGeometry(QtCore.QRect(79, 497, 25, 25))
         self.P_47.setMinimumSize(QtCore.QSize(25, 25))
         self.P_47.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_47.setText(_fromUtf8(""))
-        self.P_47.setObjectName(_fromUtf8("P_47"))
+        self.P_47.setObjectName("P_47")
         self.VMon_41 = QtGui.QLabel(self.tab_4)
         self.VMon_41.setEnabled(True)
         self.VMon_41.setGeometry(QtCore.QRect(141, 316, 45, 20))
@@ -4550,25 +4467,25 @@ class Ui_MainWindow(object):
         self.VMon_41.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_41.setFont(font)
-        self.VMon_41.setObjectName(_fromUtf8("VMon_41"))
+        self.VMon_41.setObjectName("VMon_41")
         self.trip_38 = QtGui.QLineEdit(self.tab_4)
         self.trip_38.setGeometry(QtCore.QRect(720, 218, 50, 25))
         self.trip_38.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_38.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_38.setObjectName(_fromUtf8("trip_38"))
+        self.trip_38.setObjectName("trip_38")
         self.V0_47 = QtGui.QLineEdit(self.tab_4)
         self.V0_47.setGeometry(QtCore.QRect(324, 497, 50, 25))
         self.V0_47.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_47.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_47.setObjectName(_fromUtf8("V0_47"))
-        self.S_42 = QtGui.QLabel(self.tab_4)
-        self.S_42.setGeometry(QtCore.QRect(808, 372, 35, 25))
-        self.S_42.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_42.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_42.setObjectName(_fromUtf8("S_42"))
+        self.V0_47.setObjectName("V0_47")
+        self.S_44 = QtGui.QLabel(self.tab_4)
+        self.S_44.setGeometry(QtCore.QRect(808, 372, 35, 25))
+        self.S_44.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_44.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_44.setObjectName("S_44")
         self.CH_41 = QtGui.QLabel(self.tab_4)
         self.CH_41.setEnabled(True)
         self.CH_41.setGeometry(QtCore.QRect(20, 314, 20, 20))
@@ -4577,33 +4494,33 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_41.setFont(font)
-        self.CH_41.setObjectName(_fromUtf8("CH_41"))
+        self.CH_41.setObjectName("CH_41")
         self.trip_35 = QtGui.QLineEdit(self.tab_4)
         self.trip_35.setGeometry(QtCore.QRect(720, 126, 50, 25))
         self.trip_35.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_35.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_35.setObjectName(_fromUtf8("trip_35"))
+        self.trip_35.setObjectName("trip_35")
         self.V0_38 = QtGui.QLineEdit(self.tab_4)
         self.V0_38.setGeometry(QtCore.QRect(324, 218, 50, 25))
         self.V0_38.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_38.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_38.setObjectName(_fromUtf8("V0_38"))
+        self.V0_38.setObjectName("V0_38")
         self.I0_46 = QtGui.QLineEdit(self.tab_4)
         self.I0_46.setGeometry(QtCore.QRect(420, 466, 50, 25))
         self.I0_46.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_46.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_46.setObjectName(_fromUtf8("I0_46"))
+        self.I0_46.setObjectName("I0_46")
         self.RS_45 = QtGui.QLabel(self.tab_4)
         self.RS_45.setGeometry(QtCore.QRect(890, 279, 45, 25))
         self.RS_45.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_45.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_45.setObjectName(_fromUtf8("RS_45"))
-        self.S_43 = QtGui.QLabel(self.tab_4)
-        self.S_43.setEnabled(True)
-        self.S_43.setGeometry(QtCore.QRect(808, 310, 35, 25))
-        self.S_43.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_43.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_43.setObjectName(_fromUtf8("S_43"))
+        self.RS_45.setObjectName("RS_45")
+        self.S_41 = QtGui.QLabel(self.tab_4)
+        self.S_41.setEnabled(True)
+        self.S_41.setGeometry(QtCore.QRect(808, 310, 35, 25))
+        self.S_41.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_41.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_41.setObjectName("S_41")
         self.VMon_47 = QtGui.QLabel(self.tab_4)
         self.VMon_47.setGeometry(QtCore.QRect(141, 502, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4615,30 +4532,30 @@ class Ui_MainWindow(object):
         self.VMon_47.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_47.setFont(font)
-        self.VMon_47.setObjectName(_fromUtf8("VMon_47"))
-        self.S_44 = QtGui.QLabel(self.tab_4)
-        self.S_44.setGeometry(QtCore.QRect(808, 156, 35, 25))
-        self.S_44.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_44.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_44.setObjectName(_fromUtf8("S_44"))
-        self.S_45 = QtGui.QLabel(self.tab_4)
-        self.S_45.setGeometry(QtCore.QRect(808, 217, 35, 25))
-        self.S_45.setMinimumSize(QtCore.QSize(35, 25))
-        self.S_45.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_45.setObjectName(_fromUtf8("S_45"))
+        self.VMon_47.setObjectName("VMon_47")
+        self.S_36 = QtGui.QLabel(self.tab_4)
+        self.S_36.setGeometry(QtCore.QRect(808, 156, 35, 25))
+        self.S_36.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_36.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_36.setObjectName("S_36")
+        self.S_38 = QtGui.QLabel(self.tab_4)
+        self.S_38.setGeometry(QtCore.QRect(808, 217, 35, 25))
+        self.S_38.setMinimumSize(QtCore.QSize(35, 25))
+        self.S_38.setMaximumSize(QtCore.QSize(35, 25))
+        self.S_38.setObjectName("S_38")
         self.S_46 = QtGui.QLabel(self.tab_4)
         self.S_46.setGeometry(QtCore.QRect(808, 465, 35, 25))
         self.S_46.setMinimumSize(QtCore.QSize(35, 25))
         self.S_46.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_46.setObjectName(_fromUtf8("S_46"))
+        self.S_46.setObjectName("S_46")
         self.RDN_36 = QtGui.QLineEdit(self.tab_4)
         self.RDN_36.setGeometry(QtCore.QRect(620, 157, 50, 25))
         self.RDN_36.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_36.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_36.setObjectName(_fromUtf8("RDN_36"))
+        self.RDN_36.setObjectName("RDN_36")
         self.IMon_46 = QtGui.QLabel(self.tab_4)
         self.IMon_46.setGeometry(QtCore.QRect(240, 471, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4651,12 +4568,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_46.setFont(font)
-        self.IMon_46.setObjectName(_fromUtf8("IMon_46"))
+        self.IMon_46.setObjectName("IMon_46")
         self.RS_46 = QtGui.QLabel(self.tab_4)
         self.RS_46.setGeometry(QtCore.QRect(890, 465, 45, 25))
         self.RS_46.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_46.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_46.setObjectName(_fromUtf8("RS_46"))
+        self.RS_46.setObjectName("RS_46")
         self.CH_43 = QtGui.QLabel(self.tab_4)
         self.CH_43.setGeometry(QtCore.QRect(20, 376, 20, 20))
         self.CH_43.setMinimumSize(QtCore.QSize(20, 20))
@@ -4664,17 +4581,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_43.setFont(font)
-        self.CH_43.setObjectName(_fromUtf8("CH_43"))
+        self.CH_43.setObjectName("CH_43")
         self.I0_38 = QtGui.QLineEdit(self.tab_4)
         self.I0_38.setGeometry(QtCore.QRect(420, 218, 50, 25))
         self.I0_38.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_38.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_38.setObjectName(_fromUtf8("I0_38"))
+        self.I0_38.setObjectName("I0_38")
         self.I0_37 = QtGui.QLineEdit(self.tab_4)
         self.I0_37.setGeometry(QtCore.QRect(420, 187, 50, 25))
         self.I0_37.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_37.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_37.setObjectName(_fromUtf8("I0_37"))
+        self.I0_37.setObjectName("I0_37")
         self.VMon_34 = QtGui.QLabel(self.tab_4)
         self.VMon_34.setGeometry(QtCore.QRect(141, 101, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4686,10 +4603,10 @@ class Ui_MainWindow(object):
         self.VMon_34.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_34.setFont(font)
-        self.VMon_34.setObjectName(_fromUtf8("VMon_34"))
+        self.VMon_34.setObjectName("VMon_34")
         self.VMon_42 = QtGui.QLabel(self.tab_4)
         self.VMon_42.setGeometry(QtCore.QRect(141, 347, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4701,37 +4618,36 @@ class Ui_MainWindow(object):
         self.VMon_42.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_42.setFont(font)
-        self.VMon_42.setObjectName(_fromUtf8("VMon_42"))
+        self.VMon_42.setObjectName("VMon_42")
         self.RDN_46 = QtGui.QLineEdit(self.tab_4)
         self.RDN_46.setGeometry(QtCore.QRect(620, 466, 50, 25))
         self.RDN_46.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_46.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_46.setObjectName(_fromUtf8("RDN_46"))
+        self.RDN_46.setObjectName("RDN_46")
         self.RS_47 = QtGui.QLabel(self.tab_4)
         self.RS_47.setGeometry(QtCore.QRect(890, 95, 45, 25))
         self.RS_47.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_47.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_47.setObjectName(_fromUtf8("RS_47"))
+        self.RS_47.setObjectName("RS_47")
         self.P_35 = QtGui.QCheckBox(self.tab_4)
         self.P_35.setGeometry(QtCore.QRect(79, 126, 25, 25))
         self.P_35.setMinimumSize(QtCore.QSize(25, 25))
         self.P_35.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_35.setText(_fromUtf8(""))
-        self.P_35.setObjectName(_fromUtf8("P_35"))
+        self.P_35.setObjectName("P_35")
         self.RUP_35 = QtGui.QLineEdit(self.tab_4)
         self.RUP_35.setGeometry(QtCore.QRect(520, 126, 50, 25))
         self.RUP_35.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_35.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_35.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_35.setObjectName(_fromUtf8("RUP_35"))
+        self.RUP_35.setObjectName("RUP_35")
         self.RDN_34 = QtGui.QLineEdit(self.tab_4)
         self.RDN_34.setGeometry(QtCore.QRect(620, 96, 50, 25))
         self.RDN_34.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_34.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_34.setObjectName(_fromUtf8("RDN_34"))
+        self.RDN_34.setObjectName("RDN_34")
         self.CH_42 = QtGui.QLabel(self.tab_4)
         self.CH_42.setGeometry(QtCore.QRect(20, 345, 20, 20))
         self.CH_42.setMinimumSize(QtCore.QSize(20, 20))
@@ -4739,29 +4655,29 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_42.setFont(font)
-        self.CH_42.setObjectName(_fromUtf8("CH_42"))
+        self.CH_42.setObjectName("CH_42")
         self.trip_46 = QtGui.QLineEdit(self.tab_4)
         self.trip_46.setGeometry(QtCore.QRect(720, 466, 50, 25))
         self.trip_46.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_46.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_46.setObjectName(_fromUtf8("trip_46"))
+        self.trip_46.setObjectName("trip_46")
         self.S_47 = QtGui.QLabel(self.tab_4)
         self.S_47.setGeometry(QtCore.QRect(808, 496, 35, 25))
         self.S_47.setMinimumSize(QtCore.QSize(35, 25))
         self.S_47.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_47.setObjectName(_fromUtf8("S_47"))
+        self.S_47.setObjectName("S_47")
         self.RUP_39 = QtGui.QLineEdit(self.tab_4)
         self.RUP_39.setGeometry(QtCore.QRect(520, 249, 50, 25))
         self.RUP_39.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_39.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_39.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_39.setObjectName(_fromUtf8("RUP_39"))
+        self.RUP_39.setObjectName("RUP_39")
         self.RUP_34 = QtGui.QLineEdit(self.tab_4)
         self.RUP_34.setGeometry(QtCore.QRect(520, 96, 50, 25))
         self.RUP_34.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_34.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_34.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_34.setObjectName(_fromUtf8("RUP_34"))
+        self.RUP_34.setObjectName("RUP_34")
         self.IMon_45 = QtGui.QLabel(self.tab_4)
         self.IMon_45.setGeometry(QtCore.QRect(240, 440, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4774,7 +4690,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_45.setFont(font)
-        self.IMon_45.setObjectName(_fromUtf8("IMon_45"))
+        self.IMon_45.setObjectName("IMon_45")
         self.VMon_39 = QtGui.QLabel(self.tab_4)
         self.VMon_39.setGeometry(QtCore.QRect(141, 254, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4786,19 +4702,19 @@ class Ui_MainWindow(object):
         self.VMon_39.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_39.setFont(font)
-        self.VMon_39.setObjectName(_fromUtf8("VMon_39"))
+        self.VMon_39.setObjectName("VMon_39")
         self.IMon_header_3 = QtGui.QLabel(self.tab_4)
         self.IMon_header_3.setGeometry(QtCore.QRect(218, 8, 71, 21))
-        self.IMon_header_3.setObjectName(_fromUtf8("IMon_header_3"))
+        self.IMon_header_3.setObjectName("IMon_header_3")
         self.RUP_37 = QtGui.QLineEdit(self.tab_4)
         self.RUP_37.setGeometry(QtCore.QRect(520, 187, 50, 25))
         self.RUP_37.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_37.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_37.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_37.setObjectName(_fromUtf8("RUP_37"))
+        self.RUP_37.setObjectName("RUP_37")
         self.IMon_34 = QtGui.QLabel(self.tab_4)
         self.IMon_34.setGeometry(QtCore.QRect(240, 101, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4811,25 +4727,24 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_34.setFont(font)
-        self.IMon_34.setObjectName(_fromUtf8("IMon_34"))
+        self.IMon_34.setObjectName("IMon_34")
         self.V0_header_3 = QtGui.QPushButton(self.tab_4)
         self.V0_header_3.setGeometry(QtCore.QRect(324, 9, 53, 20))
         self.V0_header_3.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.V0_header_3.setFont(font)
-        self.V0_header_3.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.V0_header_3.setObjectName(_fromUtf8("V0_header_3"))
+        self.V0_header_3.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.V0_header_3.setObjectName("V0_header_3")
         self.P_41 = QtGui.QCheckBox(self.tab_4)
         self.P_41.setEnabled(True)
         self.P_41.setGeometry(QtCore.QRect(79, 311, 25, 25))
         self.P_41.setMinimumSize(QtCore.QSize(25, 25))
         self.P_41.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_41.setText(_fromUtf8(""))
-        self.P_41.setObjectName(_fromUtf8("P_41"))
+        self.P_41.setObjectName("P_41")
         self.IMon_37 = QtGui.QLabel(self.tab_4)
         self.IMon_37.setGeometry(QtCore.QRect(240, 192, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -4842,42 +4757,42 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_37.setFont(font)
-        self.IMon_37.setObjectName(_fromUtf8("IMon_37"))
+        self.IMon_37.setObjectName("IMon_37")
         self.I0_44 = QtGui.QLineEdit(self.tab_4)
         self.I0_44.setGeometry(QtCore.QRect(420, 404, 50, 25))
         self.I0_44.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_44.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_44.setObjectName(_fromUtf8("I0_44"))
+        self.I0_44.setObjectName("I0_44")
         self.CH_header_3 = QtGui.QLabel(self.tab_4)
         self.CH_header_3.setGeometry(QtCore.QRect(6, 8, 51, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Cantarell"))
+        font.setFamily("Cantarell")
         font.setItalic(True)
         self.CH_header_3.setFont(font)
-        self.CH_header_3.setObjectName(_fromUtf8("CH_header_3"))
+        self.CH_header_3.setObjectName("CH_header_3")
         self.V0_39 = QtGui.QLineEdit(self.tab_4)
         self.V0_39.setGeometry(QtCore.QRect(324, 249, 50, 25))
         self.V0_39.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_39.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_39.setObjectName(_fromUtf8("V0_39"))
-        self.Tab2_8.addTab(self.tab_4, _fromUtf8(""))
+        self.V0_39.setObjectName("V0_39")
+        self.globals_tab.addTab(self.tab_4, "")
         self.tab_5 = QtGui.QWidget()
-        self.tab_5.setObjectName(_fromUtf8("tab_5"))
+        self.tab_5.setObjectName("tab_5")
         self.RDN_55 = QtGui.QLineEdit(self.tab_5)
         self.RDN_55.setGeometry(QtCore.QRect(620, 249, 50, 25))
         self.RDN_55.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_55.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_55.setObjectName(_fromUtf8("RDN_55"))
+        self.RDN_55.setObjectName("RDN_55")
         self.RS_59 = QtGui.QLabel(self.tab_5)
         self.RS_59.setGeometry(QtCore.QRect(890, 372, 45, 25))
         self.RS_59.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_59.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_59.setObjectName(_fromUtf8("RS_59"))
+        self.RS_59.setObjectName("RS_59")
         self.V0_54 = QtGui.QLineEdit(self.tab_5)
         self.V0_54.setGeometry(QtCore.QRect(324, 218, 50, 25))
         self.V0_54.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_54.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_54.setObjectName(_fromUtf8("V0_54"))
+        self.V0_54.setObjectName("V0_54")
         self.IMon_57 = QtGui.QLabel(self.tab_5)
         self.IMon_57.setEnabled(True)
         self.IMon_57.setGeometry(QtCore.QRect(240, 316, 20, 20))
@@ -4891,17 +4806,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_57.setFont(font)
-        self.IMon_57.setObjectName(_fromUtf8("IMon_57"))
+        self.IMon_57.setObjectName("IMon_57")
         self.RS_48 = QtGui.QLabel(self.tab_5)
         self.RS_48.setGeometry(QtCore.QRect(890, 35, 45, 25))
         self.RS_48.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_48.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_48.setObjectName(_fromUtf8("RS_48"))
+        self.RS_48.setObjectName("RS_48")
         self.RS_60 = QtGui.QLabel(self.tab_5)
         self.RS_60.setGeometry(QtCore.QRect(890, 403, 45, 25))
         self.RS_60.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_60.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_60.setObjectName(_fromUtf8("RS_60"))
+        self.RS_60.setObjectName("RS_60")
         self.CH_53 = QtGui.QLabel(self.tab_5)
         self.CH_53.setGeometry(QtCore.QRect(20, 190, 20, 20))
         self.CH_53.setMinimumSize(QtCore.QSize(20, 20))
@@ -4909,94 +4824,93 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_53.setFont(font)
-        self.CH_53.setObjectName(_fromUtf8("CH_53"))
+        self.CH_53.setObjectName("CH_53")
         self.RDN_53 = QtGui.QLineEdit(self.tab_5)
         self.RDN_53.setGeometry(QtCore.QRect(620, 187, 50, 25))
         self.RDN_53.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_53.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_53.setObjectName(_fromUtf8("RDN_53"))
+        self.RDN_53.setObjectName("RDN_53")
         self.V0_57 = QtGui.QLineEdit(self.tab_5)
         self.V0_57.setEnabled(True)
         self.V0_57.setGeometry(QtCore.QRect(324, 311, 50, 25))
         self.V0_57.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_57.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_57.setObjectName(_fromUtf8("V0_57"))
+        self.V0_57.setObjectName("V0_57")
         self.RUP_53 = QtGui.QLineEdit(self.tab_5)
         self.RUP_53.setGeometry(QtCore.QRect(520, 187, 50, 25))
         self.RUP_53.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_53.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_53.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_53.setObjectName(_fromUtf8("RUP_53"))
+        self.RUP_53.setObjectName("RUP_53")
         self.RUP_51 = QtGui.QLineEdit(self.tab_5)
         self.RUP_51.setGeometry(QtCore.QRect(520, 126, 50, 25))
         self.RUP_51.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_51.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_51.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_51.setObjectName(_fromUtf8("RUP_51"))
+        self.RUP_51.setObjectName("RUP_51")
         self.I0_50 = QtGui.QLineEdit(self.tab_5)
         self.I0_50.setGeometry(QtCore.QRect(420, 96, 50, 25))
         self.I0_50.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_50.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_50.setObjectName(_fromUtf8("I0_50"))
+        self.I0_50.setObjectName("I0_50")
         self.S_61 = QtGui.QLabel(self.tab_5)
         self.S_61.setGeometry(QtCore.QRect(808, 434, 35, 25))
         self.S_61.setMinimumSize(QtCore.QSize(35, 25))
         self.S_61.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_61.setObjectName(_fromUtf8("S_61"))
+        self.S_61.setObjectName("S_61")
         self.I0_59 = QtGui.QLineEdit(self.tab_5)
         self.I0_59.setGeometry(QtCore.QRect(420, 373, 50, 25))
         self.I0_59.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_59.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_59.setObjectName(_fromUtf8("I0_59"))
+        self.I0_59.setObjectName("I0_59")
         self.RUP_62 = QtGui.QLineEdit(self.tab_5)
         self.RUP_62.setGeometry(QtCore.QRect(520, 466, 50, 25))
         self.RUP_62.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_62.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_62.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_62.setObjectName(_fromUtf8("RUP_62"))
+        self.RUP_62.setObjectName("RUP_62")
         self.V0_58 = QtGui.QLineEdit(self.tab_5)
         self.V0_58.setGeometry(QtCore.QRect(324, 342, 50, 25))
         self.V0_58.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_58.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_58.setObjectName(_fromUtf8("V0_58"))
+        self.V0_58.setObjectName("V0_58")
         self.RDW_header_4 = QtGui.QPushButton(self.tab_5)
         self.RDW_header_4.setGeometry(QtCore.QRect(603, 9, 85, 21))
         self.RDW_header_4.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RDW_header_4.setFont(font)
-        self.RDW_header_4.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RDW_header_4.setObjectName(_fromUtf8("RDW_header_4"))
+        self.RDW_header_4.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RDW_header_4.setObjectName("RDW_header_4")
         self.RDN_49 = QtGui.QLineEdit(self.tab_5)
         self.RDN_49.setEnabled(True)
         self.RDN_49.setGeometry(QtCore.QRect(620, 66, 50, 25))
         self.RDN_49.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_49.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_49.setObjectName(_fromUtf8("RDN_49"))
+        self.RDN_49.setObjectName("RDN_49")
         self.P_63 = QtGui.QCheckBox(self.tab_5)
         self.P_63.setGeometry(QtCore.QRect(79, 497, 25, 25))
         self.P_63.setMinimumSize(QtCore.QSize(25, 25))
         self.P_63.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_63.setText(_fromUtf8(""))
-        self.P_63.setObjectName(_fromUtf8("P_63"))
+        self.P_63.setObjectName("P_63")
         self.trip_55 = QtGui.QLineEdit(self.tab_5)
         self.trip_55.setGeometry(QtCore.QRect(720, 249, 50, 25))
         self.trip_55.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_55.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_55.setObjectName(_fromUtf8("trip_55"))
+        self.trip_55.setObjectName("trip_55")
         self.V0_62 = QtGui.QLineEdit(self.tab_5)
         self.V0_62.setGeometry(QtCore.QRect(324, 466, 50, 25))
         self.V0_62.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_62.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_62.setObjectName(_fromUtf8("V0_62"))
+        self.V0_62.setObjectName("V0_62")
         self.trip_53 = QtGui.QLineEdit(self.tab_5)
         self.trip_53.setGeometry(QtCore.QRect(720, 187, 50, 25))
         self.trip_53.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_53.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_53.setObjectName(_fromUtf8("trip_53"))
+        self.trip_53.setObjectName("trip_53")
         self.VMon_52 = QtGui.QLabel(self.tab_5)
         self.VMon_52.setGeometry(QtCore.QRect(141, 162, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5008,10 +4922,10 @@ class Ui_MainWindow(object):
         self.VMon_52.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_52.setFont(font)
-        self.VMon_52.setObjectName(_fromUtf8("VMon_52"))
+        self.VMon_52.setObjectName("VMon_52")
         self.VMon_61 = QtGui.QLabel(self.tab_5)
         self.VMon_61.setGeometry(QtCore.QRect(141, 440, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5023,26 +4937,26 @@ class Ui_MainWindow(object):
         self.VMon_61.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_61.setFont(font)
-        self.VMon_61.setObjectName(_fromUtf8("VMon_61"))
+        self.VMon_61.setObjectName("VMon_61")
         self.I0_58 = QtGui.QLineEdit(self.tab_5)
         self.I0_58.setGeometry(QtCore.QRect(420, 342, 50, 25))
         self.I0_58.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_58.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_58.setObjectName(_fromUtf8("I0_58"))
+        self.I0_58.setObjectName("I0_58")
         self.V0_61 = QtGui.QLineEdit(self.tab_5)
         self.V0_61.setGeometry(QtCore.QRect(324, 435, 50, 25))
         self.V0_61.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_61.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_61.setObjectName(_fromUtf8("V0_61"))
+        self.V0_61.setObjectName("V0_61")
         self.RUP_61 = QtGui.QLineEdit(self.tab_5)
         self.RUP_61.setGeometry(QtCore.QRect(520, 435, 50, 25))
         self.RUP_61.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_61.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_61.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_61.setObjectName(_fromUtf8("RUP_61"))
+        self.RUP_61.setObjectName("RUP_61")
         self.IMon_56 = QtGui.QLabel(self.tab_5)
         self.IMon_56.setGeometry(QtCore.QRect(240, 285, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5055,7 +4969,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_56.setFont(font)
-        self.IMon_56.setObjectName(_fromUtf8("IMon_56"))
+        self.IMon_56.setObjectName("IMon_56")
         self.IMon_52 = QtGui.QLabel(self.tab_5)
         self.IMon_52.setGeometry(QtCore.QRect(240, 162, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5068,7 +4982,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_52.setFont(font)
-        self.IMon_52.setObjectName(_fromUtf8("IMon_52"))
+        self.IMon_52.setObjectName("IMon_52")
         self.CH_56 = QtGui.QLabel(self.tab_5)
         self.CH_56.setGeometry(QtCore.QRect(20, 283, 20, 20))
         self.CH_56.setMinimumSize(QtCore.QSize(20, 20))
@@ -5076,39 +4990,39 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_56.setFont(font)
-        self.CH_56.setObjectName(_fromUtf8("CH_56"))
+        self.CH_56.setObjectName("CH_56")
         self.RDN_50 = QtGui.QLineEdit(self.tab_5)
         self.RDN_50.setGeometry(QtCore.QRect(620, 96, 50, 25))
         self.RDN_50.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_50.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_50.setObjectName(_fromUtf8("RDN_50"))
+        self.RDN_50.setObjectName("RDN_50")
         self.I0_55 = QtGui.QLineEdit(self.tab_5)
         self.I0_55.setGeometry(QtCore.QRect(420, 249, 50, 25))
         self.I0_55.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_55.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_55.setObjectName(_fromUtf8("I0_55"))
+        self.I0_55.setObjectName("I0_55")
         self.RUP_55 = QtGui.QLineEdit(self.tab_5)
         self.RUP_55.setGeometry(QtCore.QRect(520, 249, 50, 25))
         self.RUP_55.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_55.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_55.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_55.setObjectName(_fromUtf8("RUP_55"))
+        self.RUP_55.setObjectName("RUP_55")
         self.RDN_60 = QtGui.QLineEdit(self.tab_5)
         self.RDN_60.setGeometry(QtCore.QRect(620, 404, 50, 25))
         self.RDN_60.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_60.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_60.setObjectName(_fromUtf8("RDN_60"))
+        self.RDN_60.setObjectName("RDN_60")
         self.trip_52 = QtGui.QLineEdit(self.tab_5)
         self.trip_52.setGeometry(QtCore.QRect(720, 157, 50, 25))
         self.trip_52.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_52.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_52.setObjectName(_fromUtf8("trip_52"))
+        self.trip_52.setObjectName("trip_52")
         self.RS_49 = QtGui.QLabel(self.tab_5)
         self.RS_49.setEnabled(True)
         self.RS_49.setGeometry(QtCore.QRect(890, 65, 45, 25))
         self.RS_49.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_49.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_49.setObjectName(_fromUtf8("RS_49"))
+        self.RS_49.setObjectName("RS_49")
         self.VMon_63 = QtGui.QLabel(self.tab_5)
         self.VMon_63.setGeometry(QtCore.QRect(141, 502, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5120,10 +5034,10 @@ class Ui_MainWindow(object):
         self.VMon_63.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_63.setFont(font)
-        self.VMon_63.setObjectName(_fromUtf8("VMon_63"))
+        self.VMon_63.setObjectName("VMon_63")
         self.CH_61 = QtGui.QLabel(self.tab_5)
         self.CH_61.setGeometry(QtCore.QRect(20, 438, 20, 20))
         self.CH_61.setMinimumSize(QtCore.QSize(20, 20))
@@ -5131,12 +5045,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_61.setFont(font)
-        self.CH_61.setObjectName(_fromUtf8("CH_61"))
+        self.CH_61.setObjectName("CH_61")
         self.RS_51 = QtGui.QLabel(self.tab_5)
         self.RS_51.setGeometry(QtCore.QRect(890, 125, 45, 25))
         self.RS_51.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_51.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_51.setObjectName(_fromUtf8("RS_51"))
+        self.RS_51.setObjectName("RS_51")
         self.IMon_48 = QtGui.QLabel(self.tab_5)
         self.IMon_48.setGeometry(QtCore.QRect(240, 41, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5149,44 +5063,44 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_48.setFont(font)
-        self.IMon_48.setObjectName(_fromUtf8("IMon_48"))
+        self.IMon_48.setObjectName("IMon_48")
         self.I0_49 = QtGui.QLineEdit(self.tab_5)
         self.I0_49.setEnabled(True)
         self.I0_49.setGeometry(QtCore.QRect(420, 66, 50, 25))
         self.I0_49.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_49.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_49.setObjectName(_fromUtf8("I0_49"))
+        self.I0_49.setObjectName("I0_49")
         self.S_54 = QtGui.QLabel(self.tab_5)
         self.S_54.setGeometry(QtCore.QRect(808, 217, 35, 25))
         self.S_54.setMinimumSize(QtCore.QSize(35, 25))
         self.S_54.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_54.setObjectName(_fromUtf8("S_54"))
+        self.S_54.setObjectName("S_54")
         self.I0_56 = QtGui.QLineEdit(self.tab_5)
         self.I0_56.setGeometry(QtCore.QRect(420, 280, 50, 25))
         self.I0_56.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_56.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_56.setObjectName(_fromUtf8("I0_56"))
+        self.I0_56.setObjectName("I0_56")
         self.S_60 = QtGui.QLabel(self.tab_5)
         self.S_60.setGeometry(QtCore.QRect(808, 403, 35, 25))
         self.S_60.setMinimumSize(QtCore.QSize(35, 25))
         self.S_60.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_60.setObjectName(_fromUtf8("S_60"))
+        self.S_60.setObjectName("S_60")
         self.S_59 = QtGui.QLabel(self.tab_5)
         self.S_59.setGeometry(QtCore.QRect(808, 372, 35, 25))
         self.S_59.setMinimumSize(QtCore.QSize(35, 25))
         self.S_59.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_59.setObjectName(_fromUtf8("S_59"))
+        self.S_59.setObjectName("S_59")
         self.I0_57 = QtGui.QLineEdit(self.tab_5)
         self.I0_57.setEnabled(True)
         self.I0_57.setGeometry(QtCore.QRect(420, 311, 50, 25))
         self.I0_57.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_57.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_57.setObjectName(_fromUtf8("I0_57"))
+        self.I0_57.setObjectName("I0_57")
         self.RDN_62 = QtGui.QLineEdit(self.tab_5)
         self.RDN_62.setGeometry(QtCore.QRect(620, 466, 50, 25))
         self.RDN_62.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_62.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_62.setObjectName(_fromUtf8("RDN_62"))
+        self.RDN_62.setObjectName("RDN_62")
         self.VMon_50 = QtGui.QLabel(self.tab_5)
         self.VMon_50.setGeometry(QtCore.QRect(141, 101, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5198,10 +5112,10 @@ class Ui_MainWindow(object):
         self.VMon_50.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_50.setFont(font)
-        self.VMon_50.setObjectName(_fromUtf8("VMon_50"))
+        self.VMon_50.setObjectName("VMon_50")
         self.VMon_53 = QtGui.QLabel(self.tab_5)
         self.VMon_53.setGeometry(QtCore.QRect(141, 192, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5213,32 +5127,31 @@ class Ui_MainWindow(object):
         self.VMon_53.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_53.setFont(font)
-        self.VMon_53.setObjectName(_fromUtf8("VMon_53"))
+        self.VMon_53.setObjectName("VMon_53")
         self.RDN_63 = QtGui.QLineEdit(self.tab_5)
         self.RDN_63.setGeometry(QtCore.QRect(620, 497, 50, 25))
         self.RDN_63.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_63.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_63.setObjectName(_fromUtf8("RDN_63"))
+        self.RDN_63.setObjectName("RDN_63")
         self.P_55 = QtGui.QCheckBox(self.tab_5)
         self.P_55.setGeometry(QtCore.QRect(79, 249, 25, 25))
         self.P_55.setMinimumSize(QtCore.QSize(25, 25))
         self.P_55.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_55.setText(_fromUtf8(""))
-        self.P_55.setObjectName(_fromUtf8("P_55"))
+        self.P_55.setObjectName("P_55")
         self.RS_57 = QtGui.QLabel(self.tab_5)
         self.RS_57.setEnabled(True)
         self.RS_57.setGeometry(QtCore.QRect(890, 310, 45, 25))
         self.RS_57.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_57.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_57.setObjectName(_fromUtf8("RS_57"))
+        self.RS_57.setObjectName("RS_57")
         self.trip_61 = QtGui.QLineEdit(self.tab_5)
         self.trip_61.setGeometry(QtCore.QRect(720, 435, 50, 25))
         self.trip_61.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_61.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_61.setObjectName(_fromUtf8("trip_61"))
+        self.trip_61.setObjectName("trip_61")
         self.CH_60 = QtGui.QLabel(self.tab_5)
         self.CH_60.setGeometry(QtCore.QRect(20, 407, 20, 20))
         self.CH_60.setMinimumSize(QtCore.QSize(20, 20))
@@ -5246,7 +5159,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_60.setFont(font)
-        self.CH_60.setObjectName(_fromUtf8("CH_60"))
+        self.CH_60.setObjectName("CH_60")
         self.VMon_58 = QtGui.QLabel(self.tab_5)
         self.VMon_58.setGeometry(QtCore.QRect(141, 347, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5258,32 +5171,31 @@ class Ui_MainWindow(object):
         self.VMon_58.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_58.setFont(font)
-        self.VMon_58.setObjectName(_fromUtf8("VMon_58"))
+        self.VMon_58.setObjectName("VMon_58")
         self.trip_62 = QtGui.QLineEdit(self.tab_5)
         self.trip_62.setGeometry(QtCore.QRect(720, 466, 50, 25))
         self.trip_62.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_62.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_62.setObjectName(_fromUtf8("trip_62"))
+        self.trip_62.setObjectName("trip_62")
         self.V0_59 = QtGui.QLineEdit(self.tab_5)
         self.V0_59.setGeometry(QtCore.QRect(324, 373, 50, 25))
         self.V0_59.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_59.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_59.setObjectName(_fromUtf8("V0_59"))
+        self.V0_59.setObjectName("V0_59")
         self.P_49 = QtGui.QCheckBox(self.tab_5)
         self.P_49.setEnabled(True)
         self.P_49.setGeometry(QtCore.QRect(79, 66, 25, 25))
         self.P_49.setMinimumSize(QtCore.QSize(25, 25))
         self.P_49.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_49.setText(_fromUtf8(""))
-        self.P_49.setObjectName(_fromUtf8("P_49"))
+        self.P_49.setObjectName("P_49")
         self.V0_60 = QtGui.QLineEdit(self.tab_5)
         self.V0_60.setGeometry(QtCore.QRect(324, 404, 50, 25))
         self.V0_60.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_60.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_60.setObjectName(_fromUtf8("V0_60"))
+        self.V0_60.setObjectName("V0_60")
         self.VMon_51 = QtGui.QLabel(self.tab_5)
         self.VMon_51.setGeometry(QtCore.QRect(141, 131, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5295,10 +5207,10 @@ class Ui_MainWindow(object):
         self.VMon_51.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_51.setFont(font)
-        self.VMon_51.setObjectName(_fromUtf8("VMon_51"))
+        self.VMon_51.setObjectName("VMon_51")
         self.CH_49 = QtGui.QLabel(self.tab_5)
         self.CH_49.setEnabled(True)
         self.CH_49.setGeometry(QtCore.QRect(20, 69, 20, 20))
@@ -5307,12 +5219,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_49.setFont(font)
-        self.CH_49.setObjectName(_fromUtf8("CH_49"))
+        self.CH_49.setObjectName("CH_49")
         self.I0_51 = QtGui.QLineEdit(self.tab_5)
         self.I0_51.setGeometry(QtCore.QRect(420, 126, 50, 25))
         self.I0_51.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_51.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_51.setObjectName(_fromUtf8("I0_51"))
+        self.I0_51.setObjectName("I0_51")
         self.CH_52 = QtGui.QLabel(self.tab_5)
         self.CH_52.setGeometry(QtCore.QRect(20, 160, 20, 20))
         self.CH_52.setMinimumSize(QtCore.QSize(20, 20))
@@ -5320,12 +5232,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_52.setFont(font)
-        self.CH_52.setObjectName(_fromUtf8("CH_52"))
+        self.CH_52.setObjectName("CH_52")
         self.I0_62 = QtGui.QLineEdit(self.tab_5)
         self.I0_62.setGeometry(QtCore.QRect(420, 466, 50, 25))
         self.I0_62.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_62.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_62.setObjectName(_fromUtf8("I0_62"))
+        self.I0_62.setObjectName("I0_62")
         self.CH_59 = QtGui.QLabel(self.tab_5)
         self.CH_59.setGeometry(QtCore.QRect(20, 376, 20, 20))
         self.CH_59.setMinimumSize(QtCore.QSize(20, 20))
@@ -5333,34 +5245,33 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_59.setFont(font)
-        self.CH_59.setObjectName(_fromUtf8("CH_59"))
+        self.CH_59.setObjectName("CH_59")
         self.VMon_header_4 = QtGui.QLabel(self.tab_5)
         self.VMon_header_4.setGeometry(QtCore.QRect(130, 8, 68, 21))
-        self.VMon_header_4.setObjectName(_fromUtf8("VMon_header_4"))
+        self.VMon_header_4.setObjectName("VMon_header_4")
         self.P_57 = QtGui.QCheckBox(self.tab_5)
         self.P_57.setEnabled(True)
         self.P_57.setGeometry(QtCore.QRect(79, 311, 25, 25))
         self.P_57.setMinimumSize(QtCore.QSize(25, 25))
         self.P_57.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_57.setText(_fromUtf8(""))
-        self.P_57.setObjectName(_fromUtf8("P_57"))
+        self.P_57.setObjectName("P_57")
         self.RUP_63 = QtGui.QLineEdit(self.tab_5)
         self.RUP_63.setGeometry(QtCore.QRect(520, 497, 50, 25))
         self.RUP_63.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_63.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_63.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_63.setObjectName(_fromUtf8("RUP_63"))
+        self.RUP_63.setObjectName("RUP_63")
         self.V0_53 = QtGui.QLineEdit(self.tab_5)
         self.V0_53.setGeometry(QtCore.QRect(324, 187, 50, 25))
         self.V0_53.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_53.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_53.setObjectName(_fromUtf8("V0_53"))
+        self.V0_53.setObjectName("V0_53")
         self.RUP_57 = QtGui.QLineEdit(self.tab_5)
         self.RUP_57.setGeometry(QtCore.QRect(520, 311, 50, 25))
         self.RUP_57.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_57.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_57.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_57.setObjectName(_fromUtf8("RUP_57"))
+        self.RUP_57.setObjectName("RUP_57")
         self.VMon_55 = QtGui.QLabel(self.tab_5)
         self.VMon_55.setGeometry(QtCore.QRect(141, 254, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5372,15 +5283,15 @@ class Ui_MainWindow(object):
         self.VMon_55.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_55.setFont(font)
-        self.VMon_55.setObjectName(_fromUtf8("VMon_55"))
+        self.VMon_55.setObjectName("VMon_55")
         self.RS_54 = QtGui.QLabel(self.tab_5)
         self.RS_54.setGeometry(QtCore.QRect(890, 217, 45, 25))
         self.RS_54.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_54.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_54.setObjectName(_fromUtf8("RS_54"))
+        self.RS_54.setObjectName("RS_54")
         self.VMon_54 = QtGui.QLabel(self.tab_5)
         self.VMon_54.setGeometry(QtCore.QRect(141, 223, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5392,43 +5303,42 @@ class Ui_MainWindow(object):
         self.VMon_54.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_54.setFont(font)
-        self.VMon_54.setObjectName(_fromUtf8("VMon_54"))
+        self.VMon_54.setObjectName("VMon_54")
         self.RUP_48 = QtGui.QLineEdit(self.tab_5)
         self.RUP_48.setGeometry(QtCore.QRect(520, 36, 50, 25))
         self.RUP_48.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_48.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_48.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_48.setObjectName(_fromUtf8("RUP_48"))
+        self.RUP_48.setObjectName("RUP_48")
         self.RDN_51 = QtGui.QLineEdit(self.tab_5)
         self.RDN_51.setGeometry(QtCore.QRect(620, 126, 50, 25))
         self.RDN_51.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_51.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_51.setObjectName(_fromUtf8("RDN_51"))
+        self.RDN_51.setObjectName("RDN_51")
         self.P_56 = QtGui.QCheckBox(self.tab_5)
         self.P_56.setGeometry(QtCore.QRect(79, 280, 25, 25))
         self.P_56.setMinimumSize(QtCore.QSize(25, 25))
         self.P_56.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_56.setText(_fromUtf8(""))
-        self.P_56.setObjectName(_fromUtf8("P_56"))
+        self.P_56.setObjectName("P_56")
         self.S_53 = QtGui.QLabel(self.tab_5)
         self.S_53.setGeometry(QtCore.QRect(808, 186, 35, 25))
         self.S_53.setMinimumSize(QtCore.QSize(35, 25))
         self.S_53.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_53.setObjectName(_fromUtf8("S_53"))
+        self.S_53.setObjectName("S_53")
         self.I0_header_4 = QtGui.QPushButton(self.tab_5)
         self.I0_header_4.setGeometry(QtCore.QRect(417, 9, 56, 21))
         self.I0_header_4.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.I0_header_4.setFont(font)
-        self.I0_header_4.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.I0_header_4.setObjectName(_fromUtf8("I0_header_4"))
+        self.I0_header_4.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.I0_header_4.setObjectName("I0_header_4")
         self.IMon_49 = QtGui.QLabel(self.tab_5)
         self.IMon_49.setEnabled(True)
         self.IMon_49.setGeometry(QtCore.QRect(240, 71, 20, 20))
@@ -5442,17 +5352,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_49.setFont(font)
-        self.IMon_49.setObjectName(_fromUtf8("IMon_49"))
+        self.IMon_49.setObjectName("IMon_49")
         self.trip_58 = QtGui.QLineEdit(self.tab_5)
         self.trip_58.setGeometry(QtCore.QRect(720, 342, 50, 25))
         self.trip_58.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_58.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_58.setObjectName(_fromUtf8("trip_58"))
+        self.trip_58.setObjectName("trip_58")
         self.RS_50 = QtGui.QLabel(self.tab_5)
         self.RS_50.setGeometry(QtCore.QRect(890, 95, 45, 25))
         self.RS_50.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_50.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_50.setObjectName(_fromUtf8("RS_50"))
+        self.RS_50.setObjectName("RS_50")
         self.VMon_60 = QtGui.QLabel(self.tab_5)
         self.VMon_60.setGeometry(QtCore.QRect(141, 409, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5464,20 +5374,20 @@ class Ui_MainWindow(object):
         self.VMon_60.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_60.setFont(font)
-        self.VMon_60.setObjectName(_fromUtf8("VMon_60"))
+        self.VMon_60.setObjectName("VMon_60")
         self.trip_51 = QtGui.QLineEdit(self.tab_5)
         self.trip_51.setGeometry(QtCore.QRect(720, 126, 50, 25))
         self.trip_51.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_51.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_51.setObjectName(_fromUtf8("trip_51"))
+        self.trip_51.setObjectName("trip_51")
         self.RDN_56 = QtGui.QLineEdit(self.tab_5)
         self.RDN_56.setGeometry(QtCore.QRect(620, 280, 50, 25))
         self.RDN_56.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_56.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_56.setObjectName(_fromUtf8("RDN_56"))
+        self.RDN_56.setObjectName("RDN_56")
         self.VMon_56 = QtGui.QLabel(self.tab_5)
         self.VMon_56.setGeometry(QtCore.QRect(141, 285, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5489,10 +5399,10 @@ class Ui_MainWindow(object):
         self.VMon_56.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_56.setFont(font)
-        self.VMon_56.setObjectName(_fromUtf8("VMon_56"))
+        self.VMon_56.setObjectName("VMon_56")
         self.IMon_63 = QtGui.QLabel(self.tab_5)
         self.IMon_63.setGeometry(QtCore.QRect(240, 502, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5505,31 +5415,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_63.setFont(font)
-        self.IMon_63.setObjectName(_fromUtf8("IMon_63"))
+        self.IMon_63.setObjectName("IMon_63")
         self.V0_49 = QtGui.QLineEdit(self.tab_5)
         self.V0_49.setEnabled(True)
         self.V0_49.setGeometry(QtCore.QRect(324, 66, 50, 25))
         self.V0_49.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_49.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_49.setObjectName(_fromUtf8("V0_49"))
+        self.V0_49.setObjectName("V0_49")
         self.P_48 = QtGui.QCheckBox(self.tab_5)
         self.P_48.setGeometry(QtCore.QRect(79, 35, 25, 25))
         self.P_48.setMinimumSize(QtCore.QSize(25, 25))
         self.P_48.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_48.setText(_fromUtf8(""))
-        self.P_48.setObjectName(_fromUtf8("P_48"))
+        self.P_48.setObjectName("P_48")
         self.P_62 = QtGui.QCheckBox(self.tab_5)
         self.P_62.setGeometry(QtCore.QRect(79, 466, 25, 25))
         self.P_62.setMinimumSize(QtCore.QSize(25, 25))
         self.P_62.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_62.setText(_fromUtf8(""))
-        self.P_62.setObjectName(_fromUtf8("P_62"))
+        self.P_62.setObjectName("P_62")
         self.P_50 = QtGui.QCheckBox(self.tab_5)
         self.P_50.setGeometry(QtCore.QRect(79, 96, 25, 25))
         self.P_50.setMinimumSize(QtCore.QSize(25, 25))
         self.P_50.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_50.setText(_fromUtf8(""))
-        self.P_50.setObjectName(_fromUtf8("P_50"))
+        self.P_50.setObjectName("P_50")
         self.CH_51 = QtGui.QLabel(self.tab_5)
         self.CH_51.setGeometry(QtCore.QRect(20, 129, 20, 20))
         self.CH_51.setMinimumSize(QtCore.QSize(20, 20))
@@ -5537,7 +5444,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_51.setFont(font)
-        self.CH_51.setObjectName(_fromUtf8("CH_51"))
+        self.CH_51.setObjectName("CH_51")
         self.CH_63 = QtGui.QLabel(self.tab_5)
         self.CH_63.setGeometry(QtCore.QRect(20, 500, 20, 20))
         self.CH_63.setMinimumSize(QtCore.QSize(20, 20))
@@ -5545,24 +5452,23 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_63.setFont(font)
-        self.CH_63.setObjectName(_fromUtf8("CH_63"))
+        self.CH_63.setObjectName("CH_63")
         self.S_header_4 = QtGui.QLabel(self.tab_5)
         self.S_header_4.setGeometry(QtCore.QRect(790, 10, 61, 20))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         self.S_header_4.setFont(font)
-        self.S_header_4.setObjectName(_fromUtf8("S_header_4"))
+        self.S_header_4.setObjectName("S_header_4")
         self.P_54 = QtGui.QCheckBox(self.tab_5)
         self.P_54.setGeometry(QtCore.QRect(79, 218, 25, 25))
         self.P_54.setMinimumSize(QtCore.QSize(25, 25))
         self.P_54.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_54.setText(_fromUtf8(""))
-        self.P_54.setObjectName(_fromUtf8("P_54"))
+        self.P_54.setObjectName("P_54")
         self.RS_53 = QtGui.QLabel(self.tab_5)
         self.RS_53.setGeometry(QtCore.QRect(890, 186, 45, 25))
         self.RS_53.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_53.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_53.setObjectName(_fromUtf8("RS_53"))
+        self.RS_53.setObjectName("RS_53")
         self.CH_54 = QtGui.QLabel(self.tab_5)
         self.CH_54.setGeometry(QtCore.QRect(20, 221, 20, 20))
         self.CH_54.setMinimumSize(QtCore.QSize(20, 20))
@@ -5570,18 +5476,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_54.setFont(font)
-        self.CH_54.setObjectName(_fromUtf8("CH_54"))
+        self.CH_54.setObjectName("CH_54")
         self.S_50 = QtGui.QLabel(self.tab_5)
         self.S_50.setGeometry(QtCore.QRect(808, 95, 35, 25))
         self.S_50.setMinimumSize(QtCore.QSize(35, 25))
         self.S_50.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_50.setObjectName(_fromUtf8("S_50"))
+        self.S_50.setObjectName("S_50")
         self.RDN_57 = QtGui.QLineEdit(self.tab_5)
         self.RDN_57.setEnabled(True)
         self.RDN_57.setGeometry(QtCore.QRect(620, 311, 50, 25))
         self.RDN_57.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_57.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_57.setObjectName(_fromUtf8("RDN_57"))
+        self.RDN_57.setObjectName("RDN_57")
         self.IMon_53 = QtGui.QLabel(self.tab_5)
         self.IMon_53.setGeometry(QtCore.QRect(240, 192, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5594,10 +5500,10 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_53.setFont(font)
-        self.IMon_53.setObjectName(_fromUtf8("IMon_53"))
+        self.IMon_53.setObjectName("IMon_53")
         self.RS_header_4 = QtGui.QLabel(self.tab_5)
         self.RS_header_4.setGeometry(QtCore.QRect(861, 1, 111, 41))
-        self.RS_header_4.setObjectName(_fromUtf8("RS_header_4"))
+        self.RS_header_4.setObjectName("RS_header_4")
         self.IMon_54 = QtGui.QLabel(self.tab_5)
         self.IMon_54.setGeometry(QtCore.QRect(240, 223, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5610,35 +5516,35 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_54.setFont(font)
-        self.IMon_54.setObjectName(_fromUtf8("IMon_54"))
+        self.IMon_54.setObjectName("IMon_54")
         self.RUP_52 = QtGui.QLineEdit(self.tab_5)
         self.RUP_52.setGeometry(QtCore.QRect(520, 157, 50, 25))
         self.RUP_52.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_52.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_52.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_52.setObjectName(_fromUtf8("RUP_52"))
+        self.RUP_52.setObjectName("RUP_52")
         self.RUP_56 = QtGui.QLineEdit(self.tab_5)
         self.RUP_56.setGeometry(QtCore.QRect(520, 280, 50, 25))
         self.RUP_56.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_56.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_56.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_56.setObjectName(_fromUtf8("RUP_56"))
+        self.RUP_56.setObjectName("RUP_56")
         self.RUP_50 = QtGui.QLineEdit(self.tab_5)
         self.RUP_50.setGeometry(QtCore.QRect(520, 96, 50, 25))
         self.RUP_50.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_50.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_50.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_50.setObjectName(_fromUtf8("RUP_50"))
+        self.RUP_50.setObjectName("RUP_50")
         self.trip_63 = QtGui.QLineEdit(self.tab_5)
         self.trip_63.setGeometry(QtCore.QRect(720, 497, 50, 25))
         self.trip_63.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_63.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_63.setObjectName(_fromUtf8("trip_63"))
+        self.trip_63.setObjectName("trip_63")
         self.RS_52 = QtGui.QLabel(self.tab_5)
         self.RS_52.setGeometry(QtCore.QRect(890, 156, 45, 25))
         self.RS_52.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_52.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_52.setObjectName(_fromUtf8("RS_52"))
+        self.RS_52.setObjectName("RS_52")
         self.IMon_59 = QtGui.QLabel(self.tab_5)
         self.IMon_59.setGeometry(QtCore.QRect(240, 378, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5651,17 +5557,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_59.setFont(font)
-        self.IMon_59.setObjectName(_fromUtf8("IMon_59"))
+        self.IMon_59.setObjectName("IMon_59")
         self.trip_50 = QtGui.QLineEdit(self.tab_5)
         self.trip_50.setGeometry(QtCore.QRect(720, 96, 50, 25))
         self.trip_50.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_50.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_50.setObjectName(_fromUtf8("trip_50"))
+        self.trip_50.setObjectName("trip_50")
         self.V0_55 = QtGui.QLineEdit(self.tab_5)
         self.V0_55.setGeometry(QtCore.QRect(324, 249, 50, 25))
         self.V0_55.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_55.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_55.setObjectName(_fromUtf8("V0_55"))
+        self.V0_55.setObjectName("V0_55")
         self.IMon_60 = QtGui.QLabel(self.tab_5)
         self.IMon_60.setGeometry(QtCore.QRect(240, 409, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5674,18 +5580,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_60.setFont(font)
-        self.IMon_60.setObjectName(_fromUtf8("IMon_60"))
+        self.IMon_60.setObjectName("IMon_60")
         self.RUP_54 = QtGui.QLineEdit(self.tab_5)
         self.RUP_54.setGeometry(QtCore.QRect(520, 218, 50, 25))
         self.RUP_54.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_54.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_54.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_54.setObjectName(_fromUtf8("RUP_54"))
+        self.RUP_54.setObjectName("RUP_54")
         self.V0_50 = QtGui.QLineEdit(self.tab_5)
         self.V0_50.setGeometry(QtCore.QRect(324, 96, 50, 25))
         self.V0_50.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_50.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_50.setObjectName(_fromUtf8("V0_50"))
+        self.V0_50.setObjectName("V0_50")
         self.CH_48 = QtGui.QLabel(self.tab_5)
         self.CH_48.setGeometry(QtCore.QRect(20, 40, 20, 20))
         self.CH_48.setMinimumSize(QtCore.QSize(20, 20))
@@ -5693,13 +5599,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_48.setFont(font)
-        self.CH_48.setObjectName(_fromUtf8("CH_48"))
+        self.CH_48.setObjectName("CH_48")
         self.P_59 = QtGui.QCheckBox(self.tab_5)
         self.P_59.setGeometry(QtCore.QRect(79, 373, 25, 25))
         self.P_59.setMinimumSize(QtCore.QSize(25, 25))
         self.P_59.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_59.setText(_fromUtf8(""))
-        self.P_59.setObjectName(_fromUtf8("P_59"))
+        self.P_59.setObjectName("P_59")
         self.IMon_58 = QtGui.QLabel(self.tab_5)
         self.IMon_58.setGeometry(QtCore.QRect(240, 347, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5712,49 +5617,49 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_58.setFont(font)
-        self.IMon_58.setObjectName(_fromUtf8("IMon_58"))
+        self.IMon_58.setObjectName("IMon_58")
         self.RDN_59 = QtGui.QLineEdit(self.tab_5)
         self.RDN_59.setGeometry(QtCore.QRect(620, 373, 50, 25))
         self.RDN_59.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_59.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_59.setObjectName(_fromUtf8("RDN_59"))
+        self.RDN_59.setObjectName("RDN_59")
         self.P_header_4 = QtGui.QPushButton(self.tab_5)
         self.P_header_4.setGeometry(QtCore.QRect(60, 8, 61, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.P_header_4.setFont(font)
         self.P_header_4.setAutoFillBackground(False)
-        self.P_header_4.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.P_header_4.setObjectName(_fromUtf8("P_header_4"))
+        self.P_header_4.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.P_header_4.setObjectName("P_header_4")
         self.S_56 = QtGui.QLabel(self.tab_5)
         self.S_56.setGeometry(QtCore.QRect(808, 279, 35, 25))
         self.S_56.setMinimumSize(QtCore.QSize(35, 25))
         self.S_56.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_56.setObjectName(_fromUtf8("S_56"))
+        self.S_56.setObjectName("S_56")
         self.RUP_60 = QtGui.QLineEdit(self.tab_5)
         self.RUP_60.setGeometry(QtCore.QRect(520, 404, 50, 25))
         self.RUP_60.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_60.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_60.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_60.setObjectName(_fromUtf8("RUP_60"))
+        self.RUP_60.setObjectName("RUP_60")
         self.S_62 = QtGui.QLabel(self.tab_5)
         self.S_62.setGeometry(QtCore.QRect(808, 465, 35, 25))
         self.S_62.setMinimumSize(QtCore.QSize(35, 25))
         self.S_62.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_62.setObjectName(_fromUtf8("S_62"))
+        self.S_62.setObjectName("S_62")
         self.RS_56 = QtGui.QLabel(self.tab_5)
         self.RS_56.setGeometry(QtCore.QRect(890, 279, 45, 25))
         self.RS_56.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_56.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_56.setObjectName(_fromUtf8("RS_56"))
+        self.RS_56.setObjectName("RS_56")
         self.S_52 = QtGui.QLabel(self.tab_5)
         self.S_52.setGeometry(QtCore.QRect(808, 156, 35, 25))
         self.S_52.setMinimumSize(QtCore.QSize(35, 25))
         self.S_52.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_52.setObjectName(_fromUtf8("S_52"))
+        self.S_52.setObjectName("S_52")
         self.CH_57 = QtGui.QLabel(self.tab_5)
         self.CH_57.setEnabled(True)
         self.CH_57.setGeometry(QtCore.QRect(20, 314, 20, 20))
@@ -5763,18 +5668,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_57.setFont(font)
-        self.CH_57.setObjectName(_fromUtf8("CH_57"))
+        self.CH_57.setObjectName("CH_57")
         self.I0_63 = QtGui.QLineEdit(self.tab_5)
         self.I0_63.setGeometry(QtCore.QRect(420, 497, 50, 25))
         self.I0_63.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_63.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_63.setObjectName(_fromUtf8("I0_63"))
+        self.I0_63.setObjectName("I0_63")
         self.S_49 = QtGui.QLabel(self.tab_5)
         self.S_49.setEnabled(True)
         self.S_49.setGeometry(QtCore.QRect(808, 65, 35, 25))
         self.S_49.setMinimumSize(QtCore.QSize(35, 25))
         self.S_49.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_49.setObjectName(_fromUtf8("S_49"))
+        self.S_49.setObjectName("S_49")
         self.VMon_48 = QtGui.QLabel(self.tab_5)
         self.VMon_48.setGeometry(QtCore.QRect(141, 41, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5786,32 +5691,31 @@ class Ui_MainWindow(object):
         self.VMon_48.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_48.setFont(font)
-        self.VMon_48.setObjectName(_fromUtf8("VMon_48"))
+        self.VMon_48.setObjectName("VMon_48")
         self.trip_59 = QtGui.QLineEdit(self.tab_5)
         self.trip_59.setGeometry(QtCore.QRect(720, 373, 50, 25))
         self.trip_59.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_59.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_59.setObjectName(_fromUtf8("trip_59"))
+        self.trip_59.setObjectName("trip_59")
         self.P_58 = QtGui.QCheckBox(self.tab_5)
         self.P_58.setGeometry(QtCore.QRect(79, 342, 25, 25))
         self.P_58.setMinimumSize(QtCore.QSize(25, 25))
         self.P_58.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_58.setText(_fromUtf8(""))
-        self.P_58.setObjectName(_fromUtf8("P_58"))
+        self.P_58.setObjectName("P_58")
         self.trip_57 = QtGui.QLineEdit(self.tab_5)
         self.trip_57.setEnabled(True)
         self.trip_57.setGeometry(QtCore.QRect(720, 311, 50, 25))
         self.trip_57.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_57.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_57.setObjectName(_fromUtf8("trip_57"))
+        self.trip_57.setObjectName("trip_57")
         self.RDN_54 = QtGui.QLineEdit(self.tab_5)
         self.RDN_54.setGeometry(QtCore.QRect(620, 218, 50, 25))
         self.RDN_54.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_54.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_54.setObjectName(_fromUtf8("RDN_54"))
+        self.RDN_54.setObjectName("RDN_54")
         self.CH_50 = QtGui.QLabel(self.tab_5)
         self.CH_50.setGeometry(QtCore.QRect(20, 99, 20, 20))
         self.CH_50.setMinimumSize(QtCore.QSize(20, 20))
@@ -5819,52 +5723,51 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_50.setFont(font)
-        self.CH_50.setObjectName(_fromUtf8("CH_50"))
+        self.CH_50.setObjectName("CH_50")
         self.trip_49 = QtGui.QLineEdit(self.tab_5)
         self.trip_49.setEnabled(True)
         self.trip_49.setGeometry(QtCore.QRect(720, 66, 50, 25))
         self.trip_49.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_49.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_49.setObjectName(_fromUtf8("trip_49"))
+        self.trip_49.setObjectName("trip_49")
         self.V0_header_4 = QtGui.QPushButton(self.tab_5)
         self.V0_header_4.setGeometry(QtCore.QRect(324, 9, 53, 20))
         self.V0_header_4.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.V0_header_4.setFont(font)
-        self.V0_header_4.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.V0_header_4.setObjectName(_fromUtf8("V0_header_4"))
+        self.V0_header_4.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.V0_header_4.setObjectName("V0_header_4")
         self.P_51 = QtGui.QCheckBox(self.tab_5)
         self.P_51.setGeometry(QtCore.QRect(79, 126, 25, 25))
         self.P_51.setMinimumSize(QtCore.QSize(25, 25))
         self.P_51.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_51.setText(_fromUtf8(""))
-        self.P_51.setObjectName(_fromUtf8("P_51"))
+        self.P_51.setObjectName("P_51")
         self.RUP_58 = QtGui.QLineEdit(self.tab_5)
         self.RUP_58.setGeometry(QtCore.QRect(520, 342, 50, 25))
         self.RUP_58.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_58.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_58.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_58.setObjectName(_fromUtf8("RUP_58"))
+        self.RUP_58.setObjectName("RUP_58")
         self.S_57 = QtGui.QLabel(self.tab_5)
         self.S_57.setEnabled(True)
         self.S_57.setGeometry(QtCore.QRect(808, 310, 35, 25))
         self.S_57.setMinimumSize(QtCore.QSize(35, 25))
         self.S_57.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_57.setObjectName(_fromUtf8("S_57"))
+        self.S_57.setObjectName("S_57")
         self.I0_52 = QtGui.QLineEdit(self.tab_5)
         self.I0_52.setGeometry(QtCore.QRect(420, 157, 50, 25))
         self.I0_52.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_52.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_52.setObjectName(_fromUtf8("I0_52"))
+        self.I0_52.setObjectName("I0_52")
         self.trip_54 = QtGui.QLineEdit(self.tab_5)
         self.trip_54.setGeometry(QtCore.QRect(720, 218, 50, 25))
         self.trip_54.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_54.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_54.setObjectName(_fromUtf8("trip_54"))
+        self.trip_54.setObjectName("trip_54")
         self.IMon_61 = QtGui.QLabel(self.tab_5)
         self.IMon_61.setGeometry(QtCore.QRect(240, 440, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5877,13 +5780,13 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_61.setFont(font)
-        self.IMon_61.setObjectName(_fromUtf8("IMon_61"))
+        self.IMon_61.setObjectName("IMon_61")
         self.I0_48 = QtGui.QLineEdit(self.tab_5)
         self.I0_48.setEnabled(True)
         self.I0_48.setGeometry(QtCore.QRect(420, 36, 50, 25))
         self.I0_48.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_48.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_48.setObjectName(_fromUtf8("I0_48"))
+        self.I0_48.setObjectName("I0_48")
         self.VMon_62 = QtGui.QLabel(self.tab_5)
         self.VMon_62.setGeometry(QtCore.QRect(141, 471, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -5895,15 +5798,15 @@ class Ui_MainWindow(object):
         self.VMon_62.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_62.setFont(font)
-        self.VMon_62.setObjectName(_fromUtf8("VMon_62"))
+        self.VMon_62.setObjectName("VMon_62")
         self.S_63 = QtGui.QLabel(self.tab_5)
         self.S_63.setGeometry(QtCore.QRect(808, 496, 35, 25))
         self.S_63.setMinimumSize(QtCore.QSize(35, 25))
         self.S_63.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_63.setObjectName(_fromUtf8("S_63"))
+        self.S_63.setObjectName("S_63")
         self.CH_62 = QtGui.QLabel(self.tab_5)
         self.CH_62.setGeometry(QtCore.QRect(20, 469, 20, 20))
         self.CH_62.setMinimumSize(QtCore.QSize(20, 20))
@@ -5911,68 +5814,65 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_62.setFont(font)
-        self.CH_62.setObjectName(_fromUtf8("CH_62"))
+        self.CH_62.setObjectName("CH_62")
         self.S_58 = QtGui.QLabel(self.tab_5)
         self.S_58.setGeometry(QtCore.QRect(808, 341, 35, 25))
         self.S_58.setMinimumSize(QtCore.QSize(35, 25))
         self.S_58.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_58.setObjectName(_fromUtf8("S_58"))
+        self.S_58.setObjectName("S_58")
         self.IMon_header_4 = QtGui.QLabel(self.tab_5)
         self.IMon_header_4.setGeometry(QtCore.QRect(218, 8, 71, 21))
-        self.IMon_header_4.setObjectName(_fromUtf8("IMon_header_4"))
+        self.IMon_header_4.setObjectName("IMon_header_4")
         self.S_48 = QtGui.QLabel(self.tab_5)
         self.S_48.setGeometry(QtCore.QRect(808, 35, 35, 25))
         self.S_48.setMinimumSize(QtCore.QSize(35, 25))
         self.S_48.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_48.setObjectName(_fromUtf8("S_48"))
+        self.S_48.setObjectName("S_48")
         self.V0_52 = QtGui.QLineEdit(self.tab_5)
         self.V0_52.setGeometry(QtCore.QRect(324, 157, 50, 25))
         self.V0_52.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_52.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_52.setObjectName(_fromUtf8("V0_52"))
+        self.V0_52.setObjectName("V0_52")
         self.P_60 = QtGui.QCheckBox(self.tab_5)
         self.P_60.setGeometry(QtCore.QRect(79, 404, 25, 25))
         self.P_60.setMinimumSize(QtCore.QSize(25, 25))
         self.P_60.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_60.setText(_fromUtf8(""))
-        self.P_60.setObjectName(_fromUtf8("P_60"))
+        self.P_60.setObjectName("P_60")
         self.I0_53 = QtGui.QLineEdit(self.tab_5)
         self.I0_53.setGeometry(QtCore.QRect(420, 187, 50, 25))
         self.I0_53.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_53.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_53.setObjectName(_fromUtf8("I0_53"))
+        self.I0_53.setObjectName("I0_53")
         self.trip_56 = QtGui.QLineEdit(self.tab_5)
         self.trip_56.setGeometry(QtCore.QRect(720, 280, 50, 25))
         self.trip_56.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_56.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_56.setObjectName(_fromUtf8("trip_56"))
+        self.trip_56.setObjectName("trip_56")
         self.RS_61 = QtGui.QLabel(self.tab_5)
         self.RS_61.setGeometry(QtCore.QRect(890, 434, 45, 25))
         self.RS_61.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_61.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_61.setObjectName(_fromUtf8("RS_61"))
+        self.RS_61.setObjectName("RS_61")
         self.P_61 = QtGui.QCheckBox(self.tab_5)
         self.P_61.setGeometry(QtCore.QRect(79, 435, 25, 25))
         self.P_61.setMinimumSize(QtCore.QSize(25, 25))
         self.P_61.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_61.setText(_fromUtf8(""))
-        self.P_61.setObjectName(_fromUtf8("P_61"))
+        self.P_61.setObjectName("P_61")
         self.RDN_52 = QtGui.QLineEdit(self.tab_5)
         self.RDN_52.setGeometry(QtCore.QRect(620, 157, 50, 25))
         self.RDN_52.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_52.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_52.setObjectName(_fromUtf8("RDN_52"))
+        self.RDN_52.setObjectName("RDN_52")
         self.I0_60 = QtGui.QLineEdit(self.tab_5)
         self.I0_60.setGeometry(QtCore.QRect(420, 404, 50, 25))
         self.I0_60.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_60.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_60.setObjectName(_fromUtf8("I0_60"))
+        self.I0_60.setObjectName("I0_60")
         self.P_53 = QtGui.QCheckBox(self.tab_5)
         self.P_53.setGeometry(QtCore.QRect(79, 187, 25, 25))
         self.P_53.setMinimumSize(QtCore.QSize(25, 25))
         self.P_53.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_53.setText(_fromUtf8(""))
-        self.P_53.setObjectName(_fromUtf8("P_53"))
+        self.P_53.setObjectName("P_53")
         self.CH_55 = QtGui.QLabel(self.tab_5)
         self.CH_55.setGeometry(QtCore.QRect(20, 252, 20, 20))
         self.CH_55.setMinimumSize(QtCore.QSize(20, 20))
@@ -5980,17 +5880,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_55.setFont(font)
-        self.CH_55.setObjectName(_fromUtf8("CH_55"))
+        self.CH_55.setObjectName("CH_55")
         self.trip_48 = QtGui.QLineEdit(self.tab_5)
         self.trip_48.setGeometry(QtCore.QRect(720, 36, 50, 25))
         self.trip_48.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_48.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_48.setObjectName(_fromUtf8("trip_48"))
+        self.trip_48.setObjectName("trip_48")
         self.RS_55 = QtGui.QLabel(self.tab_5)
         self.RS_55.setGeometry(QtCore.QRect(890, 248, 45, 25))
         self.RS_55.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_55.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_55.setObjectName(_fromUtf8("RS_55"))
+        self.RS_55.setObjectName("RS_55")
         self.VMon_57 = QtGui.QLabel(self.tab_5)
         self.VMon_57.setEnabled(True)
         self.VMon_57.setGeometry(QtCore.QRect(141, 316, 45, 20))
@@ -6003,10 +5903,10 @@ class Ui_MainWindow(object):
         self.VMon_57.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_57.setFont(font)
-        self.VMon_57.setObjectName(_fromUtf8("VMon_57"))
+        self.VMon_57.setObjectName("VMon_57")
         self.IMon_55 = QtGui.QLabel(self.tab_5)
         self.IMon_55.setGeometry(QtCore.QRect(240, 254, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6019,28 +5919,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_55.setFont(font)
-        self.IMon_55.setObjectName(_fromUtf8("IMon_55"))
+        self.IMon_55.setObjectName("IMon_55")
         self.RS_63 = QtGui.QLabel(self.tab_5)
         self.RS_63.setGeometry(QtCore.QRect(890, 496, 45, 25))
         self.RS_63.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_63.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_63.setObjectName(_fromUtf8("RS_63"))
+        self.RS_63.setObjectName("RS_63")
         self.V0_56 = QtGui.QLineEdit(self.tab_5)
         self.V0_56.setGeometry(QtCore.QRect(324, 280, 50, 25))
         self.V0_56.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_56.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_56.setObjectName(_fromUtf8("V0_56"))
+        self.V0_56.setObjectName("V0_56")
         self.Trip_header_4 = QtGui.QPushButton(self.tab_5)
         self.Trip_header_4.setGeometry(QtCore.QRect(706, 10, 73, 20))
         self.Trip_header_4.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.Trip_header_4.setFont(font)
-        self.Trip_header_4.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.Trip_header_4.setObjectName(_fromUtf8("Trip_header_4"))
+        self.Trip_header_4.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.Trip_header_4.setObjectName("Trip_header_4")
         self.CH_58 = QtGui.QLabel(self.tab_5)
         self.CH_58.setGeometry(QtCore.QRect(20, 345, 20, 20))
         self.CH_58.setMinimumSize(QtCore.QSize(20, 20))
@@ -6048,23 +5948,23 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_58.setFont(font)
-        self.CH_58.setObjectName(_fromUtf8("CH_58"))
+        self.CH_58.setObjectName("CH_58")
         self.V0_48 = QtGui.QLineEdit(self.tab_5)
         self.V0_48.setEnabled(True)
         self.V0_48.setGeometry(QtCore.QRect(324, 36, 50, 25))
         self.V0_48.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_48.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_48.setObjectName(_fromUtf8("V0_48"))
+        self.V0_48.setObjectName("V0_48")
         self.S_55 = QtGui.QLabel(self.tab_5)
         self.S_55.setGeometry(QtCore.QRect(808, 248, 35, 25))
         self.S_55.setMinimumSize(QtCore.QSize(35, 25))
         self.S_55.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_55.setObjectName(_fromUtf8("S_55"))
+        self.S_55.setObjectName("S_55")
         self.I0_54 = QtGui.QLineEdit(self.tab_5)
         self.I0_54.setGeometry(QtCore.QRect(420, 218, 50, 25))
         self.I0_54.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_54.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_54.setObjectName(_fromUtf8("I0_54"))
+        self.I0_54.setObjectName("I0_54")
         self.IMon_50 = QtGui.QLabel(self.tab_5)
         self.IMon_50.setGeometry(QtCore.QRect(240, 101, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6077,7 +5977,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_50.setFont(font)
-        self.IMon_50.setObjectName(_fromUtf8("IMon_50"))
+        self.IMon_50.setObjectName("IMon_50")
         self.VMon_59 = QtGui.QLabel(self.tab_5)
         self.VMon_59.setGeometry(QtCore.QRect(141, 378, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6089,56 +5989,52 @@ class Ui_MainWindow(object):
         self.VMon_59.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_59.setFont(font)
-        self.VMon_59.setObjectName(_fromUtf8("VMon_59"))
+        self.VMon_59.setObjectName("VMon_59")
         self.RDN_48 = QtGui.QLineEdit(self.tab_5)
         self.RDN_48.setGeometry(QtCore.QRect(620, 36, 50, 25))
         self.RDN_48.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_48.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_48.setObjectName(_fromUtf8("RDN_48"))
+        self.RDN_48.setObjectName("RDN_48")
         self.RUP_59 = QtGui.QLineEdit(self.tab_5)
         self.RUP_59.setGeometry(QtCore.QRect(520, 373, 50, 25))
         self.RUP_59.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_59.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_59.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_59.setObjectName(_fromUtf8("RUP_59"))
+        self.RUP_59.setObjectName("RUP_59")
         self.P_52 = QtGui.QCheckBox(self.tab_5)
         self.P_52.setGeometry(QtCore.QRect(79, 157, 25, 25))
         self.P_52.setMinimumSize(QtCore.QSize(25, 25))
         self.P_52.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_52.setText(_fromUtf8(""))
-        self.P_52.setObjectName(_fromUtf8("P_52"))
+        self.P_52.setObjectName("P_52")
         self.RUP_header_4 = QtGui.QPushButton(self.tab_5)
         self.RUP_header_4.setGeometry(QtCore.QRect(503, 9, 79, 21))
         self.RUP_header_4.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RUP_header_4.setFont(font)
-        self.RUP_header_4.setToolTip(_fromUtf8(""))
-        self.RUP_header_4.setStatusTip(_fromUtf8(""))
-        self.RUP_header_4.setWhatsThis(_fromUtf8(""))
-        self.RUP_header_4.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RUP_header_4.setObjectName(_fromUtf8("RUP_header_4"))
+        self.RUP_header_4.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RUP_header_4.setObjectName("RUP_header_4")
         self.trip_60 = QtGui.QLineEdit(self.tab_5)
         self.trip_60.setGeometry(QtCore.QRect(720, 404, 50, 25))
         self.trip_60.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_60.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_60.setObjectName(_fromUtf8("trip_60"))
+        self.trip_60.setObjectName("trip_60")
         self.V0_51 = QtGui.QLineEdit(self.tab_5)
         self.V0_51.setGeometry(QtCore.QRect(324, 126, 50, 25))
         self.V0_51.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_51.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_51.setObjectName(_fromUtf8("V0_51"))
+        self.V0_51.setObjectName("V0_51")
         self.RS_58 = QtGui.QLabel(self.tab_5)
         self.RS_58.setGeometry(QtCore.QRect(890, 341, 45, 25))
         self.RS_58.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_58.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_58.setObjectName(_fromUtf8("RS_58"))
+        self.RS_58.setObjectName("RS_58")
         self.VMon_49 = QtGui.QLabel(self.tab_5)
         self.VMon_49.setEnabled(True)
         self.VMon_49.setGeometry(QtCore.QRect(141, 71, 45, 20))
@@ -6151,15 +6047,15 @@ class Ui_MainWindow(object):
         self.VMon_49.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_49.setFont(font)
-        self.VMon_49.setObjectName(_fromUtf8("VMon_49"))
+        self.VMon_49.setObjectName("VMon_49")
         self.I0_61 = QtGui.QLineEdit(self.tab_5)
         self.I0_61.setGeometry(QtCore.QRect(420, 435, 50, 25))
         self.I0_61.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_61.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_61.setObjectName(_fromUtf8("I0_61"))
+        self.I0_61.setObjectName("I0_61")
         self.IMon_62 = QtGui.QLabel(self.tab_5)
         self.IMon_62.setGeometry(QtCore.QRect(240, 471, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6172,17 +6068,17 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_62.setFont(font)
-        self.IMon_62.setObjectName(_fromUtf8("IMon_62"))
+        self.IMon_62.setObjectName("IMon_62")
         self.S_51 = QtGui.QLabel(self.tab_5)
         self.S_51.setGeometry(QtCore.QRect(808, 125, 35, 25))
         self.S_51.setMinimumSize(QtCore.QSize(35, 25))
         self.S_51.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_51.setObjectName(_fromUtf8("S_51"))
+        self.S_51.setObjectName("S_51")
         self.V0_63 = QtGui.QLineEdit(self.tab_5)
         self.V0_63.setGeometry(QtCore.QRect(324, 497, 50, 25))
         self.V0_63.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_63.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_63.setObjectName(_fromUtf8("V0_63"))
+        self.V0_63.setObjectName("V0_63")
         self.IMon_51 = QtGui.QLabel(self.tab_5)
         self.IMon_51.setGeometry(QtCore.QRect(240, 131, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6195,108 +6091,107 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_51.setFont(font)
-        self.IMon_51.setObjectName(_fromUtf8("IMon_51"))
+        self.IMon_51.setObjectName("IMon_51")
         self.RDN_61 = QtGui.QLineEdit(self.tab_5)
         self.RDN_61.setGeometry(QtCore.QRect(620, 435, 50, 25))
         self.RDN_61.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_61.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_61.setObjectName(_fromUtf8("RDN_61"))
+        self.RDN_61.setObjectName("RDN_61")
         self.RDN_58 = QtGui.QLineEdit(self.tab_5)
         self.RDN_58.setGeometry(QtCore.QRect(620, 342, 50, 25))
         self.RDN_58.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_58.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_58.setObjectName(_fromUtf8("RDN_58"))
+        self.RDN_58.setObjectName("RDN_58")
         self.RS_62 = QtGui.QLabel(self.tab_5)
         self.RS_62.setGeometry(QtCore.QRect(890, 465, 45, 25))
         self.RS_62.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_62.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_62.setObjectName(_fromUtf8("RS_62"))
+        self.RS_62.setObjectName("RS_62")
         self.CH_header_4 = QtGui.QLabel(self.tab_5)
         self.CH_header_4.setGeometry(QtCore.QRect(6, 8, 51, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Cantarell"))
+        font.setFamily("Cantarell")
         font.setItalic(True)
         self.CH_header_4.setFont(font)
-        self.CH_header_4.setObjectName(_fromUtf8("CH_header_4"))
+        self.CH_header_4.setObjectName("CH_header_4")
         self.RUP_49 = QtGui.QLineEdit(self.tab_5)
         self.RUP_49.setGeometry(QtCore.QRect(520, 66, 50, 25))
         self.RUP_49.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_49.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_49.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_49.setObjectName(_fromUtf8("RUP_49"))
-        self.Tab2_8.addTab(self.tab_5, _fromUtf8(""))
+        self.RUP_49.setObjectName("RUP_49")
+        self.globals_tab.addTab(self.tab_5, "")
         self.tab_6 = QtGui.QWidget()
-        self.tab_6.setObjectName(_fromUtf8("tab_6"))
+        self.tab_6.setObjectName("tab_6")
         self.RUP_72 = QtGui.QLineEdit(self.tab_6)
         self.RUP_72.setGeometry(QtCore.QRect(520, 280, 50, 25))
         self.RUP_72.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_72.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_72.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_72.setObjectName(_fromUtf8("RUP_72"))
+        self.RUP_72.setObjectName("RUP_72")
         self.S_header_5 = QtGui.QLabel(self.tab_6)
         self.S_header_5.setGeometry(QtCore.QRect(790, 10, 61, 20))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
+        font.setFamily("Sans Serif")
         self.S_header_5.setFont(font)
-        self.S_header_5.setObjectName(_fromUtf8("S_header_5"))
+        self.S_header_5.setObjectName("S_header_5")
         self.I0_64 = QtGui.QLineEdit(self.tab_6)
         self.I0_64.setEnabled(True)
         self.I0_64.setGeometry(QtCore.QRect(420, 36, 50, 25))
         self.I0_64.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_64.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_64.setObjectName(_fromUtf8("I0_64"))
+        self.I0_64.setObjectName("I0_64")
         self.RS_68 = QtGui.QLabel(self.tab_6)
         self.RS_68.setGeometry(QtCore.QRect(890, 156, 45, 25))
         self.RS_68.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_68.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_68.setObjectName(_fromUtf8("RS_68"))
+        self.RS_68.setObjectName("RS_68")
         self.I0_79 = QtGui.QLineEdit(self.tab_6)
         self.I0_79.setGeometry(QtCore.QRect(420, 497, 50, 25))
         self.I0_79.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_79.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_79.setObjectName(_fromUtf8("I0_79"))
+        self.I0_79.setObjectName("I0_79")
         self.S_77 = QtGui.QLabel(self.tab_6)
         self.S_77.setGeometry(QtCore.QRect(808, 434, 35, 25))
         self.S_77.setMinimumSize(QtCore.QSize(35, 25))
         self.S_77.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_77.setObjectName(_fromUtf8("S_77"))
+        self.S_77.setObjectName("S_77")
         self.RDN_68 = QtGui.QLineEdit(self.tab_6)
         self.RDN_68.setGeometry(QtCore.QRect(620, 157, 50, 25))
         self.RDN_68.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_68.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_68.setObjectName(_fromUtf8("RDN_68"))
+        self.RDN_68.setObjectName("RDN_68")
         self.RDN_70 = QtGui.QLineEdit(self.tab_6)
         self.RDN_70.setGeometry(QtCore.QRect(620, 218, 50, 25))
         self.RDN_70.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_70.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_70.setObjectName(_fromUtf8("RDN_70"))
+        self.RDN_70.setObjectName("RDN_70")
         self.P_66 = QtGui.QCheckBox(self.tab_6)
         self.P_66.setGeometry(QtCore.QRect(79, 96, 25, 25))
         self.P_66.setMinimumSize(QtCore.QSize(25, 25))
         self.P_66.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_66.setText(_fromUtf8(""))
-        self.P_66.setObjectName(_fromUtf8("P_66"))
+        self.P_66.setObjectName("P_66")
         self.RUP_65 = QtGui.QLineEdit(self.tab_6)
         self.RUP_65.setGeometry(QtCore.QRect(520, 66, 50, 25))
         self.RUP_65.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_65.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_65.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_65.setObjectName(_fromUtf8("RUP_65"))
+        self.RUP_65.setObjectName("RUP_65")
         self.RS_66 = QtGui.QLabel(self.tab_6)
         self.RS_66.setGeometry(QtCore.QRect(890, 95, 45, 25))
         self.RS_66.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_66.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_66.setObjectName(_fromUtf8("RS_66"))
+        self.RS_66.setObjectName("RS_66")
         self.V0_79 = QtGui.QLineEdit(self.tab_6)
         self.V0_79.setGeometry(QtCore.QRect(324, 497, 50, 25))
         self.V0_79.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_79.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_79.setObjectName(_fromUtf8("V0_79"))
+        self.V0_79.setObjectName("V0_79")
         self.RDN_66 = QtGui.QLineEdit(self.tab_6)
         self.RDN_66.setGeometry(QtCore.QRect(620, 96, 50, 25))
         self.RDN_66.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_66.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_66.setObjectName(_fromUtf8("RDN_66"))
+        self.RDN_66.setObjectName("RDN_66")
         self.CH_75 = QtGui.QLabel(self.tab_6)
         self.CH_75.setGeometry(QtCore.QRect(20, 376, 20, 20))
         self.CH_75.setMinimumSize(QtCore.QSize(20, 20))
@@ -6304,33 +6199,32 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_75.setFont(font)
-        self.CH_75.setObjectName(_fromUtf8("CH_75"))
+        self.CH_75.setObjectName("CH_75")
         self.trip_76 = QtGui.QLineEdit(self.tab_6)
         self.trip_76.setGeometry(QtCore.QRect(720, 404, 50, 25))
         self.trip_76.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_76.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_76.setObjectName(_fromUtf8("trip_76"))
+        self.trip_76.setObjectName("trip_76")
         self.RS_67 = QtGui.QLabel(self.tab_6)
         self.RS_67.setGeometry(QtCore.QRect(890, 125, 45, 25))
         self.RS_67.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_67.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_67.setObjectName(_fromUtf8("RS_67"))
+        self.RS_67.setObjectName("RS_67")
         self.P_74 = QtGui.QCheckBox(self.tab_6)
         self.P_74.setGeometry(QtCore.QRect(79, 342, 25, 25))
         self.P_74.setMinimumSize(QtCore.QSize(25, 25))
         self.P_74.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_74.setText(_fromUtf8(""))
-        self.P_74.setObjectName(_fromUtf8("P_74"))
+        self.P_74.setObjectName("P_74")
         self.trip_71 = QtGui.QLineEdit(self.tab_6)
         self.trip_71.setGeometry(QtCore.QRect(720, 249, 50, 25))
         self.trip_71.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_71.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_71.setObjectName(_fromUtf8("trip_71"))
+        self.trip_71.setObjectName("trip_71")
         self.trip_75 = QtGui.QLineEdit(self.tab_6)
         self.trip_75.setGeometry(QtCore.QRect(720, 373, 50, 25))
         self.trip_75.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_75.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_75.setObjectName(_fromUtf8("trip_75"))
+        self.trip_75.setObjectName("trip_75")
         self.VMon_71 = QtGui.QLabel(self.tab_6)
         self.VMon_71.setGeometry(QtCore.QRect(141, 254, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6342,36 +6236,36 @@ class Ui_MainWindow(object):
         self.VMon_71.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_71.setFont(font)
-        self.VMon_71.setObjectName(_fromUtf8("VMon_71"))
+        self.VMon_71.setObjectName("VMon_71")
         self.I0_71 = QtGui.QLineEdit(self.tab_6)
         self.I0_71.setGeometry(QtCore.QRect(420, 249, 50, 25))
         self.I0_71.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_71.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_71.setObjectName(_fromUtf8("I0_71"))
+        self.I0_71.setObjectName("I0_71")
         self.V0_64 = QtGui.QLineEdit(self.tab_6)
         self.V0_64.setEnabled(True)
         self.V0_64.setGeometry(QtCore.QRect(324, 36, 50, 25))
         self.V0_64.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_64.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_64.setObjectName(_fromUtf8("V0_64"))
+        self.V0_64.setObjectName("V0_64")
         self.RDN_64 = QtGui.QLineEdit(self.tab_6)
         self.RDN_64.setGeometry(QtCore.QRect(620, 36, 50, 25))
         self.RDN_64.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_64.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_64.setObjectName(_fromUtf8("RDN_64"))
+        self.RDN_64.setObjectName("RDN_64")
         self.S_76 = QtGui.QLabel(self.tab_6)
         self.S_76.setGeometry(QtCore.QRect(808, 403, 35, 25))
         self.S_76.setMinimumSize(QtCore.QSize(35, 25))
         self.S_76.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_76.setObjectName(_fromUtf8("S_76"))
+        self.S_76.setObjectName("S_76")
         self.RS_71 = QtGui.QLabel(self.tab_6)
         self.RS_71.setGeometry(QtCore.QRect(890, 248, 45, 25))
         self.RS_71.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_71.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_71.setObjectName(_fromUtf8("RS_71"))
+        self.RS_71.setObjectName("RS_71")
         self.VMon_77 = QtGui.QLabel(self.tab_6)
         self.VMon_77.setGeometry(QtCore.QRect(141, 440, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6383,16 +6277,16 @@ class Ui_MainWindow(object):
         self.VMon_77.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_77.setFont(font)
-        self.VMon_77.setObjectName(_fromUtf8("VMon_77"))
+        self.VMon_77.setObjectName("VMon_77")
         self.S_65 = QtGui.QLabel(self.tab_6)
         self.S_65.setEnabled(True)
         self.S_65.setGeometry(QtCore.QRect(808, 65, 35, 25))
         self.S_65.setMinimumSize(QtCore.QSize(35, 25))
         self.S_65.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_65.setObjectName(_fromUtf8("S_65"))
+        self.S_65.setObjectName("S_65")
         self.VMon_79 = QtGui.QLabel(self.tab_6)
         self.VMon_79.setGeometry(QtCore.QRect(141, 502, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6404,10 +6298,10 @@ class Ui_MainWindow(object):
         self.VMon_79.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_79.setFont(font)
-        self.VMon_79.setObjectName(_fromUtf8("VMon_79"))
+        self.VMon_79.setObjectName("VMon_79")
         self.CH_73 = QtGui.QLabel(self.tab_6)
         self.CH_73.setEnabled(True)
         self.CH_73.setGeometry(QtCore.QRect(20, 314, 20, 20))
@@ -6416,27 +6310,27 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_73.setFont(font)
-        self.CH_73.setObjectName(_fromUtf8("CH_73"))
+        self.CH_73.setObjectName("CH_73")
         self.RS_74 = QtGui.QLabel(self.tab_6)
         self.RS_74.setGeometry(QtCore.QRect(890, 341, 45, 25))
         self.RS_74.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_74.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_74.setObjectName(_fromUtf8("RS_74"))
+        self.RS_74.setObjectName("RS_74")
         self.RS_75 = QtGui.QLabel(self.tab_6)
         self.RS_75.setGeometry(QtCore.QRect(890, 372, 45, 25))
         self.RS_75.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_75.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_75.setObjectName(_fromUtf8("RS_75"))
+        self.RS_75.setObjectName("RS_75")
         self.RS_69 = QtGui.QLabel(self.tab_6)
         self.RS_69.setGeometry(QtCore.QRect(890, 186, 45, 25))
         self.RS_69.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_69.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_69.setObjectName(_fromUtf8("RS_69"))
+        self.RS_69.setObjectName("RS_69")
         self.I0_68 = QtGui.QLineEdit(self.tab_6)
         self.I0_68.setGeometry(QtCore.QRect(420, 157, 50, 25))
         self.I0_68.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_68.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_68.setObjectName(_fromUtf8("I0_68"))
+        self.I0_68.setObjectName("I0_68")
         self.VMon_70 = QtGui.QLabel(self.tab_6)
         self.VMon_70.setGeometry(QtCore.QRect(141, 223, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6448,49 +6342,48 @@ class Ui_MainWindow(object):
         self.VMon_70.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_70.setFont(font)
-        self.VMon_70.setObjectName(_fromUtf8("VMon_70"))
+        self.VMon_70.setObjectName("VMon_70")
         self.P_72 = QtGui.QCheckBox(self.tab_6)
         self.P_72.setGeometry(QtCore.QRect(79, 280, 25, 25))
         self.P_72.setMinimumSize(QtCore.QSize(25, 25))
         self.P_72.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_72.setText(_fromUtf8(""))
-        self.P_72.setObjectName(_fromUtf8("P_72"))
+        self.P_72.setObjectName("P_72")
         self.trip_68 = QtGui.QLineEdit(self.tab_6)
         self.trip_68.setGeometry(QtCore.QRect(720, 157, 50, 25))
         self.trip_68.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_68.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_68.setObjectName(_fromUtf8("trip_68"))
+        self.trip_68.setObjectName("trip_68")
         self.trip_65 = QtGui.QLineEdit(self.tab_6)
         self.trip_65.setEnabled(True)
         self.trip_65.setGeometry(QtCore.QRect(720, 66, 50, 25))
         self.trip_65.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_65.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_65.setObjectName(_fromUtf8("trip_65"))
+        self.trip_65.setObjectName("trip_65")
         self.CH_header_5 = QtGui.QLabel(self.tab_6)
         self.CH_header_5.setGeometry(QtCore.QRect(6, 8, 51, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Cantarell"))
+        font.setFamily("Cantarell")
         font.setItalic(True)
         self.CH_header_5.setFont(font)
-        self.CH_header_5.setObjectName(_fromUtf8("CH_header_5"))
+        self.CH_header_5.setObjectName("CH_header_5")
         self.V0_77 = QtGui.QLineEdit(self.tab_6)
         self.V0_77.setGeometry(QtCore.QRect(324, 435, 50, 25))
         self.V0_77.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_77.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_77.setObjectName(_fromUtf8("V0_77"))
+        self.V0_77.setObjectName("V0_77")
         self.trip_72 = QtGui.QLineEdit(self.tab_6)
         self.trip_72.setGeometry(QtCore.QRect(720, 280, 50, 25))
         self.trip_72.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_72.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_72.setObjectName(_fromUtf8("trip_72"))
+        self.trip_72.setObjectName("trip_72")
         self.RS_76 = QtGui.QLabel(self.tab_6)
         self.RS_76.setGeometry(QtCore.QRect(890, 403, 45, 25))
         self.RS_76.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_76.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_76.setObjectName(_fromUtf8("RS_76"))
+        self.RS_76.setObjectName("RS_76")
         self.CH_65 = QtGui.QLabel(self.tab_6)
         self.CH_65.setEnabled(True)
         self.CH_65.setGeometry(QtCore.QRect(20, 69, 20, 20))
@@ -6499,12 +6392,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_65.setFont(font)
-        self.CH_65.setObjectName(_fromUtf8("CH_65"))
+        self.CH_65.setObjectName("CH_65")
         self.S_72 = QtGui.QLabel(self.tab_6)
         self.S_72.setGeometry(QtCore.QRect(808, 279, 35, 25))
         self.S_72.setMinimumSize(QtCore.QSize(35, 25))
         self.S_72.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_72.setObjectName(_fromUtf8("S_72"))
+        self.S_72.setObjectName("S_72")
         self.CH_68 = QtGui.QLabel(self.tab_6)
         self.CH_68.setGeometry(QtCore.QRect(20, 160, 20, 20))
         self.CH_68.setMinimumSize(QtCore.QSize(20, 20))
@@ -6512,7 +6405,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_68.setFont(font)
-        self.CH_68.setObjectName(_fromUtf8("CH_68"))
+        self.CH_68.setObjectName("CH_68")
         self.IMon_70 = QtGui.QLabel(self.tab_6)
         self.IMon_70.setGeometry(QtCore.QRect(240, 223, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6525,41 +6418,40 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_70.setFont(font)
-        self.IMon_70.setObjectName(_fromUtf8("IMon_70"))
+        self.IMon_70.setObjectName("IMon_70")
         self.RS_65 = QtGui.QLabel(self.tab_6)
         self.RS_65.setEnabled(True)
         self.RS_65.setGeometry(QtCore.QRect(890, 65, 45, 25))
         self.RS_65.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_65.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_65.setObjectName(_fromUtf8("RS_65"))
+        self.RS_65.setObjectName("RS_65")
         self.S_70 = QtGui.QLabel(self.tab_6)
         self.S_70.setGeometry(QtCore.QRect(808, 217, 35, 25))
         self.S_70.setMinimumSize(QtCore.QSize(35, 25))
         self.S_70.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_70.setObjectName(_fromUtf8("S_70"))
+        self.S_70.setObjectName("S_70")
         self.I0_header_5 = QtGui.QPushButton(self.tab_6)
         self.I0_header_5.setGeometry(QtCore.QRect(417, 9, 56, 21))
         self.I0_header_5.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.I0_header_5.setFont(font)
-        self.I0_header_5.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.I0_header_5.setObjectName(_fromUtf8("I0_header_5"))
+        self.I0_header_5.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.I0_header_5.setObjectName("I0_header_5")
         self.V0_76 = QtGui.QLineEdit(self.tab_6)
         self.V0_76.setGeometry(QtCore.QRect(324, 404, 50, 25))
         self.V0_76.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_76.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_76.setObjectName(_fromUtf8("V0_76"))
+        self.V0_76.setObjectName("V0_76")
         self.P_73 = QtGui.QCheckBox(self.tab_6)
         self.P_73.setEnabled(True)
         self.P_73.setGeometry(QtCore.QRect(79, 311, 25, 25))
         self.P_73.setMinimumSize(QtCore.QSize(25, 25))
         self.P_73.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_73.setText(_fromUtf8(""))
-        self.P_73.setObjectName(_fromUtf8("P_73"))
+        self.P_73.setObjectName("P_73")
         self.IMon_68 = QtGui.QLabel(self.tab_6)
         self.IMon_68.setGeometry(QtCore.QRect(240, 162, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6572,7 +6464,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_68.setFont(font)
-        self.IMon_68.setObjectName(_fromUtf8("IMon_68"))
+        self.IMon_68.setObjectName("IMon_68")
         self.IMon_64 = QtGui.QLabel(self.tab_6)
         self.IMon_64.setGeometry(QtCore.QRect(240, 41, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6585,7 +6477,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_64.setFont(font)
-        self.IMon_64.setObjectName(_fromUtf8("IMon_64"))
+        self.IMon_64.setObjectName("IMon_64")
         self.IMon_66 = QtGui.QLabel(self.tab_6)
         self.IMon_66.setGeometry(QtCore.QRect(240, 101, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6598,29 +6490,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_66.setFont(font)
-        self.IMon_66.setObjectName(_fromUtf8("IMon_66"))
+        self.IMon_66.setObjectName("IMon_66")
         self.P_70 = QtGui.QCheckBox(self.tab_6)
         self.P_70.setGeometry(QtCore.QRect(79, 218, 25, 25))
         self.P_70.setMinimumSize(QtCore.QSize(25, 25))
         self.P_70.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_70.setText(_fromUtf8(""))
-        self.P_70.setObjectName(_fromUtf8("P_70"))
+        self.P_70.setObjectName("P_70")
         self.trip_64 = QtGui.QLineEdit(self.tab_6)
         self.trip_64.setGeometry(QtCore.QRect(720, 36, 50, 25))
         self.trip_64.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_64.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_64.setObjectName(_fromUtf8("trip_64"))
+        self.trip_64.setObjectName("trip_64")
         self.RDN_67 = QtGui.QLineEdit(self.tab_6)
         self.RDN_67.setGeometry(QtCore.QRect(620, 126, 50, 25))
         self.RDN_67.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_67.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_67.setObjectName(_fromUtf8("RDN_67"))
+        self.RDN_67.setObjectName("RDN_67")
         self.RUP_68 = QtGui.QLineEdit(self.tab_6)
         self.RUP_68.setGeometry(QtCore.QRect(520, 157, 50, 25))
         self.RUP_68.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_68.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_68.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_68.setObjectName(_fromUtf8("RUP_68"))
+        self.RUP_68.setObjectName("RUP_68")
         self.IMon_69 = QtGui.QLabel(self.tab_6)
         self.IMon_69.setGeometry(QtCore.QRect(240, 192, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6633,61 +6524,60 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_69.setFont(font)
-        self.IMon_69.setObjectName(_fromUtf8("IMon_69"))
+        self.IMon_69.setObjectName("IMon_69")
         self.RUP_77 = QtGui.QLineEdit(self.tab_6)
         self.RUP_77.setGeometry(QtCore.QRect(520, 435, 50, 25))
         self.RUP_77.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_77.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_77.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_77.setObjectName(_fromUtf8("RUP_77"))
+        self.RUP_77.setObjectName("RUP_77")
         self.RS_79 = QtGui.QLabel(self.tab_6)
         self.RS_79.setGeometry(QtCore.QRect(890, 496, 45, 25))
         self.RS_79.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_79.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_79.setObjectName(_fromUtf8("RS_79"))
+        self.RS_79.setObjectName("RS_79")
         self.S_79 = QtGui.QLabel(self.tab_6)
         self.S_79.setGeometry(QtCore.QRect(808, 496, 35, 25))
         self.S_79.setMinimumSize(QtCore.QSize(35, 25))
         self.S_79.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_79.setObjectName(_fromUtf8("S_79"))
+        self.S_79.setObjectName("S_79")
         self.V0_69 = QtGui.QLineEdit(self.tab_6)
         self.V0_69.setGeometry(QtCore.QRect(324, 187, 50, 25))
         self.V0_69.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_69.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_69.setObjectName(_fromUtf8("V0_69"))
+        self.V0_69.setObjectName("V0_69")
         self.RDN_77 = QtGui.QLineEdit(self.tab_6)
         self.RDN_77.setGeometry(QtCore.QRect(620, 435, 50, 25))
         self.RDN_77.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_77.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_77.setObjectName(_fromUtf8("RDN_77"))
+        self.RDN_77.setObjectName("RDN_77")
         self.RDN_73 = QtGui.QLineEdit(self.tab_6)
         self.RDN_73.setEnabled(True)
         self.RDN_73.setGeometry(QtCore.QRect(620, 311, 50, 25))
         self.RDN_73.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_73.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_73.setObjectName(_fromUtf8("RDN_73"))
+        self.RDN_73.setObjectName("RDN_73")
         self.Trip_header_5 = QtGui.QPushButton(self.tab_6)
         self.Trip_header_5.setGeometry(QtCore.QRect(706, 10, 73, 20))
         self.Trip_header_5.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.Trip_header_5.setFont(font)
-        self.Trip_header_5.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.Trip_header_5.setObjectName(_fromUtf8("Trip_header_5"))
+        self.Trip_header_5.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.Trip_header_5.setObjectName("Trip_header_5")
         self.I0_78 = QtGui.QLineEdit(self.tab_6)
         self.I0_78.setGeometry(QtCore.QRect(420, 466, 50, 25))
         self.I0_78.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_78.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_78.setObjectName(_fromUtf8("I0_78"))
+        self.I0_78.setObjectName("I0_78")
         self.P_76 = QtGui.QCheckBox(self.tab_6)
         self.P_76.setGeometry(QtCore.QRect(79, 404, 25, 25))
         self.P_76.setMinimumSize(QtCore.QSize(25, 25))
         self.P_76.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_76.setText(_fromUtf8(""))
-        self.P_76.setObjectName(_fromUtf8("P_76"))
+        self.P_76.setObjectName("P_76")
         self.VMon_72 = QtGui.QLabel(self.tab_6)
         self.VMon_72.setGeometry(QtCore.QRect(141, 285, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6699,16 +6589,16 @@ class Ui_MainWindow(object):
         self.VMon_72.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_72.setFont(font)
-        self.VMon_72.setObjectName(_fromUtf8("VMon_72"))
+        self.VMon_72.setObjectName("VMon_72")
         self.RUP_74 = QtGui.QLineEdit(self.tab_6)
         self.RUP_74.setGeometry(QtCore.QRect(520, 342, 50, 25))
         self.RUP_74.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_74.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_74.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_74.setObjectName(_fromUtf8("RUP_74"))
+        self.RUP_74.setObjectName("RUP_74")
         self.VMon_76 = QtGui.QLabel(self.tab_6)
         self.VMon_76.setGeometry(QtCore.QRect(141, 409, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6720,16 +6610,15 @@ class Ui_MainWindow(object):
         self.VMon_76.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_76.setFont(font)
-        self.VMon_76.setObjectName(_fromUtf8("VMon_76"))
+        self.VMon_76.setObjectName("VMon_76")
         self.P_79 = QtGui.QCheckBox(self.tab_6)
         self.P_79.setGeometry(QtCore.QRect(79, 497, 25, 25))
         self.P_79.setMinimumSize(QtCore.QSize(25, 25))
         self.P_79.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_79.setText(_fromUtf8(""))
-        self.P_79.setObjectName(_fromUtf8("P_79"))
+        self.P_79.setObjectName("P_79")
         self.CH_77 = QtGui.QLabel(self.tab_6)
         self.CH_77.setGeometry(QtCore.QRect(20, 438, 20, 20))
         self.CH_77.setMinimumSize(QtCore.QSize(20, 20))
@@ -6737,29 +6626,28 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_77.setFont(font)
-        self.CH_77.setObjectName(_fromUtf8("CH_77"))
+        self.CH_77.setObjectName("CH_77")
         self.RS_64 = QtGui.QLabel(self.tab_6)
         self.RS_64.setGeometry(QtCore.QRect(890, 35, 45, 25))
         self.RS_64.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_64.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_64.setObjectName(_fromUtf8("RS_64"))
+        self.RS_64.setObjectName("RS_64")
         self.I0_73 = QtGui.QLineEdit(self.tab_6)
         self.I0_73.setEnabled(True)
         self.I0_73.setGeometry(QtCore.QRect(420, 311, 50, 25))
         self.I0_73.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_73.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_73.setObjectName(_fromUtf8("I0_73"))
+        self.I0_73.setObjectName("I0_73")
         self.P_69 = QtGui.QCheckBox(self.tab_6)
         self.P_69.setGeometry(QtCore.QRect(79, 187, 25, 25))
         self.P_69.setMinimumSize(QtCore.QSize(25, 25))
         self.P_69.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_69.setText(_fromUtf8(""))
-        self.P_69.setObjectName(_fromUtf8("P_69"))
+        self.P_69.setObjectName("P_69")
         self.I0_70 = QtGui.QLineEdit(self.tab_6)
         self.I0_70.setGeometry(QtCore.QRect(420, 218, 50, 25))
         self.I0_70.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_70.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_70.setObjectName(_fromUtf8("I0_70"))
+        self.I0_70.setObjectName("I0_70")
         self.IMon_72 = QtGui.QLabel(self.tab_6)
         self.IMon_72.setGeometry(QtCore.QRect(240, 285, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6772,7 +6660,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_72.setFont(font)
-        self.IMon_72.setObjectName(_fromUtf8("IMon_72"))
+        self.IMon_72.setObjectName("IMon_72")
         self.CH_67 = QtGui.QLabel(self.tab_6)
         self.CH_67.setGeometry(QtCore.QRect(20, 129, 20, 20))
         self.CH_67.setMinimumSize(QtCore.QSize(20, 20))
@@ -6780,7 +6668,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_67.setFont(font)
-        self.CH_67.setObjectName(_fromUtf8("CH_67"))
+        self.CH_67.setObjectName("CH_67")
         self.CH_69 = QtGui.QLabel(self.tab_6)
         self.CH_69.setGeometry(QtCore.QRect(20, 190, 20, 20))
         self.CH_69.setMinimumSize(QtCore.QSize(20, 20))
@@ -6788,33 +6676,33 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_69.setFont(font)
-        self.CH_69.setObjectName(_fromUtf8("CH_69"))
+        self.CH_69.setObjectName("CH_69")
         self.trip_66 = QtGui.QLineEdit(self.tab_6)
         self.trip_66.setGeometry(QtCore.QRect(720, 96, 50, 25))
         self.trip_66.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_66.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_66.setObjectName(_fromUtf8("trip_66"))
+        self.trip_66.setObjectName("trip_66")
         self.trip_70 = QtGui.QLineEdit(self.tab_6)
         self.trip_70.setGeometry(QtCore.QRect(720, 218, 50, 25))
         self.trip_70.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_70.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_70.setObjectName(_fromUtf8("trip_70"))
+        self.trip_70.setObjectName("trip_70")
         self.I0_65 = QtGui.QLineEdit(self.tab_6)
         self.I0_65.setEnabled(True)
         self.I0_65.setGeometry(QtCore.QRect(420, 66, 50, 25))
         self.I0_65.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_65.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_65.setObjectName(_fromUtf8("I0_65"))
+        self.I0_65.setObjectName("I0_65")
         self.V0_67 = QtGui.QLineEdit(self.tab_6)
         self.V0_67.setGeometry(QtCore.QRect(324, 126, 50, 25))
         self.V0_67.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_67.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_67.setObjectName(_fromUtf8("V0_67"))
+        self.V0_67.setObjectName("V0_67")
         self.S_67 = QtGui.QLabel(self.tab_6)
         self.S_67.setGeometry(QtCore.QRect(808, 125, 35, 25))
         self.S_67.setMinimumSize(QtCore.QSize(35, 25))
         self.S_67.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_67.setObjectName(_fromUtf8("S_67"))
+        self.S_67.setObjectName("S_67")
         self.IMon_71 = QtGui.QLabel(self.tab_6)
         self.IMon_71.setGeometry(QtCore.QRect(240, 254, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6827,16 +6715,16 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_71.setFont(font)
-        self.IMon_71.setObjectName(_fromUtf8("IMon_71"))
+        self.IMon_71.setObjectName("IMon_71")
         self.VMon_header_5 = QtGui.QLabel(self.tab_6)
         self.VMon_header_5.setGeometry(QtCore.QRect(130, 8, 68, 21))
-        self.VMon_header_5.setObjectName(_fromUtf8("VMon_header_5"))
+        self.VMon_header_5.setObjectName("VMon_header_5")
         self.RS_73 = QtGui.QLabel(self.tab_6)
         self.RS_73.setEnabled(True)
         self.RS_73.setGeometry(QtCore.QRect(890, 310, 45, 25))
         self.RS_73.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_73.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_73.setObjectName(_fromUtf8("RS_73"))
+        self.RS_73.setObjectName("RS_73")
         self.CH_70 = QtGui.QLabel(self.tab_6)
         self.CH_70.setGeometry(QtCore.QRect(20, 221, 20, 20))
         self.CH_70.setMinimumSize(QtCore.QSize(20, 20))
@@ -6844,18 +6732,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_70.setFont(font)
-        self.CH_70.setObjectName(_fromUtf8("CH_70"))
+        self.CH_70.setObjectName("CH_70")
         self.RS_77 = QtGui.QLabel(self.tab_6)
         self.RS_77.setGeometry(QtCore.QRect(890, 434, 45, 25))
         self.RS_77.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_77.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_77.setObjectName(_fromUtf8("RS_77"))
+        self.RS_77.setObjectName("RS_77")
         self.RUP_78 = QtGui.QLineEdit(self.tab_6)
         self.RUP_78.setGeometry(QtCore.QRect(520, 466, 50, 25))
         self.RUP_78.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_78.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_78.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_78.setObjectName(_fromUtf8("RUP_78"))
+        self.RUP_78.setObjectName("RUP_78")
         self.VMon_65 = QtGui.QLabel(self.tab_6)
         self.VMon_65.setEnabled(True)
         self.VMon_65.setGeometry(QtCore.QRect(141, 71, 45, 20))
@@ -6868,10 +6756,10 @@ class Ui_MainWindow(object):
         self.VMon_65.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_65.setFont(font)
-        self.VMon_65.setObjectName(_fromUtf8("VMon_65"))
+        self.VMon_65.setObjectName("VMon_65")
         self.CH_66 = QtGui.QLabel(self.tab_6)
         self.CH_66.setGeometry(QtCore.QRect(20, 99, 20, 20))
         self.CH_66.setMinimumSize(QtCore.QSize(20, 20))
@@ -6879,7 +6767,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_66.setFont(font)
-        self.CH_66.setObjectName(_fromUtf8("CH_66"))
+        self.CH_66.setObjectName("CH_66")
         self.IMon_67 = QtGui.QLabel(self.tab_6)
         self.IMon_67.setGeometry(QtCore.QRect(240, 131, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6892,12 +6780,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_67.setFont(font)
-        self.IMon_67.setObjectName(_fromUtf8("IMon_67"))
+        self.IMon_67.setObjectName("IMon_67")
         self.V0_75 = QtGui.QLineEdit(self.tab_6)
         self.V0_75.setGeometry(QtCore.QRect(324, 373, 50, 25))
         self.V0_75.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_75.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_75.setObjectName(_fromUtf8("V0_75"))
+        self.V0_75.setObjectName("V0_75")
         self.VMon_69 = QtGui.QLabel(self.tab_6)
         self.VMon_69.setGeometry(QtCore.QRect(141, 192, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6909,26 +6797,26 @@ class Ui_MainWindow(object):
         self.VMon_69.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_69.setFont(font)
-        self.VMon_69.setObjectName(_fromUtf8("VMon_69"))
+        self.VMon_69.setObjectName("VMon_69")
         self.V0_header_5 = QtGui.QPushButton(self.tab_6)
         self.V0_header_5.setGeometry(QtCore.QRect(324, 9, 53, 20))
         self.V0_header_5.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.V0_header_5.setFont(font)
-        self.V0_header_5.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.V0_header_5.setObjectName(_fromUtf8("V0_header_5"))
+        self.V0_header_5.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.V0_header_5.setObjectName("V0_header_5")
         self.I0_74 = QtGui.QLineEdit(self.tab_6)
         self.I0_74.setGeometry(QtCore.QRect(420, 342, 50, 25))
         self.I0_74.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_74.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_74.setObjectName(_fromUtf8("I0_74"))
+        self.I0_74.setObjectName("I0_74")
         self.CH_78 = QtGui.QLabel(self.tab_6)
         self.CH_78.setGeometry(QtCore.QRect(20, 469, 20, 20))
         self.CH_78.setMinimumSize(QtCore.QSize(20, 20))
@@ -6936,13 +6824,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_78.setFont(font)
-        self.CH_78.setObjectName(_fromUtf8("CH_78"))
+        self.CH_78.setObjectName("CH_78")
         self.P_75 = QtGui.QCheckBox(self.tab_6)
         self.P_75.setGeometry(QtCore.QRect(79, 373, 25, 25))
         self.P_75.setMinimumSize(QtCore.QSize(25, 25))
         self.P_75.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_75.setText(_fromUtf8(""))
-        self.P_75.setObjectName(_fromUtf8("P_75"))
+        self.P_75.setObjectName("P_75")
         self.IMon_74 = QtGui.QLabel(self.tab_6)
         self.IMon_74.setGeometry(QtCore.QRect(240, 347, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6955,13 +6842,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_74.setFont(font)
-        self.IMon_74.setObjectName(_fromUtf8("IMon_74"))
+        self.IMon_74.setObjectName("IMon_74")
         self.P_64 = QtGui.QCheckBox(self.tab_6)
         self.P_64.setGeometry(QtCore.QRect(79, 35, 25, 25))
         self.P_64.setMinimumSize(QtCore.QSize(25, 25))
         self.P_64.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_64.setText(_fromUtf8(""))
-        self.P_64.setObjectName(_fromUtf8("P_64"))
+        self.P_64.setObjectName("P_64")
         self.VMon_68 = QtGui.QLabel(self.tab_6)
         self.VMon_68.setGeometry(QtCore.QRect(141, 162, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6973,15 +6859,15 @@ class Ui_MainWindow(object):
         self.VMon_68.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_68.setFont(font)
-        self.VMon_68.setObjectName(_fromUtf8("VMon_68"))
+        self.VMon_68.setObjectName("VMon_68")
         self.S_74 = QtGui.QLabel(self.tab_6)
         self.S_74.setGeometry(QtCore.QRect(808, 341, 35, 25))
         self.S_74.setMinimumSize(QtCore.QSize(35, 25))
         self.S_74.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_74.setObjectName(_fromUtf8("S_74"))
+        self.S_74.setObjectName("S_74")
         self.VMon_64 = QtGui.QLabel(self.tab_6)
         self.VMon_64.setGeometry(QtCore.QRect(141, 41, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -6993,10 +6879,10 @@ class Ui_MainWindow(object):
         self.VMon_64.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_64.setFont(font)
-        self.VMon_64.setObjectName(_fromUtf8("VMon_64"))
+        self.VMon_64.setObjectName("VMon_64")
         self.VMon_66 = QtGui.QLabel(self.tab_6)
         self.VMon_66.setGeometry(QtCore.QRect(141, 101, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7008,104 +6894,100 @@ class Ui_MainWindow(object):
         self.VMon_66.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_66.setFont(font)
-        self.VMon_66.setObjectName(_fromUtf8("VMon_66"))
+        self.VMon_66.setObjectName("VMon_66")
         self.S_69 = QtGui.QLabel(self.tab_6)
         self.S_69.setGeometry(QtCore.QRect(808, 186, 35, 25))
         self.S_69.setMinimumSize(QtCore.QSize(35, 25))
         self.S_69.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_69.setObjectName(_fromUtf8("S_69"))
+        self.S_69.setObjectName("S_69")
         self.RUP_67 = QtGui.QLineEdit(self.tab_6)
         self.RUP_67.setGeometry(QtCore.QRect(520, 126, 50, 25))
         self.RUP_67.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_67.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_67.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_67.setObjectName(_fromUtf8("RUP_67"))
+        self.RUP_67.setObjectName("RUP_67")
         self.I0_72 = QtGui.QLineEdit(self.tab_6)
         self.I0_72.setGeometry(QtCore.QRect(420, 280, 50, 25))
         self.I0_72.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_72.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_72.setObjectName(_fromUtf8("I0_72"))
+        self.I0_72.setObjectName("I0_72")
         self.I0_75 = QtGui.QLineEdit(self.tab_6)
         self.I0_75.setGeometry(QtCore.QRect(420, 373, 50, 25))
         self.I0_75.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_75.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_75.setObjectName(_fromUtf8("I0_75"))
+        self.I0_75.setObjectName("I0_75")
         self.V0_74 = QtGui.QLineEdit(self.tab_6)
         self.V0_74.setGeometry(QtCore.QRect(324, 342, 50, 25))
         self.V0_74.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_74.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_74.setObjectName(_fromUtf8("V0_74"))
+        self.V0_74.setObjectName("V0_74")
         self.IMon_header_5 = QtGui.QLabel(self.tab_6)
         self.IMon_header_5.setGeometry(QtCore.QRect(218, 8, 71, 21))
-        self.IMon_header_5.setObjectName(_fromUtf8("IMon_header_5"))
+        self.IMon_header_5.setObjectName("IMon_header_5")
         self.S_64 = QtGui.QLabel(self.tab_6)
         self.S_64.setGeometry(QtCore.QRect(808, 35, 35, 25))
         self.S_64.setMinimumSize(QtCore.QSize(35, 25))
         self.S_64.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_64.setObjectName(_fromUtf8("S_64"))
+        self.S_64.setObjectName("S_64")
         self.V0_78 = QtGui.QLineEdit(self.tab_6)
         self.V0_78.setGeometry(QtCore.QRect(324, 466, 50, 25))
         self.V0_78.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_78.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_78.setObjectName(_fromUtf8("V0_78"))
+        self.V0_78.setObjectName("V0_78")
         self.P_67 = QtGui.QCheckBox(self.tab_6)
         self.P_67.setGeometry(QtCore.QRect(79, 126, 25, 25))
         self.P_67.setMinimumSize(QtCore.QSize(25, 25))
         self.P_67.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_67.setText(_fromUtf8(""))
-        self.P_67.setObjectName(_fromUtf8("P_67"))
+        self.P_67.setObjectName("P_67")
         self.V0_66 = QtGui.QLineEdit(self.tab_6)
         self.V0_66.setGeometry(QtCore.QRect(324, 96, 50, 25))
         self.V0_66.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_66.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_66.setObjectName(_fromUtf8("V0_66"))
+        self.V0_66.setObjectName("V0_66")
         self.RUP_header_5 = QtGui.QPushButton(self.tab_6)
         self.RUP_header_5.setGeometry(QtCore.QRect(503, 9, 79, 21))
         self.RUP_header_5.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RUP_header_5.setFont(font)
-        self.RUP_header_5.setToolTip(_fromUtf8(""))
-        self.RUP_header_5.setStatusTip(_fromUtf8(""))
-        self.RUP_header_5.setWhatsThis(_fromUtf8(""))
-        self.RUP_header_5.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RUP_header_5.setObjectName(_fromUtf8("RUP_header_5"))
+        self.RUP_header_5.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RUP_header_5.setObjectName("RUP_header_5")
         self.I0_66 = QtGui.QLineEdit(self.tab_6)
         self.I0_66.setGeometry(QtCore.QRect(420, 96, 50, 25))
         self.I0_66.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_66.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_66.setObjectName(_fromUtf8("I0_66"))
+        self.I0_66.setObjectName("I0_66")
         self.RDN_75 = QtGui.QLineEdit(self.tab_6)
         self.RDN_75.setGeometry(QtCore.QRect(620, 373, 50, 25))
         self.RDN_75.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_75.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_75.setObjectName(_fromUtf8("RDN_75"))
+        self.RDN_75.setObjectName("RDN_75")
         self.V0_71 = QtGui.QLineEdit(self.tab_6)
         self.V0_71.setGeometry(QtCore.QRect(324, 249, 50, 25))
         self.V0_71.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_71.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_71.setObjectName(_fromUtf8("V0_71"))
+        self.V0_71.setObjectName("V0_71")
         self.RDN_74 = QtGui.QLineEdit(self.tab_6)
         self.RDN_74.setGeometry(QtCore.QRect(620, 342, 50, 25))
         self.RDN_74.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_74.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_74.setObjectName(_fromUtf8("RDN_74"))
+        self.RDN_74.setObjectName("RDN_74")
         self.V0_70 = QtGui.QLineEdit(self.tab_6)
         self.V0_70.setGeometry(QtCore.QRect(324, 218, 50, 25))
         self.V0_70.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_70.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_70.setObjectName(_fromUtf8("V0_70"))
+        self.V0_70.setObjectName("V0_70")
         self.RDN_79 = QtGui.QLineEdit(self.tab_6)
         self.RDN_79.setGeometry(QtCore.QRect(620, 497, 50, 25))
         self.RDN_79.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_79.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_79.setObjectName(_fromUtf8("RDN_79"))
+        self.RDN_79.setObjectName("RDN_79")
         self.VMon_67 = QtGui.QLabel(self.tab_6)
         self.VMon_67.setGeometry(QtCore.QRect(141, 131, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7117,15 +6999,15 @@ class Ui_MainWindow(object):
         self.VMon_67.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_67.setFont(font)
-        self.VMon_67.setObjectName(_fromUtf8("VMon_67"))
+        self.VMon_67.setObjectName("VMon_67")
         self.I0_77 = QtGui.QLineEdit(self.tab_6)
         self.I0_77.setGeometry(QtCore.QRect(420, 435, 50, 25))
         self.I0_77.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_77.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_77.setObjectName(_fromUtf8("I0_77"))
+        self.I0_77.setObjectName("I0_77")
         self.CH_64 = QtGui.QLabel(self.tab_6)
         self.CH_64.setGeometry(QtCore.QRect(20, 40, 20, 20))
         self.CH_64.setMinimumSize(QtCore.QSize(20, 20))
@@ -7133,26 +7015,24 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_64.setFont(font)
-        self.CH_64.setObjectName(_fromUtf8("CH_64"))
+        self.CH_64.setObjectName("CH_64")
         self.RUP_76 = QtGui.QLineEdit(self.tab_6)
         self.RUP_76.setGeometry(QtCore.QRect(520, 404, 50, 25))
         self.RUP_76.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_76.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_76.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_76.setObjectName(_fromUtf8("RUP_76"))
+        self.RUP_76.setObjectName("RUP_76")
         self.P_77 = QtGui.QCheckBox(self.tab_6)
         self.P_77.setGeometry(QtCore.QRect(79, 435, 25, 25))
         self.P_77.setMinimumSize(QtCore.QSize(25, 25))
         self.P_77.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_77.setText(_fromUtf8(""))
-        self.P_77.setObjectName(_fromUtf8("P_77"))
+        self.P_77.setObjectName("P_77")
         self.P_65 = QtGui.QCheckBox(self.tab_6)
         self.P_65.setEnabled(True)
         self.P_65.setGeometry(QtCore.QRect(79, 66, 25, 25))
         self.P_65.setMinimumSize(QtCore.QSize(25, 25))
         self.P_65.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_65.setText(_fromUtf8(""))
-        self.P_65.setObjectName(_fromUtf8("P_65"))
+        self.P_65.setObjectName("P_65")
         self.IMon_77 = QtGui.QLabel(self.tab_6)
         self.IMon_77.setGeometry(QtCore.QRect(240, 440, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7165,23 +7045,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_77.setFont(font)
-        self.IMon_77.setObjectName(_fromUtf8("IMon_77"))
+        self.IMon_77.setObjectName("IMon_77")
         self.P_68 = QtGui.QCheckBox(self.tab_6)
         self.P_68.setGeometry(QtCore.QRect(79, 157, 25, 25))
         self.P_68.setMinimumSize(QtCore.QSize(25, 25))
         self.P_68.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_68.setText(_fromUtf8(""))
-        self.P_68.setObjectName(_fromUtf8("P_68"))
+        self.P_68.setObjectName("P_68")
         self.S_66 = QtGui.QLabel(self.tab_6)
         self.S_66.setGeometry(QtCore.QRect(808, 95, 35, 25))
         self.S_66.setMinimumSize(QtCore.QSize(35, 25))
         self.S_66.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_66.setObjectName(_fromUtf8("S_66"))
+        self.S_66.setObjectName("S_66")
         self.I0_76 = QtGui.QLineEdit(self.tab_6)
         self.I0_76.setGeometry(QtCore.QRect(420, 404, 50, 25))
         self.I0_76.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_76.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_76.setObjectName(_fromUtf8("I0_76"))
+        self.I0_76.setObjectName("I0_76")
         self.VMon_78 = QtGui.QLabel(self.tab_6)
         self.VMon_78.setGeometry(QtCore.QRect(141, 471, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7193,15 +7072,15 @@ class Ui_MainWindow(object):
         self.VMon_78.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_78.setFont(font)
-        self.VMon_78.setObjectName(_fromUtf8("VMon_78"))
+        self.VMon_78.setObjectName("VMon_78")
         self.S_68 = QtGui.QLabel(self.tab_6)
         self.S_68.setGeometry(QtCore.QRect(808, 156, 35, 25))
         self.S_68.setMinimumSize(QtCore.QSize(35, 25))
         self.S_68.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_68.setObjectName(_fromUtf8("S_68"))
+        self.S_68.setObjectName("S_68")
         self.CH_71 = QtGui.QLabel(self.tab_6)
         self.CH_71.setGeometry(QtCore.QRect(20, 252, 20, 20))
         self.CH_71.setMinimumSize(QtCore.QSize(20, 20))
@@ -7209,12 +7088,12 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_71.setFont(font)
-        self.CH_71.setObjectName(_fromUtf8("CH_71"))
+        self.CH_71.setObjectName("CH_71")
         self.V0_72 = QtGui.QLineEdit(self.tab_6)
         self.V0_72.setGeometry(QtCore.QRect(324, 280, 50, 25))
         self.V0_72.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_72.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_72.setObjectName(_fromUtf8("V0_72"))
+        self.V0_72.setObjectName("V0_72")
         self.CH_79 = QtGui.QLabel(self.tab_6)
         self.CH_79.setGeometry(QtCore.QRect(20, 500, 20, 20))
         self.CH_79.setMinimumSize(QtCore.QSize(20, 20))
@@ -7222,7 +7101,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_79.setFont(font)
-        self.CH_79.setObjectName(_fromUtf8("CH_79"))
+        self.CH_79.setObjectName("CH_79")
         self.VMon_75 = QtGui.QLabel(self.tab_6)
         self.VMon_75.setGeometry(QtCore.QRect(141, 378, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7234,26 +7113,26 @@ class Ui_MainWindow(object):
         self.VMon_75.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_75.setFont(font)
-        self.VMon_75.setObjectName(_fromUtf8("VMon_75"))
+        self.VMon_75.setObjectName("VMon_75")
         self.RDN_72 = QtGui.QLineEdit(self.tab_6)
         self.RDN_72.setGeometry(QtCore.QRect(620, 280, 50, 25))
         self.RDN_72.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_72.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_72.setObjectName(_fromUtf8("RDN_72"))
+        self.RDN_72.setObjectName("RDN_72")
         self.RDN_76 = QtGui.QLineEdit(self.tab_6)
         self.RDN_76.setGeometry(QtCore.QRect(620, 404, 50, 25))
         self.RDN_76.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_76.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_76.setObjectName(_fromUtf8("RDN_76"))
+        self.RDN_76.setObjectName("RDN_76")
         self.RUP_73 = QtGui.QLineEdit(self.tab_6)
         self.RUP_73.setGeometry(QtCore.QRect(520, 311, 50, 25))
         self.RUP_73.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_73.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_73.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_73.setObjectName(_fromUtf8("RUP_73"))
+        self.RUP_73.setObjectName("RUP_73")
         self.VMon_73 = QtGui.QLabel(self.tab_6)
         self.VMon_73.setEnabled(True)
         self.VMon_73.setGeometry(QtCore.QRect(141, 316, 45, 20))
@@ -7266,10 +7145,10 @@ class Ui_MainWindow(object):
         self.VMon_73.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_73.setFont(font)
-        self.VMon_73.setObjectName(_fromUtf8("VMon_73"))
+        self.VMon_73.setObjectName("VMon_73")
         self.IMon_75 = QtGui.QLabel(self.tab_6)
         self.IMon_75.setGeometry(QtCore.QRect(240, 378, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7282,7 +7161,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_75.setFont(font)
-        self.IMon_75.setObjectName(_fromUtf8("IMon_75"))
+        self.IMon_75.setObjectName("IMon_75")
         self.CH_72 = QtGui.QLabel(self.tab_6)
         self.CH_72.setGeometry(QtCore.QRect(20, 283, 20, 20))
         self.CH_72.setMinimumSize(QtCore.QSize(20, 20))
@@ -7290,96 +7169,94 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_72.setFont(font)
-        self.CH_72.setObjectName(_fromUtf8("CH_72"))
+        self.CH_72.setObjectName("CH_72")
         self.P_78 = QtGui.QCheckBox(self.tab_6)
         self.P_78.setGeometry(QtCore.QRect(79, 466, 25, 25))
         self.P_78.setMinimumSize(QtCore.QSize(25, 25))
         self.P_78.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_78.setText(_fromUtf8(""))
-        self.P_78.setObjectName(_fromUtf8("P_78"))
+        self.P_78.setObjectName("P_78")
         self.trip_69 = QtGui.QLineEdit(self.tab_6)
         self.trip_69.setGeometry(QtCore.QRect(720, 187, 50, 25))
         self.trip_69.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_69.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_69.setObjectName(_fromUtf8("trip_69"))
+        self.trip_69.setObjectName("trip_69")
         self.RS_70 = QtGui.QLabel(self.tab_6)
         self.RS_70.setGeometry(QtCore.QRect(890, 217, 45, 25))
         self.RS_70.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_70.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_70.setObjectName(_fromUtf8("RS_70"))
+        self.RS_70.setObjectName("RS_70")
         self.RUP_66 = QtGui.QLineEdit(self.tab_6)
         self.RUP_66.setGeometry(QtCore.QRect(520, 96, 50, 25))
         self.RUP_66.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_66.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_66.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_66.setObjectName(_fromUtf8("RUP_66"))
+        self.RUP_66.setObjectName("RUP_66")
         self.trip_78 = QtGui.QLineEdit(self.tab_6)
         self.trip_78.setGeometry(QtCore.QRect(720, 466, 50, 25))
         self.trip_78.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_78.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_78.setObjectName(_fromUtf8("trip_78"))
+        self.trip_78.setObjectName("trip_78")
         self.V0_68 = QtGui.QLineEdit(self.tab_6)
         self.V0_68.setGeometry(QtCore.QRect(324, 157, 50, 25))
         self.V0_68.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_68.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_68.setObjectName(_fromUtf8("V0_68"))
+        self.V0_68.setObjectName("V0_68")
         self.trip_73 = QtGui.QLineEdit(self.tab_6)
         self.trip_73.setEnabled(True)
         self.trip_73.setGeometry(QtCore.QRect(720, 311, 50, 25))
         self.trip_73.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_73.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_73.setObjectName(_fromUtf8("trip_73"))
+        self.trip_73.setObjectName("trip_73")
         self.trip_77 = QtGui.QLineEdit(self.tab_6)
         self.trip_77.setGeometry(QtCore.QRect(720, 435, 50, 25))
         self.trip_77.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_77.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_77.setObjectName(_fromUtf8("trip_77"))
+        self.trip_77.setObjectName("trip_77")
         self.S_73 = QtGui.QLabel(self.tab_6)
         self.S_73.setEnabled(True)
         self.S_73.setGeometry(QtCore.QRect(808, 310, 35, 25))
         self.S_73.setMinimumSize(QtCore.QSize(35, 25))
         self.S_73.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_73.setObjectName(_fromUtf8("S_73"))
+        self.S_73.setObjectName("S_73")
         self.P_71 = QtGui.QCheckBox(self.tab_6)
         self.P_71.setGeometry(QtCore.QRect(79, 249, 25, 25))
         self.P_71.setMinimumSize(QtCore.QSize(25, 25))
         self.P_71.setMaximumSize(QtCore.QSize(25, 25))
-        self.P_71.setText(_fromUtf8(""))
-        self.P_71.setObjectName(_fromUtf8("P_71"))
+        self.P_71.setObjectName("P_71")
         self.V0_73 = QtGui.QLineEdit(self.tab_6)
         self.V0_73.setEnabled(True)
         self.V0_73.setGeometry(QtCore.QRect(324, 311, 50, 25))
         self.V0_73.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_73.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_73.setObjectName(_fromUtf8("V0_73"))
+        self.V0_73.setObjectName("V0_73")
         self.P_header_5 = QtGui.QPushButton(self.tab_6)
         self.P_header_5.setGeometry(QtCore.QRect(60, 8, 61, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.P_header_5.setFont(font)
         self.P_header_5.setAutoFillBackground(False)
-        self.P_header_5.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.P_header_5.setObjectName(_fromUtf8("P_header_5"))
+        self.P_header_5.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.P_header_5.setObjectName("P_header_5")
         self.RDN_65 = QtGui.QLineEdit(self.tab_6)
         self.RDN_65.setEnabled(True)
         self.RDN_65.setGeometry(QtCore.QRect(620, 66, 50, 25))
         self.RDN_65.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_65.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_65.setObjectName(_fromUtf8("RDN_65"))
+        self.RDN_65.setObjectName("RDN_65")
         self.RUP_64 = QtGui.QLineEdit(self.tab_6)
         self.RUP_64.setGeometry(QtCore.QRect(520, 36, 50, 25))
         self.RUP_64.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_64.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_64.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_64.setObjectName(_fromUtf8("RUP_64"))
+        self.RUP_64.setObjectName("RUP_64")
         self.RS_78 = QtGui.QLabel(self.tab_6)
         self.RS_78.setGeometry(QtCore.QRect(890, 465, 45, 25))
         self.RS_78.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_78.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_78.setObjectName(_fromUtf8("RS_78"))
+        self.RS_78.setObjectName("RS_78")
         self.IMon_79 = QtGui.QLabel(self.tab_6)
         self.IMon_79.setGeometry(QtCore.QRect(240, 502, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7392,18 +7269,18 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_79.setFont(font)
-        self.IMon_79.setObjectName(_fromUtf8("IMon_79"))
+        self.IMon_79.setObjectName("IMon_79")
         self.trip_67 = QtGui.QLineEdit(self.tab_6)
         self.trip_67.setGeometry(QtCore.QRect(720, 126, 50, 25))
         self.trip_67.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_67.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_67.setObjectName(_fromUtf8("trip_67"))
+        self.trip_67.setObjectName("trip_67")
         self.RUP_71 = QtGui.QLineEdit(self.tab_6)
         self.RUP_71.setGeometry(QtCore.QRect(520, 249, 50, 25))
         self.RUP_71.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_71.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_71.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_71.setObjectName(_fromUtf8("RUP_71"))
+        self.RUP_71.setObjectName("RUP_71")
         self.VMon_74 = QtGui.QLabel(self.tab_6)
         self.VMon_74.setGeometry(QtCore.QRect(141, 347, 45, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7415,43 +7292,43 @@ class Ui_MainWindow(object):
         self.VMon_74.setMaximumSize(QtCore.QSize(45, 20))
         font = QtGui.QFont()
         font.setPointSize(12)
-        font.setBold(False)
         font.setWeight(50)
+        font.setBold(False)
         self.VMon_74.setFont(font)
-        self.VMon_74.setObjectName(_fromUtf8("VMon_74"))
+        self.VMon_74.setObjectName("VMon_74")
         self.RDW_header_5 = QtGui.QPushButton(self.tab_6)
         self.RDW_header_5.setGeometry(QtCore.QRect(603, 9, 85, 21))
         self.RDW_header_5.setMinimumSize(QtCore.QSize(40, 18))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Sans Serif"))
-        font.setBold(True)
+        font.setFamily("Sans Serif")
         font.setWeight(75)
+        font.setBold(True)
         self.RDW_header_5.setFont(font)
-        self.RDW_header_5.setStyleSheet(_fromUtf8("background-color: rgba(0, 0, 0, 0);\n"
-"border: 0px"))
-        self.RDW_header_5.setObjectName(_fromUtf8("RDW_header_5"))
+        self.RDW_header_5.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RDW_header_5.setObjectName("RDW_header_5")
         self.I0_67 = QtGui.QLineEdit(self.tab_6)
         self.I0_67.setGeometry(QtCore.QRect(420, 126, 50, 25))
         self.I0_67.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_67.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_67.setObjectName(_fromUtf8("I0_67"))
+        self.I0_67.setObjectName("I0_67")
         self.RUP_69 = QtGui.QLineEdit(self.tab_6)
         self.RUP_69.setGeometry(QtCore.QRect(520, 187, 50, 25))
         self.RUP_69.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_69.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_69.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_69.setObjectName(_fromUtf8("RUP_69"))
+        self.RUP_69.setObjectName("RUP_69")
         self.S_75 = QtGui.QLabel(self.tab_6)
         self.S_75.setGeometry(QtCore.QRect(808, 372, 35, 25))
         self.S_75.setMinimumSize(QtCore.QSize(35, 25))
         self.S_75.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_75.setObjectName(_fromUtf8("S_75"))
+        self.S_75.setObjectName("S_75")
         self.RUP_79 = QtGui.QLineEdit(self.tab_6)
         self.RUP_79.setGeometry(QtCore.QRect(520, 497, 50, 25))
         self.RUP_79.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_79.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_79.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_79.setObjectName(_fromUtf8("RUP_79"))
+        self.RUP_79.setObjectName("RUP_79")
         self.CH_76 = QtGui.QLabel(self.tab_6)
         self.CH_76.setGeometry(QtCore.QRect(20, 407, 20, 20))
         self.CH_76.setMinimumSize(QtCore.QSize(20, 20))
@@ -7459,19 +7336,19 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_76.setFont(font)
-        self.CH_76.setObjectName(_fromUtf8("CH_76"))
+        self.CH_76.setObjectName("CH_76")
         self.RUP_70 = QtGui.QLineEdit(self.tab_6)
         self.RUP_70.setGeometry(QtCore.QRect(520, 218, 50, 25))
         self.RUP_70.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_70.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_70.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_70.setObjectName(_fromUtf8("RUP_70"))
+        self.RUP_70.setObjectName("RUP_70")
         self.RUP_75 = QtGui.QLineEdit(self.tab_6)
         self.RUP_75.setGeometry(QtCore.QRect(520, 373, 50, 25))
         self.RUP_75.setMinimumSize(QtCore.QSize(50, 25))
         self.RUP_75.setMaximumSize(QtCore.QSize(50, 25))
         self.RUP_75.setAlignment(QtCore.Qt.AlignCenter)
-        self.RUP_75.setObjectName(_fromUtf8("RUP_75"))
+        self.RUP_75.setObjectName("RUP_75")
         self.IMon_65 = QtGui.QLabel(self.tab_6)
         self.IMon_65.setEnabled(True)
         self.IMon_65.setGeometry(QtCore.QRect(240, 71, 20, 20))
@@ -7485,7 +7362,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_65.setFont(font)
-        self.IMon_65.setObjectName(_fromUtf8("IMon_65"))
+        self.IMon_65.setObjectName("IMon_65")
         self.IMon_78 = QtGui.QLabel(self.tab_6)
         self.IMon_78.setGeometry(QtCore.QRect(240, 471, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7498,22 +7375,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_78.setFont(font)
-        self.IMon_78.setObjectName(_fromUtf8("IMon_78"))
+        self.IMon_78.setObjectName("IMon_78")
         self.S_78 = QtGui.QLabel(self.tab_6)
         self.S_78.setGeometry(QtCore.QRect(808, 465, 35, 25))
         self.S_78.setMinimumSize(QtCore.QSize(35, 25))
         self.S_78.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_78.setObjectName(_fromUtf8("S_78"))
+        self.S_78.setObjectName("S_78")
         self.trip_79 = QtGui.QLineEdit(self.tab_6)
         self.trip_79.setGeometry(QtCore.QRect(720, 497, 50, 25))
         self.trip_79.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_79.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_79.setObjectName(_fromUtf8("trip_79"))
+        self.trip_79.setObjectName("trip_79")
         self.S_71 = QtGui.QLabel(self.tab_6)
         self.S_71.setGeometry(QtCore.QRect(808, 248, 35, 25))
         self.S_71.setMinimumSize(QtCore.QSize(35, 25))
         self.S_71.setMaximumSize(QtCore.QSize(35, 25))
-        self.S_71.setObjectName(_fromUtf8("S_71"))
+        self.S_71.setObjectName("S_71")
         self.CH_74 = QtGui.QLabel(self.tab_6)
         self.CH_74.setGeometry(QtCore.QRect(20, 345, 20, 20))
         self.CH_74.setMinimumSize(QtCore.QSize(20, 20))
@@ -7521,22 +7398,22 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.CH_74.setFont(font)
-        self.CH_74.setObjectName(_fromUtf8("CH_74"))
+        self.CH_74.setObjectName("CH_74")
         self.RS_72 = QtGui.QLabel(self.tab_6)
         self.RS_72.setGeometry(QtCore.QRect(890, 279, 45, 25))
         self.RS_72.setMinimumSize(QtCore.QSize(45, 25))
         self.RS_72.setMaximumSize(QtCore.QSize(45, 25))
-        self.RS_72.setObjectName(_fromUtf8("RS_72"))
+        self.RS_72.setObjectName("RS_72")
         self.RDN_71 = QtGui.QLineEdit(self.tab_6)
         self.RDN_71.setGeometry(QtCore.QRect(620, 249, 50, 25))
         self.RDN_71.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_71.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_71.setObjectName(_fromUtf8("RDN_71"))
+        self.RDN_71.setObjectName("RDN_71")
         self.RDN_78 = QtGui.QLineEdit(self.tab_6)
         self.RDN_78.setGeometry(QtCore.QRect(620, 466, 50, 25))
         self.RDN_78.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_78.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_78.setObjectName(_fromUtf8("RDN_78"))
+        self.RDN_78.setObjectName("RDN_78")
         self.IMon_76 = QtGui.QLabel(self.tab_6)
         self.IMon_76.setGeometry(QtCore.QRect(240, 409, 20, 20))
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
@@ -7549,23 +7426,23 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_76.setFont(font)
-        self.IMon_76.setObjectName(_fromUtf8("IMon_76"))
+        self.IMon_76.setObjectName("IMon_76")
         self.trip_74 = QtGui.QLineEdit(self.tab_6)
         self.trip_74.setGeometry(QtCore.QRect(720, 342, 50, 25))
         self.trip_74.setMinimumSize(QtCore.QSize(50, 25))
         self.trip_74.setMaximumSize(QtCore.QSize(50, 25))
-        self.trip_74.setObjectName(_fromUtf8("trip_74"))
+        self.trip_74.setObjectName("trip_74")
         self.V0_65 = QtGui.QLineEdit(self.tab_6)
         self.V0_65.setEnabled(True)
         self.V0_65.setGeometry(QtCore.QRect(324, 66, 50, 25))
         self.V0_65.setMinimumSize(QtCore.QSize(50, 25))
         self.V0_65.setMaximumSize(QtCore.QSize(50, 25))
-        self.V0_65.setObjectName(_fromUtf8("V0_65"))
+        self.V0_65.setObjectName("V0_65")
         self.I0_69 = QtGui.QLineEdit(self.tab_6)
         self.I0_69.setGeometry(QtCore.QRect(420, 187, 50, 25))
         self.I0_69.setMinimumSize(QtCore.QSize(50, 25))
         self.I0_69.setMaximumSize(QtCore.QSize(50, 25))
-        self.I0_69.setObjectName(_fromUtf8("I0_69"))
+        self.I0_69.setObjectName("I0_69")
         self.IMon_73 = QtGui.QLabel(self.tab_6)
         self.IMon_73.setEnabled(True)
         self.IMon_73.setGeometry(QtCore.QRect(240, 316, 20, 20))
@@ -7579,28 +7456,146 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setPointSize(12)
         self.IMon_73.setFont(font)
-        self.IMon_73.setObjectName(_fromUtf8("IMon_73"))
+        self.IMon_73.setObjectName("IMon_73")
         self.RDN_69 = QtGui.QLineEdit(self.tab_6)
         self.RDN_69.setGeometry(QtCore.QRect(620, 187, 50, 25))
         self.RDN_69.setMinimumSize(QtCore.QSize(50, 25))
         self.RDN_69.setMaximumSize(QtCore.QSize(50, 25))
-        self.RDN_69.setObjectName(_fromUtf8("RDN_69"))
+        self.RDN_69.setObjectName("RDN_69")
         self.RS_header_5 = QtGui.QLabel(self.tab_6)
         self.RS_header_5.setGeometry(QtCore.QRect(861, 1, 111, 41))
-        self.RS_header_5.setObjectName(_fromUtf8("RS_header_5"))
-        self.Tab2_8.addTab(self.tab_6, _fromUtf8(""))
+        self.RS_header_5.setObjectName("RS_header_5")
+        self.globals_tab.addTab(self.tab_6, "")
         self.tab_7 = QtGui.QWidget()
-        self.tab_7.setObjectName(_fromUtf8("tab_7"))
-        self.Tab2_8.addTab(self.tab_7, _fromUtf8(""))
+        self.tab_7.setObjectName("tab_7")
+        self.config_file_browser = QtGui.QTextBrowser(self.tab_7)
+        self.config_file_browser.setGeometry(QtCore.QRect(7, 8, 971, 511))
+        self.config_file_browser.setObjectName("config_file_browser")
+        self.globals_tab.addTab(self.tab_7, "")
         self.tab = QtGui.QWidget()
-        self.tab.setObjectName(_fromUtf8("tab"))
-        self.Tab2_8.addTab(self.tab, _fromUtf8(""))
+        self.tab.setObjectName("tab")
+        self.Globals_lbl = QtGui.QLabel(self.tab)
+        self.Globals_lbl.setGeometry(QtCore.QRect(10, 10, 231, 41))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.Globals_lbl.setFont(font)
+        self.Globals_lbl.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.Globals_lbl.setObjectName("Globals_lbl")
+        self.CH_ALL = QtGui.QLabel(self.tab)
+        self.CH_ALL.setGeometry(QtCore.QRect(174, 90, 40, 20))
+        self.CH_ALL.setMinimumSize(QtCore.QSize(20, 20))
+        self.CH_ALL.setMaximumSize(QtCore.QSize(40, 40))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.CH_ALL.setFont(font)
+        self.CH_ALL.setObjectName("CH_ALL")
+        self.RUP_header_6 = QtGui.QPushButton(self.tab)
+        self.RUP_header_6.setGeometry(QtCore.QRect(443, 63, 79, 21))
+        self.RUP_header_6.setMinimumSize(QtCore.QSize(40, 18))
+        font = QtGui.QFont()
+        font.setFamily("Sans Serif")
+        font.setWeight(75)
+        font.setBold(True)
+        self.RUP_header_6.setFont(font)
+        self.RUP_header_6.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RUP_header_6.setObjectName("RUP_header_6")
+        self.I0_header_6 = QtGui.QPushButton(self.tab)
+        self.I0_header_6.setGeometry(QtCore.QRect(357, 63, 56, 21))
+        self.I0_header_6.setMinimumSize(QtCore.QSize(40, 18))
+        font = QtGui.QFont()
+        font.setFamily("Sans Serif")
+        font.setWeight(75)
+        font.setBold(True)
+        self.I0_header_6.setFont(font)
+        self.I0_header_6.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.I0_header_6.setObjectName("I0_header_6")
+        self.RUP_glo = QtGui.QLineEdit(self.tab)
+        self.RUP_glo.setGeometry(QtCore.QRect(460, 90, 50, 25))
+        self.RUP_glo.setMinimumSize(QtCore.QSize(50, 25))
+        self.RUP_glo.setMaximumSize(QtCore.QSize(50, 25))
+        self.RUP_glo.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.RUP_glo.setObjectName("RUP_glo")
+        self.RDW_header_6 = QtGui.QPushButton(self.tab)
+        self.RDW_header_6.setGeometry(QtCore.QRect(543, 63, 85, 21))
+        self.RDW_header_6.setMinimumSize(QtCore.QSize(40, 18))
+        font = QtGui.QFont()
+        font.setFamily("Sans Serif")
+        font.setWeight(75)
+        font.setBold(True)
+        self.RDW_header_6.setFont(font)
+        self.RDW_header_6.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.RDW_header_6.setObjectName("RDW_header_6")
+        self.V0_header_6 = QtGui.QPushButton(self.tab)
+        self.V0_header_6.setGeometry(QtCore.QRect(264, 63, 53, 20))
+        self.V0_header_6.setMinimumSize(QtCore.QSize(40, 18))
+        font = QtGui.QFont()
+        font.setFamily("Sans Serif")
+        font.setWeight(75)
+        font.setBold(True)
+        self.V0_header_6.setFont(font)
+        self.V0_header_6.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.V0_header_6.setObjectName("V0_header_6")
+        self.RDN_glo = QtGui.QLineEdit(self.tab)
+        self.RDN_glo.setGeometry(QtCore.QRect(560, 90, 50, 25))
+        self.RDN_glo.setMinimumSize(QtCore.QSize(50, 25))
+        self.RDN_glo.setMaximumSize(QtCore.QSize(50, 25))
+        self.RDN_glo.setObjectName("RDN_glo")
+        self.CH_header_6 = QtGui.QLabel(self.tab)
+        self.CH_header_6.setGeometry(QtCore.QRect(170, 62, 51, 21))
+        font = QtGui.QFont()
+        font.setFamily("Cantarell")
+        font.setItalic(True)
+        self.CH_header_6.setFont(font)
+        self.CH_header_6.setObjectName("CH_header_6")
+        self.I0_glo = QtGui.QLineEdit(self.tab)
+        self.I0_glo.setEnabled(True)
+        self.I0_glo.setGeometry(QtCore.QRect(360, 90, 50, 25))
+        self.I0_glo.setMinimumSize(QtCore.QSize(50, 25))
+        self.I0_glo.setMaximumSize(QtCore.QSize(50, 25))
+        self.I0_glo.setObjectName("I0_glo")
+        self.V0_glo = QtGui.QLineEdit(self.tab)
+        self.V0_glo.setEnabled(True)
+        self.V0_glo.setGeometry(QtCore.QRect(264, 90, 50, 25))
+        self.V0_glo.setMinimumSize(QtCore.QSize(50, 25))
+        self.V0_glo.setMaximumSize(QtCore.QSize(50, 25))
+        self.V0_glo.setObjectName("V0_glo")
+        self.Trip_header_6 = QtGui.QPushButton(self.tab)
+        self.Trip_header_6.setGeometry(QtCore.QRect(646, 64, 73, 20))
+        self.Trip_header_6.setMinimumSize(QtCore.QSize(40, 18))
+        font = QtGui.QFont()
+        font.setFamily("Sans Serif")
+        font.setWeight(75)
+        font.setBold(True)
+        self.Trip_header_6.setFont(font)
+        self.Trip_header_6.setStyleSheet("background-color: rgba(0, 0, 0, 0);\n"
+"border: 0px")
+        self.Trip_header_6.setObjectName("Trip_header_6")
+        self.trip_glo = QtGui.QLineEdit(self.tab)
+        self.trip_glo.setGeometry(QtCore.QRect(660, 90, 50, 25))
+        self.trip_glo.setMinimumSize(QtCore.QSize(50, 25))
+        self.trip_glo.setMaximumSize(QtCore.QSize(50, 25))
+        self.trip_glo.setObjectName("trip_glo")
+        self.change_global_btn = QtGui.QPushButton(self.tab)
+        self.change_global_btn.setGeometry(QtCore.QRect(760, 86, 121, 31))
+        self.change_global_btn.setObjectName("change_global_btn")
+        self.Globals_lbl_2 = QtGui.QLabel(self.tab)
+        self.Globals_lbl_2.setGeometry(QtCore.QRect(290, 130, 581, 41))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.Globals_lbl_2.setFont(font)
+        self.Globals_lbl_2.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.Globals_lbl_2.setObjectName("Globals_lbl_2")
+        self.globals_tab.addTab(self.tab, "")
         MainWindow.setCentralWidget(self.MainWindow_2)
 
         self.retranslateUi(MainWindow)
-        self.Tab2_8.setCurrentIndex(0)
+        self.globals_tab.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-        MainWindow.setTabOrder(self.V0_0, self.V0_1)
+        MainWindow.setTabOrder(self.Trip_header_6, self.V0_1)
         MainWindow.setTabOrder(self.V0_1, self.V0_2)
         MainWindow.setTabOrder(self.V0_2, self.V0_3)
         MainWindow.setTabOrder(self.V0_3, self.V0_4)
@@ -7701,8 +7696,8 @@ class Ui_MainWindow(object):
         MainWindow.setTabOrder(self.P_13, self.P_14)
         MainWindow.setTabOrder(self.P_14, self.P_15)
         MainWindow.setTabOrder(self.P_15, self.P_header_1)
-        MainWindow.setTabOrder(self.P_header_1, self.Tab2_8)
-        MainWindow.setTabOrder(self.Tab2_8, self.P_header_2)
+        MainWindow.setTabOrder(self.P_header_1, self.globals_tab)
+        MainWindow.setTabOrder(self.globals_tab, self.P_header_2)
         MainWindow.setTabOrder(self.P_header_2, self.P_16)
         MainWindow.setTabOrder(self.P_16, self.P_17)
         MainWindow.setTabOrder(self.P_17, self.P_18)
@@ -8115,2291 +8110,2316 @@ class Ui_MainWindow(object):
         MainWindow.setTabOrder(self.connect_button, self.disconnect_button)
         MainWindow.setTabOrder(self.disconnect_button, self.set_button)
         MainWindow.setTabOrder(self.set_button, self.send_button)
-        MainWindow.setTabOrder(self.send_button, self.plotly_button)
-        MainWindow.setTabOrder(self.plotly_button, self.kill_button)
+        MainWindow.setTabOrder(self.send_button, self.kill_button)
         MainWindow.setTabOrder(self.kill_button, self.exit_button)
         MainWindow.setTabOrder(self.exit_button, self.expand_button)
+        MainWindow.setTabOrder(self.expand_button, self.config_file_browser)
+        MainWindow.setTabOrder(self.config_file_browser, self.RUP_header_6)
+        MainWindow.setTabOrder(self.RUP_header_6, self.I0_header_6)
+        MainWindow.setTabOrder(self.I0_header_6, self.RDW_header_6)
+        MainWindow.setTabOrder(self.RDW_header_6, self.V0_glo)
+        MainWindow.setTabOrder(self.V0_glo, self.I0_glo)
+        MainWindow.setTabOrder(self.I0_glo, self.RUP_glo)
+        MainWindow.setTabOrder(self.RUP_glo, self.RDN_glo)
+        MainWindow.setTabOrder(self.RDN_glo, self.trip_glo)
+        MainWindow.setTabOrder(self.trip_glo, self.change_global_btn)
+        MainWindow.setTabOrder(self.change_global_btn, self.V0_header_6)
+        MainWindow.setTabOrder(self.V0_header_6, self.V0_0)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
-        self.send_button.setText(_translate("MainWindow", "Send Changes", None))
-        self.exit_button.setToolTip(_translate("MainWindow", "Kill ", None))
-        self.exit_button.setText(_translate("MainWindow", "Exit", None))
-        self.disconnect_button.setText(_translate("MainWindow", "Stop Listener", None))
-        self.kill_button.setToolTip(_translate("MainWindow", "Kill ", None))
-        self.kill_button.setText(_translate("MainWindow", "Kill", None))
-        self.expand_button.setText(_translate("MainWindow", "...", None))
-        self.connect_button.setText(_translate("MainWindow", "Start Listener", None))
-        self.plotly_button.setToolTip(_translate("MainWindow", "Kill ", None))
-        self.plotly_button.setText(_translate("MainWindow", "Plotly", None))
-        self.set_button.setText(_translate("MainWindow", "Check Changes", None))
-        self.hv_enable.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "MainWindow", None, QtGui.QApplication.UnicodeUTF8))
+        self.send_button.setText(QtGui.QApplication.translate("MainWindow", "Send Changes", None, QtGui.QApplication.UnicodeUTF8))
+        self.exit_button.setToolTip(QtGui.QApplication.translate("MainWindow", "Kill ", None, QtGui.QApplication.UnicodeUTF8))
+        self.exit_button.setText(QtGui.QApplication.translate("MainWindow", "Exit", None, QtGui.QApplication.UnicodeUTF8))
+        self.disconnect_button.setText(QtGui.QApplication.translate("MainWindow", "Stop Listener", None, QtGui.QApplication.UnicodeUTF8))
+        self.kill_button.setToolTip(QtGui.QApplication.translate("MainWindow", "Kill ", None, QtGui.QApplication.UnicodeUTF8))
+        self.kill_button.setText(QtGui.QApplication.translate("MainWindow", "Kill", None, QtGui.QApplication.UnicodeUTF8))
+        self.expand_button.setText(QtGui.QApplication.translate("MainWindow", "...", None, QtGui.QApplication.UnicodeUTF8))
+        self.connect_button.setText(QtGui.QApplication.translate("MainWindow", "Start Listener", None, QtGui.QApplication.UnicodeUTF8))
+        self.set_button.setText(QtGui.QApplication.translate("MainWindow", "Check Changes", None, QtGui.QApplication.UnicodeUTF8))
+        self.hv_enable.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:16pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:20pt;\">-</span></p></body></html>", None))
-        self.hv_enable_header.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:20pt;\">-</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.hv_enable_header.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:16pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">HV Enable</span></p></body></html>", None))
-        self.main_title.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">HV Enable</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.main_title.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-weight:600;\">CAEN SY127 High Voltage System</span></p></body></html>", None))
-        self.time_label.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-weight:600;\">CAEN SY127 High Voltage System</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.time_label.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">Time Since </span></p>\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">Last Update</span></p></body></html>", None))
-        self.date_label.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">Last Update</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.date_label.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">Date</span></p></body></html>", None))
-        self.time_label_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">Date</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.time_label_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">Time</span></p></body></html>", None))
-        self.label_11.setText(_translate("MainWindow", "Module 1", None))
-        self.M1_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M1_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M1_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M1_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M1_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M1_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M1_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M1_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.label_55.setText(_translate("MainWindow", "Module 6", None))
-        self.M6_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M6_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M6_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M6_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M6_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M6_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M6_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M6_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.label_10.setText(_translate("MainWindow", "Module 2", None))
-        self.M2_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M2_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M2_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M2_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M2_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M2_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M2_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M2_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.label_199.setText(_translate("MainWindow", "Module 8", None))
-        self.M8_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M8_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M8_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M8_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M8_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M8_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M8_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M8_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.pushButton.setText(_translate("MainWindow", "ON", None))
-        self.pushButton_2.setText(_translate("MainWindow", "OFF", None))
-        self.label_37.setText(_translate("MainWindow", "Module 4", None))
-        self.M4_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M4_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M4_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M4_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M4_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M4_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M4_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M4_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.label_19.setText(_translate("MainWindow", "Module 3", None))
-        self.M3_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M3_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M3_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M3_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M3_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M3_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M3_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M3_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.label_64.setText(_translate("MainWindow", "Module 7", None))
-        self.M7_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M7_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M7_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M7_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M7_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M7_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M7_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M7_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.label_46.setText(_translate("MainWindow", "Module 5", None))
-        self.M5_6.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M5_5.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M5_4.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M5_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M5_1.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M5_3.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M5_0.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.M5_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None))
-        self.Legend_lbl.setText(_translate("MainWindow", "Black = OFF    Green = ON    Red = TRIP   Blue = RAMP DOWN    Yellow = RAMP UP", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_1), _translate("MainWindow", "Module Screen", None))
-        self.RS_header_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt; font-weight:600;\">Time</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_11.setText(QtGui.QApplication.translate("MainWindow", "Module 1", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M1_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_55.setText(QtGui.QApplication.translate("MainWindow", "Module 6", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M6_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_10.setText(QtGui.QApplication.translate("MainWindow", "Module 2", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M2_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_199.setText(QtGui.QApplication.translate("MainWindow", "Module 8", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M8_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_37.setText(QtGui.QApplication.translate("MainWindow", "Module 4", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M4_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_19.setText(QtGui.QApplication.translate("MainWindow", "Module 3", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M3_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_64.setText(QtGui.QApplication.translate("MainWindow", "Module 7", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M7_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_46.setText(QtGui.QApplication.translate("MainWindow", "Module 5", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_6.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_5.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_4.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_7.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_1.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_3.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_0.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.M5_2.setText(QtGui.QApplication.translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; vertical-align:super;\">*</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.Legend_lbl.setText(QtGui.QApplication.translate("MainWindow", "Black = OFF    Green = ON    Red = TRIP   Blue = RAMP DOWN    Yellow = RAMP UP    Orange = CH is ON but HV_ENABLE is OFF", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab_1), QtGui.QApplication.translate("MainWindow", "Module Screen", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_header_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None))
-        self.CH_0.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_0.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">0</p></body></html>", None))
-        self.I0_header_1.setText(_translate("MainWindow", "I0 (uA)", None))
-        self.V0_header_1.setText(_translate("MainWindow", "V0 (V)", None))
-        self.S_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">0</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.I0_header_1.setText(QtGui.QApplication.translate("MainWindow", "I0 (uA)", None, QtGui.QApplication.UnicodeUTF8))
+        self.V0_header_1.setText(QtGui.QApplication.translate("MainWindow", "V0 (V)", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">4</p></body></html>", None))
-        self.S_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">4</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_0.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_0.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_13.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_13.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_header_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_header_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None))
-        self.VMon_7.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_7.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_13.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_13.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.P_header_1.setText(_translate("MainWindow", "Power", None))
-        self.RS_12.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.P_header_1.setText(QtGui.QApplication.translate("MainWindow", "Power", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_12.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">1</p></body></html>", None))
-        self.VMon_8.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">1</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_8.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">3</p></body></html>", None))
-        self.IMon_0.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">3</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_0.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_8.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_8.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">8</p></body></html>", None))
-        self.RDW_header_1.setText(_translate("MainWindow", "RDW (V/s)", None))
-        self.RS_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">8</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RDW_header_1.setText(QtGui.QApplication.translate("MainWindow", "RDW (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_7.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_7.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_15.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_15.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">15/p></body></html>", None))
-        self.RS_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">15/p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_6.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_6.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">2</p></body></html>", None))
-        self.IMon_6.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">2</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_6.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_7.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_7.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">7</p></body></html>", None))
-        self.VMon_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">7</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_7.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_7.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_0.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_0.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_6.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_6.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_14.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_14.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_13.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_13.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_15.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_15.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_14.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_14.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_13.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_13.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_7.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_7.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_15.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_15.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_0.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_0.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_header_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_header_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None))
-        self.VMon_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_6.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_6.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_15.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_15.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_12.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_12.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_12.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_12.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">12</p></body></html>", None))
-        self.RS_11.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">12</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_11.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_12.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_12.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_12.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_12.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_11.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_11.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_11.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_11.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">11</p></body></html>", None))
-        self.IMon_11.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">11</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_11.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_10.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_10.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_11.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_11.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_10.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_10.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_9.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_9.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_10.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_10.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_10.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_10.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">10</p></body></html>", None))
-        self.IMon_10.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">10</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_10.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_9.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_9.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_9.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_9.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_8.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_8.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_9.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_9.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">9</p></body></html>", None))
-        self.IMon_9.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">9</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_9.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_8.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_8.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RUP_header_1.setText(_translate("MainWindow", "RUP (V/s)", None))
-        self.Trip_header_1.setText(_translate("MainWindow", "Trip (ms)", None))
-        self.CH_6.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RUP_header_1.setText(QtGui.QApplication.translate("MainWindow", "RUP (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.Trip_header_1.setText(QtGui.QApplication.translate("MainWindow", "Trip (ms)", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_6.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">6</p></body></html>", None))
-        self.IMon_8.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">6</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_8.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_15.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_15.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_14.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_14.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">14</p></body></html>", None))
-        self.S_header_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">14</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_header_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None))
-        self.RS_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_14.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_14.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_header_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_header_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None))
-        self.CH_13.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_13.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">13</p></body></html>", None))
-        self.S_14.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">13</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_14.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">5</p></body></html>", None))
-        self.IMon_1.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">5</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_1.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_2), _translate("MainWindow", "CH0 - 15", None))
-        self.CH_27.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab_2), QtGui.QApplication.translate("MainWindow", "CH0 - 15", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_27.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">27</p></body></html>", None))
-        self.Trip_header_2.setText(_translate("MainWindow", "Trip (ms)", None))
-        self.IMon_20.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">27</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.Trip_header_2.setText(QtGui.QApplication.translate("MainWindow", "Trip (ms)", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_20.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_23.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_23.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_16.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_16.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_21.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_21.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_16.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_16.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_30.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_30.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_27.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_27.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_header_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_header_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None))
-        self.IMon_31.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_31.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_19.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_19.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_17.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_17.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_16.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_16.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_21.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_21.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">21</p></body></html>", None))
-        self.CH_23.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">21</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_23.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">23</p></body></html>", None))
-        self.S_27.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">23</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_27.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_20.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_20.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_21.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_21.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_header_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_header_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None))
-        self.CH_17.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_17.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">17</p></body></html>", None))
-        self.VMon_18.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">17</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_18.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_20.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_20.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">20</p></body></html>", None))
-        self.S_19.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">20</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_19.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_18.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_18.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_23.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_23.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_21.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_21.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RDW_header_2.setText(_translate("MainWindow", "RDW (V/s)", None))
-        self.I0_header_2.setText(_translate("MainWindow", "I0 (uA)", None))
-        self.S_header_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None))
-        self.CH_18.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">18</p></body></html>", None))
-        self.VMon_26.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_header_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None))
-        self.VMon_20.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_29.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_28.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_19.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_23.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_17.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_16.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_25.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_22.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_28.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">28</p></body></html>", None))
-        self.IMon_24.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_29.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">29</p></body></html>", None))
-        self.VMon_27.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.V0_header_2.setText(_translate("MainWindow", "V0 (V)", None))
-        self.CH_24.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">24</p></body></html>", None))
-        self.CH_19.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">19</p></body></html>", None))
-        self.VMon_28.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_31.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">31</p></body></html>", None))
-        self.VMon_25.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_18.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_31.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_22.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_28.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_25.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_header_2.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RDW_header_2.setText(QtGui.QApplication.translate("MainWindow", "RDW (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.I0_header_2.setText(QtGui.QApplication.translate("MainWindow", "I0 (uA)", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_header_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None))
-        self.VMon_29.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_18.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_24.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RUP_header_2.setText(_translate("MainWindow", "RUP (V/s)", None))
-        self.IMon_28.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">18</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_26.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_26.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_header_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_29.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_20.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_17.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_29.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_24.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_28.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_31.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_19.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_30.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_23.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">30</p></body></html>", None))
-        self.P_header_2.setText(_translate("MainWindow", "Power", None))
-        self.IMon_26.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_17.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_25.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_16.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">25</p></body></html>", None))
-        self.CH_16.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_25.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">16</p></body></html>", None))
-        self.RS_23.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_22.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_28.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">28</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_24.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_29.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">29</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_27.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.V0_header_2.setText(QtGui.QApplication.translate("MainWindow", "V0 (V)", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_24.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">24</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_19.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">19</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_28.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_31.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">31</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_25.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_18.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_31.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_24.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_30.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_22.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_27.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_28.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_30.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_18.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_25.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_21.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_20.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_22.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_26.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">26</p></body></html>", None))
-        self.IMon_17.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_22.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_29.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_30.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_22.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">22</p></body></html>", None))
-        self.VMon_31.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_19.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_26.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_25.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_3), _translate("MainWindow", "CH16 - 31", None))
-        self.VMon_33.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_32.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_46.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">46</p></body></html>", None))
-        self.S_header_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_header_2.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None))
-        self.S_32.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_29.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_24.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_33.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RUP_header_2.setText(QtGui.QApplication.translate("MainWindow", "RUP (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_28.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_26.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_44.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_29.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_34.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_17.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_37.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.I0_header_3.setText(_translate("MainWindow", "I0 (uA)", None))
-        self.CH_32.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">32</p></body></html>", None))
-        self.VMon_43.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_33.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_35.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_33.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_24.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_41.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_34.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_31.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_35.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_30.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">30</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.P_header_2.setText(QtGui.QApplication.translate("MainWindow", "Power", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_26.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_25.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">25</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_16.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">16</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_23.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_36.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_24.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_30.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_43.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_37.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_27.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_39.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_30.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">39</p></body></html>", None))
-        self.VMon_38.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_38.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_18.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_37.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">37</p></body></html>", None))
-        self.IMon_47.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_46.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_39.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_21.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_35.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_20.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_40.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_22.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_36.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_26.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_36.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">26</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_17.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_32.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_40.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_22.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_36.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_29.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_38.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_41.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_30.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_38.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_22.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">38</p></body></html>", None))
-        self.S_37.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">22</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_31.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_19.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_26.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_33.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">33</p></body></html>", None))
-        self.IMon_39.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RUP_header_3.setText(_translate("MainWindow", "RUP (V/s)", None))
-        self.VMon_header_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_25.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None))
-        self.CH_36.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab_3), QtGui.QApplication.translate("MainWindow", "CH16 - 31", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_33.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">36</p></body></html>", None))
-        self.VMon_32.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_44.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">44</p></body></html>", None))
-        self.CH_45.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">45</p></body></html>", None))
-        self.CH_34.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">34</p></body></html>", None))
-        self.S_38.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_32.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RDW_header_3.setText(_translate("MainWindow", "RDW (V/s)", None))
-        self.VMon_35.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_46.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_45.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_47.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">47</p></body></html>", None))
-        self.CH_35.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">35</p></body></html>", None))
-        self.VMon_44.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.Trip_header_3.setText(_translate("MainWindow", "Trip (ms)", None))
-        self.P_header_3.setText(_translate("MainWindow", "Power", None))
-        self.S_39.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_40.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_42.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_43.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_40.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_41.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_42.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_40.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">40</p></body></html>", None))
-        self.RS_header_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">46</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_header_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None))
-        self.RS_44.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_40.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_41.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_42.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_33.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_41.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_44.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">41</p></body></html>", None))
-        self.RS_45.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_34.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_43.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_37.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.I0_header_3.setText(QtGui.QApplication.translate("MainWindow", "I0 (uA)", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_32.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">32</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_43.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_33.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_35.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_34.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_47.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_41.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_44.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_80.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_45.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_35.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_46.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_36.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_46.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_43.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_46.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_37.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_43.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_39.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">43</p></body></html>", None))
-        self.VMon_34.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">39</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_38.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_42.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_47.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_38.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_42.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_37.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">42</p></body></html>", None))
-        self.S_47.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">37</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_47.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_46.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_39.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_45.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_39.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_header_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_43.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None))
-        self.IMon_34.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_40.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.V0_header_3.setText(_translate("MainWindow", "V0 (V)", None))
-        self.IMon_37.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_36.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_header_3.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_36.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_32.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_40.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_39.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_38.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_41.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_38.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">38</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_35.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_33.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">33</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_39.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RUP_header_3.setText(QtGui.QApplication.translate("MainWindow", "RUP (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_header_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_36.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">36</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_32.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_44.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">44</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_45.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">45</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_34.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">34</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_37.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RDW_header_3.setText(QtGui.QApplication.translate("MainWindow", "RDW (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_35.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_45.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_47.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">47</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_35.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">35</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_44.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.Trip_header_3.setText(QtGui.QApplication.translate("MainWindow", "Trip (ms)", None, QtGui.QApplication.UnicodeUTF8))
+        self.P_header_3.setText(QtGui.QApplication.translate("MainWindow", "Power", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_32.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_40.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_42.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_43.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_45.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_33.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_42.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_40.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">40</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_header_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_44.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_41.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_44.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_41.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">41</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_45.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_41.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_47.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_36.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_38.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_46.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_46.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_46.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_43.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">43</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_34.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_42.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_47.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_42.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">42</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_47.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_45.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_39.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_header_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_34.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.V0_header_3.setText(QtGui.QApplication.translate("MainWindow", "V0 (V)", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_37.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_header_3.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_4), _translate("MainWindow", "CH32 - 47", None))
-        self.RS_59.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab_4), QtGui.QApplication.translate("MainWindow", "CH32 - 47", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_59.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_57.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_57.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_48.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_48.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_60.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_60.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_53.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_53.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">53</p></body></html>", None))
-        self.S_61.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">53</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_61.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RDW_header_4.setText(_translate("MainWindow", "RDW (V/s)", None))
-        self.VMon_52.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RDW_header_4.setText(QtGui.QApplication.translate("MainWindow", "RDW (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_52.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_61.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_61.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_56.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_56.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_52.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_52.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_56.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_56.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">56</p></body></html>", None))
-        self.RS_49.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">56</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_49.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_63.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_63.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_61.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_61.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">61</p></body></html>", None))
-        self.RS_51.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">61</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_51.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_48.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_48.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_54.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_54.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_60.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_60.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_59.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_59.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_50.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_50.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_53.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_53.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_57.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_57.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_60.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_60.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">60</p></body></html>", None))
-        self.VMon_58.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">60</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_58.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_51.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_51.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_49.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_49.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">49</p></body></html>", None))
-        self.CH_52.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">49</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_52.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">52</p></body></html>", None))
-        self.CH_59.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">52</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_59.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">59</p></body></html>", None))
-        self.VMon_header_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">59</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_header_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None))
-        self.VMon_55.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_55.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_54.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_54.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_54.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_54.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_53.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_53.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.I0_header_4.setText(_translate("MainWindow", "I0 (uA)", None))
-        self.IMon_49.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.I0_header_4.setText(QtGui.QApplication.translate("MainWindow", "I0 (uA)", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_49.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_50.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_50.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_60.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_60.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_56.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_56.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_63.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_63.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_51.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_51.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">51</p></body></html>", None))
-        self.CH_63.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">51</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_63.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">63</p></body></html>", None))
-        self.S_header_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">63</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_header_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None))
-        self.RS_53.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_53.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_54.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_54.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">54</p></body></html>", None))
-        self.S_50.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">54</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_50.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_53.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_53.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_header_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_header_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None))
-        self.IMon_54.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_54.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_52.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_52.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_59.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_59.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_60.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_60.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_48.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_48.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">48</p></body></html>", None))
-        self.IMon_58.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">48</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_58.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.P_header_4.setText(_translate("MainWindow", "Power", None))
-        self.S_56.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.P_header_4.setText(QtGui.QApplication.translate("MainWindow", "Power", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_56.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_62.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_62.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_56.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_56.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_52.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_52.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_57.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_57.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">57</p></body></html>", None))
-        self.S_49.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">57</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_49.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_48.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_48.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_50.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_50.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">50</p></body></html>", None))
-        self.V0_header_4.setText(_translate("MainWindow", "V0 (V)", None))
-        self.S_57.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">50</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.V0_header_4.setText(QtGui.QApplication.translate("MainWindow", "V0 (V)", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_57.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_61.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_61.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_62.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_62.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_63.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_63.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_62.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_62.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">62</p></body></html>", None))
-        self.S_58.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">62</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_58.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_header_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_header_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None))
-        self.S_48.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_48.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_61.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_61.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_55.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_55.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">55</p></body></html>", None))
-        self.RS_55.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">55</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_55.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_57.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_57.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_55.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_55.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_63.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_63.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.Trip_header_4.setText(_translate("MainWindow", "Trip (ms)", None))
-        self.CH_58.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.Trip_header_4.setText(QtGui.QApplication.translate("MainWindow", "Trip (ms)", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_58.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">58</p></body></html>", None))
-        self.S_55.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">58</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_55.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_50.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_50.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_59.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_59.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RUP_header_4.setText(_translate("MainWindow", "RUP (V/s)", None))
-        self.RS_58.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RUP_header_4.setText(QtGui.QApplication.translate("MainWindow", "RUP (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_58.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_49.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_49.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_62.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_62.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_51.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_51.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_51.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_51.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_62.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_62.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_header_4.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_header_4.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_5), _translate("MainWindow", "CH48 - 63", None))
-        self.S_header_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab_5), QtGui.QApplication.translate("MainWindow", "CH48 - 63", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_header_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None))
-        self.RS_68.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_68.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_77.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_77.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_66.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_66.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_75.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_75.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">75</span></p></body></html>", None))
-        self.RS_67.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">75</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_67.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_71.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_71.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_76.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_76.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_71.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_71.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_77.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_77.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_65.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_65.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_79.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_79.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_73.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_73.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">73</span></p></body></html>", None))
-        self.RS_74.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">73</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_74.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_75.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_75.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_69.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_69.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_70.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_70.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_header_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_header_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None))
-        self.RS_76.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_76.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_65.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_65.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">65</span></p></body></html>", None))
-        self.S_72.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">65</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_72.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_68.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_68.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">68</span></p></body></html>", None))
-        self.IMon_70.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">68</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_70.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_65.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_65.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_70.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_70.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.I0_header_5.setText(_translate("MainWindow", "I0 (uA)", None))
-        self.IMon_68.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.I0_header_5.setText(QtGui.QApplication.translate("MainWindow", "I0 (uA)", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_68.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_64.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_64.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_66.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_66.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_69.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_69.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_79.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_79.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_79.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_79.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.Trip_header_5.setText(_translate("MainWindow", "Trip (ms)", None))
-        self.VMon_72.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.Trip_header_5.setText(QtGui.QApplication.translate("MainWindow", "Trip (ms)", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_72.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_76.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_76.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_77.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_77.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">77</span></p></body></html>", None))
-        self.RS_64.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">77</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_64.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_72.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_72.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_67.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_67.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">67</span></p></body></html>", None))
-        self.CH_69.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">67</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_69.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">69</span></p></body></html>", None))
-        self.S_67.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">69</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_67.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_71.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_71.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_header_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_header_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None))
-        self.RS_73.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">VMon (V)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_73.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_70.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_70.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">70</span></p></body></html>", None))
-        self.RS_77.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">70</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_77.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_65.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_65.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_66.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_66.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">66</span></p></body></html>", None))
-        self.IMon_67.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">66</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_67.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_69.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_69.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.V0_header_5.setText(_translate("MainWindow", "V0 (V)", None))
-        self.CH_78.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.V0_header_5.setText(QtGui.QApplication.translate("MainWindow", "V0 (V)", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_78.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">78</span></p></body></html>", None))
-        self.IMon_74.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">78</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_74.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_68.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_68.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_74.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_74.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_64.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_64.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_66.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_66.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_69.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_69.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_header_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_header_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None))
-        self.S_64.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">IMon (uA)</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_64.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RUP_header_5.setText(_translate("MainWindow", "RUP (V/s)", None))
-        self.VMon_67.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RUP_header_5.setText(QtGui.QApplication.translate("MainWindow", "RUP (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_67.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_64.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_64.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">64</span></p></body></html>", None))
-        self.IMon_77.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">64</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_77.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_66.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_66.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_78.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_78.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_68.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_68.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_71.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_71.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">71</span></p></body></html>", None))
-        self.CH_79.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">71</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_79.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">79</span></p></body></html>", None))
-        self.VMon_75.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">79</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_75.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_73.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_73.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_75.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_75.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_72.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_72.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">72</span></p></body></html>", None))
-        self.RS_70.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">72</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_70.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_73.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_73.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.P_header_5.setText(_translate("MainWindow", "Power", None))
-        self.RS_78.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.P_header_5.setText(QtGui.QApplication.translate("MainWindow", "Power", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_78.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_79.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_79.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.VMon_74.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.VMon_74.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RDW_header_5.setText(_translate("MainWindow", "RDW (V/s)", None))
-        self.S_75.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RDW_header_5.setText(QtGui.QApplication.translate("MainWindow", "RDW (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_75.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_76.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_76.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">76</span></p></body></html>", None))
-        self.IMon_65.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">76</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_65.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_78.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_78.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_78.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_78.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.S_71.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.S_71.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.CH_74.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_74.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">74</span></p></body></html>", None))
-        self.RS_72.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">74</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_72.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_76.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_76.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.IMon_73.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.IMon_73.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None))
-        self.RS_header_5.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RS_header_5.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Sans\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_6), _translate("MainWindow", "CH64 - 79", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab_7), _translate("MainWindow", "Config", None))
-        self.Tab2_8.setTabText(self.Tab2_8.indexOf(self.tab), _translate("MainWindow", "Page", None))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:11pt; font-weight:600;\">Ramp Status</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab_6), QtGui.QApplication.translate("MainWindow", "CH64 - 79", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab_7), QtGui.QApplication.translate("MainWindow", "Config", None, QtGui.QApplication.UnicodeUTF8))
+        self.Globals_lbl.setText(QtGui.QApplication.translate("MainWindow", "Change Global values ", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_ALL.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Cantarell\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Sans\'; font-size:12pt;\">ALL</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.RUP_header_6.setText(QtGui.QApplication.translate("MainWindow", "RUP (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.I0_header_6.setText(QtGui.QApplication.translate("MainWindow", "I0 (uA)", None, QtGui.QApplication.UnicodeUTF8))
+        self.RDW_header_6.setText(QtGui.QApplication.translate("MainWindow", "RDW (V/s)", None, QtGui.QApplication.UnicodeUTF8))
+        self.V0_header_6.setText(QtGui.QApplication.translate("MainWindow", "V0 (V)", None, QtGui.QApplication.UnicodeUTF8))
+        self.CH_header_6.setText(QtGui.QApplication.translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Cantarell\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.Trip_header_6.setText(QtGui.QApplication.translate("MainWindow", "Trip (ms)", None, QtGui.QApplication.UnicodeUTF8))
+        self.change_global_btn.setText(QtGui.QApplication.translate("MainWindow", "Change Globals", None, QtGui.QApplication.UnicodeUTF8))
+        self.Globals_lbl_2.setText(QtGui.QApplication.translate("MainWindow", "Only enter values which you wish to change", None, QtGui.QApplication.UnicodeUTF8))
+        self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab), QtGui.QApplication.translate("MainWindow", "Globals", None, QtGui.QApplication.UnicodeUTF8))
 

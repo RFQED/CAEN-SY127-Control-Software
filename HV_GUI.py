@@ -6,12 +6,12 @@ import serial # so we can talk over serial
 from config import *
 from datetime import datetime, timedelta
 from itertools import islice
-import os
+import os, signal #signal needed for killing PID for Listener
 
 from dateutil.relativedelta import relativedelta
 #https://pypi.python.org/pypi/python-dateutil/2.5.3
 
-global Elements,  minheight, maxheight, height,  width, errorsignal, config, old_date
+global Elements,  minheight, maxheight, height,  width, errorsignal, config, old_date, PID
 minheight = 750 #hardcoded, change UI before changing these values 
 maxheight = 900
 height = minheight #starts with debug box hidden
@@ -21,6 +21,15 @@ old_date = 0
 
 ser = serial.Serial(serial_addr, baud_rate, timeout=3)
 ser.setDTR(False)  #toggle Data Terminal Ready - makes sure all serial data is passed back
+
+try:
+    with open(Listener_PID_File, 'r', os.O_NONBLOCK) as f:
+        PID = f.readline() #write PID to file
+        print("Read PID file") #this is used when using the KILL function in GUI
+except IOError:
+    print("PID file open failed")
+
+
 
 class ConnectThread(QtCore.QThread): # connect thread. so we can constantly read data
     data_downloaded = QtCore.pyqtSignal(object , object , object) #passing back three objects 
@@ -91,12 +100,12 @@ class Error_Message(QtGui.QDialog, error_GUI.Ui_Dialog):
         self.Error_Buttons.rejected.connect(self.cancel) #how to comminicate with the 'Cancel' button
 
     def ok(self):
-        print("Ok Pressed.")
+        global errorsignal
+        errorsignal = 1
 
     def cancel(self):
-        global errorsignal #need globalisation in function to change the global var, rather than just a local var.
-        print("Cancel pressed.")
-        errorsignal = 1
+        global errorsignal
+        errorsignal = 0 #probably a better way of doing this
             
 # ===/ERROR WINDOW==== #
 
@@ -112,6 +121,12 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
         self.threads.append(time)
         time.start()
 
+        #displays contents of contents file in GUI
+        with open("config.py" , "r") as configfile:
+            self.config_file_browser.setText(configfile.read())
+
+        
+
      # It sets up layout and widgets that are defined
 
         self.setFixedSize(width, height)                # Fixes windows size. Can be resized using def expand below.
@@ -122,11 +137,9 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
   
         self.set_button.setEnabled(False)
         self.send_button.setEnabled(False)
-        self.kill_button.setEnabled(False)
+        self.kill_button.setEnabled(True)
         self.exit_button.setEnabled(True)
         self.disconnect_button.setEnabled(False)
-
-        self.plotly_button.setEnabled(False)
 
         self.connect_button.clicked.connect(self.connect)
         self.connect_button.click()#click automatically
@@ -136,8 +149,9 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
         self.send_button.clicked.connect(self.send)
         self.kill_button.clicked.connect(self.kill)
         self.exit_button.clicked.connect(self.exit)
-       # self.plotly_button.clicked.connect(self.plotlyPressed) ##removed till fixed
         self.expand_button.clicked.connect(self.expand)
+
+        self.change_global_btn.clicked.connect(self.change_globals)
 
         self.TextBox_btm.setReadOnly(True)
 
@@ -869,12 +883,57 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
         # make send button disabled. 
 
     def kill(self):
-        print("Kill button pressed")
+        #put in warning message
 
-        self.dialog = Settings_Window()
+        self.dialog = Error_Message("Warning Message", "Kill All Channels?", "Confirm you wish to turn every channel OFF and kill Listener" )
         self.dialog.exec_()
 
-    
+        global errorsignal
+        if errorsignal == 1:
+            print("OK - Kill button pressed")
+            try:
+                print("LAST PROCESS ID OF LISTENER ID =  " + PID)
+                os.kill(int(PID), signal.SIGKILL)
+                print("PROCESS ID OF LISTENER KILLED ")
+            
+            except ProcessLookupError:
+                print("Process "  + PID + " not running ")
+            
+                ser.write("\x03".encode('ASCII'))  #send ctrl-c
+                time.sleep(shortDelay)
+                time.sleep(shortDelay)
+                time.sleep(shortDelay)
+                time.sleep(shortDelay)
+            
+                ser.write("1".encode('utf-8'))  #top menu
+                time.sleep(shortDelay)
+            
+                ser.write("b".encode('utf-8'))  #modify setting
+                time.sleep(shortDelay)
+            
+                ser.write("e".encode('utf-8')) #change of global absolute 
+                time.sleep(shortDelay)
+                
+                ser.write("n".encode('utf-8'))  #change of status
+                time.sleep(shortDelay)
+            
+                ser.write("n".encode('utf-8')) #type N
+                time.sleep(shortDelay)
+            
+                ser.write("o".encode('utf-8'))  #type O
+                time.sleep(shortDelay)
+            
+                ser.write("\r\n".encode('ascii'))# press return
+                time.sleep(shortDelay)
+            
+                ser.write("1".encode('utf-8'))  #top menu
+                print("KILLED - connect to GTKTerm to quickly check this.")
+
+        elif errorsignal == 0:
+            print("Cancel - Not Killed")
+
+        errorsignal = 0
+
     def exit(self):
         print("GUI has been terminated")
         self.deleteLater()
@@ -890,6 +949,157 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
             height = minheight
             print("Window contracted.")
 
+    def change_globals(self):
+        print("in change globals")
+
+        V0_glo = self.V0_glo.text()
+        I0_glo = self.I0_glo.text()
+        RUP_glo = self.RUP_glo.text()
+        RDN_glo = self.RDN_glo.text()
+        trip_glo = self.trip_glo.text()
+
+        
+        if V0_glo or I0_glo or RUP_glo or RDN_glo or trip_glo != "" :
+            print("A change has been made")
+
+            #STOP LISTENER THREAD
+            #change has been made go to global abs menu 
+            ser.write("1".encode('utf-8'))  #top menu
+            time.sleep(shortDelay)
+           
+            ser.write("b".encode('utf-8'))  #modify setting
+            time.sleep(shortDelay)
+          
+            ser.write("e".encode('utf-8')) #change of global absolute 
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
+
+            # SET ALL VOLTAGES
+            if V0_glo != "" and int(V0_glo) < limits[1]:
+                print("change made to voltage. New voltage is " + V0_glo)
+                #send changes
+                time.sleep(shortDelay)
+                ser.write("c".encode('ascii')) #change of global absolute 
+                time.sleep(shortDelay)
+                for i in range(0,len(V0_glo)):
+                    ser.write(V0_glo[i].encode('ascii'))
+                    time.sleep(shortDelay)
+                ser.write("\r\n".encode('ascii'))
+                time.sleep(shortDelay)
+
+            elif V0_glo != "" and int(V0_glo) > limits[1]:
+                print("WARNING MESSAGE - V0 global is above V limit")
+        
+            #   SET ALL CURRENTS 
+            if I0_glo != "" and int(I0_glo) < limits[2]:
+                print("change made to Current. New current is " + I0_glo)
+                time.sleep(shortDelay)
+                ser.write("F".encode('ascii')) #change of global absolute 
+                time.sleep(shortDelay)
+                for i in range(0,len(I0_glo)):
+                    ser.write(I0_glo[i].encode('ascii'))
+                    time.sleep(shortDelay)
+                ser.write("\r\n".encode('ascii'))
+                time.sleep(shortDelay)
+
+            elif I0_glo != "" and  int(I0_glo) > limits[2]:
+                print("WARNING MESSAGE - I0 global is above I limit")
+
+
+            # SET ALL RAMP UP 
+            if RUP_glo != "" and int(RUP_glo) <= limits[3] and int(RUP_glo) >= 1:
+                print("change made to RUP. New Ramp Up speed is " + RUP_glo)
+                time.sleep(shortDelay)
+                ser.write("I".encode('ascii')) #change of global absolute 
+                time.sleep(shortDelay)
+                for i in range(0,len(RUP_glo)):
+                    ser.write(RUP_glo[i].encode('ascii'))
+                    time.sleep(shortDelay)
+                ser.write("\r\n".encode('ascii'))
+                time.sleep(shortDelay)
+                #send changes
+            elif RUP_glo != "" and int(RUP_glo) > limits[3]:
+                print("WARNING MESSAGE - RUP global is above RUP limit")
+            elif RUP_glo != "" and int(RUP_glo) < 1:
+                print("RAMP UP SPEED HAS TO BE GREATER THAN 1V/s")
+
+            # SET ALL RAMP DOWN
+            if RDN_glo != "" and int(RDN_glo) <= limits[4] and int(RDN_glo) >= 1:
+                print("change made to RDN. New ramp down speed is " + RDN_glo)
+                time.sleep(shortDelay)
+                #send changes
+                ser.write("J".encode('ascii')) #change of global absolute 
+                time.sleep(shortDelay)
+                for i in range(0,len(RDN_glo)):
+                    ser.write(RDN_glo[i].encode('ascii'))
+                    time.sleep(shortDelay)
+                ser.write("\r\n".encode('ascii'))
+                time.sleep(shortDelay)
+
+            elif RDN_glo != "" and int(RDN_glo) > limits[4]:
+                print("WARNING MESSAGE - RDN global is above RDN limit")
+            elif RDN_glo != "" and int(RDN_glo) < 1:
+                print("RAMP DOWN SPEED HAS TO BE GREATER THAN 1V/s")
+
+
+            # SET ALL TRIP TIMES 
+            if trip_glo != "" and int(trip_glo) <= limits[5]:
+                print("change made to voltage. New trip time is " + trip_glo)
+                time.sleep(shortDelay)
+                ser.write("L".encode('ascii')) #change of global absolute 
+                time.sleep(shortDelay)
+                for i in range(0,len(trip_glo)):
+                    ser.write(trip_glo[i].encode('ascii'))
+                    time.sleep(shortDelay)
+                ser.write("\r\n".encode('ascii'))
+                time.sleep(shortDelay)
+
+                #send changes
+            elif trip_glo != "" and int(trip_glo) > limits[5]:
+                print("WARNING MESSAGE - TRIP global is above Trip Time limit")
+
+            #end by going back to main menu
+            time.sleep(shortDelay)
+            ser.write("1".encode('utf-8'))  #top menu
+
+        
+        else:
+            print("No changes made on globals screen")
+
+
+        self.V0_glo.setText("")
+        self.I0_glo.setText("")
+        self.RUP_glo.setText("")
+        self.RDN_glo.setText("")
+        self.trip_glo.setText("")
+        
+
+       #ser.write("1".encode('utf-8'))  #top menu
+       #time.sleep(shortDelay)
+       #    
+       #ser.write("b".encode('utf-8'))  #modify setting
+       #time.sleep(shortDelay)
+       #    
+       #ser.write("e".encode('utf-8')) #change of global absolute 
+       #time.sleep(shortDelay)
+       #        
+       #
+       #
+       #if change == power:
+       #    ser.write("n".encode('utf-8')) #change of global absolute 
+       #    time.sleep(shortDelay)
+       #    
+       #if change == voltage:
+       #    ser.write("c".encode('utf-8')) #change of global absolute 
+       #    time.sleep(shortDelay)
+       #
+       #
+
+
+    # MAKE ALL TEXT BOXES ON GLOBAL VALUES EMPTY AGAIN
+
+
+
 # =============================================================================================
 
 if __name__ == "__main__":
@@ -902,6 +1112,6 @@ if __name__ == "__main__":
 #TODO- find a way to stop the autofil when a value is changed to be set
 # plot the voltages over time (could live stream with plotly
 
-#HV Cable # in GUI to help debug trips and stuff.
+# Cable # in GUI to help debug trips and stuff.
 
 # TODO End plotly stream with  stream.close()

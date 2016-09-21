@@ -34,6 +34,14 @@ elif (len(cr2Chs) < cr2Chs[-1]+1):
 print("Total Num of CHs in config " + str(numChsTotal) + " with " + str(numCr1Chs) + " in Crate#1 and " + str(numCr2Chs) + " in Crate#2")
 ######################################
 
+try:
+    with open(Listener_PID_File, 'w', os.O_NONBLOCK) as f:
+        PID = os.getpid()
+        f.write(str(PID)) #write PID to file
+        print("saved PID") #this is used when using the KILL function in GUI
+except IOError:
+    print("PID file open failed")
+
 
 while True:
     with open(can_Read_File, 'r', os.O_NONBLOCK) as f:
@@ -58,7 +66,7 @@ while True:
         
     if can_Read == True:
         try:
-            output_file = open(output_file_name, 'a', os.O_NONBLOCK) #none blocking so can write in one file and read from another
+            output_file = open(HV_DATA_FILE_NAME, 'a', os.O_NONBLOCK) #none blocking so can write in one file and read from another
         except IOError:
             print("Can not open HV Data file to save to")
    	
