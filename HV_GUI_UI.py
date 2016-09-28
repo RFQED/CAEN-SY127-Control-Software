@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'Updated_HV_GUI_unfinished.ui'
 #
-# Created: Wed Sep 28 10:51:14 2016
+# Created: Wed Sep 28 14:58:08 2016
 #      by: PyQt4 UI code generator 4.6.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -7600,7 +7600,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.MainWindow_2)
 
         self.retranslateUi(MainWindow)
-        self.globals_tab.setCurrentIndex(7)
+        self.globals_tab.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         MainWindow.setTabOrder(self.Trip_header_6, self.V0_1)
         MainWindow.setTabOrder(self.V0_1, self.V0_2)
