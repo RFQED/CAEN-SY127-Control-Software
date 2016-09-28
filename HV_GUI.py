@@ -142,8 +142,6 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
         self.disconnect_button.setEnabled(False)
 
         self.connect_button.clicked.connect(self.connect)
-        self.connect_button.click()#click automatically
-
         self.disconnect_button.clicked.connect(self.disconnect)
         self.set_button.clicked.connect(self.set)
         self.send_button.clicked.connect(self.send)
@@ -151,7 +149,10 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
         self.exit_button.clicked.connect(self.exit)
         self.expand_button.clicked.connect(self.expand)
 
+        self.connect_button.click()#click automatically
+
         self.change_global_btn.clicked.connect(self.change_globals)
+        self.change_global_btn.setEnabled(False)
 
         self.TextBox_btm.setReadOnly(True)
 
@@ -181,6 +182,7 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
             self.disconnect_button.setEnabled(True)
             self.set_button.setEnabled(False) 
             self.send_button.setEnabled(False)
+            self.change_global_btn.setEnabled(False)
 
             downloader = ConnectThread("Passing to Connect ")
             downloader.data_downloaded.connect(self.on_data_ready)
@@ -582,6 +584,7 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
             can_Read = False
             self.disconnect_button.setEnabled(False)
             self.connect_button.setEnabled(True)
+            self.change_global_btn.setEnabled(True)
             self.set_button.setEnabled(True)
             self.send_button.setEnabled(False)
         except IOError:
@@ -899,35 +902,44 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
             except ProcessLookupError:
                 print("Process "  + PID + " not running ")
             
-                ser.write("\x03".encode('ASCII'))  #send ctrl-c
-                time.sleep(shortDelay)
-                time.sleep(shortDelay)
-                time.sleep(shortDelay)
-                time.sleep(shortDelay)
+            ser.write("\x03".encode('ASCII'))  #send ctrl-c
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
             
-                ser.write("1".encode('utf-8'))  #top menu
-                time.sleep(shortDelay)
+            ser.write("1".encode('utf-8'))  #top menu
+            time.sleep(shortDelay)
             
-                ser.write("b".encode('utf-8'))  #modify setting
-                time.sleep(shortDelay)
+            ser.write("b".encode('utf-8'))  #modify setting
+            time.sleep(shortDelay)
             
-                ser.write("e".encode('utf-8')) #change of global absolute 
-                time.sleep(shortDelay)
-                
-                ser.write("n".encode('utf-8'))  #change of status
-                time.sleep(shortDelay)
+            ser.write("e".encode('utf-8')) #change of global absolute
+            time.sleep(shortDelay)
+
+            ser.write("n".encode('utf-8'))  #change of status
+            time.sleep(shortDelay)
             
-                ser.write("n".encode('utf-8')) #type N
-                time.sleep(shortDelay)
+            ser.write("n".encode('utf-8')) #type N
+            time.sleep(shortDelay)
             
-                ser.write("o".encode('utf-8'))  #type O
-                time.sleep(shortDelay)
+            ser.write("o".encode('utf-8'))  #type O
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
+            time.sleep(shortDelay)
+
+
+            ser.write("\r\n".encode('ascii'))# press return
+            time.sleep(shortDelay)
             
-                ser.write("\r\n".encode('ascii'))# press return
-                time.sleep(shortDelay)
-            
-                ser.write("1".encode('utf-8'))  #top menu
-                print("KILLED - connect to GTKTerm to quickly check this.")
+            ser.write("1".encode('utf-8'))  #top menu
+            print("KILLED - connect to GTKTerm to quickly check this.")
+
+            self.dialog = Error_Message("Warning Message", "GUI will now close", "HV Listener and HV GUI Need to be RESTARTED" )
+            self.dialog.exec_()
+            self.deleteLater()
 
         elif errorsignal == 0:
             print("Cancel - Not Killed")
@@ -951,7 +963,7 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
 
     def change_globals(self):
         print("in change globals")
-
+        print("updated!!!")
         V0_glo = self.V0_glo.text()
         I0_glo = self.I0_glo.text()
         RUP_glo = self.RUP_glo.text()
@@ -964,7 +976,8 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
 
             #STOP LISTENER THREAD
             #change has been made go to global abs menu 
-            ser.write("1".encode('utf-8'))  #top menu
+            ser.write("1".encode('utf-8'))  #top menu# TODO - add to documentation that when you first turn on (or power cycle ) the supply you will need to
+# change the group to ALL and set the verify of changing a global absolute to NO.
             time.sleep(shortDelay)
            
             ser.write("b".encode('utf-8'))  #modify setting
@@ -1062,43 +1075,15 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI.Ui_MainWindow):
             time.sleep(shortDelay)
             ser.write("1".encode('utf-8'))  #top menu
 
-        
         else:
             print("No changes made on globals screen")
-
 
         self.V0_glo.setText("")
         self.I0_glo.setText("")
         self.RUP_glo.setText("")
         self.RDN_glo.setText("")
         self.trip_glo.setText("")
-        
-
-       #ser.write("1".encode('utf-8'))  #top menu
-       #time.sleep(shortDelay)
-       #    
-       #ser.write("b".encode('utf-8'))  #modify setting
-       #time.sleep(shortDelay)
-       #    
-       #ser.write("e".encode('utf-8')) #change of global absolute 
-       #time.sleep(shortDelay)
-       #        
-       #
-       #
-       #if change == power:
-       #    ser.write("n".encode('utf-8')) #change of global absolute 
-       #    time.sleep(shortDelay)
-       #    
-       #if change == voltage:
-       #    ser.write("c".encode('utf-8')) #change of global absolute 
-       #    time.sleep(shortDelay)
-       #
-       #
-
-
-    # MAKE ALL TEXT BOXES ON GLOBAL VALUES EMPTY AGAIN
-
-
+        self.connect_button.click()
 
 # =============================================================================================
 
@@ -1108,6 +1093,7 @@ if __name__ == "__main__":
     window.show()
     sys.exit(app.exec_())
 
+#todo - if the supply is restarted or power cycled need to make sure that the group is set to ALL and that under change global absolute the verify is set to NO so kill works.
 
 #TODO- find a way to stop the autofil when a value is changed to be set
 # plot the voltages over time (could live stream with plotly

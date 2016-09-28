@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'Updated_HV_GUI_unfinished.ui'
 #
-# Created: Wed Sep 21 08:25:37 2016
+# Created: Wed Sep 28 10:51:14 2016
 #      by: PyQt4 UI code generator 4.6.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -7583,17 +7583,24 @@ class Ui_MainWindow(object):
         self.change_global_btn.setGeometry(QtCore.QRect(760, 86, 121, 31))
         self.change_global_btn.setObjectName("change_global_btn")
         self.Globals_lbl_2 = QtGui.QLabel(self.tab)
-        self.Globals_lbl_2.setGeometry(QtCore.QRect(290, 130, 581, 41))
+        self.Globals_lbl_2.setGeometry(QtCore.QRect(300, 140, 481, 41))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.Globals_lbl_2.setFont(font)
         self.Globals_lbl_2.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.Globals_lbl_2.setObjectName("Globals_lbl_2")
+        self.Globals_lbl_3 = QtGui.QLabel(self.tab)
+        self.Globals_lbl_3.setGeometry(QtCore.QRect(300, 170, 421, 41))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.Globals_lbl_3.setFont(font)
+        self.Globals_lbl_3.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.Globals_lbl_3.setObjectName("Globals_lbl_3")
         self.globals_tab.addTab(self.tab, "")
         MainWindow.setCentralWidget(self.MainWindow_2)
 
         self.retranslateUi(MainWindow)
-        self.globals_tab.setCurrentIndex(0)
+        self.globals_tab.setCurrentIndex(7)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         MainWindow.setTabOrder(self.Trip_header_6, self.V0_1)
         MainWindow.setTabOrder(self.V0_1, self.V0_2)
@@ -10420,6 +10427,7 @@ class Ui_MainWindow(object):
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">CH #</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.Trip_header_6.setText(QtGui.QApplication.translate("MainWindow", "Trip (ms)", None, QtGui.QApplication.UnicodeUTF8))
         self.change_global_btn.setText(QtGui.QApplication.translate("MainWindow", "Change Globals", None, QtGui.QApplication.UnicodeUTF8))
-        self.Globals_lbl_2.setText(QtGui.QApplication.translate("MainWindow", "Only enter values which you wish to change", None, QtGui.QApplication.UnicodeUTF8))
+        self.Globals_lbl_2.setText(QtGui.QApplication.translate("MainWindow", "Press \'Stop Listener\' To Enable Sending Changes ", None, QtGui.QApplication.UnicodeUTF8))
+        self.Globals_lbl_3.setText(QtGui.QApplication.translate("MainWindow", "Only enter values which you wish to change", None, QtGui.QApplication.UnicodeUTF8))
         self.globals_tab.setTabText(self.globals_tab.indexOf(self.tab), QtGui.QApplication.translate("MainWindow", "Globals", None, QtGui.QApplication.UnicodeUTF8))
 
