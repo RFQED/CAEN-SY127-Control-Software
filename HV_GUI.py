@@ -1,7 +1,7 @@
 import sys
 from PyQt4 import QtCore, QtGui
 import time
-import HV_GUI_UI, error_GUI
+import HV_GUI_UI_NoChanges , error_GUI
 import serial # so we can talk over serial
 from config import *
 from datetime import datetime, timedelta
