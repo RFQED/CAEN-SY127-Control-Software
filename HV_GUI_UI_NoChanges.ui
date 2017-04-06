@@ -334,7 +334,7 @@ p, li { white-space: pre-wrap; }
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../../../user/wturner/Downloads/g-2-tracker-logo-192.ico</pixmap>
+      <pixmap>../../../user/user/wturner/Downloads/g-2-tracker-logo-192.ico</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -2062,7 +2062,7 @@ p, li { white-space: pre-wrap; }
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
-      <string>CH0 - 15</string>
+      <string>CH0-15</string>
      </attribute>
      <widget class="QLineEdit" name="RUP_14">
       <property name="geometry">
@@ -7455,7 +7455,7 @@ p, li { white-space: pre-wrap; }
     </widget>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
-      <string>CH16 - 31</string>
+      <string>CH16-31</string>
      </attribute>
      <widget class="QLineEdit" name="RDN_24">
       <property name="geometry">
@@ -12848,7 +12848,7 @@ p, li { white-space: pre-wrap; }
     </widget>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
-      <string>CH32 - 47</string>
+      <string>CH32-47</string>
      </attribute>
      <widget class="QLineEdit" name="RUP_47">
       <property name="geometry">
@@ -13667,7 +13667,7 @@ p, li { white-space: pre-wrap; }
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="S_80">
+     <widget class="QLabel" name="S_45">
       <property name="geometry">
        <rect>
         <x>808</x>
@@ -14389,7 +14389,7 @@ p, li { white-space: pre-wrap; }
        </size>
       </property>
      </widget>
-     <widget class="QLabel" name="S_43">
+     <widget class="QLabel" name="S_42">
       <property name="geometry">
        <rect>
         <x>808</x>
@@ -16600,7 +16600,7 @@ p, li { white-space: pre-wrap; }
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QLabel" name="S_45">
+     <widget class="QLabel" name="S_44">
       <property name="geometry">
        <rect>
         <x>808</x>
@@ -17070,7 +17070,7 @@ p, li { white-space: pre-wrap; }
        </size>
       </property>
      </widget>
-     <widget class="QLabel" name="S_44">
+     <widget class="QLabel" name="S_43">
       <property name="geometry">
        <rect>
         <x>808</x>
@@ -18241,7 +18241,7 @@ p, li { white-space: pre-wrap; }
     </widget>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
-      <string>CH48 - 63</string>
+      <string>CH48-63</string>
      </attribute>
      <widget class="QLineEdit" name="RDN_55">
       <property name="geometry">
@@ -23634,7 +23634,7 @@ p, li { white-space: pre-wrap; }
     </widget>
     <widget class="QWidget" name="tab_6">
      <attribute name="title">
-      <string>CH64 - 79</string>
+      <string>CH64-79</string>
      </attribute>
      <widget class="QLineEdit" name="RUP_72">
       <property name="geometry">
