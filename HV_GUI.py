@@ -1,7 +1,7 @@
 import sys
 from PyQt4 import QtCore, QtGui
 import time
-import HV_GUI_UI_NoChanges, error_GUI
+import HV_GUI_UI_NoChanges
 import serial # so we can talk over serial
 from config import *
 from datetime import datetime, timedelta
@@ -289,6 +289,7 @@ class ConnectThread(QtCore.QThread): # connect thread. so we can constantly read
             print("length of HV data is " + str(len(HVData)))
             self.data_downloaded.emit(HVData, HV_ENABLE_val) # data that is sent back. 
 
+            print("Read Loop Complete")
 	    #del HVData[:]
 	    del serialInput[:]
             
@@ -307,28 +308,6 @@ class TimeThread(QtCore.QThread): # time thread. so we can costantly update the 
             self.setTime.emit(currentTimeDate) # data that is sent back. 
             time.sleep(1)
                 
-# ==== ERROR WINDOW ==== #
-class Error_Message(QtGui.QDialog, error_GUI.Ui_Dialog):
-    def __init__(self, windowtitle, header, message):
-        super(self.__class__, self).__init__()
-        self.setupUi(self)
-
-        self.setWindowTitle(windowtitle)
-        self.Error_Title.setText(header)
-        self.Error_Message.setText(message)
-        self.Error_Buttons.accepted.connect(self.ok) #how to comminicate with the 'Ok' button
-        self.Error_Buttons.rejected.connect(self.cancel) #how to comminicate with the 'Cancel' button
-
-    def ok(self):
-        global errorsignal
-        errorsignal = 1
-
-    def cancel(self):
-        global errorsignal
-        errorsignal = 0 #probably a better way of doing this
-            
-# ===/ERROR WINDOW==== #
-
 # ==== Main UI Window ==== #
 class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI_NoChanges.Ui_MainWindow):
     def __init__(self):                            # allows us to access variables, methods etc in the design.py file
@@ -770,10 +749,7 @@ class HV_GUI_App(QtGui.QMainWindow, HV_GUI_UI_NoChanges.Ui_MainWindow):
         # once changes have been made make sure we change can_read.txt to y 
         global RUN
         RUN = 0
-        time.sleep(5)
-            
-        print("paused confirmed  | confirmPaused = " + str(confirmPaused))
-        print("Disconnect Pressed")
+        print("Disconnect Pressed - Run Value changed - Will stop talking to the crate after the current cycle has finished")
         self.disconnect_button.setEnabled(False)
         self.connect_button.setEnabled(True)
             
