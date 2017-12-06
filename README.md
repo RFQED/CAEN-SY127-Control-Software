@@ -1,3 +1,7 @@
+NO LONGER UNDER DEVELOPMENT. Will remain in AS SEEN state. 
+===================
+
+
 Monitoring and Control Software for CAEN SY127 High Voltage Supply
 ===================
  
